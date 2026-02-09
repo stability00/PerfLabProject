@@ -1,0 +1,11 @@
+[t12]
+FileName1=t12_test.json
+URL1=https://dev-boomq.pflb.ru/test-srv/test?sort=createDate,desc&displayState=INITIALIZATION,WAITING,RUNNING,TEST_STOPPING
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_12.xml
+RequestHeaderFile=t12_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t12_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

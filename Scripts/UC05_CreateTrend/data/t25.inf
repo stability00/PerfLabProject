@@ -1,0 +1,13 @@
+[t25]
+FileName1=t25_downloadLink.json
+URL1=https://dev-boomq.pflb.ru/project-srv/project/2698/version/3930/downloadLink
+Total=2
+ContentType=application/json
+SnapshotXmlFile=snapshot_25.xml
+RequestHeaderFile=t25_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t25_ResponseHeader.txt
+FileName2=t25_v_3930.html
+URL2=https://dev-boomq.pflb.ru/minio/boomq/boomq/teams/22/projects/2698/v_3930.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIOSFODNN7EXAMPLE/20260203/us-east-1/s3/aws4_request&X-Amz-Date=20260203T082018Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=448bc9cfb394185d6aca19049e0fa5c3d63eb0f1fe92e5879c0e02b46a23eb14
+[ProtocolInfo]
+ProtocolId=QTWeb

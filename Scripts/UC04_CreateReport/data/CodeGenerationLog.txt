@@ -1,0 +1,1009 @@
+****** Start Log Message ******
+Web Recorder version : 2021.0.0.430 
+Recording Mode: HTML-based script containing explicit URLs only
+Recording headers not in list:
+	accept
+	accept-charset
+	accept-encoding
+	accept-language
+	accept-ranges
+	age
+	allow
+	cache-control
+	content-base
+	content-disposition
+	content-encoding
+	content-language
+	content-location
+	content-md5
+	content-range
+	content-type
+	date
+	etag
+	expires
+	from
+	if-modified-since
+	if-match
+	if-none-match
+	if-range
+	if-unmodified-since
+	location
+	last-modified
+	max-forwards
+	pragma
+	public
+	range
+	retry-after
+	server
+	transfer-encoding
+	upgrade
+	user-agent
+	vary
+	via
+	warning
+	method
+	path
+	scheme
+Not excluding content types
+Do not record this content types as a resource:
+	text/html
+	text/xml
+	application/json
+Reset context between actions
+Record non-HTML elements in current HTML function
+Protocol Type: Multi-QTWeb
+
+$$$$$$ End Log Message $$$$$$
+
+Code generation version: 2021.0.0.430
+
+****** Analyze segments filter initialization ******
+[Traffic Filtering] Filtering api.browser.yandex.ru
+****** Request Header For Transaction With Id 523 ******
+POST https://api.browser.yandex.ru/autofill/v1/pages:get2?brandID=yandex&alt=proto HTTP/1.1
+X-Goog-Encode-Response-If-Executable: base64
+Content-Type: application/x-protobuf
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: empty
+sec-ch-ua: "Chromium";v="142", "YaBrowser";v="25.12", "Not_A Brand";v="99", "Yowser";v="2.5"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+sec-ch-ua-arch: "x86"
+sec-ch-ua-platform-version: "19.0.0"
+sec-ch-ua-full-version-list: "Chromium";v="142.0.7444.1338", "YaBrowser";v="25.12.2.1338", "Not_A Brand";v="99.0.0.0", "Yowser";v="2.5"
+sec-ch-ua-bitness: "64"
+sec-ch-ua-wow64: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 YaBrowser/25.12.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, zstd
+Accept-Language: ru,en;q=0.9
+Y-Browser-Experiments: MTI3MDYyOSwwLC0x
+Host: api.browser.yandex.ru
+Content-Length: 90
+Connection: Keep-Alive
+
+
+$$$$$$ Request Header For Transaction With Id 523 Ended $$$$$$
+
+****** Request Body For Transaction With Id 523 ******
+
+XChZDaHJvbWUvMTQyLjAuNzQ0NC4xMzM4EiAJxRcoGHgIMRQSBQ10qXobEgUNZmBRASGwCmPDIQWWxRi3qcoBqAYB
+$$$$$$ Request Body For Transaction With Id 523 Ended $$$$$$
+
+****** Response Header For Transaction With Id 523 ******
+HTTP/1.1 200 OK
+Content-Type: application/x-protobuf
+X-Yandex-Req-Id: 1770028867792435-12828983095971696938-fktkjfvlcnbdszq7-BAL
+set-cookie: is_gdpr=0; Path=/; Domain=.yandex.ru; Expires=Wed, 02 Feb 2028 10:41:07 GMT; SameSite=None; Secure,is_gdpr_b=CJjWLhDt8QI=; Path=/; Domain=.yandex.ru; Expires=Wed, 02 Feb 2028 10:41:07 GMT; SameSite=None; Secure,_yasc=B0SW6jO8Mata89jvbSkjgk+EjoqgnYT6Lg7AuXXLL1wGlGgYGCC93oXtnc3JsA==; domain=.yandex.ru; path=/; expires=Thu, 31 Jan 2036 10:41:07 GMT; secure,i=aliChO51YGOZYe2Hv9I6a1xCbK7yJCtYHla0/gMIF5JJNGtR0q9AuI1+CvHY9sfKN1vYJkJSwIkNcFOno6S8Nzhd+ac=; Expires=Wed, 02-Feb-2028 10:41:07 GMT; Domain=.yandex.ru; Path=/; Secure; HttpOnly; SameSite=None,yandexuid=2826765491770028867; Expires=Wed, 02-Feb-2028 10:41:07 GMT; Domain=.yandex.ru; Path=/; Secure; SameSite=None,yashr=4249495131770028867; Path=/; Domain=.yandex.ru; Expires=Tue, 02 Feb 2027 10:41:07 GMT; SameSite=None; Secure; HttpOnly,bh=ElEiQ2hyb21pdW0iO3Y9IjE0MiIsICJZYUJyb3dzZXIiO3Y9IjI1LjEyIiwgIk5vdF9BIEJyYW5kIjt2PSI5OSIsICJZb3dzZXIiO3Y9IjIuNSIaBSJ4ODYiKgI/MDoJIldpbmRvd3MiQggiMTkuMC4wIkoEIjY0IlJqIkNocm9taXVtIjt2PSIxNDIuMC43NDQ0LjEzMzgiLCAiWWFCcm93c2VyIjt2PSIyNS4xMi4yLjEzMzgiLCAiTm90X0EgQnJhbmQiO3Y9Ijk5LjAuMC4wIiwgIllvd3NlciI7dj0iMi41IloCPzBgw/6BzAZqIdzK4f8IktihsQOfz+HqA/v68OcN6//99g/4nPzXAvOBAg==; Path=/; Domain=.yandex.ru; Expires=Tue, 09 Mar 2027 10:41:07 GMT; SameSite=None; Secure
+Cache-Control: max-age=3600, must-revalidate
+Content-Length: 40
+Date: Mon, 02 Feb 2026 10:41:07 GMT
+
+
+$$$$$$ Response Header For Transaction With Id 523 Ended $$$$$$
+
+****** Response Body For Transaction With Id 523 ******
+ChoKCw10qXobGgQIVhgBCgsNZmBRARoECEsYAQ==
+$$$$$$ Response Body For Transaction With Id 523 Ended $$$$$$
+
+****** Request Header For Transaction With Id 528 ******
+GET https://dev-boomq.pflb.ru/manifest.json HTTP/1.1
+Pragma: no-cache
+Cache-Control: no-cache
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: empty
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 YaBrowser/25.12.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, zstd
+Accept-Language: ru,en;q=0.9
+Host: dev-boomq.pflb.ru
+Connection: Keep-Alive
+
+
+$$$$$$ Request Header For Transaction With Id 528 Ended $$$$$$
+
+****** Response Header For Transaction With Id 528 ******
+HTTP/1.1 200 OK
+Server: nginx
+Date: Mon, 02 Feb 2026 10:41:16 GMT
+Content-Type: application/json
+Content-Length: 301
+Connection: keep-alive
+Last-Modified: Tue, 26 Mar 2024 08:31:51 GMT
+ETag: "660287f7-12d"
+Accept-Ranges: bytes
+Strict-Transport-Security: max-age=86400;
+
+
+$$$$$$ Response Header For Transaction With Id 528 Ended $$$$$$
+
+****** Response Body For Transaction With Id 528 ******
+{
+  "short_name": "boomq.io",
+  "name": "BOOMQ - Load Testing Platform",
+  "icons": [
+    {
+      "src": "favicon.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#4989D6",
+  "background_color": "#ffffff"
+}
+
+$$$$$$ Response Body For Transaction With Id 528 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+The Node has no URL
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Start Log Message ******
+Set SSL version to 'AUTO'
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 528 ****** (Location Flag : tFlagInsertEnd, Location ID : 528)
+	web_url("manifest.json",
+		"URL=https://dev-boomq.pflb.ru/manifest.json",
+		"TargetFrame=",
+		"Resource=0",
+		"RecContentType=application/json",
+		"Referer=",
+		"Snapshot=t23.inf",
+		"Mode=HTML",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 528 Ended $$$$$$
+
+[Traffic Filtering] Filtering astrid.1clickvpn.net
+****** Request Header For Transaction With Id 533 ******
+POST https://astrid.1clickvpn.net/api/44/envelope/?sentry_key=f0a6e6e8876c45afa9fbc8c8fed53d4e&sentry_version=7&sentry_client=sentry.javascript.browser%2F7.120.3 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 YaBrowser/25.12.0.0 Safari/537.36
+Content-Type: text/plain;charset=UTF-8
+Accept: */*
+Origin: chrome-extension://fcfhplploccackoneaefokcmbjfbkenj
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Sec-Fetch-Storage-Access: active
+Accept-Encoding: gzip, deflate, zstd
+Accept-Language: ru,en;q=0.9
+Cookie: _ga=GA1.1.29863775.1744920472; _ga_Q6RXBFHP6S=GS2.1.s1769508509$o17$g0$t1769508648$j60$l0$h0
+Host: astrid.1clickvpn.net
+Content-Length: 1465
+Connection: Keep-Alive
+
+
+$$$$$$ Request Header For Transaction With Id 533 Ended $$$$$$
+
+****** Request Body For Transaction With Id 533 ******
+{"event_id":"a756f2c7a7e64821b990157b19618f47","sent_at":"2026-02-02T10:41:03.267Z","sdk":{"name":"sentry.javascript.browser","version":"7.120.3"},"trace":{"environment":"production","release":"2.0.25","public_key":"f0a6e6e8876c45afa9fbc8c8fed53d4e","trace_id":"1b3149d855d74c8292d7fd96714af879"}}
+{"type":"event"}
+{"message":"onCompletedListener","level":"info","event_id":"a756f2c7a7e64821b990157b19618f47","platform":"javascript","request":{"url":"chrome-extension://fcfhplploccackoneaefokcmbjfbkenj/background.bundle.js","headers":{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 YaBrowser/25.12.0.0 Safari/537.36"}},"timestamp":1770028863.267,"environment":"production","release":"2.0.25","sdk":{"integrations":["InboundFilters","FunctionToString","TryCatch","GlobalHandlers","LinkedErrors","HttpContext"],"name":"sentry.javascript.browser","version":"7.120.3","packages":[{"name":"npm:@sentry/browser","version":"7.120.3"}]},"tags":{"context":"background
+$$$$$$ Request Body For Transaction With Id 533 Ended $$$$$$
+
+****** Response Header For Transaction With Id 533 ******
+HTTP/1.1 201 Created
+Date: Mon, 02 Feb 2026 10:41:09 GMT
+Content-Type: application/octet-stream
+Connection: keep-alive
+Server: cloudflare
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+cf-cache-status: DYNAMIC
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=I%2Fv3ebq30Rid2LgCDhTJas6Zdpes6zfJaeteFaKA6F6UDSSDpLb6JFOSRpx%2F%2Fy2dviSyK77vADZ2HwtiS7ogI6XwNdWRVqq99qLhJNYZ0nBhGd5n"}]}
+CF-RAY: 9c7913121b5a1dcf-ARN
+alt-svc: h3=":443"; ma=86400
+
+
+$$$$$$ Response Header For Transaction With Id 533 Ended $$$$$$
+
+****** Response Body For Transaction With Id 533 ******
+
+$$$$$$ Response Body For Transaction With Id 533 Ended $$$$$$
+
+[Traffic Filtering] Filtering sync.browser.yandex.net
+****** Request Header For Transaction With Id 537 ******
+POST https://sync.browser.yandex.net/sync/command/?client=Chromium&client_id=fb2DXE1O8zPeg0qusxkuow%3D%3D&ya_soft=yabrowser&ui=97A895BF-00E7-466C-9E62-3A3613B98EBE HTTP/1.1
+Pragma: no-cache
+Cache-Control: no-cache
+Authorization: Bearer y0__xD0ybKxAxi_9wEgi_qI7hJvHdhifs19RBWXO5uXRFskeZ4hgw
+Content-Encoding: gzip
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 YaBrowser/25.12.0.0 Safari/537.36
+Content-Type: application/octet-stream
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: empty
+sec-ch-ua: "Chromium";v="142", "YaBrowser";v="25.12", "Not_A Brand";v="99", "Yowser";v="2.5"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+sec-ch-ua-arch: "x86"
+sec-ch-ua-platform-version: "19.0.0"
+sec-ch-ua-full-version-list: "Chromium";v="142.0.7444.1338", "YaBrowser";v="25.12.2.1338", "Not_A Brand";v="99.0.0.0", "Yowser";v="2.5"
+sec-ch-ua-bitness: "64"
+sec-ch-ua-wow64: ?0
+Accept-Encoding: gzip, deflate, zstd
+Accept-Language: ru,en;q=0.9
+Host: sync.browser.yandex.net
+Content-Length: 1900
+Connection: Keep-Alive
+
+
+$$$$$$ Request Header For Transaction With Id 537 Ended $$$$$$
+
+****** Request Body For Transaction With Id 537 ******
+
+\x18daniil.naz4rov@yandex.ru\x10c\x18\x01"\xB3\x17
+\xA8\x04
+(50119_0_c2128963baf8969b08431cc79c731582 \xF2\xBA\x0F(\xAD\x9E\xC4\xEF\xC130\xB2\xA8\xCD\xAA\xE42:\x08DANYA_PC\x90\x01\x00\xAA\x01\xBC\x03\xBA\xBC\x18\xB7\x03
+\x18fb2DXE1O8zPeg0qusxkuow==\x12\x9A\x03\x12\x82\x03\x08\xEF\xB4\xDB\xEA\x04\x10\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\x01\x18\x01 \xF1\xB4\xDB\xEA\x04 \xF2\xB4\xDB\xEA\x04 \xF3\xB4\xDB\xEA\x04 \xF4\xB4\xDB\xEA\x04 \xF5\xB4\xDB\xEA\x04 \xF6\xB4\xDB\xEA\x04 \xA0\xB7\xDB\xEA\x04 \xF8\xB4\xDB\xEA\x04 \xF9\xB4\xDB\xEA\x04 \xFA\xB4\xDB\xEA\x04 \x8E\xB7\xDB\xEA\x04 \xC7\xB6\xDB\xEA\x04 \xCA\xB6\xDB\xEA\x04 \xCD\xB6\xDB\xEA\x04 \xD0\xB6\xDB\xEA\x04 \xED\xB6\xDB\xEA\x04 \xD9\xB6\xDB\xEA\x04 \xDC\xB6\xDB\xEA\x04 \xDF\xB6\xDB\xEA\x04 \xE9\xB6\xDB\xEA\x04 \xF0\xB6\xDB\xEA\x04 \xA9\xB7\xDB\xEA\x04\xA2\x01&\x08\xEE\xB4\xDB\xEA\x04\x10\xEF\xB4\xDB\xEA\x04\x18\x00"\x0E\xD0\x92\xD0\xBA\xD0\xBB\xD0\xB0\xD0\xB4\xD0\xBA\xD0\xB8(\x000\xF1\xB4\xDB\xEA\x04\xA2\x01X\x08\xF0\xB4\xDB\xEA\x04\x10\xEF\xB4\xDB\xEA\x04\x18\x01"\x10\xD0\xB4\xD0\xBE\xD0\xBC\xD0\xB0\xD1\x88\xD0\xBD\xD1\x8F\xD1\x8F(\x000\xF2\xB4\xDB\xEA\x040\xF3\xB4\xDB\xEA\x040\xF4\xB4\xDB\xEA\x040\xF5\xB4\xDB\xEA\x040\xF6\xB4\xDB\xEA\x040\xA0\xB7\xDB\xEA\x040\xF8\xB4\xDB\xEA\x040\xF9\xB4\xDB\xEA\x040\xFA\xB4\xDB\xEA\x04\xA2\x01a\x08\xC3\xB6\xDB\xEA\x04\x10\xEF\xB4\xDB\xEA\x04\x18\x02"\x07PerfLab(\x0B0\x8E\xB7\xDB\xEA\x040\xC7\xB6\xDB\xEA\x040\xCA\xB6\xDB\xEA\x040\xCD\xB6\xDB\xEA\x040\xD0\xB6\xDB\xEA\x040\xED\xB6\xDB\xEA\x040\xD9\xB6\xDB\xEA\x040\xDC\xB6\xDB\xEA\x040\xDF\xB6\xDB\xEA\x040\xE9\xB6\xDB\xEA\x040\xF0\xB6\xDB\xEA\x040\xA9\xB7\xDB\xEA\x04\xA8\x01\x02\x1A\x08DANYA_PC \x01(\x010\xB2\xA8\xCD\xAA\xE42\xBA\x01\x1CS2wDh86ikVF8kt8hQjCTJCy6jRA=
+\xBE\x02
+$7c849dac-2e21-4263-8da6-d43a920f72e5 \x00(\xDC\x9E\xC4\xEF\xC130\xAC\x9E\xC4\xEF\xC13:\x08DANYA_PC\x90\x01\x00\xAA\x01\xD8\x01\xBA\xBC\x18\xD3\x01
+\x18fb2DXE1O8zPeg0qusxkuow==\x1A\xB4\x01\x08\xA9\xB7\xDB\xEA\x04\x10\xEF\xB4\xDB\xEA\x04\x18\x00 \x00(\x002\x00:\x8D\x01\x12\x1Ahttps://dev-boomq.pflb.ru/\x1A\x00" Load Testing Platform - Boomq.io0\x06@\xE0\x02H\xA5\x9E\xC4\xEF\xC13P\x00X\x00`\x00x\x80\xD3\xA5\xF1\xB3\x8D\xEA\x17\x8A\x01%https://dev-boomq.pflb.ru/favicon.png\xA0\x01\xC8\x01\xC8\x01\x06\xD0\x01\x00h\x01p\x85\x9E\xC4\xEF\xC13\xA0\x06\xC3\xB6\xDB\xEA\x04 \x06\xBA\x01\x1CRf0gYiBDvpTyBkFBfPtDn7daglA=
+\x8C\x07
+)163425_0_4aef94f8e5e768e4b91a677a1ffa0add \xA9d(\x96\x9E\xC4\xEF\xC130\xE2\xF6\xF7\xF5\xF90:\x18sync_info.entry_counters\x90\x01\x00\xAA\x01\x90\x06\x8A\xE6O\x8B\x06
+\x88\x06
+\x18sync_info
+$$$$$$ Request Body For Transaction With Id 537 Ended $$$$$$
+
+****** Response Header For Transaction With Id 537 ******
+HTTP/1.1 200 OK
+Date: Mon, 02 Feb 2026 10:41:09 GMT
+Yandex-Cloud-Request-Id: 1770028869344976-11431007684241636374
+X-Yandex-Req-Id: 1770028869344976-11431007684241636374
+Set-Cookie: _yasc=EroMS3HrkAbAqh4S7OdwzMLaoffRfBQCf9loBPU7jDIUW2w8Z8KS5HZUTG5vItU=; domain=.yandex.net; path=/; expires=Thu, 31 Jan 2036 10:41:09 GMT; secure,bh=ElEiQ2hyb21pdW0iO3Y9IjE0MiIsICJZYUJyb3dzZXIiO3Y9IjI1LjEyIiwgIk5vdF9BIEJyYW5kIjt2PSI5OSIsICJZb3dzZXIiO3Y9IjIuNSIaBSJ4ODYiKgI/MDoJIldpbmRvd3MiQggiMTkuMC4wIkoEIjY0IlJqIkNocm9taXVtIjt2PSIxNDIuMC43NDQ0LjEzMzgiLCAiWWFCcm93c2VyIjt2PSIyNS4xMi4yLjEzMzgiLCAiTm90X0EgQnJhbmQiO3Y9Ijk5LjAuMC4wIiwgIllvd3NlciI7dj0iMi41IloCPzBgxf6BzAZqIdzK4f8IktihsQOfz+HqA/v68OcN6//99g/4nPzXAvOBAg==; Expires=Tue, 09 Mar 2027 10:41:09 GMT; SameSite=None; Secure
+Content-Type: application/x-protobuf
+Content-Length: 596
+
+
+$$$$$$ Response Header For Transaction With Id 537 Ended $$$$$$
+
+****** Response Body For Transaction With Id 537 ******
+
+\xE1\x03\x0B\x10\x01\x1A(50119_0_c2128963baf8969b08431cc79c731582"&50119_4d3dd3e2f3629c9d4591aa216a748c7b0\xF5\xBA\x0F:\x08DANYA_PCP\xEA\xCD\xC4\xEF\xC13\x0C\x0B\x10\x01\x1A(50119_0_1a7207aa0f4c152c9497f831418247c6"&50119_4d3dd3e2f3629c9d4591aa216a748c7b0\xF6\xBA\x0F:\x08DANYA_PCP\xEA\xCD\xC4\xEF\xC13\x0C\x0B\x10\x01\x1A)163425_0_4aef94f8e5e768e4b91a677a1ffa0add"'163425_dfc81cf515f151bfeda7e7546e108ff20\xABd:\x18sync_info.entry_countersP\xEA\xCD\xC4\xEF\xC13\x0C\x0B\x10\x01\x1A*1045718_0_8d3b37a62eb3332c2cb3a3619f166820"(1045718_2a859fafad3e657c73b0c605e25d13360\xC5\x97
+:(tab-ba64e0db-a895-43be-ae7d-ca086276ed58P\xEA\xCD\xC4\xEF\xC13\x0C \x002\x131681995101762596562:4\x18KB\x08\x08\xC6\xA6\x02\x10\xB0\xEA\x01B\x08\x08\xCD\xBE\x02\x10\xB0\xEA\x01B\x08\x08\xC7\x87\x03\x10\xB0\xEA\x01B\x08\x08\x9E\x8A\x0B\x10\xC0\xCF$B\x08\x08\x83\x8E\x0B\x10\xB0\xEA\x01r!
+\x1F\x08\xAC\xE6\xC2\xEF\xC13\x1A\x06\x08\xD6\xE9?\x10\x03\x1A\x06\x08\xE1\xFC	\x10\x01\x1A\x06\x08\xC7\x87\x03\x10\x03
+$$$$$$ Response Body For Transaction With Id 537 Ended $$$$$$
+
+[Traffic Filtering] Filtering sec.api.browser.yandex.ru
+****** Request Header For Transaction With Id 542 ******
+POST https://sec.api.browser.yandex.ru/barnavig/post HTTP/1.1
+content-encoding: gzip
+Content-Type: application/x-www-form-urlencoded
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: empty
+Sec-Fetch-Storage-Access: active
+sec-ch-ua: "Chromium";v="142", "YaBrowser";v="25.12", "Not_A Brand";v="99", "Yowser";v="2.5"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+sec-ch-ua-arch: "x86"
+sec-ch-ua-platform-version: "19.0.0"
+sec-ch-ua-full-version-list: "Chromium";v="142.0.7444.1338", "YaBrowser";v="25.12.2.1338", "Not_A Brand";v="99.0.0.0", "Yowser";v="2.5"
+sec-ch-ua-bitness: "64"
+sec-ch-ua-wow64: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 YaBrowser/25.12.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, zstd
+Accept-Language: ru,en;q=0.9
+Cookie: yandexuid=8431047441744919731; yashr=2212169051744919731; yuidss=8431047441744919731; ymex=2060279733.yrts.1744919733; gdpr=0; _ym_uid=1744919733133904816; yandex_login=daniil.naz4rov; amcuid=7742113291745868860; skid=9096606251748937133; my=YycCAAEA; _ym_d=1760698520; alice_uuid=97A895BF-00E7-466C-9E62-3A36D516B33C; i=JW3hx8aKWl8ksjcq1We6LS/91f3Ku5XxJWr99h9+JolJ1o6ep6Dk+odji58GiXDMKZjFUdpr7zw00BRmt8HjxyigwWk=; is_gdpr=0; is_gdpr_b=CJjWLhD48AIoAg==; cycada=DVj1gxgFYzHe0Pq/CbYpBRhg19Hhv8VR8O0p8zfgO4Q=; Session_id=3:1769888348.5.0.1744919805560:ih3jBQ:817f.1.2:1|908895476.-1.2.3:1744919805.6:2152771103.7:1761161781|3:11672876.145534.dO9mXq3AmE_V_Q67_7w0p5-7xgk; sessar=1.1615350.CiDj2J3LrU9O_PoMRM7uFHB0HHYULPrOl9e9LfVLNToQ2g.OhDyTInRfj5fBfyMzdVEOjxloRIB22oHcMnrks8bKvw; sessionid2=3:1769888348.5.0.1744919805560:ih3jBQ:817f.1.2:1|908895476.-1.2.3:1744919805.6:2152771103.7:1761161781|3:11672876.145534.fakesign0000000000000000000; _ym_isad=2; isa=mQ9qdtBY/K3gH+HMGZtkcWTUNc9sXwUT2Rq8z87j2G2x+JBrsK+tGPstiJ248ptjANPZAoBje/OxuHZuCDqQref4KvI=; sae=0:97A895BF-00E7-466C-9E62-3A36D516B33C:p:25.12.2.1338:w:d:RU:20250417; ys=def_bro.1#ead.2FECB7CF#newsca.native_cache#wprid.1770017670700895-3258324930956120697-balancer-l7leveler-kubr-yp-klg-242-BAL#ybzcc.ru; bh=ElEiQ2hyb21pdW0iO3Y9IjE0MiIsICJZYUJyb3dzZXIiO3Y9IjI1LjEyIiwgIk5vdF9BIEJyYW5kIjt2PSI5OSIsICJZb3dzZXIiO3Y9IjIuNSIaBSJ4ODYiIg4iMjUuMTIuMi4xMzM4IioCPzAyAiIiOgkiV2luZG93cyJCCCIxOS4wLjAiSgQiNjQiUmoiQ2hyb21pdW0iO3Y9IjE0Mi4wLjc0NDQuMTMzOCIsICJZYUJyb3dzZXIiO3Y9IjI1LjEyLjIuMTMzOCIsICJOb3RfQSBCcmFuZCI7dj0iOTkuMC4wLjAiLCAiWW93c2VyIjt2PSIyLjUiWgI/MGDD+4HMBmoh3Mrh/wiS2KGxA5/P4eoD+/rw5w3r//32D/ic/NcC84EC; yp=1776455733.brd.0702004923#1776455733.cld.2270452#1782912826.dafs.7-3_25-3#1778685259.dc_neuro.10#1770881673.dlp.3#1798121683.dsfs.bar-1-1767190483%2E47#1770101347.duc.ru#1770035947.gpauto.56_224987:43_407546:140:1:1770028747#1771156083.gph.225_124#1771501983.hdrc.1#2085377673.pcs.1#1801553673.swntab.0#1785448022.szm.1:1920x1080:1839x919:15#1770101347.uc.ru#2060279805.udn.cDrQlNCw0L3QuNC40Ls%3D; gpauto=56_224987:43_407546:140:1:1770028747
+Y-Browser-Experiments: MTI3MDYyOSwwLC0x
+Host: sec.api.browser.yandex.ru
+Content-Length: 5382
+Connection: Keep-Alive
+
+
+$$$$$$ Request Header For Transaction With Id 542 Ended $$$$$$
+
+****** Request Body For Transaction With Id 542 ******
+url=https%3A%2F%2Fdev-boomq.pflb.ru%2F&background=0&t=2129-1770028863237_2111-9_2112-9_2113-9_2114-9_2116-9_2117-24_2119-24_2120-25_2121-29_2122-87_2385-305_2386-305_2124-363_2125-363_2126-363_2130-344_2794-344&tv=7&nt=1&title=Boomq&win_open=1769984339.001.22&post=0&navtok=52809FD10C55CBB64F55ECC4A56D32AF_206&hip=1385080620&ai=1925442961&csrc=15&httpstatus=200&tab_strip_layout=0&tab_open=1770028863.036.0.0&bundle=142%3AKLgenarQCMKZgl3ZqLTo1O1pILXZwG9e8MZYh1aMVv5jnVsyFsl36EbCg%2FXC7cP5JcKoyk%2B2xj2HR4jQqtbC%2FK4PMKjIhj%2B6cp7STV9LyAb18zax%2FSMg0H3m5qw1FjhqVklskfTaMv7cc7ue3NHcnU3%2B1CPh78dDVGcl2xjrvV2BAk1Y4EdmRb9U4jZxlwaaBSp3T8%2FkvfZFg5LdEsZIgjlTUd4%2BYdE6GeWzxCGO1jreqOTPwddOiwb93XK8eQekaSpswqbjzUy9tmEBxmcTc2gAwGLh%2B%2FRq%2BfEKM9wy6xbZp%2Fe9F%2F5%2B3JhsFsT%2B6vJwwNo7RVbb3AP1iaar78RrfuUka6EsSL43d9iqPV2rU71dhH37OqGsw58HttsJjE7ymgp5I6Hp%2FEjcnN5h3A610R0CGTGDg5bTY6C9yEbs4dqf9ETeKCJ4sgsL7APuJVEFpZi4jr1hi%2FkjRDfp7rmY2ocHsqA9cvTTkFDeW1JgAr0Vub1Bpx7khC7GzL2phmhBkiZbjt0Z6EBaG2lgS4dVSGdo%2F34Ask9nvgmj3QZ92tAk4mCCB5lJ%
+$$$$$$ Request Body For Transaction With Id 542 Ended $$$$$$
+
+****** Response Header For Transaction With Id 542 ******
+HTTP/1.1 200 OK
+Date: Mon, 02 Feb 2026 10:41:10 GMT
+X-Yandex-Req-Id: 1770028870503841-15552994087889300934-tegy6jkcyzoembor-BAL
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Content-Type: text/xml; charset=windows-1251
+Content-Length: 208
+Set-Cookie: _yasc=dIH3pfkMNQoRvT7xT4UMl09yvwgE/UkHC7gDj6OXyaENOg0h0jVhP78xzpZbnYQ=; domain=.yandex.ru; path=/; expires=Thu, 31 Jan 2036 10:41:10 GMT; secure
+Cache-Control: no-cache, max-age=0
+
+
+$$$$$$ Response Header For Transaction With Id 542 Ended $$$$$$
+
+****** Response Body For Transaction With Id 542 ******
+<?xml version="1.0" encoding="windows-1251" ?>
+<urlinfo>
+<url domain="dev-boomq.pflb.ru">/</url>
+<yaca url="dev-boomq.pflb.ru"/>
+<tcy rang="0" value="0"/>
+<topics>
+</topics>
+<textinfo>
+</textinfo>
+</urlinfo>
+
+$$$$$$ Response Body For Transaction With Id 542 Ended $$$$$$
+
+****** Request Header For Transaction With Id 547 ******
+POST https://dev-boomq.pflb.ru/auth-srv/login HTTP/1.1
+sec-ch-ua-platform: "Windows"
+X-Client-Date: 2026-02-02T10:41:12.057Z
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 YaBrowser/25.12.0.0 Safari/537.36
+Accept: */*
+sec-ch-ua: "Chromium";v="142", "YaBrowser";v="25.12", "Not_A Brand";v="99", "Yowser";v="2.5"
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryZlB6rBCuprDBACnt
+sec-ch-ua-mobile: ?0
+Origin: https://dev-boomq.pflb.ru
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://dev-boomq.pflb.ru/authorize
+Accept-Encoding: gzip, deflate, zstd
+Accept-Language: ru,en;q=0.9
+Host: dev-boomq.pflb.ru
+Content-Length: 359
+
+
+$$$$$$ Request Header For Transaction With Id 547 Ended $$$$$$
+
+****** Request Body For Transaction With Id 547 ******
+------WebKitFormBoundaryZlB6rBCuprDBACnt
+Content-Disposition: form-data; name="username"
+
+admin_gr3@mail.com
+------WebKitFormBoundaryZlB6rBCuprDBACnt
+Content-Disposition: form-data; name="password"
+
+Wsx321!@#
+------WebKitFormBoundaryZlB6rBCuprDBACnt
+Content-Disposition: form-data; name="submit"
+
+Login
+------WebKitFormBoundaryZlB6rBCuprDBACnt--
+
+$$$$$$ Request Body For Transaction With Id 547 Ended $$$$$$
+
+****** Response Header For Transaction With Id 547 ******
+HTTP/1.1 200 
+Server: nginx
+Date: Mon, 02 Feb 2026 10:41:17 GMT
+Content-Length: 0
+Connection: keep-alive
+Vary: Origin,Access-Control-Request-Method,Access-Control-Request-Headers
+Authorization: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc19ub3RpZmljYXRlZCI6ZmFsc2UsInVzZXJfaWQiOjE5MjUsInVzZXJfbmFtZSI6ImFkbWluX2dyM0BtYWlsLmNvbSIsInNjb3BlIjpbInRydXN0IiwicmVhZCIsIndyaXRlIl0sInVzZXJfbGFuZ3VhZ2UiOiJSVSIsImV4cCI6MTc3MDA3MjA3NywiYXV0aG9yaXRpZXMiOlsiUk9MRV9VU0VSIl0sImp0aSI6ImMwZGFkM2M4LWNiZTItNDdhNC1hMGIyLTA4YzQxYjc1ZmYzMyIsImNsaWVudF9pZCI6ImNsaWVudCJ9.srmpQ9gH9a8eJMBobdaXSBzUhT_9qdyPwLgQKgCBbsHExYjQ4L_34pvWYqab9zYJ3UwFktfoSDEsoXso91oCv44Q9TLvhKJYvpcePGRWGu923496aKb4TaMyTvz9rqXKN_FFj3_7N6YA4544VGX-8ihaNreuUU0z8sddl2iScU4MA32emOvpl_NpoNmH1_LWIDQAmjuj4dEVe9BiUBB7B_AhYBvaGivQWZWegO0y72orawNAlaLJPFlS2h6PbwwMr1rXBSZw15L_-g1C9wqy6u0Hqo72ldCYRfij-y2m0hSAwFs71cGKlq8iRVzXMTsmnKtigAr1YroyHD49Wp4F5A
+Set-Cookie: boomq_auth=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc19ub3RpZmljYXRlZCI6ZmFsc2UsInVzZXJfaWQiOjE5MjUsInVzZXJfbmFtZSI6ImFkbWluX2dyM0BtYWlsLmNvbSIsInNjb3BlIjpbInRydXN0IiwicmVhZCIsIndyaXRlIl0sInVzZXJfbGFuZ3VhZ2UiOiJSVSIsImV4cCI6MTc3MDA3MjA3NywiYXV0aG9yaXRpZXMiOlsiUk9MRV9VU0VSIl0sImp0aSI6ImMwZGFkM2M4LWNiZTItNDdhNC1hMGIyLTA4YzQxYjc1ZmYzMyIsImNsaWVudF9pZCI6ImNsaWVudCJ9.srmpQ9gH9a8eJMBobdaXSBzUhT_9qdyPwLgQKgCBbsHExYjQ4L_34pvWYqab9zYJ3UwFktfoSDEsoXso91oCv44Q9TLvhKJYvpcePGRWGu923496aKb4TaMyTvz9rqXKN_FFj3_7N6YA4544VGX-8ihaNreuUU0z8sddl2iScU4MA32emOvpl_NpoNmH1_LWIDQAmjuj4dEVe9BiUBB7B_AhYBvaGivQWZWegO0y72orawNAlaLJPFlS2h6PbwwMr1rXBSZw15L_-g1C9wqy6u0Hqo72ldCYRfij-y2m0hSAwFs71cGKlq8iRVzXMTsmnKtigAr1YroyHD49Wp4F5A; Path=/
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains,max-age=86400;
+X-Frame-Options: DENY
+
+
+$$$$$$ Response Header For Transaction With Id 547 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/manifest.json
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 547 ****** (Location Flag : tFlagInsertEnd, Location ID : 547)
+	web_submit_data("login",
+		"Action=https://dev-boomq.pflb.ru/auth-srv/login",
+		"Method=POST",
+		"EncType=multipart/form-data",
+		"TargetFrame=",
+		"Referer=https://dev-boomq.pflb.ru/authorize",
+		"Snapshot=t24.inf",
+		"Mode=HTML",
+		ITEMDATA,
+		"Name=username", "Value=admin_gr3@mail.com", ENDITEM,
+		"Name=password", "Value=Wsx321!@#", ENDITEM,
+		"Name=submit", "Value=Login", ENDITEM,
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 547 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 528)
+	web_add_header("Sec-Fetch-Site",
+		"none");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 528)
+	web_add_header("Sec-Fetch-Mode",
+		"no-cors");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 528)
+	web_add_auto_header("Sec-Fetch-Dest",
+		"empty");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Request Header For Transaction With Id 551 ******
+GET https://dev-boomq.pflb.ru/auth-srv/user HTTP/1.1
+sec-ch-ua-platform: "Windows"
+Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc19ub3RpZmljYXRlZCI6ZmFsc2UsInVzZXJfaWQiOjE5MjUsInVzZXJfbmFtZSI6ImFkbWluX2dyM0BtYWlsLmNvbSIsInNjb3BlIjpbInRydXN0IiwicmVhZCIsIndyaXRlIl0sInVzZXJfbGFuZ3VhZ2UiOiJSVSIsImV4cCI6MTc3MDA3MjA3NywiYXV0aG9yaXRpZXMiOlsiUk9MRV9VU0VSIl0sImp0aSI6ImMwZGFkM2M4LWNiZTItNDdhNC1hMGIyLTA4YzQxYjc1ZmYzMyIsImNsaWVudF9pZCI6ImNsaWVudCJ9.srmpQ9gH9a8eJMBobdaXSBzUhT_9qdyPwLgQKgCBbsHExYjQ4L_34pvWYqab9zYJ3UwFktfoSDEsoXso91oCv44Q9TLvhKJYvpcePGRWGu923496aKb4TaMyTvz9rqXKN_FFj3_7N6YA4544VGX-8ihaNreuUU0z8sddl2iScU4MA32emOvpl_NpoNmH1_LWIDQAmjuj4dEVe9BiUBB7B_AhYBvaGivQWZWegO0y72orawNAlaLJPFlS2h6PbwwMr1rXBSZw15L_-g1C9wqy6u0Hqo72ldCYRfij-y2m0hSAwFs71cGKlq8iRVzXMTsmnKtigAr1YroyHD49Wp4F5A
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 YaBrowser/25.12.0.0 Safari/537.36
+Accept: */*
+sec-ch-ua: "Chromium";v="142", "YaBrowser";v="25.12", "Not_A Brand";v="99", "Yowser";v="2.5"
+sec-ch-ua-mobile: ?0
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://dev-boomq.pflb.ru/account/new-test
+Accept-Encoding: gzip, deflate, zstd
+Accept-Language: ru,en;q=0.9
+Cookie: boomq_auth=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc19ub3RpZmljYXRlZCI6ZmFsc2UsInVzZXJfaWQiOjE5MjUsInVzZXJfbmFtZSI6ImFkbWluX2dyM0BtYWlsLmNvbSIsInNjb3BlIjpbInRydXN0IiwicmVhZCIsIndyaXRlIl0sInVzZXJfbGFuZ3VhZ2UiOiJSVSIsImV4cCI6MTc3MDA3MjA3NywiYXV0aG9yaXRpZXMiOlsiUk9MRV9VU0VSIl0sImp0aSI6ImMwZGFkM2M4LWNiZTItNDdhNC1hMGIyLTA4YzQxYjc1ZmYzMyIsImNsaWVudF9pZCI6ImNsaWVudCJ9.srmpQ9gH9a8eJMBobdaXSBzUhT_9qdyPwLgQKgCBbsHExYjQ4L_34pvWYqab9zYJ3UwFktfoSDEsoXso91oCv44Q9TLvhKJYvpcePGRWGu923496aKb4TaMyTvz9rqXKN_FFj3_7N6YA4544VGX-8ihaNreuUU0z8sddl2iScU4MA32emOvpl_NpoNmH1_LWIDQAmjuj4dEVe9BiUBB7B_AhYBvaGivQWZWegO0y72orawNAlaLJPFlS2h6PbwwMr1rXBSZw15L_-g1C9wqy6u0Hqo72ldCYRfij-y2m0hSAwFs71cGKlq8iRVzXMTsmnKtigAr1YroyHD49Wp4F5A
+Host: dev-boomq.pflb.ru
+
+
+$$$$$$ Request Header For Transaction With Id 551 Ended $$$$$$
+
+****** Response Header For Transaction With Id 551 ******
+HTTP/1.1 200 
+Server: nginx
+Date: Mon, 02 Feb 2026 10:41:18 GMT
+Content-Type: application/json
+Connection: keep-alive
+Vary: Origin,Access-Control-Request-Method,Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains,max-age=86400;
+X-Frame-Options: DENY
+
+
+$$$$$$ Response Header For Transaction With Id 551 Ended $$$$$$
+
+****** Response Body For Transaction With Id 551 ******
+{"id":1925,"email":"admin_gr3@mail.com","password":null,"displayName":"admin_gr3","notificationEnabled":false,"language":"RU","authorityList":["ROLE_USER"]}
+$$$$$$ Response Body For Transaction With Id 551 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/auth-srv/login
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 551 ****** (Location Flag : tFlagInsertEnd, Location ID : 551)
+	web_url("user",
+		"URL=https://dev-boomq.pflb.ru/auth-srv/user",
+		"TargetFrame=",
+		"Resource=0",
+		"RecContentType=application/json",
+		"Referer=https://dev-boomq.pflb.ru/account/new-test",
+		"Snapshot=t25.inf",
+		"Mode=HTML",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 551 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 547)
+	web_add_header("Origin",
+		"https://dev-boomq.pflb.ru");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 547)
+	web_add_auto_header("Sec-Fetch-Mode",
+		"cors");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 547)
+	web_add_auto_header("Sec-Fetch-Site",
+		"same-origin");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 547)
+	web_add_header("X-Client-Date",
+		"2026-02-02T10:41:12.057Z");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 547)
+	web_add_auto_header("sec-ch-ua",
+		"\"Chromium\";v=\"142\", \"YaBrowser\";v=\"25.12\", \"Not_A Brand\";v=\"99\", \"Yowser\";v=\"2.5\"");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 547)
+	web_add_auto_header("sec-ch-ua-mobile",
+		"?0");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 547)
+	web_add_auto_header("sec-ch-ua-platform",
+		"\"Windows\"");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Request Header For Transaction With Id 556 ******
+GET https://dev-boomq.pflb.ru/project-srv/modelSchema HTTP/1.1
+sec-ch-ua-platform: "Windows"
+Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc19ub3RpZmljYXRlZCI6ZmFsc2UsInVzZXJfaWQiOjE5MjUsInVzZXJfbmFtZSI6ImFkbWluX2dyM0BtYWlsLmNvbSIsInNjb3BlIjpbInRydXN0IiwicmVhZCIsIndyaXRlIl0sInVzZXJfbGFuZ3VhZ2UiOiJSVSIsImV4cCI6MTc3MDA3MjA3NywiYXV0aG9yaXRpZXMiOlsiUk9MRV9VU0VSIl0sImp0aSI6ImMwZGFkM2M4LWNiZTItNDdhNC1hMGIyLTA4YzQxYjc1ZmYzMyIsImNsaWVudF9pZCI6ImNsaWVudCJ9.srmpQ9gH9a8eJMBobdaXSBzUhT_9qdyPwLgQKgCBbsHExYjQ4L_34pvWYqab9zYJ3UwFktfoSDEsoXso91oCv44Q9TLvhKJYvpcePGRWGu923496aKb4TaMyTvz9rqXKN_FFj3_7N6YA4544VGX-8ihaNreuUU0z8sddl2iScU4MA32emOvpl_NpoNmH1_LWIDQAmjuj4dEVe9BiUBB7B_AhYBvaGivQWZWegO0y72orawNAlaLJPFlS2h6PbwwMr1rXBSZw15L_-g1C9wqy6u0Hqo72ldCYRfij-y2m0hSAwFs71cGKlq8iRVzXMTsmnKtigAr1YroyHD49Wp4F5A
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 YaBrowser/25.12.0.0 Safari/537.36
+Accept: */*
+sec-ch-ua: "Chromium";v="142", "YaBrowser";v="25.12", "Not_A Brand";v="99", "Yowser";v="2.5"
+sec-ch-ua-mobile: ?0
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://dev-boomq.pflb.ru/account/new-test
+Accept-Encoding: gzip, deflate, zstd
+Accept-Language: ru,en;q=0.9
+Cookie: boomq_auth=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc19ub3RpZmljYXRlZCI6ZmFsc2UsInVzZXJfaWQiOjE5MjUsInVzZXJfbmFtZSI6ImFkbWluX2dyM0BtYWlsLmNvbSIsInNjb3BlIjpbInRydXN0IiwicmVhZCIsIndyaXRlIl0sInVzZXJfbGFuZ3VhZ2UiOiJSVSIsImV4cCI6MTc3MDA3MjA3NywiYXV0aG9yaXRpZXMiOlsiUk9MRV9VU0VSIl0sImp0aSI6ImMwZGFkM2M4LWNiZTItNDdhNC1hMGIyLTA4YzQxYjc1ZmYzMyIsImNsaWVudF9pZCI6ImNsaWVudCJ9.srmpQ9gH9a8eJMBobdaXSBzUhT_9qdyPwLgQKgCBbsHExYjQ4L_34pvWYqab9zYJ3UwFktfoSDEsoXso91oCv44Q9TLvhKJYvpcePGRWGu923496aKb4TaMyTvz9rqXKN_FFj3_7N6YA4544VGX-8ihaNreuUU0z8sddl2iScU4MA32emOvpl_NpoNmH1_LWIDQAmjuj4dEVe9BiUBB7B_AhYBvaGivQWZWegO0y72orawNAlaLJPFlS2h6PbwwMr1rXBSZw15L_-g1C9wqy6u0Hqo72ldCYRfij-y2m0hSAwFs71cGKlq8iRVzXMTsmnKtigAr1YroyHD49Wp4F5A
+Host: dev-boomq.pflb.ru
+
+
+$$$$$$ Request Header For Transaction With Id 556 Ended $$$$$$
+
+****** Response Header For Transaction With Id 556 ******
+HTTP/1.1 200 
+Server: nginx
+Date: Mon, 02 Feb 2026 10:41:18 GMT
+Content-Type: application/json
+Connection: keep-alive
+Vary: Origin,Access-Control-Request-Method,Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=86400;
+
+
+$$$$$$ Response Header For Transaction With Id 556 Ended $$$$$$
+
+****** Response Body For Transaction With Id 556 ******
+{"ResponseBodyJsonAssertion":{"properties":{"condition":{"defaultValue":null,"enumValues":["EXISTS","NOT_EXISTS","NULL","NOT_NULL","EQUALS","NOT_EQUALS","REGEXP_MATCHES","NOT_REGEXP_MATCHES"],"required":true},"jsonPath":{"defaultValue":null,"enumValues":[],"required":true},"label":{"defaultValue":null,"enumValues":[],"required":true},"id":{"defaultValue":null,"enumValues":[],"required":true},"typeDisplayName":{"defaultValue":null,"enumValues":[],"required":false},"type":{"defaultValue":null,"enumValues":["DURATION","FULL_RESPONSE_SIZE","REQUEST_DATA","REQUEST_HEADERS","RESPONSE_BODY","RESPONSE_BODY_SIZE","RESPONSE_BODY_JSON","RESPONSE_BODY_XPATH2","RESPONSE_CODE","RESPONSE_CODE_SIZE","RESPONSE_HEADERS","RESPONSE_HEADERS_SIZE","RESPONSE_MESSAGE","RESPONSE_MESSAGE_SIZE","RESPONSE_TIKA_EXTRACT","URL_SAMPLED"],"required":true},"value":{"defaultValue":null,"enumValues":[],"required":false},"enabled":{"defaultValue":true,"enumValues":[],"required":true}}},"ForEachControllerProperties":{"properties":{"variablePrefix":{"defaultValue":null,"enumValues":[],"required":true},"endIndexInclusive":{"defaultValue":null,"enumValues":[],"required":false},"type":{"defaultValue":null,"enumValues":["TRANSACTION","IF","LOOP","WHILE","FOR_EACH"],"required":true},"startIndexExclusive":{"defaultValue":null,"enumValues":[],"required":false},"outputVariableName":{"defaultValue":null,"enumValues":[],"required":true},"useSeparator":{"defaultValue":true,"enumValues":[],"required":true}}},"UltimateThreadGroupStep":{"properties":{"holdLoadTimeMs":{"defaultValue":60000,"enumValues":[],"required":true},"name":{"defaultValue":null,"enumValues":[],"required":true},"type":{"defaultValue":null,"enumValues":["PLAIN","PARAMETERIZED"],"required":true},"shutdownTimeMs":{"defaultValue":10000,"enumValues":[],"required":true},"startupTimeMs":{"defaultValue":30000,"enumValues":[],"required":true},"initDelayMs":{"defaultValue":0,"enumValues":[],"required":true},"startThreadsCount":{"defaultValue":10,"enumValues":[],"required":true}}},"TestPlanLoadProfile":{"properties":{"usersPerStep":{"defaultValue":10,"enumValues":[],"required":true},"rampDownMs":{"defaultValue":60000,"enumValues":[],"required":true},"durationAddedOnLastStepMs":{"defaultValue":0,"enumValues":[],"required":true},"boomqProfileType":{"defaultValue":"STABLE","enumValues":["STABLE","SCALABILITY"],"required":true},"rampUpMs":{"defaultValue":60000,"enumValues":[],"required":true},"stepLengthMs":{"defaultValue":600000,"enumValues":[],"required":true},"stepCount":{"defaultValue":1,"enumValues":[],"required":true}}},"SimpleThreadGroup":{"properties":{"boomqConfiguration":{"defaultValue":null,"enumValues":[],"required":true},"threadGroupElements":{"defaultValue":null,"enumValues":[],"required":true},"label":{"defaultValue":null,"enumValues":[],"required":true},"id":{"defaultValue":null,"enumValues":[],"required":true},"typeDisplayName":{"defaultValue":null,"enumValues":[],"required":false},"type":{"defaultValue":null,"enumValues":["ARRIVALS","BOOMQ_STABLE_SCALABILITY","CONCURRENCY","FREE_FORM_ARRIVALS","SETUP","SIMPLE","STEPPING","TEAR_DOWN","ULTIMATE"],"required":true},"loadProfile":{"defaultValue":null,"enumValues":[],"required":false},"enabled":{"defaultValue":true,"enumValues":[],"required":true},"onSampleError":{"defaultValue":"ON_SAMPLE_ERROR_CONTINUE","enumValues":["ON_SAMPLE_ERROR_CONTINUE","ON_SAMPLE_ERROR_START_NEXT_LOOP","ON_SAMPLE_ERROR_STOP_THREAD","ON_SAMPLE_ERROR_STOP_TEST","ON_SAMPLE_ERROR_STOP_TEST_NOW"],"required":true},"sameUserOnEachIteration":{"defaultValue":false,"enumValues":[],"required":true}}},"HttpCookieManager":{"properties":{"clearControlledByThreadGroup":{"defaultValue":false,"enumValues":[],"required":true},"cookiePolicy":{"defaultValue":"STANDARD","enumValues":["STANDARD","STANDARD_STRICT","IGNORE_COOKIES","NETSCAPE","DEFAULT","RFC2109","RFC2965","BEST_MATCH","COMPATIBILITY"],"required":true},"clearEachIteration":{"defaultValue":false,"enumValues":[],"required":true},"userDefinedCookies":{"defaultValue":null,"enumValues":[],"required":true},"label":{"defaultValue":null,"enumValues":[],"required":true},"id":{"defaultValue":null,"enumValues":[],"required":true},"type":{"defaultValue":null,"enumValues":["HTTP_AUTH_MANAGER","HTTP_COOKIE_MANAGER","HTTP_HEADER_MANAGER","HTTP_REQUEST_DEFAULTS","USER_DEFINED_VARIABLES","RANDOM_CSV_DATASET_CONFIG","CSV_DATASET_CONFIG"],"required":true},"enabled":{"defaultValue":true,"enumValues":[],"required":true}}},"SimpleLoadProfile":{"properties":{"loopCount":{"defaultValue":1,"enumValues":[],"required":false},"loopForever":{"defaultValue":false,"enumValues":[],"required":true},"startupDelayMs":{"defaultValue":null,"enumValues":[],"required":false},"rampUpMs":{"defaultValue":1,"enumValues":[],"required":true},"numberOfThreads":{"defaultValue":1,"enumValues":[],"required":true},"type":{"defaultValue":null,"enumValues":["PLAIN","PARAMETERIZED"],"required":true},"specifyThreadLifetime":{"defaultValue":false,"enumValues":[],"required":true},"durationMs":{"defaultValue":null,"enumValues":[],"required":false}}},"TearDownThreadGroup":{"properties":{"boomqConfiguration":{"defaultValue":null,"enumValues":[],"required":true},"threadGroupElements":{"defaultValue":null,"enumValues":[],"required":true},"label":{"defaultValue":null,"enumValues":[],"required":true},"id":{"defaultValue":null,"enumValues":[],"required":true},"typeDisplayName":{"defaultValue":null,"enumValues":[],"required":false},"type":{"defaultValue":null,"enumValues":["ARRIVALS","BOOMQ_STABLE_SCALABILITY","CONCURRENCY","FREE_FORM_ARRIVALS","SETUP","SIMPLE","STEPPING","TEAR_DOWN","ULTIMATE"],"required":true},"loadProfile":{"defaultValue":null,"enumValues":[],"required":false},"enabled":{"defaultValue":true,"enumValues":[],"required":true},"onSampleError":{"defaultValue":"ON_SAMPLE_ERROR_CONTINUE","enumValues":["ON_SAMPLE_ERROR_CONTINUE","ON_SAMPLE_ERROR_START_NEXT_LOOP","ON_SAMPLE_ERROR_STOP_THREAD","ON_SAMPLE_ERROR_STOP_TEST","ON_SAMPLE_ERROR_STOP_TEST_NOW"],"required":false},"sameUserOnEachIteration":{"defaultValue":false,"enumValues":[],"required":true}}},"HttpRequestProperties":{"properties":{"urlMustMatch":{"defaultValue":null,"enumValues":[],"required":false},"useKeepAlive":{"defaultValue":true,"enumValues":[],"required":true},"serverName":{"defaultValue":null,"enumValues":[],"required":false},"type":{"defaultValue":null,"enumValues":["HTTP","GRPC"],"required":true},"body":{"defaultValue":null,"enumValues":[],"required":false},"proxyProperties":{"defaultValue":null,"enumValues":[],"required":false},"parallelDownloadsPoolSize":{"defaultValue":null,"enumValues":[],"required":false},"filesUpload":{"defaultValue":null,"enumValues":[],"required":false},"path":{"defaultValue":null,"enumValues":[],"required":false},"protocol":{"defaultValue":null,"enumValues":[],"required":false},"queryParameters":{"defaultValue":null,"enumValues":[],"required":false},"retrieveAllEmbeddedResources":{"defaultValue":true,"enumValues":[],"required":true},"followRedirects":{"defaultValue":true,"enumValues":[],"required":true},"connectTimeout":{"defaultValue":null,"enumValues":[],"required":false},"contentEncoding":{"defaultValue":null,"enumValues":[],"required":false},"useParallelDownloads":{"defaultValue":null,"enumValues":[],"required":false},"clientImplementation":{"defaultValue":null,"enumValues":["JAVA","HTTP_CLIENT_4"],"required":false},"saveResponseAsMd5Hash":{"defaultValue":null,"enumValues":[],"required":false},"responseTimeout":{"defaultValue":null,"enumValues":[],"required":false},"responsePreview":{"defaultValue":null,"enumValues":[],"required":false},"automaticallyRedirect":{"defaultValue":false,"enumValues":[],"required":true},"headers":{"defaultValue":null,"enumValues":[],"required":false},"sourceAddress":{"defaultValue":null,"enumValues":[],"required":false},"method":{"defaultValue":"GET","enumValues":["GET","HEAD","POST","PUT","PATCH","DELETE","OPTIONS","TRACE"],"required":true},"bodyParameters":{"defaultValue":null,"enumValues":[],"required":false},"port":{"defaultValue":null,"enumValues":[],"required":false},"urlMustNotMatch":{"defaultValue":null,"enumValues":[],"required":false},"browserCompatibleHeaders":{"defaultValue":false,"enumValues":[],"required":true},"doMultipartPost":{"defaultValue":false,"enumValues":[],"required":true}}},"PoissonRandomTimer":{"properties":{"lambdaMs":{"defaultValue":100,"enumValues":[],"required":true},"timerType":{"defaultValue":null,"enumValues":["CONSTANT","PARAMETRIZED_CONSTANT","GAUSSIAN_RANDOM_TIMER","PARAMETRIZED_GAUSSIAN_RANDOM_TIMER","POISSON_RANDOM_TIMER","PARAMETRIZED_POISSON_RANDOM_TIMER","UNIFORM_RANDOM_TIMER","PARAMETRIZED_UNIFORM_RANDOM_TIMER","CONSTANT_THROUGHPUT_TIMER","PARAMETRIZED_CONSTANT_THROUGHPUT_TIMER","PRECISE_THROUGHPUT_TIMER","PARAMETRIZED_PRECISE_THROUGHPUT_TIMER","SYNCHRONIZING_TIMER","PARAMETRIZED_SYNCHRONIZING_TIMER","THROUGHPUT_SHAPING_TIMER","JSR_223_TIMER","BEAN_SHELL_TIMER"],"required":true},"offsetMs":{"defaultValue":300,"enumValues":[],"required":true},"label":{"defaultValue":null,"enumValues":[],"required":true},"id":{"defaultValue":null,"enumValues":[],"required":true},"typeDisplayName":{"defaultValue":null,"enumValues":[],"required":false},"enabled":{"defaultValue":true,"enumValues":[],"required":true}}},"ConstantThroughputTimer":{"properties":{"calculateThroughputBasedOn":{"defaultValue":"THIS_THREAD_ONLY","enumValues":["THIS_THREAD_ONLY","ALL_ACTIVE_THREADS_IN_CURRENT_THREAD_GROUP","ALL_ACTIVE_THREADS","ALL_ACTIVE_THREADS_CURRENT_THREAD_GROUP_SHARED","ALL_ACTIVE_THREADS_SHARED"],"required":true},"timerType":{"defaultValue":null,"enumValues":["CONSTANT","PARAMETRIZED_CONSTANT","GAUSSIAN_RANDOM_TIMER","PARAMETRIZED_GAUSSIAN_RANDOM_TIMER","POISSON_RANDOM_TIMER","PARAMETRIZED_POISSON_RANDOM_TIMER","UNIFORM_RANDOM_TIMER","PARAMETRIZED_UNIFORM_RANDOM_TIMER","CONSTANT_THROUGHPUT_TIMER","PARAMETRIZED_CONSTANT_THROUGHPUT_TIMER","PRECISE_THROUGHPUT_TIMER","PARAMETRIZED_PRECISE_THROUGHPUT_TIMER","SYNCHRONIZING_TIMER","PARAMETRIZED_SYNCHRONIZING_TIMER","THROUGHPUT_SHAPING_TIMER","JSR_223_TIMER","BEAN_SHELL_TIMER"],"required":true},"targetThroughput":{"defaultValue":null,"enumValues":[],"required":true},"label":{"defaultValue":null,"enumValues":[],"required":true},"id":{"defaultValue":null,"enumValues":[],"required":true},"typeDisplayName":{"defaultValue":null,"enumValues":[],"required":false},"enabled":{"defaultValue":true,"enumValues":[],"required":true}}},"SetupLoadProfile":{"properties":{"loopCount":{"defaultValue":1,"enumValues":[],"required":false},"loopForever":{"defaultValue":false,"enumValues":[],"required":true},"startupDelayMs":{"defaultValue":null,"enumValues":[],"required":false},"rampUpMs":{"defaultValue":1,"enumValues":[],"required":true},"numberOfThreads":{"defaultValue":1,"enumValues":[],"required":true},"type":{"defaultValue":null,"enumValues":["PLAIN","PARAMETERIZED"],"required":true},"specifyThreadLifetime":{"defaultValue":false,"enumValues":[],"required":true},"durationMs":{"defaultValue":null,"enumValues":[],"required":false}}},"ParametrizedUltimateThreadGroupStep":{"properties":{"holdLoadTimeMs":{"defaultValue":"60000","enumValues":[],"required":true},"name":{"defaultValue":null,"enumValues":[],"required":true},"type":{"defaultValue":null,"enumValues":["PLAIN","PARAMETERIZED"],"required":true},"shutdownTimeMs":{"defaultValue":"10000","enumValues":[],"required":true},"startupTimeMs":{"defaultValue":"30000","enumValues":[],"required":true},"initDelayMs":{"defaultValue":"0","enumValues":[],"required":true},"startThreadsCount":{"defaultValue":"10","enumValues":[],"required":true}}},"UrlSampledAssertion":{"properties":{"applyTo":{"defaultValue":"PARENT","enumValues":["ALL","CHILDREN","VARIABLE","PARENT"],"required":true},"condition":{"defaultValue":"SUBSTRING","enumValues":["REGEXP_CONTAINS","REGEXP_MATCHES","EQUALS","SUBSTRING","NOT_REGEXP_CONTAINS","NOT_REGEXP_MATCHES","NOT_EQUALS","NOT_SUBSTRING"],"required":true},"or":{"defaultValue":false,"enumValues":[],"required":true},"customFailureMessage":{"defaultValue":null,"enumValues":[],"required":false},"values":{"defaultValue":null,"enumValues":[],"required":true},"applyToVariable":{"defaultValue":null,"enumValues":[],"required":false},"label":{"defaultValue":null,"enumValues":[],"required":true},"id":{"defaultValue":null,"enumValues":[],"required":true},"typeDisplayName":{"defaultValue":null,"enumValues":[],"required":false},"type":{"defaultValue":null,"enumValues":["DURATION","FULL_RESPONSE_SIZE","REQUEST_DATA","REQUEST_HEADERS","RESPONSE_BODY","RESPONSE_BODY_SIZE","RESPONSE_BODY_JSON","RESPONSE_BODY_XPATH2","RESPONSE_CODE","RESPONSE_CODE_SIZE","RESPONSE_HEADERS","RESPONSE_HEADERS_SIZE","RESPONSE_MESSAGE","RESPONSE_MESSAGE_SIZE","RESPONSE_TIKA_EXTRACT","URL_SAMPLED"],"required":true},"ignoreStatus":{"defaultValue":false,"enumValues":[],"required":true},"enabled":{"defaultValue":true,"enumValues":[],"required":true}}},"ResponseHeadersAssertion":{"properties":{"applyTo":{"defaultValue":"PARENT","enumValues":["ALL","CHILDREN","VARIABLE","PARENT"],"required":true},"condition":{"defaultValue":"SUBSTRING","enumValues":["REGEXP_CONTAINS","REGEXP_MATCHES","EQUALS","SUBSTRING","NOT_REGEXP_CONTAINS","NOT_REGEXP_MATCHES","NOT_EQUALS","NOT_SUBSTRING"],"required":true},"or":{"defaultValue":false,"enumValues":[],"required":true},"customFailureMessage":{"defaultValue":null,"enumValues":[],"required":false},"values":{"defaultValue":null,"enumValues":[],"required":true},"applyToVariable":{"defaultValue":null,"enumValues":[],"required":false},"label":{"defaultValue":null,"enumValues":[],"required":true},"id":{"defaultValue":null,"enumValues":[],"required":true},"typeDisplayName":{"defaultValue":null,"enumValues":[],"required":false},"type":{"defaultValue":null,"enumValues":["DURATION","FULL_RESPONSE_SIZE","REQUEST_DATA","REQUEST_HEADERS","RESPONSE_BODY","RESPONSE_BODY_SIZE","RESPONSE_BODY_JSON","RESPONSE_BODY_XPATH2","RESPONSE_CODE","RESPONSE_CODE_SIZE","RESPONSE_HEADERS","RESPONSE_HEADERS_SIZE","RESPONSE_MESSAGE","RESPONSE_MESSAGE_SIZE","RESPONSE_TIKA_EXTRACT","URL_SAMPLED"],"required":true},"ignoreStatus":{"defaultValue":false,"enumValues":[],"required":true},"enabled":{"defaultValue":true,"enumValues":[],"required":true}}},"ResponseBodySizeAssertion":{"properties":{"applyTo":{"defaultValue":"PARENT","enumValues":["ALL","CHILDREN","VARIABLE","PARENT"],"required":true},"condition":{"defaultValue":"EQUALS","enumValues":["EQUALS","NOT_EQUALS","GREATER_THAN","LESS_THAN","GREATER_OR_EQUALS","LESS_OR_EQUALS"],"required":true},"applyToVariable":{"defaultValue":null,"enumValues":[],"required":false},"label":{"defaultValue":null,"enumValues":[],"required":true},"id":{"defaultValue":null,"enumValues":[],"required":true},"typeDisplayName":{"defaultValue":null,"enumValues":[],"required":false},"type":{"defaultValue":null,"enumValues":["DURATION","FULL_RESPONSE_SIZE","REQUEST_DATA","REQUEST_HEADERS","RESPONSE_BODY","RESPONSE_BODY_SIZE","RESPONSE_BODY_JSON","RESPONSE_BODY_XPATH2","RESPONSE_CODE","RESPONSE_CODE_SIZE","RESPONSE_HEADERS","RESPONSE_HEADERS_SIZE","RESPONSE_MESSAGE","RESPONSE_MESSAGE_SIZE","RESPONSE_TIKA_EXTRACT","URL_SAMPLED"],"required":true},"value":{"defaultValue":null,"enumValues":[],"required":true},"enabled":{"defaultValue":true,"enumValues":[],"required":true}}},"TearDownLoadProfile":{"properties":{"loopCount":{"defaultValue":1,"enumValues":[],"required":false},"loopForever":{"defaultValue":false,"enumValues":[],"required":true},"startupDelayMs":{"defaultValue":null,"enumValues":[],"required":false},"rampUpMs":{"defaultValue":1,"enumValues":[],"required":true},"numberOfThreads":{"defaultValue":1,"enumValues":[],"required":true},"type":{"defaultValue":null,"enumValues":["PLAIN","PARAMETERIZED"],"required":true},"specifyThreadLifetime":{"defaultValue":false,"enumValues":[],"required":true},"durationMs":{"defaultValue":null,"enumValues":[],"required":false}}},"ResponseBodyAssertion":{"properties":{"applyTo":{"defaultValue":"PARENT","enumValues":["ALL","CHILDREN","VARIABLE","PARENT"],"required":true},"condition":{"defaultValue":"SUBSTRING","enumValues":["REGEXP_CONTAINS","REGEXP_MATCHES","EQUALS","SUBSTRING","NOT_REGEXP_CONTAINS","NOT_REGEXP_MATCHES","NOT_EQUALS","NOT_SUBSTRING"],"required":true},"or":{"defaultValue":false,"enumValues":[],"required":true},"customFailureMessage":{"defaultValue":null,"enumValues":[],"required":false},"values":{"defaultValue":null,"enumValues":[],"required":true},"applyToVariable":{"defaultValue":null,"enumValues":[],"required":false},"label":{"defaultValue":null,"enumValues":[],"required":true},"id":{"defaultValue":null,"enumValues":[],"required":true},"typeDisplayName":{"defaultValue":null,"enumValues":[],"required":false},"type":{"defaultValue":null,"enumValues":["DURATION","FULL_RESPONSE_SIZE","REQUEST_DATA","REQUEST_HEADERS","RESPONSE_BODY","RESPONSE_BODY_SIZE","RESPONSE_BODY_JSON","RESPONSE_BODY_XPATH2","RESPONSE_CODE","RESPONSE_CODE_SIZE","RESPONSE_HEADERS","RESPONSE_HEADERS_SIZE","RESPONSE_MESSAGE","RESPONSE_MESSAGE_SIZE","RESPONSE_TIKA_EXTRACT","URL_SAMPLED"],"required":true},"ignoreStatus":{"defaultValue":false,"enumValues":[],"required":true},"enabled":{"defaultValue":true,"enumValues":[],"required":true}}},"TransactionControllerProperties":{"properties":{"includeDurationOfAllElementsToGeneratedSampler":{"defaultValue":false,"enumValues":[],"required":true},"generateParentSampler":{"defaultValue":false,"enumValues":[],"required":true},"type":{"defaultValue":null,"enumValues":["TRANSACTION","IF","LOOP","WHILE","FOR_EACH"],"required":true}}},"HttpRequestDefaults":{"properties":{"urlMustMatch":{"defaultValue":null,"enumValues":[],"required":false},"sourceAddress":{"defaultValue":null,"enumValues":[],"required":false},"serverName":{"defaultValue":null,"enumValues":[],"required":false},"label":{"defaultValue":null,"enumValues":[],"required":true},"type":{"defaultValue":null,"enumValues":["HTTP_AUTH_MANAGER","HTTP_COOKIE_MANAGER","HTTP_HEADER_MANAGER","HTTP_REQUEST_DEFAULTS","USER_DEFINED_VARIABLES","RANDOM_CSV_DATASET_CONFIG","CSV_DATASET_CONFIG"],"required":true},"body":{"defaultValue":null,"enumValues":[],"required":false},"enabled":{"defaultValue":true,"enumValues":[],"required":true},"proxyProperties":{"defaultValue":null,"enumValues":[],"required":false},"parallelDownloadsPoolSize":{"defaultValue":null,"enumValues":[],"required":false},"bodyParameters":{"defaultValue":null,"enumValues":[],"required":false},"path":{"defaultValue":null,"enumValues":[],"required":false},"protocol":{"defaultValue":null,"enumValues":[],"required":false},"queryParameters":{"defaultValue":null,"enumValues":[],"required":false},"retrieveAllEmbeddedResources":{"defaultValue":null,"enumValues":[],"required":false},"port":{"defaultValue":null,"enumValues":[],"required":false},"connectTimeout":{"defaultValue":null,"enumValues":[],"required":false},"urlMustNotMatch":{"defaultValue":null,"enumValues":[],"required":false},"contentEncoding":{"defaultValue":null,"enumValues":[],"required":false},"useParallelDownloads":{"defaultValue":null,"enumValues":[],"required":false},"clientImplementation":{"defaultValue":null,"enumValues":["JAVA","HTTP_CLIENT_4"],"required":false},"id":{"defaultValue":null,"enumValues":[],"required":true},"saveResponseAsMd5Hash":{"defaultValue":null,"enumValues":[],"required":false},"responseTimeout":{"defaultValue":null,"enumValues":[],"required":false}}},"CsvParameterValue":{"properties":{"randomOrder":{"defaultValue":true,"enumValues":[],"required":true},"preview":{"defaultValue":null,"enumValues":[],"required":false},"shared":{"defaultValue":true,"enumValues":[],"required":true},"delimiter":{"defaultValue":",","enumValues":[],"required":true},"hasHeaders":{"defaultValue":false,"enumValues":[],"required":true},"recycle":{"defaultValue":true,"enumValues":[],"required":true},"files":{"defaultValue":null,"enumValues":[],"required":false},"parameterNames":{"defaultValue":null,"enumValues":[],"required":true},"location":{"defaultValue":null,"enumValues":[],"required":true}}},"WhileControllerProperties":{"properties":{"condition":{"defaultValue":null,"enumValues":[],"required":true},"type":{"defaultValue":null,"enumValues":["TRANSACTION","IF","LOOP","WHILE","FOR_EACH"],"required":true}}},"FullResponseSizeAssertion":{"properties":{"applyTo":{"defaultValue":"PARENT","enumValues":["ALL","CHILDREN","VARIABLE","PARENT"],"required":true},"condition":{"defaultValue":"EQUALS","enumValues":["EQUALS","NOT_EQUALS","GREATER_THAN","LESS_THAN","GREATER_OR_EQUALS","LESS_OR_EQUALS"],"required":true},"applyToVariable":{"defaultValue":null,"enumValues":[],"required":false},"label":{"defaultValue":null,"enumValues":[],"required":true},"id":{"defaultValue":null,"enumValues":[],"required":true},"typeDisplayName":{"defaultValue":null,"enumValues":[],"required":false},"type":{"defaultValue":null,"enumValues":["DURATION","FULL_RESPONSE_SIZE","REQUEST_DATA","REQUEST_HEADERS","RESPONSE_BODY","RESPONSE_BODY_SIZE","RESPONSE_BODY_JSON","RESPONSE_BODY_XPATH2","RESPONSE_CODE","RESPONSE_CODE_SIZE","RESPONSE_HEADERS","RESPONSE_HEADERS_SIZE","RESPONSE_MESSAGE","RESPONSE_MESSAGE_SIZE","RESPONSE_TIKA_EXTRACT","URL_SAMPLED"],"required":true},"value":{"defaultValue":null,"enumValues":[],"required":true},"enabled":{"defaultValue":true,"enumValues":[],"required":true}}},"SynchronizingTimer":{"properties":{"timerType":{"defaultValue":null,"enumValues":["CONSTANT","PARAMETRIZED_CONSTANT","GAUSSIAN_RANDOM_TIMER","PARAMETRIZED_GAUSSIAN_RANDOM_TIMER","POISSON_RANDOM_TIMER","PARAMETRIZED_POISSON_RANDOM_TIMER","UNIFORM_RANDOM_TIMER","PARAMETRIZED_UNIFORM_RANDOM_TIMER","CONSTANT_THROUGHPUT_TIMER","PARAMETRIZED_CONSTANT_THROUGHPUT_TIMER","PRECISE_THROUGHPUT_TIMER","PARAMETRIZED_PRECISE_THROUGHPUT_TIMER","SYNCHRONIZING_TIMER","PARAMETRIZED_SYNCHRONIZING_TIMER","THROUGHPUT_SHAPING_TIMER","JSR_223_TIMER","BEAN_SHELL_TIMER"],"required":true},"numberOfSimulatedUsersToGroup":{"defaultValue":0,"enumValues":[],"required":true},"timeoutMs":{"defaultValue":0,"enumValues":[],"required":true},"label":{"defaultValue":null,"enumValues":[],"required":true},"id":{"defaultValue":null,"enumValues":[],"required":true},"typeDisplayName":{"defaultValue":null,"enumValues":[],"required":false},"enabled":{"defaultValue":true,"enumValues":[],"required":true}}},"PreciseThroughputTimer":{"properties":{"randomSeed":{"defaultValue":0,"enumValues":[],"required":true},"numberOfThreadsInBatch":{"defaultValue":1,"enumValues":[],"required":true},"throughputPeriodSec":{"defaultValue":3600,"enumValues":[],"required":true},"timerType":{"defaultValue":null,"enumValues":["CONSTANT","PARAMETRIZED_CONSTANT","GAUSSIAN_RANDOM_TIMER","PARAMETRIZED_GAUSSIAN_RANDOM_TIMER","POISSON_RANDOM_TIMER","PARAMETRIZED_POISSON_RANDOM_TIMER","UNIFORM_RANDOM_TIMER","PARAMETRIZED_UNIFORM_RANDOM_TIMER","CONSTANT_THROUGHPUT_TIMER","PARAMETRIZED_CONSTANT_THROUGHPUT_TIMER","PRECISE_THROUGHPUT_TIMER","PARAMETRIZED_PRECISE_THROUGHPUT_TIMER","SYNCHRONIZING_TIMER","PARAMETRIZED_SYNCHRONIZING_TIMER","THROUGHPUT_SHAPING_TIMER","JSR_223_TIMER","BEAN_SHELL_TIMER"],"required":true},"delayBetweenThreadsInTheBatchMs":{"defaultValue":0,"enumValues":[],"required":true},"targetThroughput":{"defaultValue":100.0,"enumValues":[],"required":true},"label":{"defaultValue":null,"enumValues":[],"required":true},"id":{"defaultValue":null,"enumValues":[],"required":true},"typeDisplayName":{"defaultValue":null,"enumValues":[],"required":false},"enabled":{"defaultValue":true,"enumValues":[],"required":true}}},"SimpleThreadGroupLoadProfile":{"properties":{"loopCount":{"defaultValue":1,"enumValues":[],"required":false},"loopForever":{"defaultValue":false,"enumValues":[],"required":true},"startupDelayMs":{"defaultValue":null,"enumValues":[],"required":false},"rampUpMs":{"defaultValue":1,"enumValues":[],"required":true},"numberOfThreads":{"defaultValue":1,"enumValues":[],"required":true},"specifyThreadLifetime":{"defaultValue":false,"enumValues":[],"required":true},"durationMs":{"defaultValue":null,"enumValues":[],"required":false}}},"ParametrizedPoissonRandomTimer":{"properties":{"lambdaMs":{"defaultValue":null,"enumValues":[],"required":true},"timerType":{"defaultValue":null,"enumValues":["CONSTANT","PARAMETRIZED_CONSTANT","GAUSSIAN_RANDOM_TIMER","PARAMETRIZED_GAUSSIAN_RANDOM_TIMER","POISSON_RANDOM_TIMER","PARAMETRIZED_POISSON_RANDOM_TIMER","UNIFORM_RANDOM_TIMER","PARAMETRIZED_UNIFORM_RANDOM_TIMER","CONSTANT_THROUGHPUT_TIMER","PARAMETRIZED_CONSTANT_THROUGHPUT_TIMER","PRECISE_THROUGHPUT_TIMER","PARAMETRIZED_PRECISE_THROUGHPUT_TIMER","SYNCHRONIZING_TIMER","PARAMETRIZED_SYNCHRONIZING_TIMER","THROUGHPUT_SHAPING_TIMER","JSR_223_TIMER","BEAN_SHELL_TIMER"],"required":true},"offsetMs":{"defaultValue":"300","enumValues":[],"required":true},"label":{"defaultValue":null,"enumValues":[],"required":true},"id":{"defaultValue":null,"enumValues":[],"required":true},"typeDisplayName":{"defaultValue":null,"enumValues":[],"required":false},"enabled":{"defaultValue":true,"enumValues":[],"required":true}}},"ParametrizedPreciseThroughputTimer":{"properties":{"randomSeed":{"defaultValue":null,"enumValues":[],"required":true},"numberOfThreadsInBatch":{"defaultValue":null,"enumValues":[],"required":true},"throughputPeriodSec":{"defaultValue":null,"enumValues":[],"required":true},"timerType":{"defaultValue":null,"enumValues":["CONSTANT","PARAMETRIZED_CONSTANT","GAUSSIAN_RANDOM_TIMER","PARAMETRIZED_GAUSSIAN_RANDOM_TIMER","POISSON_RANDOM_TIMER","PARAMETRIZED_POISSON_RANDOM_TIMER","UNIFORM_RANDOM_TIMER","PARAMETRIZED_UNIFORM_RANDOM_TIMER","CONSTANT_THROUGHPUT_TIMER","PARAMETRIZED_CONSTANT_THROUGHPUT_TIMER","PRECISE_THROUGHPUT_TIMER","PARAMETRIZED_PRECISE_THROUGHPUT_TIMER","SYNCHRONIZING_TIMER","PARAMETRIZED_SYNCHRONIZING_TIMER","THROUGHPUT_SHAPING_TIMER","JSR_223_TIMER","BEAN_SHELL_TIMER"],"required":true},"delayBetweenThreadsInTheBatchMs":{"defaultValue":null,"enumValues":[],"required":true},"targetThroughput":{"defaultValue":null,"enumValues":[],"required":true},"label":{"defaultValue":null,"enumValues":[],"required":true},"id":{"defaultValue":null,"enumValues":[],"required":true},"typeDisplayName":{"defaultValue":null,"enumValues":[],"required":false},"enabled":{"defaultValue":true,"enumValues":[],"required":true}}},"RegexpExtractor":{"properties":{"variableName":{"defaultValue":null,"enumValues":[],"required":true},"regularExpression":{"defaultValue":null,"enumValues":[],"required":true},"defaultValue":{"defaultValue":null,"enumValues":[],"required":false},"scope":{"defaultValue":"PARENT","enumValues":["ALL","CHILDREN","PARENT","VARIABLE"],"required":true},"scopeVariable":{"defaultValue":null,"enumValues":[],"required":false},"fieldToCheck":{"defaultValue":"BODY","enumValues":["BODY","BODY_UNESCAPED","BODY_AS_DOCUMENT","RESPONSE_HEADERS","REQUEST_HEADERS","URL","RESPONSE_CODE","RESPONSE_MESSAGE"],"required":true},"label":{"defaultValue":null,"enumValues":[],"required":true},"id":{"defaultValue":null,"enumValues":[],"required":false},"typeDisplayName":{"defaultValue":null,"enumValues":[],"required":false},"type":{"defaultValue":null,"enumValues":["BOUNDARY","JSON","XPATH2","REGEXP"],"required":true},"groupNumber":{"defaultValue":null,"enumValues":[],"required":true},"enabled":{"defaultValue":true,"enumValues":[],"required":true},"matchNumber":{"defaultValue":null,"enumValues":[],"required":true}}},"BoomqTestPlan":{"properties":{"configurationElements":{"defaultValue":null,"enumValues":[],"required":false},"threadGroups":{"defaultValue":null,"enumValues":[],"required":true},"timers":{"defaultValue":null,"enumValues":[],"required":false},"urlOverwrites":{"defaultValue":null,"enumValues":[],"required":false},"classpath":{"defaultValue":null,"enumValues":[],"required":false},"runThreadGroupConsecutively":{"defaultValue":false,"enumValues":[],"required":true},"loadProfileType":{"defaultValue":null,"enumValues":["PER_GROUP","PER_TEST"],"required":true},"functionalMode":{"defaultValue":false,"enumValues":[],"required":true},"runTearDownAfterShutdown":{"defaultValue":true,"enumValues":[],"required":true},"loadProfile":{"defaultValue":null,"enumValues":[],"required":false}}},"ResponseCodeAssertion":{"properties":{"applyTo":{"defaultValue":"PARENT","enumValues":["ALL","CHILDREN","VARIABLE","PARENT"],"required":true},"condition":{"defaultValue":"SUBSTRING","enumValues":["REGEXP_CONTAINS","REGEXP_MATCHES","EQUALS","SUBSTRING","NOT_REGEXP_CONTAINS","NOT_REGEXP_MATCHES","NOT_EQUALS","NOT_SUBSTRING"],"required":true},"or":{"defaultValue":false,"enumValues":[],"required":true},"customFailureMessage":{"defaultValue":null,"enumValues":[],"required":false},"values":{"defaultValue":null,"enumValues":[],"required":true},"applyToVariable":{"defaultValue":null,"enumValues":[],"required":false},"label":{"defaultValue":null,"enumValues":[],"required":true},"id":{"defaultValue":null,"enumValues":[],"required":true},"typeDisplayName":{"defaultValue":null,"enumValues":[],"required":false},"type":{"defaultValue":null,"enumValues":["DURATION","FULL_RESPONSE_SIZE","REQUEST_DATA","REQUEST_HEADERS","RESPONSE_BODY","RESPONSE_BODY_SIZE","RESPONSE_BODY_JSON","RESPONSE_BODY_XPATH2","RESPONSE_CODE","RESPONSE_CODE_SIZE","RESPONSE_HEADERS","RESPONSE_HEADERS_SIZE","RESPONSE_MESSAGE","RESPONSE_MESSAGE_SIZE","RESPONSE_TIKA_EXTRACT","URL_SAMPLED"],"required":true},"ignoreStatus":{"defaultValue":false,"enumValues":[],"required":true},"enabled":{"defaultValue":true,"enumValues":[],"required":true}}},"MatchNumber":{"properties":{"matchType":{"defaultValue":"RANDOM_MATCH","enumValues":["ALL_MATCHES","RANDOM_MATCH","SPECIFIC_MATCH"],"required":true},"value":{"defaultValue":null,"enumValues":[],"required":false}}},"LongProperty":{"properties":{"type":{"defaultValue":null,"enumValues":["STRING","LONG","INTEGER","DOUBLE","PARAMETER"],"required":true},"value":{"defaultValue":null,"enumValues":[],"required":true}}},"ResponseMessageAssertion":{"properties":{"applyTo":{"defaultValue":"PARENT","enumValues":["ALL","CHILDREN","VARIABLE","PARENT"],"required":true},"condition":{"defaultValue":"SUBSTRING","enumValues":["REGEXP_CONTAINS","REGEXP_MATCHES","EQUALS","SUBSTRING","NOT_REGEXP_CONTAINS","NOT_REGEXP_MATCHES","NOT_EQUALS","NOT_SUBSTRING"],"required":true},"or":{"defaultValue":false,"enumValues":[],"required":true},"customFailureMessage":{"defaultValue":null,"enumValues":[],"required":false},"values":{"defaultValue":null,"enumValues":[],"required":true},"applyToVariable":{"defaultValue":null,"enumValues":[],"required":false},"label":{"defaultValue":null,"enumValues":[],"required":true},"id":{"defaultValue":null,"enumValues":[],"required":true},"typeDisplayName":{"defaultValue":null,"enumValues":[],"required":false},"type":{"defaultValue":null,"enumValues":["DURATION","FULL_RESPONSE_SIZE","REQUEST_DATA","REQUEST_HEADERS","RESPONSE_BODY","RESPONSE_BODY_SIZE","RESPONSE_BODY_JSON","RESPONSE_BODY_XPATH2","RESPONSE_CODE","RESPONSE_CODE_SIZE","RESPONSE_HEADERS","RESPONSE_HEADERS_SIZE","RESPONSE_MESSAGE","RESPONSE_MESSAGE_SIZE","RESPONSE_TIKA_EXTRACT","URL_SAMPLED"],"required":true},"ignoreStatus":{"defaultValue":false,"enumValues":[],"required":true},"enabled":{"defaultValue":true,"enumValues":[],"required":true}}},"IfControllerProperties":{"properties":{"condition":{"defaultValue":null,"enumValues":[],"required":true},"useVariableExpression":{"defaultValue":true,"enumValues":[],"required":true},"evaluateAll":{"defaultValue":false,"enumValues":[],"required":true},"type":{"defaultValue":null,"enumValues":["TRANSACTION","IF","LOOP","WHILE","FOR_EACH"],"required":true}}},"JsonExtractor":{"properties":{"variableName":{"defaultValue":null,"enumValues":[],"required":true},"jsonPathExpression":{"defaultValue":null,"enumValues":[],"required":true},"defaultValue":{"defaultValue":null,"enumValues":[],"required":false},"computeConcatenation":{"defaultValue":false,"enumValues":[],"required":true},"scope":{"defaultValue":"PARENT","enumValues":["ALL","CHILDREN","PARENT","VARIABLE"],"required":true},"scopeVariable":{"defaultValue":null,"enumValues":[],"required":false},"label":{"defaultValue":null,"enumValues":[],"required":true},"id":{"defaultValue":null,"enumValues":[],"required":false},"typeDisplayName":{"defaultValue":null,"enumValues":[],"required":false},"type":{"defaultValue":null,"enumValues":["BOUNDARY","JSON","XPATH2","REGEXP"],"required":true},"enabled":{"defaultValue":true,"enumValues":[],"required":true},"matchNumber":{"defaultValue":null,"enumValues":[],"required":true}}},"BoomqLoadProfile":{"properties":{"usersPerStep":{"defaultValue":10,"enumValues":[],"required":true},"rampDownMs":{"defaultValue":60000,"enumValues":[],"required":true},"durationAddedOnLastStepMs":{"defaultValue":0,"enumValues":[],"required":true},"rampUpMs":{"defaultValue":60000,"enumValues":[],"required":true},"stepLengthMs":{"defaultValue":600000,"enumValues":[],"required":true},"stepCount":{"defaultValue":1,"enumValues":[],"required":true}}},"HttpSamplerQueryParameter":{"properties":{"useEquals":{"defaultValue":true,"enumValues":[],"required":true},"alwaysEncode":{"defaultValue":false,"enumValues":[],"required":true},"name":{"defaultValue":null,"enumValues":[],"required":true},"value":{"defaultValue":null,"enumValues":[],"required":false}}},"BeanShellTimer":{"properties":{"timerType":{"defaultValue":null,"enumValues":["CONSTANT","PARAMETRIZED_CONSTANT","GAUSSIAN_RANDOM_TIMER","PARAMETRIZED_GAUSSIAN_RANDOM_TIMER","POISSON_RANDOM_TIMER","PARAMETRIZED_POISSON_RANDOM_TIMER","UNIFORM_RANDOM_TIMER","PARAMETRIZED_UNIFORM_RANDOM_TIMER","CONSTANT_THROUGHPUT_TIMER","PARAMETRIZED_CONSTANT_THROUGHPUT_TIMER","PRECISE_THROUGHPUT_TIMER","PARAMETRIZED_PRECISE_THROUGHPUT_TIMER","SYNCHRONIZING_TIMER","PARAMETRIZED_SYNCHRONIZING_TIMER","THROUGHPUT_SHAPING_TIMER","JSR_223_TIMER","BEAN_SHELL_TIMER"],"required":true},"resetInterpreterBeforeEachCall":{"defaultValue":false,"enumValues":[],"required":true},"scriptFileId":{"defaultValue":null,"enumValues":[],"required":false},"label":{"defaultValue":null,"enumValues":[],"required":true},"id":{"defaultValue":null,"enumValues":[],"required":true},"typeDisplayName":{"defaultValue":null,"enumValues":[],"required":false},"parameters":{"defaultValue":null,"enumValues":[],"required":false},"enabled":{"defaultValue":true,"enumValues":[],"required":true},"script":{"defaultValue":null,"enumValues":[],"required":false}}},"Variable":{"properties":{"name":{"defaultValue":null,"enumValues":[],"required":false},"description":{"defaultValue":null,"enumValues":[],"required":false},"value":{"defaultValue":null,"enumValues":[],"required":false}}},"ResponseMessageSizeAssertion":{"properties":{"applyTo":{"defaultValue":"PARENT","enumValues":["ALL","CHILDREN","VARIABLE","PARENT"],"required":true},"condition":{"defaultValue":"EQUALS","enumValues":["EQUALS","NOT_EQUALS","GREATER_THAN","LESS_THAN","GREATER_OR_EQUALS","LESS_OR_EQUALS"],"required":true},"applyToVariable":{"defaultValue":null,"enumValues":[],"required":false},"label":{"defaultValue":null,"enumValues":[],"required":true},"id":{"defaultValue":null,"enumValues":[],"required":true},"typeDisplayName":{"defaultValue":null,"enumValues":[],"required":false},"type":{"defaultValue":null,"enumValues":["DURATION","FULL_RESPONSE_SIZE","REQUEST_DATA","REQUEST_HEADERS","RESPONSE_BODY","RESPONSE_BODY_SIZE","RESPONSE_BODY_JSON","RESPONSE_BODY_XPATH2","RESPONSE_CODE","RESPONSE_CODE_SIZE","RESPONSE_HEADERS","RESPONSE_HEADERS_SIZE","RESPONSE_MESSAGE","RESPONSE_MESSAGE_SIZE","RESPONSE_TIKA_EXTRACT","URL_SAMPLED"],"required":true},"value":{"defaultValue":null,"enumValues":[],"required":true},"enabled":{"defaultValue":true,"enumValues":[],"required":true}}},"PacingConfiguration":{"properties":{"calculateThroughputBasedOn":{"defaultValue":"THIS_THREAD_ONLY","enumValues":["THIS_THREAD_ONLY","ALL_ACTIVE_THREADS_IN_CURRENT_THREAD_GROUP","ALL_ACTIVE_THREADS","ALL_ACTIVE_THREADS_CURRENT_THREAD_GROUP_SHARED","ALL_ACTIVE_THREADS_SHARED"],"required":true},"targetThroughputPerMinute":{"defaultValue":0.0,"enumValues":[],"required":true},"enabled":{"defaultValue":false,"enumValues":[],"required":true}}},"RequestDataAssertion":{"properties":{"applyTo":{"defaultValue":"PARENT","enumValues":["ALL","CHILDREN","VARIABLE","PARENT"],"required":true},"condition":{"defaultValue":"SUBSTRING","enumValues":["REGEXP_CONTAINS","REGEXP_MATCHES","EQUALS","SUBSTRING","NOT_REGEXP_CONTAINS","NOT_REGEXP_MATCHES","NOT_EQUALS","NOT_SUBSTRING"],"required":true},"or":{"defaultValue":false,"enumValues":[],"required":true},"customFailureMessage":{"defaultValue":null,"enumValues":[],"required":false},"values":{"defaultValue":null,"enumValues":[],"required":true},"applyToVariable":{"defaultValue":null,"enumValues":[],"required":false},"label":{"defaultValue":null,"enumValues":[],"required":true},"id":{"defaultValue":null,"enumValues":[],"required":true},"typeDisplayName":{"defaultValue":null,"enumValues":[],"required":false},"type":{"defaultValue":null,"enumValues":["DURATION","FULL_RESPONSE_SIZE","REQUEST_DATA","REQUEST_HEADERS","RESPONSE_BODY","RESPONSE_BODY_SIZE","RESPONSE_BODY_JSON","RESPONSE_BODY_XPATH2","RESPONSE_CODE","RESPONSE_CODE_SIZE","RESPONSE_HEADERS","RESPONSE_HEADERS_SIZE","RESPONSE_MESSAGE","RESPONSE_MESSAGE_SIZE","RESPONSE_TIKA_EXTRACT","URL_SAMPLED"],"required":true},"ignoreStatus":{"defaultValue":false,"enumValues":[],"required":true},"enabled":{"defaultValue":true,"enumValues":[],"required":true}}},"ParametrizedSimpleLoadProfile":{"properties":{"loopCount":{"defaultValue":null,"enumValues":[],"required":true},"loopForever":{"defaultValue":null,"enumValues":[],"required":true},"startupDelayMs":{"defaultValue":null,"enumValues":[],"required":true},"rampUpMs":{"defaultValue":null,"enumValues":[],"required":true},"numberOfThreads":{"defaultValue":null,"enumValues":[],"required":true},"type":{"defaultValue":null,"enumValues":["PLAIN","PARAMETERIZED"],"required":true},"specifyThreadLifetime":{"defaultValue":false,"enumValues":[],"required":true},"durationMs":{"defaultValue":null,"enumValues":[],"required":true}}},"StringProperty":{"properties":{"type":{"defaultValue":null,"enumValues":["STRING","LONG","INTEGER","DOUBLE","PARAMETER"],"required":true},"value":{"defaultValue":null,"enumValues":[],"required":true}}},"ResponseBodyXPath2Assertion":{"properties":{"applyTo":{"defaultValue":"PARENT","enumValues":["ALL","CHILDREN","VARIABLE","PARENT"],"required":true},"condition":{"defaultValue":null,"enumValues":["MATCHES_XPATH2","NOT_MATCHES_XPATH2"],"required":true},"namespacesAliases":{"defaultValue":null,"enumValues":[],"required":true},"applyToVariable":{"defaultValue":null,"enumValues":[],"required":false},"label":{"defaultValue":null,"enumValues":[],"required":true},"id":{"defaultValue":null,"enumValues":[],"required":true},"typeDisplayName":{"defaultValue":null,"enumValues":[],"required":false},"type":{"defaultValue":null,"enumValues":["DURATION","FULL_RESPONSE_SIZE","REQUEST_DATA","REQUEST_HEADERS","RESPONSE_BODY","RESPONSE_BODY_SIZE","RESPONSE_BODY_JSON","RESPONSE_BODY_XPATH2","RESPONSE_CODE","RESPONSE_CODE_SIZE","RESPONSE_HEADERS","RESPONSE_HEADERS_SIZE","RESPONSE_MESSAGE","RESPONSE_MESSAGE_SIZE","RESPONSE_TIKA_EXTRACT","URL_SAMPLED"],"required":true},"value":{"defaultValue":null,"enumValues":[],"required":true},"enabled":{"defaultValue":true,"enumValues":[],"required":true}}},"HttpSamplerBodyParameter":{"properties":{"useEquals":{"defaultValue":true,"enumValues":[],"required":true},"alwaysEncode":{"defaultValue":false,"enumValues":[],"required":true},"name":{"defaultValue":null,"enumValues":[],"required":true},"contentType":{"defaultValue":"text/plain","enumValues":[],"required":true},"value":{"defaultValue":null,"enumValues":[],"required":false}}},"ParameterProperty":{"properties":{"type":{"defaultValue":null,"enumValues":["STRING","LONG","INTEGER","DOUBLE","PARAMETER"],"required":true},"value":{"defaultValue":null,"enumValues":[],"required":true}}},"JmeterProperty":{"properties":{"name":{"defaultValue":null,"enumValues":[],"required":true},"value":{"defaultValue":null,"enumValues":[],"required":false}}},"ParametrizedUniformRandomTimer":{"properties":{"timerType":{"defaultValue":null,"enumValues":["CONSTANT","PARAMETRIZED_CONSTANT","GAUSSIAN_RANDOM_TIMER","PARAMETRIZED_GAUSSIAN_RANDOM_TIMER","POISSON_RANDOM_TIMER","PARAMETRIZED_POISSON_RANDOM_TIMER","UNIFORM_RANDOM_TIMER","PARAMETRIZED_UNIFORM_RANDOM_TIMER","CONSTANT_THROUGHPUT_TIMER","PARAMETRIZED_CONSTANT_THROUGHPUT_TIMER","PRECISE_THROUGHPUT_TIMER","PARAMETRIZED_PRECISE_THROUGHPUT_TIMER","SYNCHRONIZING_TIMER","PARAMETRIZED_SYNCHRONIZING_TIMER","THROUGHPUT_SHAPING_TIMER","JSR_223_TIMER","BEAN_SHELL_TIMER"],"required":true},"randomDelayRangeMs":{"defaultValue":null,"enumValues":[],"required":true},"constantDelayOffsetMs":{"defaultValue":null,"enumValues":[],"required":true},"label":{"defaultValue":null,"enumValues":[],"required":true},"id":{"defaultValue":null,"enumValues":[],"required":true},"typeDisplayName":{"defaultValue":null,"enumValues":[],"required":false},"enabled":{"defaultValue":true,"enumValues":[],"required":true}}},"ParametrizedConstantThroughputTimerDto":{"properties":{"calculateThroughputBasedOn":{"defaultValue":"THIS_THREAD_ONLY","enumValues":["THIS_THREAD_ONLY","ALL_ACTIVE_THREADS_IN_CURRENT_THREAD_GROUP","ALL_ACTIVE_THREADS","ALL_ACTIVE_THREADS_CURRENT_THREAD_GROUP_SHARED","ALL_ACTIVE_THREADS_SHARED"],"required":true},"timerType":{"defaultValue":null,"enumValues":["CONSTANT","PARAMETRIZED_CONSTANT","GAUSSIAN_RANDOM_TIMER","PARAMETRIZED_GAUSSIAN_RANDOM_TIMER","POISSON_RANDOM_TIMER","PARAMETRIZED_POISSON_RANDOM_TIMER","UNIFORM_RANDOM_TIMER","PARAMETRIZED_UNIFORM_RANDOM_TIMER","CONSTANT_THROUGHPUT_TIMER","PARAMETRIZED_CONSTANT_THROUGHPUT_TIMER","PRECISE_THROUGHPUT_TIMER","PARAMETRIZED_PRECISE_THROUGHPUT_TIMER","SYNCHRONIZING_TIMER","PARAMETRIZED_SYNCHRONIZING_TIMER","THROUGHPUT_SHAPING_TIMER","JSR_223_TIMER","BEAN_SHELL_TIMER"],"required":true},"targetThroughput":{"defaultValue":null,"enumValues":[],"required":true},"label":{"defaultValue":null,"enumValues":[],"required":true},"id":{"defaultValue":null,"enumValues":[],"required":true},"typeDisplayName":{"defaultValue":null,"enumValues":[],"required":false},"enabled":{"defaultValue":true,"enumValues":[],"required":true}}},"Authorization":{"properties":{"password":{"defaultValue":null,"enumValues":[],"required":true},"baseUrl":{"defaultValue":null,"enumValues":[],"required":true},"domain":{"defaultValue":null,"enumValues":[],"required":false},"realm":{"defaultValue":null,"enumValues":[],"required":false},"mechanism":{"defaultValue":"BASIC","enumValues":["BASIC","BASIC_DIGEST","DIGEST","KERBEROS"],"required":true},"username":{"defaultValue":null,"enumValues":[],"required":true}}},"TextFileDto":{"properties":{"preview":{"defaultValue":null,"enumValues":[],"required":false},"link":{"defaultValue":null,"enumValues":[],"required":true},"name":{"defaultValue":null,"enumValues":[],"required":true},"id":{"defaultValue":null,"enumValues":[],"required":true},"type":{"defaultValue":null,"enumValues":["TEXT","PROTO","DEFAULT"],"required":true}}},"ParametrizedTearDownLoadProfile":{"properties":{"loopCount":{"defaultValue":null,"enumValues":[],"required":true},"loopForever":{"defaultValue":null,"enumValues":[],"required":true},"startupDelayMs":{"defaultValue":null,"enumValues":[],"required":true},"rampUpMs":{"defaultValue":null,"enumValues":[],"required":true},"numberOfThreads":{"defaultValue":null,"enumValues":[],"required":true},"type":{"defaultValue":null,"enumValues":["PLAIN","PARAMETERIZED"],"required":true},"specifyThreadLifetime":{"defaultValue":false,"enumValues":[],"required":true},"durationMs":{"defaultValue":null,"enumValues":[],"required":true}}},"UserDefinedVariables":{"properties":{"variables":{"defaultValue":null,"enumValues":[],"required":true},"label":{"defaultValue":null,"enumValues":[],"required":true},"id":{"defaultValue":null,"enumValues":[],"required":true},"type":{"defaultValue":null,"enumValues":["HTTP_AUTH_MANAGER","HTTP_COOKIE_MANAGER","HTTP_HEADER_MANAGER","HTTP_REQUEST_DEFAULTS","USER_DEFINED_VARIABLES","RANDOM_CSV_DATASET_CONFIG","CSV_DATASET_CONFIG"],"required":true},"enabled":{"defaultValue":true,"enumValues":[],"required":true}}},"RandomCsvDataSetConfig":{"properties":{"randomOrder":{"defaultValue":true,"enumValues":[],"required":true},"firstLineIsCsvHeader":{"defaultValue":false,"enumValues":[],"required":true},"fileEncoding":{"defaultValue":"UTF-8","enumValues":[],"required":true},"independentListPerThread":{"defaultValue":true,"enumValues":[],"required":true},"delimiter":{"defaultValue":",","enumValues":[],"required":true},"label":{"defaultValue":null,"enumValues":[],"required":true},"id":{"defaultValue":null,"enumValues":[],"required":true},"rewindOnEndOfList":{"defaultValue":true,"enumValues":[],"required":true},"variablesNames":{"defaultValue":null,"enumValues":[],"required":true},"type":{"defaultValue":null,"enumValues":["HTTP_AUTH_MANAGER","HTTP_COOKIE_MANAGER","HTTP_HEADER_MANAGER","HTTP_REQUEST_DEFAULTS","USER_DEFINED_VARIABLES","RANDOM_CSV_DATASET_CONFIG","CSV_DATASET_CONFIG"],"required":true},"enabled":{"defaultValue":true,"enumValues":[],"required":true},"fileId":{"defaultValue":null,"enumValues":[],"required":true}}},"JmeterToolConfiguration":{"properties":{"type":{"defaultValue":null,"enumValues":["JMETER"],"required":true},"jmeterProperties":{"defaultValue":null,"enumValues":[],"required":false}}},"GrpcRequestProperties":{"properties":{"metadata":{"defaultValue":null,"enumValues":[],"required":false},"protocol":{"defaultValue":null,"enumValues":[],"required":false},"fullMethod":{"defaultValue":null,"enumValues":[],"required":false},"port":{"defaultValue":null,"enumValues":[],"required":false},"libraries":{"defaultValue":null,"enumValues":[],"required":false},"serverName":{"defaultValue":null,"enumValues":[],"required":false},"protoFiles":{"defaultValue":null,"enumValues":[],"required":false},"type":{"defaultValue":null,"enumValues":["HTTP","GRPC"],"required":true},"body":{"defaultValue":null,"enumValues":[],"required":false},"deadline":{"defaultValue":1000,"enumValues":[],"required":false},"disableSSLCertVerification":{"defaultValue":true,"enumValues":[],"required":true},"responsePreview":{"defaultValue":null,"enumValues":[],"required":false}}},"SetupThreadGroup":{"properties":{"boomqConfiguration":{"defaultValue":null,"enumValues":[],"required":true},"threadGroupElements":{"defaultValue":null,"enumValues":[],"required":true},"label":{"defaultValue":null,"enumValues":[],"required":true},"id":{"defaultValue":null,"enumValues":[],"required":true},"typeDisplayName":{"defaultValue":null,"enumValues":[],"required":false},"type":{"defaultValue":null,"enumValues":["ARRIVALS","BOOMQ_STABLE_SCALABILITY","CONCURRENCY","FREE_FORM_ARRIVALS","SETUP","SIMPLE","STEPPING","TEAR_DOWN","ULTIMATE"],"required":true},"loadProfile":{"defaultValue":null,"enumValues":[],"required":false},"enabled":{"defaultValue":true,"enumValues":[],"required":true},"onSampleError":{"defaultValue":"ON_SAMPLE_ERROR_CONTINUE","enumValues":["ON_SAMPLE_ERROR_CONTINUE","ON_SAMPLE_ERROR_START_NEXT_LOOP","ON_SAMPLE_ERROR_STOP_THREAD","ON_SAMPLE_ERROR_STOP_TEST","ON_SAMPLE_ERROR_STOP_TEST_NOW"],"required":true},"sameUserOnEachIteration":{"defaultValue":true,"enumValues":[],"required":true}}},"SourceAddress":{"properties":{"sourceAddress":{"defaultValue":null,"enumValues":[],"required":true},"sourceAddressType":{"defaultValue":"IP_OR_HOSTNAME","enumValues":["IP_OR_HOSTNAME","DEVICE","DEVICE_IPV4","DEVICE_IPV6"],"required":true}}},"IntegerProperty":{"properties":{"type":{"defaultValue":null,"enumValues":["STRING","LONG","INTEGER","DOUBLE","PARAMETER"],"required":true},"value":{"defaultValue":null,"enumValues":[],"required":true}}},"UltimateThreadGroup":{"properties":{"boomqConfiguration":{"defaultValue":null,"enumValues":[],"required":true},"threadGroupElements":{"defaultValue":null,"enumValues":[],"required":true},"label":{"defaultValue":null,"enumValues":[],"required":true},"id":{"defaultValue":null,"enumValues":[],"required":true},"typeDisplayName":{"defaultValue":null,"enumValues":[],"required":false},"type":{"defaultValue":null,"enumValues":["ARRIVALS","BOOMQ_STABLE_SCALABILITY","CONCURRENCY","FREE_FORM_ARRIVALS","SETUP","SIMPLE","STEPPING","TEAR_DOWN","ULTIMATE"],"required":true},"steps":{"defaultValue":null,"enumValues":[],"required":true},"enabled":{"defaultValue":true,"enumValues":[],"required":true},"onSampleError":{"defaultValue":"ON_SAMPLE_ERROR_CONTINUE","enumValues":["ON_SAMPLE_ERROR_CONTINUE","ON_SAMPLE_ERROR_START_NEXT_LOOP","ON_SAMPLE_ERROR_STOP_THREAD","ON_SAMPLE_ERROR_STOP_TEST","ON_SAMPLE_ERROR_STOP_TEST_NOW"],"required":true}}},"LiteralParameterValue":{"properties":{"name":{"defaultValue":null,"enumValues":[],"required":true},"content":{"defaultValue":null,"enumValues":[],"required":true}}},"ResponseCodeSizeAssertion":{"properties":{"applyTo":{"defaultValue":"PARENT","enumValues":["ALL","CHILDREN","VARIABLE","PARENT"],"required":true},"condition":{"defaultValue":"EQUALS","enumValues":["EQUALS","NOT_EQUALS","GREATER_THAN","LESS_THAN","GREATER_OR_EQUALS","LESS_OR_EQUALS"],"required":true},"applyToVariable":{"defaultValue":null,"enumValues":[],"required":false},"label":{"defaultValue":null,"enumValues":[],"required":true},"id":{"defaultValue":null,"enumValues":[],"required":true},"typeDisplayName":{"defaultValue":null,"enumValues":[],"required":false},"type":{"defaultValue":null,"enumValues":["DURATION","FULL_RESPONSE_SIZE","REQUEST_DATA","REQUEST_HEADERS","RESPONSE_BODY","RESPONSE_BODY_SIZE","RESPONSE_BODY_JSON","RESPONSE_BODY_XPATH2","RESPONSE_CODE","RESPONSE_CODE_SIZE","RESPONSE_HEADERS","RESPONSE_HEADERS_SIZE","RESPONSE_MESSAGE","RESPONSE_MESSAGE_SIZE","RESPONSE_TIKA_EXTRACT","URL_SAMPLED"],"required":true},"value":{"defaultValue":null,"enumValues":[],"required":true},"enabled":{"defaultValue":true,"enumValues":[],"required":true}}},"UniformRandomTimer":{"properties":{"upperLimitMs":{"defaultValue":100,"enumValues":[],"required":true},"timerType":{"defaultValue":null,"enumValues":["CONSTANT","PARAMETRIZED_CONSTANT","GAUSSIAN_RANDOM_TIMER","PARAMETRIZED_GAUSSIAN_RANDOM_TIMER","POISSON_RANDOM_TIMER","PARAMETRIZED_POISSON_RANDOM_TIMER","UNIFORM_RANDOM_TIMER","PARAMETRIZED_UNIFORM_RANDOM_TIMER","CONSTANT_THROUGHPUT_TIMER","PARAMETRIZED_CONSTANT_THROUGHPUT_TIMER","PRECISE_THROUGHPUT_TIMER","PARAMETRIZED_PRECISE_THROUGHPUT_TIMER","SYNCHRONIZING_TIMER","PARAMETRIZED_SYNCHRONIZING_TIMER","THROUGHPUT_SHAPING_TIMER","JSR_223_TIMER","BEAN_SHELL_TIMER"],"required":true},"label":{"defaultValue":null,"enumValues":[],"required":true},"id":{"defaultValue":null,"enumValues":[],"required":true},"typeDisplayName":{"defaultValue":null,"enumValues":[],"required":false},"lowerLimitMs":{"defaultValue":0,"enumValues":[],"required":true},"enabled":{"defaultValue":true,"enumValues":[],"required":true}}},"Jsr223Timer":{"properties":{"timerType":{"defaultValue":null,"enumValues":["CONSTANT","PARAMETRIZED_CONSTANT","GAUSSIAN_RANDOM_TIMER","PARAMETRIZED_GAUSSIAN_RANDOM_TIMER","POISSON_RANDOM_TIMER","PARAMETRIZED_POISSON_RANDOM_TIMER","UNIFORM_RANDOM_TIMER","PARAMETRIZED_UNIFORM_RANDOM_TIMER","CONSTANT_THROUGHPUT_TIMER","PARAMETRIZED_CONSTANT_THROUGHPUT_TIMER","PRECISE_THROUGHPUT_TIMER","PARAMETRIZED_PRECISE_THROUGHPUT_TIMER","SYNCHRONIZING_TIMER","PARAMETRIZED_SYNCHRONIZING_TIMER","THROUGHPUT_SHAPING_TIMER","JSR_223_TIMER","BEAN_SHELL_TIMER"],"required":true},"cacheCompiledScript":{"defaultValue":true,"enumValues":[],"required":true},"scriptFileId":{"defaultValue":null,"enumValues":[],"required":false},"language":{"defaultValue":"groovy","enumValues":[],"required":true},"label":{"defaultValue":null,"enumValues":[],"required":true},"id":{"defaultValue":null,"enumValues":[],"required":true},"typeDisplayName":{"defaultValue":null,"enumValues":[],"required":false},"parameters":{"defaultValue":null,"enumValues":[],"required":false},"enabled":{"defaultValue":true,"enumValues":[],"required":true},"script":{"defaultValue":null,"enumValues":[],"required":false}}},"DurationAssertion":{"properties":{"applyTo":{"defaultValue":"PARENT","enumValues":["ALL","CHILDREN","VARIABLE","PARENT"],"required":true},"label":{"defaultValue":null,"enumValues":[],"required":true},"id":{"defaultValue":null,"enumValues":[],"required":true},"typeDisplayName":{"defaultValue":null,"enumValues":[],"required":false},"type":{"defaultValue":null,"enumValues":["DURATION","FULL_RESPONSE_SIZE","REQUEST_DATA","REQUEST_HEADERS","RESPONSE_BODY","RESPONSE_BODY_SIZE","RESPONSE_BODY_JSON","RESPONSE_BODY_XPATH2","RESPONSE_CODE","RESPONSE_CODE_SIZE","RESPONSE_HEADERS","RESPONSE_HEADERS_SIZE","RESPONSE_MESSAGE","RESPONSE_MESSAGE_SIZE","RESPONSE_TIKA_EXTRACT","URL_SAMPLED"],"required":true},"value":{"defaultValue":null,"enumValues":[],"required":true},"enabled":{"defaultValue":true,"enumValues":[],"required":true}}},"ResponseHeadersSizeAssertion":{"properties":{"applyTo":{"defaultValue":"PARENT","enumValues":["ALL","CHILDREN","VARIABLE","PARENT"],"required":true},"condition":{"defaultValue":"EQUALS","enumValues":["EQUALS","NOT_EQUALS","GREATER_THAN","LESS_THAN","GREATER_OR_EQUALS","LESS_OR_EQUALS"],"required":true},"applyToVariable":{"defaultValue":null,"enumValues":[],"required":false},"label":{"defaultValue":null,"enumValues":[],"required":true},"id":{"defaultValue":null,"enumValues":[],"required":true},"typeDisplayName":{"defaultValue":null,"enumValues":[],"required":false},"type":{"defaultValue":null,"enumValues":["DURATION","FULL_RESPONSE_SIZE","REQUEST_DATA","REQUEST_HEADERS","RESPONSE_BODY","RESPONSE_BODY_SIZE","RESPONSE_BODY_JSON","RESPONSE_BODY_XPATH2","RESPONSE_CODE","RESPONSE_CODE_SIZE","RESPONSE_HEADERS","RESPONSE_HEADERS_SIZE","RESPONSE_MESSAGE","RESPONSE_MESSAGE_SIZE","RESPONSE_TIKA_EXTRACT","URL_SAMPLED"],"required":true},"value":{"defaultValue":null,"enumValues":[],"required":true},"enabled":{"defaultValue":true,"enumValues":[],"required":true}}},"ParametrizedConstantTimer":{"properties":{"timerType":{"defaultValue":null,"enumValues":["CONSTANT","PARAMETRIZED_CONSTANT","GAUSSIAN_RANDOM_TIMER","PARAMETRIZED_GAUSSIAN_RANDOM_TIMER","POISSON_RANDOM_TIMER","PARAMETRIZED_POISSON_RANDOM_TIMER","UNIFORM_RANDOM_TIMER","PARAMETRIZED_UNIFORM_RANDOM_TIMER","CONSTANT_THROUGHPUT_TIMER","PARAMETRIZED_CONSTANT_THROUGHPUT_TIMER","PRECISE_THROUGHPUT_TIMER","PARAMETRIZED_PRECISE_THROUGHPUT_TIMER","SYNCHRONIZING_TIMER","PARAMETRIZED_SYNCHRONIZING_TIMER","THROUGHPUT_SHAPING_TIMER","JSR_223_TIMER","BEAN_SHELL_TIMER"],"required":true},"label":{"defaultValue":null,"enumValues":[],"required":true},"id":{"defaultValue":null,"enumValues":[],"required":true},"typeDisplayName":{"defaultValue":null,"enumValues":[],"required":false},"durationMs":{"defaultValue":null,"enumValues":[],"required":true},"enabled":{"defaultValue":true,"enumValues":[],"required":true}}},"LoopControllerProperties":{"properties":{"loopCount":{"defaultValue":null,"enumValues":[],"required":false},"infinite":{"defaultValue":false,"enumValues":[],"required":true},"type":{"defaultValue":null,"enumValues":["TRANSACTION","IF","LOOP","WHILE","FOR_EACH"],"required":true}}},"GaussianRandomTimer":{"properties":{"timerType":{"defaultValue":null,"enumValues":["CONSTANT","PARAMETRIZED_CONSTANT","GAUSSIAN_RANDOM_TIMER","PARAMETRIZED_GAUSSIAN_RANDOM_TIMER","POISSON_RANDOM_TIMER","PARAMETRIZED_POISSON_RANDOM_TIMER","UNIFORM_RANDOM_TIMER","PARAMETRIZED_UNIFORM_RANDOM_TIMER","CONSTANT_THROUGHPUT_TIMER","PARAMETRIZED_CONSTANT_THROUGHPUT_TIMER","PRECISE_THROUGHPUT_TIMER","PARAMETRIZED_PRECISE_THROUGHPUT_TIMER","SYNCHRONIZING_TIMER","PARAMETRIZED_SYNCHRONIZING_TIMER","THROUGHPUT_SHAPING_TIMER","JSR_223_TIMER","BEAN_SHELL_TIMER"],"required":true},"label":{"defaultValue":null,"enumValues":[],"required":true},"id":{"defaultValue":null,"enumValues":[],"required":true},"typeDisplayName":{"defaultValue":null,"enumValues":[],"required":false},"meanValueMs":{"defaultValue":300,"enumValues":[],"required":true},"enabled":{"defaultValue":true,"enumValues":[],"required":true},"standardDeviationMs":{"defaultValue":100.0,"enumValues":[],"required":true}}},"Controller":{"properties":{"children":{"defaultValue":null,"enumValues":[],"required":true},"individualProperties":{"defaultValue":null,"enumValues":[],"required":true},"creationIndex":{"defaultValue":null,"enumValues":[],"required":false},"timerList":{"defaultValue":null,"enumValues":[],"required":true},"label":{"defaultValue":null,"enumValues":[],"required":true},"id":{"defaultValue":null,"enumValues":[],"required":true},"typeDisplayName":{"defaultValue":null,"enumValues":[],"required":false},"type":{"defaultValue":null,"enumValues":["CONTROLLER","SAMPLER"],"required":true},"enabled":{"defaultValue":true,"enumValues":[],"required":true}}},"ResponseTikaExtractAssertion":{"properties":{"applyTo":{"defaultValue":"PARENT","enumValues":["ALL","CHILDREN","VARIABLE","PARENT"],"required":true},"condition":{"defaultValue":"SUBSTRING","enumValues":["REGEXP_CONTAINS","REGEXP_MATCHES","EQUALS","SUBSTRING","NOT_REGEXP_CONTAINS","NOT_REGEXP_MATCHES","NOT_EQUALS","NOT_SUBSTRING"],"required":true},"or":{"defaultValue":false,"enumValues":[],"required":true},"customFailureMessage":{"defaultValue":null,"enumValues":[],"required":false},"values":{"defaultValue":null,"enumValues":[],"required":true},"applyToVariable":{"defaultValue":null,"enumValues":[],"required":false},"label":{"defaultValue":null,"enumValues":[],"required":true},"id":{"defaultValue":null,"enumValues":[],"required":true},"typeDisplayName":{"defaultValue":null,"enumValues":[],"required":false},"type":{"defaultValue":null,"enumValues":["DURATION","FULL_RESPONSE_SIZE","REQUEST_DATA","REQUEST_HEADERS","RESPONSE_BODY","RESPONSE_BODY_SIZE","RESPONSE_BODY_JSON","RESPONSE_BODY_XPATH2","RESPONSE_CODE","RESPONSE_CODE_SIZE","RESPONSE_HEADERS","RESPONSE_HEADERS_SIZE","RESPONSE_MESSAGE","RESPONSE_MESSAGE_SIZE","RESPONSE_TIKA_EXTRACT","URL_SAMPLED"],"required":true},"ignoreStatus":{"defaultValue":false,"enumValues":[],"required":true},"enabled":{"defaultValue":true,"enumValues":[],"required":true}}},"XPath2Extractor":{"properties":{"variableName":{"defaultValue":null,"enumValues":[],"required":true},"expression":{"defaultValue":null,"enumValues":[],"required":true},"returnFragmentInsteadOfText":{"defaultValue":false,"enumValues":[],"required":true},"defaultValue":{"defaultValue":null,"enumValues":[],"required":false},"scope":{"defaultValue":"PARENT","enumValues":["ALL","CHILDREN","PARENT","VARIABLE"],"required":true},"namespacesAliases":{"defaultValue":null,"enumValues":[],"required":true},"scopeVariable":{"defaultValue":null,"enumValues":[],"required":false},"label":{"defaultValue":null,"enumValues":[],"required":true},"id":{"defaultValue":null,"enumValues":[],"required":false},"typeDisplayName":{"defaultValue":null,"enumValues":[],"required":false},"type":{"defaultValue":null,"enumValues":["BOUNDARY","JSON","XPATH2","REGEXP"],"required":true},"enabled":{"defaultValue":true,"enumValues":[],"required":true},"matchNumber":{"defaultValue":null,"enumValues":[],"required":true}}},"BoundaryExtractor":{"properties":{"rightBoundary":{"defaultValue":null,"enumValues":[],"required":false},"variableName":{"defaultValue":null,"enumValues":[],"required":true},"defaultValue":{"defaultValue":null,"enumValues":[],"required":false},"leftBoundary":{"defaultValue":null,"enumValues":[],"required":false},"scope":{"defaultValue":"PARENT","enumValues":["ALL","CHILDREN","PARENT","VARIABLE"],"required":true},"scopeVariable":{"defaultValue":null,"enumValues":[],"required":false},"fieldToCheck":{"defaultValue":"BODY","enumValues":["BODY","BODY_UNESCAPED","BODY_AS_DOCUMENT","RESPONSE_HEADERS","REQUEST_HEADERS","URL","RESPONSE_CODE","RESPONSE_MESSAGE"],"required":true},"label":{"defaultValue":null,"enumValues":[],"required":true},"id":{"defaultValue":null,"enumValues":[],"required":false},"typeDisplayName":{"defaultValue":null,"enumValues":[],"required":false},"type":{"defaultValue":null,"enumValues":["BOUNDARY","JSON","XPATH2","REGEXP"],"required":true},"enabled":{"defaultValue":true,"enumValues":[],"required":true},"matchNumber":{"defaultValue":null,"enumValues":[],"required":true}}},"HttpAuthManager":{"properties":{"clearControlledByThreadGroup":{"defaultValue":false,"enumValues":[],"required":true},"authorizations":{"defaultValue":null,"enumValues":[],"required":true},"clearEachIteration":{"defaultValue":false,"enumValues":[],"required":true},"label":{"defaultValue":null,"enumValues":[],"required":true},"id":{"defaultValue":null,"enumValues":[],"required":true},"type":{"defaultValue":null,"enumValues":["HTTP_AUTH_MANAGER","HTTP_COOKIE_MANAGER","HTTP_HEADER_MANAGER","HTTP_REQUEST_DEFAULTS","USER_DEFINED_VARIABLES","RANDOM_CSV_DATASET_CONFIG","CSV_DATASET_CONFIG"],"required":true},"enabled":{"defaultValue":true,"enumValues":[],"required":true}}},"RequestHeadersAssertion":{"properties":{"applyTo":{"defaultValue":"PARENT","enumValues":["ALL","CHILDREN","VARIABLE","PARENT"],"required":true},"condition":{"defaultValue":"SUBSTRING","enumValues":["REGEXP_CONTAINS","REGEXP_MATCHES","EQUALS","SUBSTRING","NOT_REGEXP_CONTAINS","NOT_REGEXP_MATCHES","NOT_EQUALS","NOT_SUBSTRING"],"required":true},"or":{"defaultValue":false,"enumValues":[],"required":true},"customFailureMessage":{"defaultValue":null,"enumValues":[],"required":false},"values":{"defaultValue":null,"enumValues":[],"required":true},"applyToVariable":{"defaultValue":null,"enumValues":[],"required":false},"label":{"defaultValue":null,"enumValues":[],"required":true},"id":{"defaultValue":null,"enumValues":[],"required":true},"typeDisplayName":{"defaultValue":null,"enumValues":[],"required":false},"type":{"defaultValue":null,"enumValues":["DURATION","FULL_RESPONSE_SIZE","REQUEST_DATA","REQUEST_HEADERS","RESPONSE_BODY","RESPONSE_BODY_SIZE","RESPONSE_BODY_JSON","RESPONSE_BODY_XPATH2","RESPONSE_CODE","RESPONSE_CODE_SIZE","RESPONSE_HEADERS","RESPONSE_HEADERS_SIZE","RESPONSE_MESSAGE","RESPONSE_MESSAGE_SIZE","RESPONSE_TIKA_EXTRACT","URL_SAMPLED"],"required":true},"ignoreStatus":{"defaultValue":false,"enumValues":[],"required":true},"enabled":{"defaultValue":true,"enumValues":[],"required":true}}},"ConstantTimer":{"properties":{"timerType":{"defaultValue":null,"enumValues":["CONSTANT","PARAMETRIZED_CONSTANT","GAUSSIAN_RANDOM_TIMER","PARAMETRIZED_GAUSSIAN_RANDOM_TIMER","POISSON_RANDOM_TIMER","PARAMETRIZED_POISSON_RANDOM_TIMER","UNIFORM_RANDOM_TIMER","PARAMETRIZED_UNIFORM_RANDOM_TIMER","CONSTANT_THROUGHPUT_TIMER","PARAMETRIZED_CONSTANT_THROUGHPUT_TIMER","PRECISE_THROUGHPUT_TIMER","PARAMETRIZED_PRECISE_THROUGHPUT_TIMER","SYNCHRONIZING_TIMER","PARAMETRIZED_SYNCHRONIZING_TIMER","THROUGHPUT_SHAPING_TIMER","JSR_223_TIMER","BEAN_SHELL_TIMER"],"required":true},"label":{"defaultValue":null,"enumValues":[],"required":true},"id":{"defaultValue":null,"enumValues":[],"required":true},"typeDisplayName":{"defaultValue":null,"enumValues":[],"required":false},"durationMs":{"defaultValue":300,"enumValues":[],"required":true},"enabled":{"defaultValue":true,"enumValues":[],"required":true}}},"ParametrizedGaussianRandomTimer":{"properties":{"timerType":{"defaultValue":null,"enumValues":["CONSTANT","PARAMETRIZED_CONSTANT","GAUSSIAN_RANDOM_TIMER","PARAMETRIZED_GAUSSIAN_RANDOM_TIMER","POISSON_RANDOM_TIMER","PARAMETRIZED_POISSON_RANDOM_TIMER","UNIFORM_RANDOM_TIMER","PARAMETRIZED_UNIFORM_RANDOM_TIMER","CONSTANT_THROUGHPUT_TIMER","PARAMETRIZED_CONSTANT_THROUGHPUT_TIMER","PRECISE_THROUGHPUT_TIMER","PARAMETRIZED_PRECISE_THROUGHPUT_TIMER","SYNCHRONIZING_TIMER","PARAMETRIZED_SYNCHRONIZING_TIMER","THROUGHPUT_SHAPING_TIMER","JSR_223_TIMER","BEAN_SHELL_TIMER"],"required":true},"label":{"defaultValue":null,"enumValues":[],"required":true},"id":{"defaultValue":null,"enumValues":[],"required":true},"typeDisplayName":{"defaultValue":null,"enumValues":[],"required":false},"meanValueMs":{"defaultValue":null,"enumValues":[],"required":true},"enabled":{"defaultValue":true,"enumValues":[],"required":true},"standardDeviationMs":{"defaultValue":null,"enumValues":[],"required":true}}},"HttpHeaderManager":{"properties":{"headers":{"defaultValue":null,"enumValues":[],"required":true},"label":{"defaultValue":null,"enumValues":[],"required":true},"id":{"defaultValue":null,"enumValues":[],"required":true},"type":{"defaultValue":null,"enumValues":["HTTP_AUTH_MANAGER","HTTP_COOKIE_MANAGER","HTTP_HEADER_MANAGER","HTTP_REQUEST_DEFAULTS","USER_DEFINED_VARIABLES","RANDOM_CSV_DATASET_CONFIG","CSV_DATASET_CONFIG"],"required":true},"enabled":{"defaultValue":true,"enumValues":[],"required":true}}},"ParametrizedSynchronizingTimer":{"properties":{"timerType":{"defaultValue":null,"enumValues":["CONSTANT","PARAMETRIZED_CONSTANT","GAUSSIAN_RANDOM_TIMER","PARAMETRIZED_GAUSSIAN_RANDOM_TIMER","POISSON_RANDOM_TIMER","PARAMETRIZED_POISSON_RANDOM_TIMER","UNIFORM_RANDOM_TIMER","PARAMETRIZED_UNIFORM_RANDOM_TIMER","CONSTANT_THROUGHPUT_TIMER","PARAMETRIZED_CONSTANT_THROUGHPUT_TIMER","PRECISE_THROUGHPUT_TIMER","PARAMETRIZED_PRECISE_THROUGHPUT_TIMER","SYNCHRONIZING_TIMER","PARAMETRIZED_SYNCHRONIZING_TIMER","THROUGHPUT_SHAPING_TIMER","JSR_223_TIMER","BEAN_SHELL_TIMER"],"required":true},"numberOfSimulatedUsersToGroup":{"defaultValue":null,"enumValues":[],"required":true},"timeoutMs":{"defaultValue":null,"enumValues":[],"required":true},"label":{"defaultValue":null,"enumValues":[],"required":true},"id":{"defaultValue":null,"enumValues":[],"required":true},"typeDisplayName":{"defaultValue":null,"enumValues":[],"required":false},"enabled":{"defaultValue":true,"enumValues":[],"required":true}}},"CsvDataSetConfig":{"properties":{"firstLineIsCsvHeader":{"defaultValue":false,"enumValues":[],"required":true},"sharingModeIdentifier":{"defaultValue":null,"enumValues":[],"required":false},"fileEncoding":{"defaultValue":"UTF-8","enumValues":[],"required":true},"sharingMode":{"defaultValue":"ALL_THREADS","enumValues":["ALL_THREADS","CURRENT_THREAD_GROUP","CURRENT_THREAD","IDENTIFIER"],"required":true},"delimiter":{"defaultValue":",","enumValues":[],"required":true},"label":{"defaultValue":null,"enumValues":[],"required":true},"id":{"defaultValue":null,"enumValues":[],"required":true},"rewindOnEndOfList":{"defaultValue":true,"enumValues":[],"required":true},"variablesNames":{"defaultValue":null,"enumValues":[],"required":true},"type":{"defaultValue":null,"enumValues":["HTTP_AUTH_MANAGER","HTTP_COOKIE_MANAGER","HTTP_HEADER_MANAGER","HTTP_REQUEST_DEFAULTS","USER_DEFINED_VARIABLES","RANDOM_CSV_DATASET_CONFIG","CSV_DATASET_CONFIG"],"required":true},"enabled":{"defaultValue":true,"enumValues":[],"required":true},"allowQuotedData":{"defaultValue":false,"enumValues":[],"required":true},"fileId":{"defaultValue":null,"enumValues":[],"required":true}}},"DoubleProperty":{"properties":{"type":{"defaultValue":null,"enumValues":["STRING","LONG","INTEGER","DOUBLE","PARAMETER"],"required":true},"value":{"defaultValue":null,"enumValues":[],"required":true}}}}
+$$$$$$ Response Body For Transaction With Id 556 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/auth-srv/user
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 556 ****** (Location Flag : tFlagInsertEnd, Location ID : 556)
+	web_url("modelSchema",
+		"URL=https://dev-boomq.pflb.ru/project-srv/modelSchema",
+		"TargetFrame=",
+		"Resource=0",
+		"RecContentType=application/json",
+		"Referer=https://dev-boomq.pflb.ru/account/new-test",
+		"Snapshot=t26.inf",
+		"Mode=HTML",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 556 Ended $$$$$$
+
+****** Request Header For Transaction With Id 561 ******
+GET https://dev-boomq.pflb.ru/auth-srv/identityProvider HTTP/1.1
+sec-ch-ua-platform: "Windows"
+Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc19ub3RpZmljYXRlZCI6ZmFsc2UsInVzZXJfaWQiOjE5MjUsInVzZXJfbmFtZSI6ImFkbWluX2dyM0BtYWlsLmNvbSIsInNjb3BlIjpbInRydXN0IiwicmVhZCIsIndyaXRlIl0sInVzZXJfbGFuZ3VhZ2UiOiJSVSIsImV4cCI6MTc3MDA3MjA3NywiYXV0aG9yaXRpZXMiOlsiUk9MRV9VU0VSIl0sImp0aSI6ImMwZGFkM2M4LWNiZTItNDdhNC1hMGIyLTA4YzQxYjc1ZmYzMyIsImNsaWVudF9pZCI6ImNsaWVudCJ9.srmpQ9gH9a8eJMBobdaXSBzUhT_9qdyPwLgQKgCBbsHExYjQ4L_34pvWYqab9zYJ3UwFktfoSDEsoXso91oCv44Q9TLvhKJYvpcePGRWGu923496aKb4TaMyTvz9rqXKN_FFj3_7N6YA4544VGX-8ihaNreuUU0z8sddl2iScU4MA32emOvpl_NpoNmH1_LWIDQAmjuj4dEVe9BiUBB7B_AhYBvaGivQWZWegO0y72orawNAlaLJPFlS2h6PbwwMr1rXBSZw15L_-g1C9wqy6u0Hqo72ldCYRfij-y2m0hSAwFs71cGKlq8iRVzXMTsmnKtigAr1YroyHD49Wp4F5A
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 YaBrowser/25.12.0.0 Safari/537.36
+Accept: */*
+sec-ch-ua: "Chromium";v="142", "YaBrowser";v="25.12", "Not_A Brand";v="99", "Yowser";v="2.5"
+sec-ch-ua-mobile: ?0
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://dev-boomq.pflb.ru/account/new-test
+Accept-Encoding: gzip, deflate, zstd
+Accept-Language: ru,en;q=0.9
+Cookie: boomq_auth=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc19ub3RpZmljYXRlZCI6ZmFsc2UsInVzZXJfaWQiOjE5MjUsInVzZXJfbmFtZSI6ImFkbWluX2dyM0BtYWlsLmNvbSIsInNjb3BlIjpbInRydXN0IiwicmVhZCIsIndyaXRlIl0sInVzZXJfbGFuZ3VhZ2UiOiJSVSIsImV4cCI6MTc3MDA3MjA3NywiYXV0aG9yaXRpZXMiOlsiUk9MRV9VU0VSIl0sImp0aSI6ImMwZGFkM2M4LWNiZTItNDdhNC1hMGIyLTA4YzQxYjc1ZmYzMyIsImNsaWVudF9pZCI6ImNsaWVudCJ9.srmpQ9gH9a8eJMBobdaXSBzUhT_9qdyPwLgQKgCBbsHExYjQ4L_34pvWYqab9zYJ3UwFktfoSDEsoXso91oCv44Q9TLvhKJYvpcePGRWGu923496aKb4TaMyTvz9rqXKN_FFj3_7N6YA4544VGX-8ihaNreuUU0z8sddl2iScU4MA32emOvpl_NpoNmH1_LWIDQAmjuj4dEVe9BiUBB7B_AhYBvaGivQWZWegO0y72orawNAlaLJPFlS2h6PbwwMr1rXBSZw15L_-g1C9wqy6u0Hqo72ldCYRfij-y2m0hSAwFs71cGKlq8iRVzXMTsmnKtigAr1YroyHD49Wp4F5A
+Host: dev-boomq.pflb.ru
+
+
+$$$$$$ Request Header For Transaction With Id 561 Ended $$$$$$
+
+****** Response Header For Transaction With Id 561 ******
+HTTP/1.1 200 
+Server: nginx
+Date: Mon, 02 Feb 2026 10:41:18 GMT
+Content-Type: application/json
+Connection: keep-alive
+Vary: Origin,Access-Control-Request-Method,Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains,max-age=86400;
+X-Frame-Options: DENY
+
+
+$$$$$$ Response Header For Transaction With Id 561 Ended $$$$$$
+
+****** Response Body For Transaction With Id 561 ******
+[]
+$$$$$$ Response Body For Transaction With Id 561 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/project-srv/modelSchema
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 561 ****** (Location Flag : tFlagInsertEnd, Location ID : 561)
+	web_url("identityProvider",
+		"URL=https://dev-boomq.pflb.ru/auth-srv/identityProvider",
+		"TargetFrame=",
+		"Resource=0",
+		"RecContentType=application/json",
+		"Referer=https://dev-boomq.pflb.ru/account/new-test",
+		"Snapshot=t27.inf",
+		"Mode=HTML",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 561 Ended $$$$$$
+
+****** Request Header For Transaction With Id 566 ******
+GET https://dev-boomq.pflb.ru/auth-srv/team/22 HTTP/1.1
+sec-ch-ua-platform: "Windows"
+Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc19ub3RpZmljYXRlZCI6ZmFsc2UsInVzZXJfaWQiOjE5MjUsInVzZXJfbmFtZSI6ImFkbWluX2dyM0BtYWlsLmNvbSIsInNjb3BlIjpbInRydXN0IiwicmVhZCIsIndyaXRlIl0sInVzZXJfbGFuZ3VhZ2UiOiJSVSIsImV4cCI6MTc3MDA3MjA3NywiYXV0aG9yaXRpZXMiOlsiUk9MRV9VU0VSIl0sImp0aSI6ImMwZGFkM2M4LWNiZTItNDdhNC1hMGIyLTA4YzQxYjc1ZmYzMyIsImNsaWVudF9pZCI6ImNsaWVudCJ9.srmpQ9gH9a8eJMBobdaXSBzUhT_9qdyPwLgQKgCBbsHExYjQ4L_34pvWYqab9zYJ3UwFktfoSDEsoXso91oCv44Q9TLvhKJYvpcePGRWGu923496aKb4TaMyTvz9rqXKN_FFj3_7N6YA4544VGX-8ihaNreuUU0z8sddl2iScU4MA32emOvpl_NpoNmH1_LWIDQAmjuj4dEVe9BiUBB7B_AhYBvaGivQWZWegO0y72orawNAlaLJPFlS2h6PbwwMr1rXBSZw15L_-g1C9wqy6u0Hqo72ldCYRfij-y2m0hSAwFs71cGKlq8iRVzXMTsmnKtigAr1YroyHD49Wp4F5A
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 YaBrowser/25.12.0.0 Safari/537.36
+Accept: */*
+sec-ch-ua: "Chromium";v="142", "YaBrowser";v="25.12", "Not_A Brand";v="99", "Yowser";v="2.5"
+sec-ch-ua-mobile: ?0
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://dev-boomq.pflb.ru/account/new-test
+Accept-Encoding: gzip, deflate, zstd
+Accept-Language: ru,en;q=0.9
+Cookie: boomq_auth=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc19ub3RpZmljYXRlZCI6ZmFsc2UsInVzZXJfaWQiOjE5MjUsInVzZXJfbmFtZSI6ImFkbWluX2dyM0BtYWlsLmNvbSIsInNjb3BlIjpbInRydXN0IiwicmVhZCIsIndyaXRlIl0sInVzZXJfbGFuZ3VhZ2UiOiJSVSIsImV4cCI6MTc3MDA3MjA3NywiYXV0aG9yaXRpZXMiOlsiUk9MRV9VU0VSIl0sImp0aSI6ImMwZGFkM2M4LWNiZTItNDdhNC1hMGIyLTA4YzQxYjc1ZmYzMyIsImNsaWVudF9pZCI6ImNsaWVudCJ9.srmpQ9gH9a8eJMBobdaXSBzUhT_9qdyPwLgQKgCBbsHExYjQ4L_34pvWYqab9zYJ3UwFktfoSDEsoXso91oCv44Q9TLvhKJYvpcePGRWGu923496aKb4TaMyTvz9rqXKN_FFj3_7N6YA4544VGX-8ihaNreuUU0z8sddl2iScU4MA32emOvpl_NpoNmH1_LWIDQAmjuj4dEVe9BiUBB7B_AhYBvaGivQWZWegO0y72orawNAlaLJPFlS2h6PbwwMr1rXBSZw15L_-g1C9wqy6u0Hqo72ldCYRfij-y2m0hSAwFs71cGKlq8iRVzXMTsmnKtigAr1YroyHD49Wp4F5A
+Host: dev-boomq.pflb.ru
+
+
+$$$$$$ Request Header For Transaction With Id 566 Ended $$$$$$
+
+****** Response Header For Transaction With Id 566 ******
+HTTP/1.1 200 
+Server: nginx
+Date: Mon, 02 Feb 2026 10:41:18 GMT
+Content-Type: application/json
+Connection: keep-alive
+Vary: Origin,Access-Control-Request-Method,Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains,max-age=86400;
+X-Frame-Options: DENY
+
+
+$$$$$$ Response Header For Transaction With Id 566 Ended $$$$$$
+
+****** Response Body For Transaction With Id 566 ******
+{"id":22,"teamName":"\xD0\x9D\xD0\xB0\xD0\xB3\xD1\x80\xD1\x83\xD0\xB7\xD0\xBA\xD0\xB0 6 2026 3 \xD0\xB3\xD1\x80\xD1\x83\xD0\xBF\xD0\xBF\xD0\xB0","icon":null,"teamMemberCount":3,"projectCount":5,"testCount":2,"userPermissions":["VIEW","ADMIN","EDIT","MANAGE_USERS_IN_ORG","RUN"],"createAt":"2026-01-28T07:30:39.587Z","updatedAt":"2026-01-28T07:30:39.587Z"}
+$$$$$$ Response Body For Transaction With Id 566 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/auth-srv/identityProvider
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 566 ****** (Location Flag : tFlagInsertEnd, Location ID : 566)
+	web_url("22",
+		"URL=https://dev-boomq.pflb.ru/auth-srv/team/22",
+		"TargetFrame=",
+		"Resource=0",
+		"RecContentType=application/json",
+		"Referer=https://dev-boomq.pflb.ru/account/new-test",
+		"Snapshot=t28.inf",
+		"Mode=HTML",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 566 Ended $$$$$$
+
+****** Request Header For Transaction With Id 571 ******
+GET https://dev-boomq.pflb.ru/auth-srv/teamMember/teamContext?teamId=22 HTTP/1.1
+sec-ch-ua-platform: "Windows"
+Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc19ub3RpZmljYXRlZCI6ZmFsc2UsInVzZXJfaWQiOjE5MjUsInVzZXJfbmFtZSI6ImFkbWluX2dyM0BtYWlsLmNvbSIsInNjb3BlIjpbInRydXN0IiwicmVhZCIsIndyaXRlIl0sInVzZXJfbGFuZ3VhZ2UiOiJSVSIsImV4cCI6MTc3MDA3MjA3NywiYXV0aG9yaXRpZXMiOlsiUk9MRV9VU0VSIl0sImp0aSI6ImMwZGFkM2M4LWNiZTItNDdhNC1hMGIyLTA4YzQxYjc1ZmYzMyIsImNsaWVudF9pZCI6ImNsaWVudCJ9.srmpQ9gH9a8eJMBobdaXSBzUhT_9qdyPwLgQKgCBbsHExYjQ4L_34pvWYqab9zYJ3UwFktfoSDEsoXso91oCv44Q9TLvhKJYvpcePGRWGu923496aKb4TaMyTvz9rqXKN_FFj3_7N6YA4544VGX-8ihaNreuUU0z8sddl2iScU4MA32emOvpl_NpoNmH1_LWIDQAmjuj4dEVe9BiUBB7B_AhYBvaGivQWZWegO0y72orawNAlaLJPFlS2h6PbwwMr1rXBSZw15L_-g1C9wqy6u0Hqo72ldCYRfij-y2m0hSAwFs71cGKlq8iRVzXMTsmnKtigAr1YroyHD49Wp4F5A
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 YaBrowser/25.12.0.0 Safari/537.36
+Accept: */*
+sec-ch-ua: "Chromium";v="142", "YaBrowser";v="25.12", "Not_A Brand";v="99", "Yowser";v="2.5"
+sec-ch-ua-mobile: ?0
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://dev-boomq.pflb.ru/account/new-test
+Accept-Encoding: gzip, deflate, zstd
+Accept-Language: ru,en;q=0.9
+Cookie: boomq_auth=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc19ub3RpZmljYXRlZCI6ZmFsc2UsInVzZXJfaWQiOjE5MjUsInVzZXJfbmFtZSI6ImFkbWluX2dyM0BtYWlsLmNvbSIsInNjb3BlIjpbInRydXN0IiwicmVhZCIsIndyaXRlIl0sInRlYW1fbWVtYmVyIjoie1wiaWRcIjoyMDA5LFwidGVhbUlkXCI6MjIsXCJ1c2VySWRcIjoxOTI1LFwiZW1haWxcIjpcImFkbWluX2dyM0BtYWlsLmNvbVwiLFwidXNlckRpc3BsYXlOYW1lXCI6XCJhZG1pbl9ncjNcIixcInBlcm1pc3Npb25MaXN0XCI6W1wiVklFV1wiLFwiQURNSU5cIixcIkVESVRcIixcIk1BTkFHRV9VU0VSU19JTl9PUkdcIixcIlJVTlwiXSxcImludml0YXRpb25TdGF0dXNcIjpcIkFDQ0VQVEVEXCIsXCJpbnZpdGVVcmxcIjpudWxsLFwiZXhwaXJlZEF0XCI6bnVsbCxcImNyZWF0ZUF0XCI6XCIyMDI2LTAxLTI4VDA3OjMxOjEwLjgyOFpcIixcInVwZGF0ZWRBdFwiOlwiMjAyNi0wMS0yOFQwNzozMjoyNy43MTJaXCJ9IiwidXNlcl9sYW5ndWFnZSI6IlJVIiwidGVhbV9pZCI6MjIsImV4cCI6MTc3MDA3MTQxMCwiYXV0aG9yaXRpZXMiOlsiUk9MRV9VU0VSIl0sImp0aSI6ImRjOGVmNjM3LWYwOWMtNDQ0MC05NGY5LWJjNDVmZTlhNjIwYSIsImNsaWVudF9pZCI6ImNsaWVudCJ9.lZQ-8TWW6ajQHvOp7rxJR3sHxzuBReZC_3orYB6-Xm3khH9bah0FpcwVXYTtB2sgy6eyv0rGM9ewTd0vWh2r-lhZJEpEBn7o3A1U6YRTgV51JofuXF0mg3rTBJ3ZuehG1_nEYrN5kfy27ucLnrsq5v2cb_WZX4yF-QLNoLuaC5YX_AOlSJ84hxblYNbGBDicVwlqMrvhz6bexCmftacbWkrNhKZpbU1MHKBGtTOpojs8mcfjBoax3TIz7bx_obGIa_6aCjCL4PBpJ5mIvBrdsUPdI8KBPZ-G_z2dYRZFYMepx6FfJyAdTa8v7bX8-iV8SYVbFC9uZNN4zJiqjN7dGA; boomq_auth=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc19ub3RpZmljYXRlZCI6ZmFsc2UsInVzZXJfaWQiOjE5MjUsInVzZXJfbmFtZSI6ImFkbWluX2dyM0BtYWlsLmNvbSIsInNjb3BlIjpbInRydXN0IiwicmVhZCIsIndyaXRlIl0sInVzZXJfbGFuZ3VhZ2UiOiJSVSIsImV4cCI6MTc3MDA3MjA3NywiYXV0aG9yaXRpZXMiOlsiUk9MRV9VU0VSIl0sImp0aSI6ImMwZGFkM2M4LWNiZTItNDdhNC1hMGIyLTA4YzQxYjc1ZmYzMyIsImNsaWVudF9pZCI6ImNsaWVudCJ9.srmpQ9gH9a8eJMBobdaXSBzUhT_9qdyPwLgQKgCBbsHExYjQ4L_34pvWYqab9zYJ3UwFktfoSDEsoXso91oCv44Q9TLvhKJYvpcePGRWGu923496aKb4TaMyTvz9rqXKN_FFj3_7N6YA4544VGX-8ihaNreuUU0z8sddl2iScU4MA32emOvpl_NpoNmH1_LWIDQAmjuj4dEVe9BiUBB7B_AhYBvaGivQWZWegO0y72orawNAlaLJPFlS2h6PbwwMr1rXBSZw15L_-g1C9wqy6u0Hqo72ldCYRfij-y2m0hSAwFs71cGKlq8iRVzXMTsmnKtigAr1YroyHD49Wp4F5A
+Host: dev-boomq.pflb.ru
+
+
+$$$$$$ Request Header For Transaction With Id 571 Ended $$$$$$
+
+****** Response Header For Transaction With Id 571 ******
+HTTP/1.1 200 
+Server: nginx
+Date: Mon, 02 Feb 2026 10:41:18 GMT
+Content-Type: application/json
+Connection: keep-alive
+Vary: Origin,Access-Control-Request-Method,Access-Control-Request-Headers
+Set-Cookie: boomq_auth=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc19ub3RpZmljYXRlZCI6ZmFsc2UsInVzZXJfaWQiOjE5MjUsInVzZXJfbmFtZSI6ImFkbWluX2dyM0BtYWlsLmNvbSIsInNjb3BlIjpbInRydXN0IiwicmVhZCIsIndyaXRlIl0sInRlYW1fbWVtYmVyIjoie1wiaWRcIjoyMDA5LFwidGVhbUlkXCI6MjIsXCJ1c2VySWRcIjoxOTI1LFwiZW1haWxcIjpcImFkbWluX2dyM0BtYWlsLmNvbVwiLFwidXNlckRpc3BsYXlOYW1lXCI6XCJhZG1pbl9ncjNcIixcInBlcm1pc3Npb25MaXN0XCI6W1wiVklFV1wiLFwiQURNSU5cIixcIkVESVRcIixcIk1BTkFHRV9VU0VSU19JTl9PUkdcIixcIlJVTlwiXSxcImludml0YXRpb25TdGF0dXNcIjpcIkFDQ0VQVEVEXCIsXCJpbnZpdGVVcmxcIjpudWxsLFwiZXhwaXJlZEF0XCI6bnVsbCxcImNyZWF0ZUF0XCI6XCIyMDI2LTAxLTI4VDA3OjMxOjEwLjgyOFpcIixcInVwZGF0ZWRBdFwiOlwiMjAyNi0wMS0yOFQwNzozMjoyNy43MTJaXCJ9IiwidXNlcl9sYW5ndWFnZSI6IlJVIiwidGVhbV9pZCI6MjIsImV4cCI6MTc3MDA3MjA3OCwiYXV0aG9yaXRpZXMiOlsiUk9MRV9VU0VSIl0sImp0aSI6IjI1NGIwMmQxLWJiZGQtNGNjNS1iMzNjLTgzOGJjZmQ3MWY5MyIsImNsaWVudF9pZCI6ImNsaWVudCJ9.GgR9h68jVYFHay0SLMQxEJkdrqEE3CUtILwvN0hrL5DyvNPj6D40oEdtoAKjIah_dmDtWvERMcImn32reO2I1QiE7w4cIg5Vio_CN55zjR4cOgj2uMAC4ehIi2VjhU9pe9nQjAgmH7GU0EXvwPTOXbYDFE1tnBiRcKe4DeOjYj1gu24XPhZ6sNWSFSSDp28J4WdUwoGBq1K1n64fvvmPAA0cDa7wHmF9EFoEanHWOOSl4y_LR__kjuIpC4CaG5UISBx_MM5tUJtOfWP_cRAEU5zZCJAkF7mzglO6UNOd895kG-jDsYtSQ8_wKIOAC3myZU7E1bUSIf4Rpt-IuJLuDg
+Authorization: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc19ub3RpZmljYXRlZCI6ZmFsc2UsInVzZXJfaWQiOjE5MjUsInVzZXJfbmFtZSI6ImFkbWluX2dyM0BtYWlsLmNvbSIsInNjb3BlIjpbInRydXN0IiwicmVhZCIsIndyaXRlIl0sInRlYW1fbWVtYmVyIjoie1wiaWRcIjoyMDA5LFwidGVhbUlkXCI6MjIsXCJ1c2VySWRcIjoxOTI1LFwiZW1haWxcIjpcImFkbWluX2dyM0BtYWlsLmNvbVwiLFwidXNlckRpc3BsYXlOYW1lXCI6XCJhZG1pbl9ncjNcIixcInBlcm1pc3Npb25MaXN0XCI6W1wiVklFV1wiLFwiQURNSU5cIixcIkVESVRcIixcIk1BTkFHRV9VU0VSU19JTl9PUkdcIixcIlJVTlwiXSxcImludml0YXRpb25TdGF0dXNcIjpcIkFDQ0VQVEVEXCIsXCJpbnZpdGVVcmxcIjpudWxsLFwiZXhwaXJlZEF0XCI6bnVsbCxcImNyZWF0ZUF0XCI6XCIyMDI2LTAxLTI4VDA3OjMxOjEwLjgyOFpcIixcInVwZGF0ZWRBdFwiOlwiMjAyNi0wMS0yOFQwNzozMjoyNy43MTJaXCJ9IiwidXNlcl9sYW5ndWFnZSI6IlJVIiwidGVhbV9pZCI6MjIsImV4cCI6MTc3MDA3MjA3OCwiYXV0aG9yaXRpZXMiOlsiUk9MRV9VU0VSIl0sImp0aSI6IjI1NGIwMmQxLWJiZGQtNGNjNS1iMzNjLTgzOGJjZmQ3MWY5MyIsImNsaWVudF9pZCI6ImNsaWVudCJ9.GgR9h68jVYFHay0SLMQxEJkdrqEE3CUtILwvN0hrL5DyvNPj6D40oEdtoAKjIah_dmDtWvERMcImn32reO2I1QiE7w4cIg5Vio_CN55zjR4cOgj2uMAC4ehIi2VjhU9pe9nQjAgmH7GU0EXvwPTOXbYDFE1tnBiRcKe4DeOjYj1gu24XPhZ6sNWSFSSDp28J4WdUwoGBq1K1n64fvvmPAA0cDa7wHmF9EFoEanHWOOSl4y_LR__kjuIpC4CaG5UISBx_MM5tUJtOfWP_cRAEU5zZCJAkF7mzglO6UNOd895kG-jDsYtSQ8_wKIOAC3myZU7E1bUSIf4Rpt-IuJLuDg
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains,max-age=86400;
+X-Frame-Options: DENY
+
+
+$$$$$$ Response Header For Transaction With Id 571 Ended $$$$$$
+
+****** Response Body For Transaction With Id 571 ******
+{"id":2009,"teamId":22,"userId":1925,"email":"admin_gr3@mail.com","userDisplayName":"admin_gr3","permissionList":["VIEW","ADMIN","EDIT","MANAGE_USERS_IN_ORG","RUN"],"invitationStatus":"ACCEPTED","inviteUrl":null,"expiredAt":null,"createAt":"2026-01-28T07:31:10.828Z","updatedAt":"2026-01-28T07:32:27.712Z"}
+$$$$$$ Response Body For Transaction With Id 571 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/auth-srv/team/22
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 571 ****** (Location Flag : tFlagInsertEnd, Location ID : 571)
+	web_url("teamContext",
+		"URL=https://dev-boomq.pflb.ru/auth-srv/teamMember/teamContext?teamId=22",
+		"TargetFrame=",
+		"Resource=0",
+		"RecContentType=application/json",
+		"Referer=https://dev-boomq.pflb.ru/account/new-test",
+		"Snapshot=t29.inf",
+		"Mode=HTML",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 571 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 571)
+	web_add_cookie("boomq_auth=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc19ub3RpZmljYXRlZCI6ZmFsc2UsInVzZXJfaWQiOjE5MjUsInVzZXJfbmFtZSI6ImFkbWluX2dyM0BtYWlsLmNvbSIsInNjb3BlIjpbInRydXN0IiwicmVhZCIsIndyaXRlIl0sInRlYW1fbWVtYmVyIjoie1wiaWRcIjoyMDA5LFwidGVhbUlkXCI6MjIsXCJ1c2VySWRcIjoxOTI1LFwiZW1haWxcIjpcImFkbWluX2dyM0BtYWlsLmNvbVwiLFwidXNlckRpc3BsYXlOYW1lXCI6XCJhZG1pbl9ncjNcIixcInBlcm1pc3Npb25MaXN0XCI6W1wiVklFV1wiLFwiQURNSU5cIixcIkVESVRcIixcIk1BTkFHRV9VU0VSU19JTl9PUkdcIixcIlJVTlwiXSxcImludml0YXRpb25TdGF0dXNcIjpcIkFDQ0VQVEVEXCIsXCJpbnZpdGVVcmxcIjpudWxsLFwiZXhwaXJlZEF0XCI6bnVsbCxcImNyZWF0ZUF0XCI6XCIyMDI2LTAxLTI4VDA3OjMxOjEwLjgyOFpcIixcInVwZGF0ZWRBdFwiOlwiMjAyNi0wMS0yOFQwNzozMjoyNy43MTJaXCJ9IiwidXNlcl9sYW5ndWFnZSI6IlJVIiwidGVhbV9pZCI6MjIsImV4cCI6MTc3MDA3MTQxMCwiYXV0aG9yaXRpZXMiOlsiUk9MRV9VU0VSIl0sImp0aSI6ImRjOGVmNjM3LWYwOWMtNDQ0MC05NGY5LWJjNDVmZTlhNjIwYSIsImNsaWVudF9pZCI6ImNsaWVudCJ9.lZQ-8TWW6ajQHvOp7rxJR3sHxzuBReZC_3orYB6-Xm3khH9bah0FpcwVXYTtB2sgy6eyv0rGM9ewTd0vWh2r-lhZJEpEBn7o3A1U6YRTgV51JofuXF0mg3rTBJ3ZuehG1_nEYrN5kfy27ucLnrsq5v2cb_"
+		"WZX4yF-QLNoLuaC5YX_AOlSJ84hxblYNbGBDicVwlqMrvhz6bexCmftacbWkrNhKZpbU1MHKBGtTOpojs8mcfjBoax3TIz7bx_obGIa_6aCjCL4PBpJ5mIvBrdsUPdI8KBPZ-G_z2dYRZFYMepx6FfJyAdTa8v7bX8-iV8SYVbFC9uZNN4zJiqjN7dGA; DOMAIN=dev-boomq.pflb.ru");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Request Header For Transaction With Id 576 ******
+GET https://dev-boomq.pflb.ru/test-runner-srv/testRunner?sort=id,desc HTTP/1.1
+sec-ch-ua-platform: "Windows"
+Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc19ub3RpZmljYXRlZCI6ZmFsc2UsInVzZXJfaWQiOjE5MjUsInVzZXJfbmFtZSI6ImFkbWluX2dyM0BtYWlsLmNvbSIsInNjb3BlIjpbInRydXN0IiwicmVhZCIsIndyaXRlIl0sInRlYW1fbWVtYmVyIjoie1wiaWRcIjoyMDA5LFwidGVhbUlkXCI6MjIsXCJ1c2VySWRcIjoxOTI1LFwiZW1haWxcIjpcImFkbWluX2dyM0BtYWlsLmNvbVwiLFwidXNlckRpc3BsYXlOYW1lXCI6XCJhZG1pbl9ncjNcIixcInBlcm1pc3Npb25MaXN0XCI6W1wiVklFV1wiLFwiQURNSU5cIixcIkVESVRcIixcIk1BTkFHRV9VU0VSU19JTl9PUkdcIixcIlJVTlwiXSxcImludml0YXRpb25TdGF0dXNcIjpcIkFDQ0VQVEVEXCIsXCJpbnZpdGVVcmxcIjpudWxsLFwiZXhwaXJlZEF0XCI6bnVsbCxcImNyZWF0ZUF0XCI6XCIyMDI2LTAxLTI4VDA3OjMxOjEwLjgyOFpcIixcInVwZGF0ZWRBdFwiOlwiMjAyNi0wMS0yOFQwNzozMjoyNy43MTJaXCJ9IiwidXNlcl9sYW5ndWFnZSI6IlJVIiwidGVhbV9pZCI6MjIsImV4cCI6MTc3MDA3MjA3OCwiYXV0aG9yaXRpZXMiOlsiUk9MRV9VU0VSIl0sImp0aSI6IjI1NGIwMmQxLWJiZGQtNGNjNS1iMzNjLTgzOGJjZmQ3MWY5MyIsImNsaWVudF9pZCI6ImNsaWVudCJ9.GgR9h68jVYFHay0SLMQxEJkdrqEE3CUtILwvN0hrL5DyvNPj6D40oEdtoAKjIah_dmDtWvERMcImn32reO2I1QiE7w4cIg5Vio_CN55zjR4cOgj2uMAC4ehIi2VjhU9pe9nQjAgmH7GU0EXvwPTOXbYDFE1tnBiRcKe4DeOjYj1gu24XPhZ6sNWSFSSDp28J4WdUwoGBq1K1n64fvvmPAA0cDa7wHmF9EFoEanHWOOSl4y_LR__kjuIpC4CaG5UISBx_MM5tUJtOfWP_cRAEU5zZCJAkF7mzglO6UNOd895kG-jDsYtSQ8_wKIOAC3myZU7E1bUSIf4Rpt-IuJLuDg
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 YaBrowser/25.12.0.0 Safari/537.36
+Accept: */*
+sec-ch-ua: "Chromium";v="142", "YaBrowser";v="25.12", "Not_A Brand";v="99", "Yowser";v="2.5"
+sec-ch-ua-mobile: ?0
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://dev-boomq.pflb.ru/account/new-test
+Accept-Encoding: gzip, deflate, zstd
+Accept-Language: ru,en;q=0.9
+Cookie: boomq_auth=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc19ub3RpZmljYXRlZCI6ZmFsc2UsInVzZXJfaWQiOjE5MjUsInVzZXJfbmFtZSI6ImFkbWluX2dyM0BtYWlsLmNvbSIsInNjb3BlIjpbInRydXN0IiwicmVhZCIsIndyaXRlIl0sInVzZXJfbGFuZ3VhZ2UiOiJSVSIsImV4cCI6MTc3MDA3MjA3NywiYXV0aG9yaXRpZXMiOlsiUk9MRV9VU0VSIl0sImp0aSI6ImMwZGFkM2M4LWNiZTItNDdhNC1hMGIyLTA4YzQxYjc1ZmYzMyIsImNsaWVudF9pZCI6ImNsaWVudCJ9.srmpQ9gH9a8eJMBobdaXSBzUhT_9qdyPwLgQKgCBbsHExYjQ4L_34pvWYqab9zYJ3UwFktfoSDEsoXso91oCv44Q9TLvhKJYvpcePGRWGu923496aKb4TaMyTvz9rqXKN_FFj3_7N6YA4544VGX-8ihaNreuUU0z8sddl2iScU4MA32emOvpl_NpoNmH1_LWIDQAmjuj4dEVe9BiUBB7B_AhYBvaGivQWZWegO0y72orawNAlaLJPFlS2h6PbwwMr1rXBSZw15L_-g1C9wqy6u0Hqo72ldCYRfij-y2m0hSAwFs71cGKlq8iRVzXMTsmnKtigAr1YroyHD49Wp4F5A
+Host: dev-boomq.pflb.ru
+
+
+$$$$$$ Request Header For Transaction With Id 576 Ended $$$$$$
+
+****** Response Header For Transaction With Id 576 ******
+HTTP/1.1 200 
+Server: nginx
+Date: Mon, 02 Feb 2026 10:41:19 GMT
+Content-Type: application/json
+Connection: keep-alive
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=86400;
+
+
+$$$$$$ Response Header For Transaction With Id 576 Ended $$$$$$
+
+****** Response Body For Transaction With Id 576 ******
+{"content":[{"id":2,"name":"LoadGen2","location":"LoadGen2","cpuCount":8,"ram":32768,"ip":"192.168.14.201","port":2375},{"id":1,"name":"LoadGen1","location":"LoadGen1","cpuCount":8,"ram":8192,"ip":"192.168.14.80","port":2375}],"pageable":{"sort":{"unsorted":false,"sorted":true,"empty":false},"offset":0,"pageNumber":0,"pageSize":20,"paged":true,"unpaged":false},"last":true,"totalElements":2,"totalPages":1,"first":true,"sort":{"unsorted":false,"sorted":true,"empty":false},"size":20,"number":0,"numberOfElements":2,"empty":false}
+$$$$$$ Response Body For Transaction With Id 576 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/auth-srv/teamMember/teamContext?teamId=22
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 576 ****** (Location Flag : tFlagInsertEnd, Location ID : 576)
+	web_url("testRunner",
+		"URL=https://dev-boomq.pflb.ru/test-runner-srv/testRunner?sort=id,desc",
+		"TargetFrame=",
+		"Resource=0",
+		"RecContentType=application/json",
+		"Referer=https://dev-boomq.pflb.ru/account/new-test",
+		"Snapshot=t30.inf",
+		"Mode=HTML",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 576 Ended $$$$$$
+
+[Traffic Filtering] Filtering api.browser.yandex.ru
+****** Request Header For Transaction With Id 581 ******
+POST https://api.browser.yandex.ru/autofill/v1/pages:get2?brandID=yandex&alt=proto HTTP/1.1
+X-Goog-Encode-Response-If-Executable: base64
+Content-Type: application/x-protobuf
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: empty
+sec-ch-ua: "Chromium";v="142", "YaBrowser";v="25.12", "Not_A Brand";v="99", "Yowser";v="2.5"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+sec-ch-ua-arch: "x86"
+sec-ch-ua-platform-version: "19.0.0"
+sec-ch-ua-full-version-list: "Chromium";v="142.0.7444.1338", "YaBrowser";v="25.12.2.1338", "Not_A Brand";v="99.0.0.0", "Yowser";v="2.5"
+sec-ch-ua-bitness: "64"
+sec-ch-ua-wow64: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 YaBrowser/25.12.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, zstd
+Accept-Language: ru,en;q=0.9
+Y-Browser-Experiments: MTI3MDYyOSwwLC0x
+Host: api.browser.yandex.ru
+Content-Length: 90
+
+
+$$$$$$ Request Header For Transaction With Id 581 Ended $$$$$$
+
+****** Request Body For Transaction With Id 581 ******
+
+XChZDaHJvbWUvMTQyLjAuNzQ0NC4xMzM4EiAJAPFJVsKWKWMSBQ3ktkknEgUN4wWZ-yFPfOaMQ-bQYRi3qcoBqAYB
+$$$$$$ Request Body For Transaction With Id 581 Ended $$$$$$
+
+****** Response Header For Transaction With Id 581 ******
+HTTP/1.1 200 OK
+Content-Type: application/x-protobuf
+Cache-Control: max-age=3600, must-revalidate
+Content-Length: 40
+X-Yandex-Req-Id: 1770028872986831-731830755629107966-fktkjfvlcnbdszq7-BAL
+set-cookie: is_gdpr=0; Path=/; Domain=.yandex.ru; Expires=Wed, 02 Feb 2028 10:41:12 GMT; SameSite=None; Secure,is_gdpr_b=CJjWLhDt8QI=; Path=/; Domain=.yandex.ru; Expires=Wed, 02 Feb 2028 10:41:12 GMT; SameSite=None; Secure,_yasc=FuBOBnkMvPOZ2WKEAhuBX0NH02/IG/nMwQDihXv26oTVq0rkcIW/o9b7iU3dLA==; domain=.yandex.ru; path=/; expires=Thu, 31 Jan 2036 10:41:13 GMT; secure,i=0r9lETZOsWtGXkE+BVLYae9176BCK7MfKZ/EJPc7xk7Z71Na7D5zYQocdZFNMXqCgEq1+4ohu4q/SFCZvj5kTwZDMPE=; Expires=Wed, 02-Feb-2028 10:41:12 GMT; Domain=.yandex.ru; Path=/; Secure; HttpOnly; SameSite=None,yandexuid=8448045691770028872; Expires=Wed, 02-Feb-2028 10:41:12 GMT; Domain=.yandex.ru; Path=/; Secure; SameSite=None,yashr=6253374341770028872; Path=/; Domain=.yandex.ru; Expires=Tue, 02 Feb 2027 10:41:12 GMT; SameSite=None; Secure; HttpOnly,bh=ElEiQ2hyb21pdW0iO3Y9IjE0MiIsICJZYUJyb3dzZXIiO3Y9IjI1LjEyIiwgIk5vdF9BIEJyYW5kIjt2PSI5OSIsICJZb3dzZXIiO3Y9IjIuNSIaBSJ4ODYiKgI/MDoJIldpbmRvd3MiQggiMTkuMC4wIkoEIjY0IlJqIkNocm9taXVtIjt2PSIxNDIuMC43NDQ0LjEzMzgiLCAiWWFCcm93c2VyIjt2PSIyNS4xMi4yLjEzMzgiLCAiTm90X0EgQnJhbmQiO3Y9Ijk5LjAuMC4wIiwgIllvd3NlciI7dj0iMi41IloCPzBgyP6BzAZqIdzK4f8IktihsQOfz+HqA/v68OcN6//99g/4nPzXAvOBAg==; Path=/; Domain=.yandex.ru; Expires=Tue, 09 Mar 2027 10:41:12 GMT; SameSite=None; Secure
+Date: Mon, 02 Feb 2026 10:41:13 GMT
+
+
+$$$$$$ Response Header For Transaction With Id 581 Ended $$$$$$
+
+****** Response Body For Transaction With Id 581 ******
+ChoKCw3ktkknGgQIABgBCgsN4wWZ+xoECAAYAQ==
+$$$$$$ Response Body For Transaction With Id 581 Ended $$$$$$
+
+[Traffic Filtering] Filtering sync.browser.yandex.net
+****** Request Header For Transaction With Id 586 ******
+POST https://sync.browser.yandex.net/sync/command/?client=Chromium&client_id=fb2DXE1O8zPeg0qusxkuow%3D%3D&ya_soft=yabrowser&ui=97A895BF-00E7-466C-9E62-3A3613B98EBE HTTP/1.1
+Pragma: no-cache
+Cache-Control: no-cache
+Authorization: Bearer y0__xD0ybKxAxi_9wEgi_qI7hJvHdhifs19RBWXO5uXRFskeZ4hgw
+Content-Encoding: gzip
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 YaBrowser/25.12.0.0 Safari/537.36
+Content-Type: application/octet-stream
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: empty
+sec-ch-ua: "Chromium";v="142", "YaBrowser";v="25.12", "Not_A Brand";v="99", "Yowser";v="2.5"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+sec-ch-ua-arch: "x86"
+sec-ch-ua-platform-version: "19.0.0"
+sec-ch-ua-full-version-list: "Chromium";v="142.0.7444.1338", "YaBrowser";v="25.12.2.1338", "Not_A Brand";v="99.0.0.0", "Yowser";v="2.5"
+sec-ch-ua-bitness: "64"
+sec-ch-ua-wow64: ?0
+Accept-Encoding: gzip, deflate, zstd
+Accept-Language: ru,en;q=0.9
+Host: sync.browser.yandex.net
+Content-Length: 1425
+
+
+$$$$$$ Request Header For Transaction With Id 586 Ended $$$$$$
+
+****** Request Body For Transaction With Id 586 ******
+
+\x18daniil.naz4rov@yandex.ru\x10c\x18\x01"\xE5
+\xAB\x01
+(31729_0_e8b8970e561464aba636e0c383e188a7 \xBC\x18(\xA8\xBD\xC4\xEF\xC130\x95\xBA\xA1\xAA\xC03:\x18login|admin_gr3@mail.com\x90\x01\x00\xAA\x011\x8A\xBF\x0F-
+\x05login\x12\x12admin_gr3@mail.com\x18\x80\xE1\xAB\xD9\xAE\x81\xEA\x17\x18\xC0\xAD\x89\xF3\xB3\x8D\xEA\x17\xBA\x01\x1CDkfhbN8uMPjvdRs6t4SeMsUvlls=
+\xDB\x02
+(50119_0_1a7207aa0f4c152c9497f831418247c6 \xF6\xBA\x0F(\x9F\xEB\xC4\xEF\xC130\xAC\x9E\xC4\xEF\xC13:\x08DANYA_PC\x90\x01\x00\xAA\x01\xEF\x01\xBA\xBC\x18\xEA\x01
+\x18fb2DXE1O8zPeg0qusxkuow==\x1A\xCB\x01\x08\xA9\xB7\xDB\xEA\x04\x10\xEF\xB4\xDB\xEA\x04\x18\x00 \x00(\x002\x00:\xA4\x01\x12*https://dev-boomq.pflb.ru/account/new-test\x1A\x00"'Dev-boomq.pflb.ru | \xD0\x9D\xD0\xBE\xD0\xB2\xD1\x8B\xD0\xB9 \xD1\x82\xD0\xB5\xD1\x81\xD1\x820\x06@\xE0\x02H\x9A\xE5\xC4\xEF\xC13P\x00X\x00`\x00x\xC9\xDA\xCF\xF5\xB3\x8D\xEA\x17\x8A\x01%https://dev-boomq.pflb.ru/favicon.png\xA0\x01\xC8\x01\xC8\x01\x01\xD0\x01\x02h\x01p\x85\x9E\xC4\xEF\xC13\xA0\x06\xC3\xB6\xDB\xEA\x04 \x06\xBA\x01\x1CRf0gYiBDvpTyBkFBfPtDn7daglA=
+\xCE\x03
+*1045718_0_8d3b37a62eb3332c2cb3a3619f166820 \xC5\x97
+(\x9F\xEB\xC4\xEF\xC130\xF6\x9D\xC4\xEF\xC13:(tab-ba64e0db-a895-43be-ae7d-ca086276ed58\x90\x01\x00\xAA\x01\xC0\x02\xB2\xCD\xFE\x03\xBA\x02\x1A\xA5\x02
+$ba64e0db-a895-43be-ae7d-ca086276ed58\x12$89a3d2a4-b035-4a2e-b111-b5f5af06c1a8\x1A\x8C\x01 \x00(\x00:\x82\x01\x12*https://dev-boomq.pflb.ru/account/new-test\x1A\x00"'Dev-boomq.pflb.ru | \xD0\x9D\xD0\xBE\xD0\xB2\xD1\x8B\xD0\xB9 \xD1\x82\xD0\xB5\xD1\x81\xD1\x82\x8A\x01%https://dev-boomq.pflb.ru/favicon.png\xC8\x01\x01\xA8\x06\x01" "\x1E\xFF\xB7hVpixb5j5FC1vwpbTLCFhrWEIvs=(\x062$e5d27e85-e7d5-4434-aca1-2918ba33e56d \x8F\xE6\xA2\xF1\xB3\x8D\xEA\x17(\xF3\xEA\xFE\xF5\xB3\x8D\xEA\x17\xBA\x01\x1CU3VXb8cjDhHzEAxG+x8i+4HDMO0=\x12\x18
+$$$$$$ Request Body For Transaction With Id 586 Ended $$$$$$
+
+****** Response Header For Transaction With Id 586 ******
+HTTP/1.1 200 OK
+Set-Cookie: _yasc=AslWc3Yf/0W30z4SjF7ERvSk9ZtfCmWtgd49LqBbujcryUa5FmXx6KjaBd5mGA==; domain=.yandex.net; path=/; expires=Thu, 31 Jan 2036 10:41:15 GMT; secure,bh=ElEiQ2hyb21pdW0iO3Y9IjE0MiIsICJZYUJyb3dzZXIiO3Y9IjI1LjEyIiwgIk5vdF9BIEJyYW5kIjt2PSI5OSIsICJZb3dzZXIiO3Y9IjIuNSIaBSJ4ODYiKgI/MDoJIldpbmRvd3MiQggiMTkuMC4wIkoEIjY0IlJqIkNocm9taXVtIjt2PSIxNDIuMC43NDQ0LjEzMzgiLCAiWWFCcm93c2VyIjt2PSIyNS4xMi4yLjEzMzgiLCAiTm90X0EgQnJhbmQiO3Y9Ijk5LjAuMC4wIiwgIllvd3NlciI7dj0iMi41IloCPzBgy/6BzAZqIdzK4f8IktihsQOfz+HqA/v68OcN6//99g/4nPzXAvOBAg==; Expires=Tue, 09 Mar 2027 10:41:15 GMT; SameSite=None; Secure
+X-Yandex-Req-Id: 1770028875181372-8934100898562231020
+Content-Length: 487
+Date: Mon, 02 Feb 2026 10:41:15 GMT
+Yandex-Cloud-Request-Id: 1770028875181372-8934100898562231020
+Content-Type: application/x-protobuf
+
+
+$$$$$$ Response Header For Transaction With Id 586 Ended $$$$$$
+
+****** Response Body For Transaction With Id 586 ******
+
+\xF4\x02\x0B\x10\x01\x1A(31729_0_e8b8970e561464aba636e0c383e188a7"&31729_a9edc45f9fd9dda6b2cf057913c10dc90\xBD\x18:\x18login|admin_gr3@mail.comP\xB6\xFB\xC4\xEF\xC13\x0C\x0B\x10\x01\x1A(50119_0_1a7207aa0f4c152c9497f831418247c6"&50119_4d3dd3e2f3629c9d4591aa216a748c7b0\xF7\xBA\x0F:\x08DANYA_PCP\xB6\xFB\xC4\xEF\xC13\x0C\x0B\x10\x01\x1A*1045718_0_8d3b37a62eb3332c2cb3a3619f166820"(1045718_2a859fafad3e657c73b0c605e25d13360\xC6\x97
+:(tab-ba64e0db-a895-43be-ae7d-ca086276ed58P\xB6\xFB\xC4\xEF\xC13\x0C \x002\x131681995101762596562:4\x18KB\x08\x08\xCD\xBE\x02\x10\xB0\xEA\x01B\x08\x08\xC7\x87\x03\x10\xB0\xEA\x01B\x08\x08\x9E\x8A\x0B\x10\xC0\xCF$B\x08\x08\x83\x8E\x0B\x10\xB0\xEA\x01B\x08\x08\xC6\xA6\x02\x10\xB0\xEA\x01r!
+\x1F\x08\xB6\xFB\xC4\xEF\xC13\x1A\x06\x08\xF1\xF7\x01\x10\x01\x1A\x06\x08\xC7\x87\x03\x10\x01\x1A\x06\x08\xD6\xE9?\x10\x01
+$$$$$$ Response Body For Transaction With Id 586 Ended $$$$$$
+

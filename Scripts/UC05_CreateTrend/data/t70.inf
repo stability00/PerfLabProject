@@ -1,0 +1,11 @@
+[t70]
+FileName1=t70.json
+URL1=https://dev-boomq.pflb.ru/test-srv/slaReportProfile
+Total=1
+RequestHeaderFile=t70_RequestHeader.txt
+RequestBodyFile=t70_RequestBody.txt
+ResponseHeaderFile=t70_ResponseHeader.txt
+ContentType=application/json
+SnapshotXmlFile=snapshot_69.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

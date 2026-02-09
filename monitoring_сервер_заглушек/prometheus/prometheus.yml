@@ -1,0 +1,30 @@
+global:
+  scrape_interval: 15s
+  evaluation_interval: 15s
+
+scrape_configs:
+  # Мониторинг самого Prometheus
+  - job_name: 'prometheus'
+    static_configs:
+      - targets: ['localhost:9090']
+
+  # Мониторинг сервера через Node Exporter
+  - job_name: 'node-exporter'
+    static_configs:
+      - targets: ['172.17.0.1:9100']  # Docker bridge IP
+
+  # Мониторинг заглушки
+  - job_name: 'stub-application'
+    metrics_path: '/actuator/prometheus'
+    static_configs:
+      - targets: ['172.17.0.1:8080']  # Docker bridge IP
+        labels:
+          application: 'stub-app'
+
+  # Мониторинг Kafka
+  - job_name: 'kafka-application'
+    metrics_path: '/actuator/prometheus'
+    static_configs:
+      - targets: ['172.17.0.1:8081']  # Docker bridge IP
+        labels:
+          application: 'kafka-app'

@@ -1,0 +1,11 @@
+[t12]
+FileName1=t12_1471.json
+URL1=https://dev-boomq.pflb.ru/report-srv/report/1471
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_12.xml
+RequestHeaderFile=t12_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t12_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

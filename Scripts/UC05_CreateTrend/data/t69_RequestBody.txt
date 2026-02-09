@@ -1,0 +1,4 @@
+"{\"projectId\":2698,\"chartProfileList\":[],\"tableProfileList\":[{\"slaTypeList\":[{\"fromDat"
+"e\":7,\"restrictionType\":\"ERROR_RATE\",\"targetType\":\"TEST\",\"toDate\":31,\"type\":\"GENE"
+"RAL_SLA_TYPE\"}],\"valueType\":\"VALUE\"}],\"testFilterExpressionList\":[{\"type\":\"TEST_DISP"
+"LAY_STATE_EXPRESSION\",\"testDisplayStateList\":[\"FINISHED\",\"FAILED\",\"CANCELED\"]}]}"

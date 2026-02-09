@@ -1,0 +1,56 @@
+Virtual User Script started at: 09.02.2026 12:44:07
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2021.0.0 for Windows 10; build 430 (янв 05 2021 19:27:22)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 YaBrowser/25.12.0.0 Safari/537.36  	[MsgId: MMSG-26988]
+Runtime Settings file: "G:\dev\Перфоманс лаб\ПРОЕКТ\Scripts\UC05_CreateTrend\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(9): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(9): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(11): web_add_header("Sec-Fetch-Site") started  	[MsgId: MMSG-26355]
+Action.c(11): web_add_header("Sec-Fetch-Site") was successful  	[MsgId: MMSG-26392]
+Action.c(14): web_add_header("Sec-Fetch-Mode") started  	[MsgId: MMSG-26355]
+Action.c(14): web_add_header("Sec-Fetch-Mode") was successful  	[MsgId: MMSG-26392]
+Action.c(17): web_add_auto_header("Sec-Fetch-Dest") started  	[MsgId: MMSG-26355]
+Action.c(17): web_add_auto_header("Sec-Fetch-Dest") was successful  	[MsgId: MMSG-26392]
+Action.c(20): web_url("manifest.json") started  	[MsgId: MMSG-26355]
+Action.c(20): web_url("manifest.json") was successful, 301 body bytes, 267 header bytes  	[MsgId: MMSG-26386]
+Action.c(30): Notify: Transaction "UC05_TR01_Login" started.
+Action.c(32): web_add_header("Origin") started  	[MsgId: MMSG-26355]
+Action.c(32): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
+Action.c(35): web_add_auto_header("Sec-Fetch-Mode") started  	[MsgId: MMSG-26355]
+Action.c(35): web_add_auto_header("Sec-Fetch-Mode") was successful  	[MsgId: MMSG-26392]
+Action.c(38): web_add_auto_header("Sec-Fetch-Site") started  	[MsgId: MMSG-26355]
+Action.c(38): web_add_auto_header("Sec-Fetch-Site") was successful  	[MsgId: MMSG-26392]
+Action.c(41): web_add_header("X-Client-Date") started  	[MsgId: MMSG-26355]
+Action.c(41): web_add_header("X-Client-Date") was successful  	[MsgId: MMSG-26392]
+Action.c(44): web_add_auto_header("sec-ch-ua") started  	[MsgId: MMSG-26355]
+Action.c(44): web_add_auto_header("sec-ch-ua") was successful  	[MsgId: MMSG-26392]
+Action.c(47): web_add_auto_header("sec-ch-ua-mobile") started  	[MsgId: MMSG-26355]
+Action.c(47): web_add_auto_header("sec-ch-ua-mobile") was successful  	[MsgId: MMSG-26392]
+Action.c(50): web_add_auto_header("sec-ch-ua-platform") started  	[MsgId: MMSG-26355]
+Action.c(50): web_add_auto_header("sec-ch-ua-platform") was successful  	[MsgId: MMSG-26392]
+Action.c(58): web_set_max_html_param_len started  	[MsgId: MMSG-26355]
+Action.c(58): web_set_max_html_param_len was successful  	[MsgId: MMSG-26392]
+Action.c(59): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(59): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(64): web_submit_data("login") started  	[MsgId: MMSG-26355]
+Action.c(64): web_submit_data("login") was successful, 0 body bytes, 1949 header bytes  	[MsgId: MMSG-26386]
+Action.c(80): Токен получен: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc19ub3RpZmljYXRlZCI6ZmFsc2UsInVzZXJfaWQiOjQxMzUsInVzZXJfbmFtZSI6Im1tYTE3NzA1ODk5MDYzOTA1MTNAdGVzdC5jb20iLCJzY29wZSI6WyJ0cnVzdCIsInJlYWQiLCJ3cml0ZSJdLCJ1c2VyX2xhbmd1YWdlIjoiRU4iLCJleHAiOjE3NzA2NzM0NjAsImF1dGhvcml0aWVzIjpbIlJPTEVfVVNFUiJdLCJqdGkiOiJhYzA0MjcxOC0wMGY1LTRlNzktOTE5OC0yYzA5ODM3MzM0OGEiLCJjbGllbnRfaWQiOiJjbGllbnQifQ.CxX8y1g-dPoetgWweCaKF_C0q-F1aBEsf6CKlggfrV461vpOhTALq_oVXTA91f_LvVMI-CYk_pvN5gnA4RNCRtGAn9rnKAvCL7h0JVdA94kON77WKyXHlrgS_plE9W6A-VOUDJZR5aLC8Z35-FZjMPXj0ZX3-wwQzofgp_mTUKscBu6v-O3mQM88E7SvJj3YoPBNSw2o8gX5FYaBkxs2WgzczkKXayYzIbbU9DEmnhafmN-2NJ_lrODXPTfWuDzMu4fAXNMc9VdPPt25338qUcE6d078J2xFX5svHl1CnZra_GyP5RoX6NTTOmwJpZ6ir65QThw5mohDyqAU2sworg
+Action.c(82): web_add_auto_header("Authorization") started  	[MsgId: MMSG-26355]
+Action.c(82): Warning -26593: The header being added may cause unpredictable results when applied to all ensuing URLs. It is added anyway  	[MsgId: MWAR-26593]
+Action.c(82): web_add_auto_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(88): web_url("user") started  	[MsgId: MMSG-26355]
+Action.c(88): web_url("user") was successful, 176 body bytes, 492 header bytes  	[MsgId: MMSG-26386]
+Action.c(98): web_url("modelSchema") started  	[MsgId: MMSG-26355]
+Action.c(98): Notify: Transaction "UC05_TR01_Login" ended with a "Stop" status (Duration: 40,3160 Wasted Time: 0,0084).
+Abort was called from an action.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
+Action.c(98): Error -27760: Request "https://dev-boomq.pflb.ru/project-srv/modelSchema" failed  	[MsgId: MERR-27760]

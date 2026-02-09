@@ -1,0 +1,1236 @@
+[API Trapper      (3c30:1728)] Recording in 32-bit mode: C:\Program Files (x86)\Micro Focus\LoadRunner\Bin\HP.LR.ProxyRecorderStarter.exe
+[Network Analyzer (1a6c:1f8c)] ------------------------------------------------------------------------------------------
+[Network Analyzer (1a6c:1f8c)] Load Network Traffic Analyzers:
+[Network Analyzer (1a6c:1f8c)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (1a6c:1f8c)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter.dll)
+[Network Analyzer (1a6c:1f8c)]     + Network Analyzer: api_http_filter.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (1a6c:1f8c)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter.dll
+[Network Analyzer (1a6c:1f8c)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer.dll)
+[Network Analyzer (1a6c:1f8c)]     + Network Analyzer: WebSocketAnalyzer.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (1a6c:1f8c)]     Analyzer Module: local_server (value=)
+[Network Analyzer (1a6c:1f8c)] ------------------------------------------------------------------------------------------
+[Proxy Recording  (1a6c:1f8c)] Started proxy on port 8888 listening IP 26.107.126.198, 127.0.0.1, in synchronous mode
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:48404
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:43626
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:7318
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:60231
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:58378
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:26125
+[Proxy Recording.Error (1a6c:5190)] Exception is caught while trying to connect to https://dev-boomq.pflb.ru:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording.Error (1a6c:5190)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (1a6c:364c)] Exception is caught while trying to connect to https://dev-boomq.pflb.ru:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording.Error (1a6c:364c)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:64434
+[Proxy Recording.Error (1a6c:4d14)] Exception is caught while trying to connect to https://astrid.1clickvpn.net:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:15981
+[Proxy Recording.Error (1a6c:4d14)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:26878
+[Proxy Recording.Error (1a6c:3ebc)] Exception is caught while trying to connect to https://browser.translate.yandex.net:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording.Error (1a6c:3ebc)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording  (1a6c:50d8)] Trying to connect to https://api.browser.yandex.ru:443/autofill/v1/pages:get2?brandID=yandex&alt=proto ...
+[Proxy Recording  (1a6c:50d8)] Trying to connect to https://api.browser.yandex.ru:443/autofill/v1/pages:get2?brandID=yandex&alt=proto ...
+[Proxy Recording  (1a6c:50d8)] Received response of 1487 header and 40 body bytes from https://api.browser.yandex.ru:443/autofill/v1/pages:get2?brandID=yandex&alt=proto
+[Network Analyzer (1a6c:50d8)]   (Sid:  1) Client -> Server @ : 967 bytes (SSL)(Service=HTTP)
+[Web Request      (1a6c:50d8)] "POST https://api.browser.yandex.ru/autofill/v1/pages:get2?brandID=yandex&alt=proto"   
+[Network Analyzer (1a6c:50d8)]   (Sid:  1) Client -> Server @ : 90 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a6c:50d8)]   (Sid:  1) Server -> Client : 1504 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1a6c:50d8)]   (Sid:  1) Server -> Client : 40 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1a6c:50d8)] Sent 40 bytes to client @ 26.107.126.198:58378
+[Proxy Recording.Error (1a6c:5410)] Exception is caught while trying to connect to https://sec.api.browser.yandex.ru:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:1102
+[Proxy Recording.Error (1a6c:5410)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording  (1a6c:5190)] Trying to connect to https://dev-boomq.pflb.ru:443/manifest.json ...
+[Proxy Recording  (1a6c:5190)] Trying to connect to https://dev-boomq.pflb.ru:443/manifest.json ...
+[Proxy Recording  (1a6c:364c)] Trying to connect to https://astrid.1clickvpn.net:443/api/44/envelope/?sentry_key=f0a6e6e8876c45afa9fbc8c8fed53d4e&sentry_version=7&sentry_client=sentry.javascript.browser%2F7.120.3 ...
+[Proxy Recording  (1a6c:5190)] Received response of 264 header and 301 body bytes from https://dev-boomq.pflb.ru:443/manifest.json
+[Web Request      (1a6c:5190)] "GET https://dev-boomq.pflb.ru/manifest.json"   
+[Network Analyzer (1a6c:5190)]   (Sid:  2) Client -> Server @ : 431 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a6c:5190)]   (Sid:  2) Server -> Client : 281 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1a6c:5190)]   (Sid:  2) Server -> Client : 301 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1a6c:5190)] Sent 301 bytes to client @ 26.107.126.198:64434
+[Proxy Recording  (1a6c:364c)] Trying to connect to https://astrid.1clickvpn.net:443/api/44/envelope/?sentry_key=f0a6e6e8876c45afa9fbc8c8fed53d4e&sentry_version=7&sentry_client=sentry.javascript.browser%2F7.120.3 ...
+[Proxy Recording  (1a6c:364c)] Received response of 546 header and 0 body bytes from https://astrid.1clickvpn.net:443/api/44/envelope/?sentry_key=f0a6e6e8876c45afa9fbc8c8fed53d4e&sentry_version=7&sentry_client=sentry.javascript.browser%2F7.120.3
+[Network Analyzer (1a6c:364c)]   (Sid:  3) Client -> Server @ : 778 bytes (SSL)(Service=HTTP)
+[Web Request      (1a6c:364c)] "POST https://astrid.1clickvpn.net/api/44/envelope/?sentry_key=f0a6e6e8876c45afa9fbc8c8fed53d4e&sentry_version=7&sentry_client=sentry.javascript.browser%2F7.120.3"   
+[Network Analyzer (1a6c:364c)]   (Sid:  3) Client -> Server @ : 1465 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a6c:364c)]   (Sid:  3) Server -> Client : 540 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1a6c:364c)] Sent 0 bytes to client @ 26.107.126.198:15981
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:61860
+[Proxy Recording.Error (1a6c:48bc)] Exception is caught while trying to connect to https://a.nel.cloudflare.com:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:10557
+[Proxy Recording.Error (1a6c:48bc)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording  (1a6c:4e38)] Trying to connect to https://sec.api.browser.yandex.ru:443/barnavig/post ...
+[Proxy Recording  (1a6c:4e38)] Trying to connect to https://sec.api.browser.yandex.ru:443/barnavig/post ...
+[Proxy Recording  (1a6c:4e38)] Received response of 901 header and 208 body bytes from https://sec.api.browser.yandex.ru:443/barnavig/post
+[Network Analyzer (1a6c:4e38)]   (Sid:  4) Client -> Server @ : 2991 bytes (SSL)(Service=HTTP)
+[Web Request      (1a6c:4e38)] "POST https://sec.api.browser.yandex.ru/barnavig/post"   
+[Network Analyzer (1a6c:4e38)]   (Sid:  4) Client -> Server @ : 6221 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a6c:4e38)]   (Sid:  4) Server -> Client : 918 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1a6c:4e38)]   (Sid:  4) Server -> Client : 208 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1a6c:4e38)] Sent 208 bytes to client @ 26.107.126.198:1102
+[Proxy Recording.Error (1a6c:3ebc)] Exception is caught while trying to connect to https://sync.browser.yandex.net:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:1576
+[Proxy Recording.Error (1a6c:3ebc)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording  (1a6c:364c)] Trying to connect to https://sync.browser.yandex.net:443/sync/command/?client=Chromium&client_id=fb2DXE1O8zPeg0qusxkuow%3D%3D&ya_soft=yabrowser&ui=97A895BF-00E7-466C-9E62-3A3613B98EBE ...
+[Proxy Recording  (1a6c:14cc)] Trying to connect to https://a.nel.cloudflare.com:443/report/v4?s=oo4h099dS3Tfh4udqSFagyqEAUNMsj14ph8qleKedIv0IBrRT4sIK2%2BOiInQarGw1w71qK8Wm1MCqE3JpOGh5vpkgReiOoSHEi8ALowgzHwBFwQG ...
+[Proxy Recording  (1a6c:14cc)] Trying to connect to https://a.nel.cloudflare.com:443/report/v4?s=oo4h099dS3Tfh4udqSFagyqEAUNMsj14ph8qleKedIv0IBrRT4sIK2%2BOiInQarGw1w71qK8Wm1MCqE3JpOGh5vpkgReiOoSHEi8ALowgzHwBFwQG ...
+[Proxy Recording  (1a6c:364c)] Trying to connect to https://sync.browser.yandex.net:443/sync/command/?client=Chromium&client_id=fb2DXE1O8zPeg0qusxkuow%3D%3D&ya_soft=yabrowser&ui=97A895BF-00E7-466C-9E62-3A3613B98EBE ...
+[Proxy Recording  (1a6c:14cc)] Received response of 300 header and 0 body bytes from https://a.nel.cloudflare.com:443/report/v4?s=oo4h099dS3Tfh4udqSFagyqEAUNMsj14ph8qleKedIv0IBrRT4sIK2%2BOiInQarGw1w71qK8Wm1MCqE3JpOGh5vpkgReiOoSHEi8ALowgzHwBFwQG
+[Web Request      (1a6c:14cc)] "OPTIONS https://a.nel.cloudflare.com/report/v4?s=oo4h099dS3Tfh4udqSFagyqEAUNMsj14ph8qleKedIv0IBrRT4sIK2%2BOiInQarGw1w71qK8Wm1MCqE3JpOGh5vpkgReiOoSHEi8ALowgzHwBFwQG"   
+[Network Analyzer (1a6c:14cc)]   (Sid:  5) Client -> Server @ : 562 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a6c:14cc)]   (Sid:  5) Server -> Client : 317 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1a6c:14cc)] Sent 0 bytes to client @ 26.107.126.198:10557
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:9496
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:49033
+[Proxy Recording.Error (1a6c:48bc)] Cannot establish a secure connection to the application being recorded.
+Message=Ошибка вызова SSPI, см. внутреннее исключение.
+Import the LoadRunner SSL certificate to the client machine. For details, see "Use Case 3" of "https://admhelp.microfocus.com/vugen/en/2021/help/WebHelp/Content/VuGen/t_HowToRecordViaAProxy.htm".
+[Proxy Recording  (1a6c:4e38)] Trying to connect to https://a.nel.cloudflare.com:443/report/v4?s=oo4h099dS3Tfh4udqSFagyqEAUNMsj14ph8qleKedIv0IBrRT4sIK2%2BOiInQarGw1w71qK8Wm1MCqE3JpOGh5vpkgReiOoSHEi8ALowgzHwBFwQG ...
+[Proxy Recording  (1a6c:4e38)] Trying to connect to https://a.nel.cloudflare.com:443/report/v4?s=oo4h099dS3Tfh4udqSFagyqEAUNMsj14ph8qleKedIv0IBrRT4sIK2%2BOiInQarGw1w71qK8Wm1MCqE3JpOGh5vpkgReiOoSHEi8ALowgzHwBFwQG ...
+[Proxy Recording  (1a6c:4e38)] Received response of 178 header and 0 body bytes from https://a.nel.cloudflare.com:443/report/v4?s=oo4h099dS3Tfh4udqSFagyqEAUNMsj14ph8qleKedIv0IBrRT4sIK2%2BOiInQarGw1w71qK8Wm1MCqE3JpOGh5vpkgReiOoSHEi8ALowgzHwBFwQG
+[Network Analyzer (1a6c:4e38)]   (Sid:  6) Client -> Server @ : 513 bytes (SSL)(Service=HTTP)
+[Web Request      (1a6c:4e38)] "POST https://a.nel.cloudflare.com/report/v4?s=oo4h099dS3Tfh4udqSFagyqEAUNMsj14ph8qleKedIv0IBrRT4sIK2%2BOiInQarGw1w71qK8Wm1MCqE3JpOGh5vpkgReiOoSHEi8ALowgzHwBFwQG"   
+[Network Analyzer (1a6c:4e38)]   (Sid:  6) Client -> Server @ : 520 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a6c:4e38)]   (Sid:  6) Server -> Client : 195 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1a6c:4e38)] Sent 0 bytes to client @ 26.107.126.198:49033
+[Proxy Recording.Error (1a6c:48bc)] Ошибка вызова SSPI, см. внутреннее исключение.
+[Proxy Recording  (1a6c:364c)] Received response of 809 header and 464 body bytes from https://sync.browser.yandex.net:443/sync/command/?client=Chromium&client_id=fb2DXE1O8zPeg0qusxkuow%3D%3D&ya_soft=yabrowser&ui=97A895BF-00E7-466C-9E62-3A3613B98EBE
+[Network Analyzer (1a6c:364c)]   (Sid:  7) Client -> Server @ : 1111 bytes (SSL)(Service=HTTP)
+[Web Request      (1a6c:364c)] "POST https://sync.browser.yandex.net/sync/command/?client=Chromium&client_id=fb2DXE1O8zPeg0qusxkuow%3D%3D&ya_soft=yabrowser&ui=97A895BF-00E7-466C-9E62-3A3613B98EBE"   
+[Network Analyzer (1a6c:364c)]   (Sid:  7) Client -> Server @ : 1552 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a6c:364c)]   (Sid:  7) Server -> Client : 826 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1a6c:364c)]   (Sid:  7) Server -> Client : 464 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1a6c:364c)] Sent 464 bytes to client @ 26.107.126.198:1576
+[Proxy Recording.Error (1a6c:48bc)] Получено непредвиденное сообщение или оно имеет неправильный формат
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:12798
+[Proxy Recording.Error (1a6c:50d8)] Cannot establish a secure connection to the application being recorded.
+Message=Ошибка вызова SSPI, см. внутреннее исключение.
+Import the LoadRunner SSL certificate to the client machine. For details, see "Use Case 3" of "https://admhelp.microfocus.com/vugen/en/2021/help/WebHelp/Content/VuGen/t_HowToRecordViaAProxy.htm".
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:1992
+[Proxy Recording  (1a6c:5410)] Trying to connect to https://sec.api.browser.yandex.ru:443/barnavig/post ...
+[Proxy Recording  (1a6c:5410)] Trying to connect to https://sec.api.browser.yandex.ru:443/barnavig/post ...
+[Proxy Recording  (1a6c:5410)] Received response of 901 header and 173 body bytes from https://sec.api.browser.yandex.ru:443/barnavig/post
+[Network Analyzer (1a6c:5410)]   (Sid:  8) Client -> Server @ : 2967 bytes (SSL)(Service=HTTP)
+[Web Request      (1a6c:5410)] "POST https://sec.api.browser.yandex.ru/barnavig/post"   
+[Network Analyzer (1a6c:5410)]   (Sid:  8) Client -> Server @ : 2521 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a6c:5410)]   (Sid:  8) Server -> Client : 918 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1a6c:5410)]   (Sid:  8) Server -> Client : 173 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1a6c:5410)] Sent 173 bytes to client @ 26.107.126.198:1992
+[Proxy Recording.Error (1a6c:50d8)] Ошибка вызова SSPI, см. внутреннее исключение.
+[Proxy Recording.Error (1a6c:50d8)] Получено непредвиденное сообщение или оно имеет неправильный формат
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:14396
+[Proxy Recording.Error (1a6c:364c)] Exception is caught while trying to connect to https://yandex.ru:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording.Error (1a6c:364c)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[User action                 ] StartTransactionEvent UC05_TR01_Login [Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:65177
+[Proxy Recording.Error (1a6c:4d14)] Exception is caught while trying to connect to https://speller.yandex.net:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:51972
+[Proxy Recording.Error (1a6c:4d14)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording  (1a6c:3ebc)] Trying to connect to https://speller.yandex.net:443/services/spellservice.json/checkTexts ...
+[Proxy Recording  (1a6c:3ebc)] Trying to connect to https://speller.yandex.net:443/services/spellservice.json/checkTexts ...
+[Proxy Recording  (1a6c:3ebc)] Received response of 259 header and 4 body bytes from https://speller.yandex.net:443/services/spellservice.json/checkTexts
+[Network Analyzer (1a6c:3ebc)]   (Sid:  9) Client -> Server @ : 952 bytes (SSL)(Service=HTTP)
+[Web Request      (1a6c:3ebc)] "POST https://speller.yandex.net/services/spellservice.json/checkTexts"   
+[Network Analyzer (1a6c:3ebc)]   (Sid:  9) Client -> Server @ : 55 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a6c:3ebc)]   (Sid:  9) Server -> Client : 276 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1a6c:3ebc)]   (Sid:  9) Server -> Client : 4 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1a6c:3ebc)] Sent 4 bytes to client @ 26.107.126.198:51972
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:30599
+[Proxy Recording.Error (1a6c:14cc)] Exception is caught while trying to connect to https://worldtimeapi.org:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:50881
+[Proxy Recording.Error (1a6c:14cc)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording  (1a6c:48bc)] Trying to connect to https://worldtimeapi.org:443/api/ip ...
+[Proxy Recording  (1a6c:48bc)] Trying to connect to https://worldtimeapi.org:443/api/ip ...
+[Proxy Recording  (1a6c:48bc)] Received response of 823 header and 231 body bytes from https://worldtimeapi.org:443/api/ip
+[Web Request      (1a6c:48bc)] "GET https://worldtimeapi.org/api/ip"   
+[Network Analyzer (1a6c:48bc)]   (Sid: 10) Client -> Server @ : 644 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a6c:48bc)]   (Sid: 10) Server -> Client : 840 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1a6c:48bc)]   (Sid: 10) Server -> Client : 231 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1a6c:48bc)] Sent 231 bytes to client @ 26.107.126.198:50881
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:42039
+[Proxy Recording.Error (1a6c:5190)] Exception is caught while trying to connect to https://dev-boomq.pflb.ru:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:25285
+[Proxy Recording.Error (1a6c:5190)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording  (1a6c:3ebc)] Trying to connect to https://dev-boomq.pflb.ru:443/auth-srv/login ...
+[Proxy Recording  (1a6c:3ebc)] Trying to connect to https://dev-boomq.pflb.ru:443/auth-srv/login ...
+[Proxy Recording  (1a6c:3ebc)] Received response of 1876 header and 0 body bytes from https://dev-boomq.pflb.ru:443/auth-srv/login
+[Network Analyzer (1a6c:3ebc)]   (Sid: 11) Client -> Server @ : 757 bytes (SSL)(Service=HTTP)
+[Web Request      (1a6c:3ebc)] "POST https://dev-boomq.pflb.ru/auth-srv/login"   
+[Network Analyzer (1a6c:3ebc)]   (Sid: 11) Client -> Server @ : 359 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a6c:3ebc)]   (Sid: 11) Server -> Client : 1891 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1a6c:3ebc)] Sent 0 bytes to client @ 26.107.126.198:25285
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:8801
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:19113
+[Proxy Recording.Error (1a6c:5410)] Cannot establish a secure connection to the application being recorded.
+Message=Ошибка вызова SSPI, см. внутреннее исключение.
+Import the LoadRunner SSL certificate to the client machine. For details, see "Use Case 3" of "https://admhelp.microfocus.com/vugen/en/2021/help/WebHelp/Content/VuGen/t_HowToRecordViaAProxy.htm".
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:1039
+[Proxy Recording.Error (1a6c:48bc)] Exception is caught while trying to connect to https://dev-boomq.pflb.ru:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording.Error (1a6c:48bc)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:1869
+[Proxy Recording  (1a6c:50d8)] Trying to connect to https://dev-boomq.pflb.ru:443/project-srv/modelSchema ...
+[Proxy Recording  (1a6c:50d8)] Trying to connect to https://dev-boomq.pflb.ru:443/project-srv/modelSchema ...
+[Proxy Recording  (1a6c:5190)] Trying to connect to https://dev-boomq.pflb.ru:443/auth-srv/user ...
+[Proxy Recording  (1a6c:5190)] Trying to connect to https://dev-boomq.pflb.ru:443/auth-srv/user ...
+[Proxy Recording  (1a6c:5190)] Received response of 475 header and 156 body bytes from https://dev-boomq.pflb.ru:443/auth-srv/user
+[Web Request      (1a6c:5190)] "GET https://dev-boomq.pflb.ru/auth-srv/user"   
+[Network Analyzer (1a6c:5190)]   (Sid: 12) Client -> Server @ : 2018 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a6c:5190)]   (Sid: 12) Server -> Client : 462 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1a6c:5190)]   (Sid: 12) Server -> Client : 156 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1a6c:5190)] Sent 156 bytes to client @ 26.107.126.198:1869
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:36702
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:57279
+[Proxy Recording.Error (1a6c:14cc)] Cannot establish a secure connection to the application being recorded.
+Message=Ошибка вызова SSPI, см. внутреннее исключение.
+Import the LoadRunner SSL certificate to the client machine. For details, see "Use Case 3" of "https://admhelp.microfocus.com/vugen/en/2021/help/WebHelp/Content/VuGen/t_HowToRecordViaAProxy.htm".
+[Proxy Recording  (1a6c:50d8)] Received response of 438 header and 66848 body bytes from https://dev-boomq.pflb.ru:443/project-srv/modelSchema
+[Web Request      (1a6c:50d8)] "GET https://dev-boomq.pflb.ru/project-srv/modelSchema"   
+[Network Analyzer (1a6c:50d8)]   (Sid: 13) Client -> Server @ : 2028 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a6c:50d8)]   (Sid: 13) Server -> Client : 425 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1a6c:50d8)]   (Sid: 13) Server -> Client : 66848 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1a6c:50d8)] Sent 66848 bytes to client @ 26.107.126.198:1039
+[Proxy Recording  (1a6c:364c)] Trying to connect to https://dev-boomq.pflb.ru:443/auth-srv/identityProvider ...
+[Proxy Recording  (1a6c:364c)] Trying to connect to https://dev-boomq.pflb.ru:443/auth-srv/identityProvider ...
+[Proxy Recording  (1a6c:364c)] Received response of 475 header and 2 body bytes from https://dev-boomq.pflb.ru:443/auth-srv/identityProvider
+[Web Request      (1a6c:364c)] "GET https://dev-boomq.pflb.ru/auth-srv/identityProvider"   
+[Network Analyzer (1a6c:364c)]   (Sid: 14) Client -> Server @ : 2030 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a6c:364c)]   (Sid: 14) Server -> Client : 462 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1a6c:364c)]   (Sid: 14) Server -> Client : 2 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1a6c:364c)] Sent 2 bytes to client @ 26.107.126.198:57279
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:3688
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:11246
+[Proxy Recording.Error (1a6c:3ebc)] Cannot establish a secure connection to the application being recorded.
+Message=Ошибка вызова SSPI, см. внутреннее исключение.
+Import the LoadRunner SSL certificate to the client machine. For details, see "Use Case 3" of "https://admhelp.microfocus.com/vugen/en/2021/help/WebHelp/Content/VuGen/t_HowToRecordViaAProxy.htm".
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:31655
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:8781
+[Proxy Recording.Error (1a6c:48bc)] Cannot establish a secure connection to the application being recorded.
+Message=Ошибка вызова SSPI, см. внутреннее исключение.
+Import the LoadRunner SSL certificate to the client machine. For details, see "Use Case 3" of "https://admhelp.microfocus.com/vugen/en/2021/help/WebHelp/Content/VuGen/t_HowToRecordViaAProxy.htm".
+[Proxy Recording  (1a6c:5190)] Trying to connect to https://dev-boomq.pflb.ru:443/auth-srv/team/22 ...
+[Proxy Recording  (1a6c:5190)] Trying to connect to https://dev-boomq.pflb.ru:443/auth-srv/team/22 ...
+[Proxy Recording  (1a6c:50d8)] Trying to connect to https://sync.browser.yandex.net:443/sync/command/?client=Chromium&client_id=fb2DXE1O8zPeg0qusxkuow%3D%3D&ya_soft=yabrowser&ui=97A895BF-00E7-466C-9E62-3A3613B98EBE ...
+[Proxy Recording  (1a6c:5190)] Received response of 475 header and 272 body bytes from https://dev-boomq.pflb.ru:443/auth-srv/team/22
+[Web Request      (1a6c:5190)] "GET https://dev-boomq.pflb.ru/auth-srv/team/22"   
+[Network Analyzer (1a6c:5190)]   (Sid: 15) Client -> Server @ : 2021 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a6c:5190)]   (Sid: 15) Server -> Client : 462 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1a6c:5190)]   (Sid: 15) Server -> Client : 272 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1a6c:5190)] Sent 272 bytes to client @ 26.107.126.198:8781
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:31616
+[Proxy Recording.Error (1a6c:364c)] Cannot establish a secure connection to the application being recorded.
+Message=Ошибка вызова SSPI, см. внутреннее исключение.
+Import the LoadRunner SSL certificate to the client machine. For details, see "Use Case 3" of "https://admhelp.microfocus.com/vugen/en/2021/help/WebHelp/Content/VuGen/t_HowToRecordViaAProxy.htm".
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:63359
+[Proxy Recording  (1a6c:50d8)] Trying to connect to https://sync.browser.yandex.net:443/sync/command/?client=Chromium&client_id=fb2DXE1O8zPeg0qusxkuow%3D%3D&ya_soft=yabrowser&ui=97A895BF-00E7-466C-9E62-3A3613B98EBE ...
+[Proxy Recording  (1a6c:5190)] Trying to connect to https://dev-boomq.pflb.ru:443/auth-srv/teamMember/teamContext?teamId=22 ...
+[Proxy Recording  (1a6c:5190)] Trying to connect to https://dev-boomq.pflb.ru:443/auth-srv/teamMember/teamContext?teamId=22 ...
+[Proxy Recording  (1a6c:5190)] Received response of 2917 header and 306 body bytes from https://dev-boomq.pflb.ru:443/auth-srv/teamMember/teamContext?teamId=22
+[Web Request      (1a6c:5190)] "GET https://dev-boomq.pflb.ru/auth-srv/teamMember/teamContext?teamId=22"   
+[Network Analyzer (1a6c:5190)]   (Sid: 16) Client -> Server @ : 3259 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a6c:5190)]   (Sid: 16) Server -> Client : 2904 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1a6c:5190)]   (Sid: 16) Server -> Client : 306 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1a6c:5190)] Sent 306 bytes to client @ 26.107.126.198:63359
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:29727
+[Proxy Recording.Error (1a6c:4e38)] Cannot establish a secure connection to the application being recorded.
+Message=Ошибка вызова SSPI, см. внутреннее исключение.
+Import the LoadRunner SSL certificate to the client machine. For details, see "Use Case 3" of "https://admhelp.microfocus.com/vugen/en/2021/help/WebHelp/Content/VuGen/t_HowToRecordViaAProxy.htm".
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:17981
+[Proxy Recording  (1a6c:5190)] Trying to connect to https://dev-boomq.pflb.ru:443/test-runner-srv/testRunner?sort=id,desc ...
+[Proxy Recording  (1a6c:5190)] Trying to connect to https://dev-boomq.pflb.ru:443/test-runner-srv/testRunner?sort=id,desc ...
+[Proxy Recording  (1a6c:5190)] Received response of 363 header and 531 body bytes from https://dev-boomq.pflb.ru:443/test-runner-srv/testRunner?sort=id,desc
+[Web Request      (1a6c:5190)] "GET https://dev-boomq.pflb.ru/test-runner-srv/testRunner?sort=id,desc"   
+[Network Analyzer (1a6c:5190)]   (Sid: 17) Client -> Server @ : 2548 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a6c:5190)]   (Sid: 17) Server -> Client : 350 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1a6c:5190)]   (Sid: 17) Server -> Client : 531 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1a6c:5190)] Sent 531 bytes to client @ 26.107.126.198:17981
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:16078
+[Proxy Recording  (1a6c:5190)] Trying to connect to https://api.browser.yandex.ru:443/autofill/v1/pages:get2?brandID=yandex&alt=proto ...
+[Proxy Recording  (1a6c:5190)] Trying to connect to https://api.browser.yandex.ru:443/autofill/v1/pages:get2?brandID=yandex&alt=proto ...
+[Proxy Recording  (1a6c:5190)] Received response of 1488 header and 40 body bytes from https://api.browser.yandex.ru:443/autofill/v1/pages:get2?brandID=yandex&alt=proto
+[Network Analyzer (1a6c:5190)]   (Sid: 18) Client -> Server @ : 943 bytes (SSL)(Service=HTTP)
+[Web Request      (1a6c:5190)] "POST https://api.browser.yandex.ru/autofill/v1/pages:get2?brandID=yandex&alt=proto"   
+[Network Analyzer (1a6c:5190)]   (Sid: 18) Client -> Server @ : 90 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a6c:5190)]   (Sid: 18) Server -> Client : 1505 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1a6c:5190)]   (Sid: 18) Server -> Client : 40 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1a6c:5190)] Sent 40 bytes to client @ 26.107.126.198:16078
+[Proxy Recording.Error (1a6c:5410)] Ошибка вызова SSPI, см. внутреннее исключение.
+[Proxy Recording.Error (1a6c:14cc)] Ошибка вызова SSPI, см. внутреннее исключение.
+[Proxy Recording.Error (1a6c:3ebc)] Ошибка вызова SSPI, см. внутреннее исключение.
+[Proxy Recording.Error (1a6c:48bc)] Ошибка вызова SSPI, см. внутреннее исключение.
+[Proxy Recording.Error (1a6c:364c)] Ошибка вызова SSPI, см. внутреннее исключение.
+[Proxy Recording.Error (1a6c:4e38)] Ошибка вызова SSPI, см. внутреннее исключение.
+[Proxy Recording  (1a6c:50d8)] Received response of 809 header and 603 body bytes from https://sync.browser.yandex.net:443/sync/command/?client=Chromium&client_id=fb2DXE1O8zPeg0qusxkuow%3D%3D&ya_soft=yabrowser&ui=97A895BF-00E7-466C-9E62-3A3613B98EBE
+[Network Analyzer (1a6c:50d8)]   (Sid: 19) Client -> Server @ : 1087 bytes (SSL)(Service=HTTP)
+[Web Request      (1a6c:50d8)] "POST https://sync.browser.yandex.net/sync/command/?client=Chromium&client_id=fb2DXE1O8zPeg0qusxkuow%3D%3D&ya_soft=yabrowser&ui=97A895BF-00E7-466C-9E62-3A3613B98EBE"   
+[Network Analyzer (1a6c:50d8)]   (Sid: 19) Client -> Server @ : 2016 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a6c:50d8)]   (Sid: 19) Server -> Client : 826 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1a6c:50d8)]   (Sid: 19) Server -> Client : 603 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1a6c:50d8)] Sent 603 bytes to client @ 26.107.126.198:31655
+[Proxy Recording.Error (1a6c:5410)] Получено непредвиденное сообщение или оно имеет неправильный формат
+[Proxy Recording.Error (1a6c:14cc)] Получено непредвиденное сообщение или оно имеет неправильный формат
+[Proxy Recording.Error (1a6c:3ebc)] Получено непредвиденное сообщение или оно имеет неправильный формат
+[Proxy Recording.Error (1a6c:48bc)] Получено непредвиденное сообщение или оно имеет неправильный формат
+[Proxy Recording.Error (1a6c:364c)] Получено непредвиденное сообщение или оно имеет неправильный формат
+[Proxy Recording.Error (1a6c:4e38)] Получено непредвиденное сообщение или оно имеет неправильный формат
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:12452
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:16477
+[Proxy Recording.Error (1a6c:5190)] Cannot establish a secure connection to the application being recorded.
+Message=Ошибка вызова SSPI, см. внутреннее исключение.
+Import the LoadRunner SSL certificate to the client machine. For details, see "Use Case 3" of "https://admhelp.microfocus.com/vugen/en/2021/help/WebHelp/Content/VuGen/t_HowToRecordViaAProxy.htm".
+[Proxy Recording  (1a6c:3ebc)] Trying to connect to https://sync.browser.yandex.net:443/sync/command/?client=Chromium&client_id=fb2DXE1O8zPeg0qusxkuow%3D%3D&ya_soft=yabrowser&ui=97A895BF-00E7-466C-9E62-3A3613B98EBE ...
+[Proxy Recording  (1a6c:3ebc)] Trying to connect to https://sync.browser.yandex.net:443/sync/command/?client=Chromium&client_id=fb2DXE1O8zPeg0qusxkuow%3D%3D&ya_soft=yabrowser&ui=97A895BF-00E7-466C-9E62-3A3613B98EBE ...
+[User action                 ] EndTransactionEvent UC05_TR01_Login [Proxy Recording.Error (1a6c:5190)] Ошибка вызова SSPI, см. внутреннее исключение.
+[Proxy Recording  (1a6c:3ebc)] Received response of 811 header and 505 body bytes from https://sync.browser.yandex.net:443/sync/command/?client=Chromium&client_id=fb2DXE1O8zPeg0qusxkuow%3D%3D&ya_soft=yabrowser&ui=97A895BF-00E7-466C-9E62-3A3613B98EBE
+[Network Analyzer (1a6c:3ebc)]   (Sid: 20) Client -> Server @ : 1087 bytes (SSL)(Service=HTTP)
+[Web Request      (1a6c:3ebc)] "POST https://sync.browser.yandex.net/sync/command/?client=Chromium&client_id=fb2DXE1O8zPeg0qusxkuow%3D%3D&ya_soft=yabrowser&ui=97A895BF-00E7-466C-9E62-3A3613B98EBE"   
+[Network Analyzer (1a6c:3ebc)]   (Sid: 20) Client -> Server @ : 1624 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a6c:3ebc)]   (Sid: 20) Server -> Client : 828 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1a6c:3ebc)]   (Sid: 20) Server -> Client : 505 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1a6c:3ebc)] Sent 505 bytes to client @ 26.107.126.198:16477
+[Proxy Recording.Error (1a6c:5190)] Получено непредвиденное сообщение или оно имеет неправильный формат
+[User action                 ] StartTransactionEvent UC05_TR02_ПросмотрЗапусков [Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:48172
+[Proxy Recording.Error (1a6c:4114)] Cannot establish a secure connection to the application being recorded.
+Message=Ошибка вызова SSPI, см. внутреннее исключение.
+Import the LoadRunner SSL certificate to the client machine. For details, see "Use Case 3" of "https://admhelp.microfocus.com/vugen/en/2021/help/WebHelp/Content/VuGen/t_HowToRecordViaAProxy.htm".
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:9718
+[Proxy Recording.Error (1a6c:409c)] Exception is caught while trying to connect to https://dev-boomq.pflb.ru:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:37344
+[Proxy Recording.Error (1a6c:409c)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording  (1a6c:3e48)] Trying to connect to https://dev-boomq.pflb.ru:443/project-srv/project?sort=lastModified,desc&size=999 ...
+[Proxy Recording  (1a6c:3e48)] Trying to connect to https://dev-boomq.pflb.ru:443/project-srv/project?sort=lastModified,desc&size=999 ...
+[Proxy Recording  (1a6c:3e48)] Received response of 438 header and 8941 body bytes from https://dev-boomq.pflb.ru:443/project-srv/project?sort=lastModified,desc&size=999
+[Web Request      (1a6c:3e48)] "GET https://dev-boomq.pflb.ru/project-srv/project?sort=lastModified,desc&size=999"   
+[Network Analyzer (1a6c:3e48)]   (Sid: 21) Client -> Server @ : 2561 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a6c:3e48)]   (Sid: 21) Server -> Client : 425 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1a6c:3e48)]   (Sid: 21) Server -> Client : 8941 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1a6c:3e48)] Sent 8941 bytes to client @ 26.107.126.198:37344
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:59404
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:62624
+[Proxy Recording.Error (1a6c:52d0)] Cannot establish a secure connection to the application being recorded.
+Message=Ошибка вызова SSPI, см. внутреннее исключение.
+Import the LoadRunner SSL certificate to the client machine. For details, see "Use Case 3" of "https://admhelp.microfocus.com/vugen/en/2021/help/WebHelp/Content/VuGen/t_HowToRecordViaAProxy.htm".
+[Proxy Recording  (1a6c:409c)] Trying to connect to https://dev-boomq.pflb.ru:443/test-srv/test/label?query= ...
+[Proxy Recording  (1a6c:409c)] Trying to connect to https://dev-boomq.pflb.ru:443/test-srv/test/label?query= ...
+[Proxy Recording  (1a6c:409c)] Received response of 438 header and 2 body bytes from https://dev-boomq.pflb.ru:443/test-srv/test/label?query=
+[Web Request      (1a6c:409c)] "GET https://dev-boomq.pflb.ru/test-srv/test/label?query="   
+[Network Analyzer (1a6c:409c)]   (Sid: 22) Client -> Server @ : 2536 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a6c:409c)]   (Sid: 22) Server -> Client : 425 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1a6c:409c)]   (Sid: 22) Server -> Client : 2 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1a6c:409c)] Sent 2 bytes to client @ 26.107.126.198:62624
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:22164
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:17267
+[Proxy Recording.Error (1a6c:409c)] Cannot establish a secure connection to the application being recorded.
+Message=Ошибка вызова SSPI, см. внутреннее исключение.
+Import the LoadRunner SSL certificate to the client machine. For details, see "Use Case 3" of "https://admhelp.microfocus.com/vugen/en/2021/help/WebHelp/Content/VuGen/t_HowToRecordViaAProxy.htm".
+[Proxy Recording  (1a6c:3e48)] Trying to connect to https://dev-boomq.pflb.ru:443/test-srv/user ...
+[Proxy Recording  (1a6c:3e48)] Trying to connect to https://dev-boomq.pflb.ru:443/test-srv/user ...
+[Proxy Recording  (1a6c:3e48)] Received response of 438 header and 50 body bytes from https://dev-boomq.pflb.ru:443/test-srv/user
+[Web Request      (1a6c:3e48)] "GET https://dev-boomq.pflb.ru/test-srv/user"   
+[Network Analyzer (1a6c:3e48)]   (Sid: 23) Client -> Server @ : 2523 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a6c:3e48)]   (Sid: 23) Server -> Client : 425 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1a6c:3e48)]   (Sid: 23) Server -> Client : 50 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1a6c:3e48)] Sent 50 bytes to client @ 26.107.126.198:17267
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:58175
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:65400
+[Proxy Recording.Error (1a6c:55dc)] Cannot establish a secure connection to the application being recorded.
+Message=Ошибка вызова SSPI, см. внутреннее исключение.
+Import the LoadRunner SSL certificate to the client machine. For details, see "Use Case 3" of "https://admhelp.microfocus.com/vugen/en/2021/help/WebHelp/Content/VuGen/t_HowToRecordViaAProxy.htm".
+[Proxy Recording  (1a6c:3e48)] Trying to connect to https://dev-boomq.pflb.ru:443/test-srv/test?sort=createDate,desc&displayState=INITIALIZATION,WAITING,RUNNING,TEST_STOPPING ...
+[Proxy Recording  (1a6c:3e48)] Trying to connect to https://dev-boomq.pflb.ru:443/test-srv/test?sort=createDate,desc&displayState=INITIALIZATION,WAITING,RUNNING,TEST_STOPPING ...
+[Proxy Recording  (1a6c:3e48)] Received response of 438 header and 317 body bytes from https://dev-boomq.pflb.ru:443/test-srv/test?sort=createDate,desc&displayState=INITIALIZATION,WAITING,RUNNING,TEST_STOPPING
+[Web Request      (1a6c:3e48)] "GET https://dev-boomq.pflb.ru/test-srv/test?sort=createDate,desc&displayState=INITIALIZATION,WAITING,RUNNING,TEST_STOPPING"   
+[Network Analyzer (1a6c:3e48)]   (Sid: 24) Client -> Server @ : 2602 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a6c:3e48)]   (Sid: 24) Server -> Client : 425 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1a6c:3e48)]   (Sid: 24) Server -> Client : 317 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1a6c:3e48)] Sent 317 bytes to client @ 26.107.126.198:65400
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:5965
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:15570
+[Proxy Recording.Error (1a6c:3e48)] Cannot establish a secure connection to the application being recorded.
+Message=Ошибка вызова SSPI, см. внутреннее исключение.
+Import the LoadRunner SSL certificate to the client machine. For details, see "Use Case 3" of "https://admhelp.microfocus.com/vugen/en/2021/help/WebHelp/Content/VuGen/t_HowToRecordViaAProxy.htm".
+[Proxy Recording  (1a6c:572c)] Trying to connect to https://dev-boomq.pflb.ru:443/test-srv/test?sort=createDate,desc&page=0&size=7 ...
+[Proxy Recording  (1a6c:572c)] Trying to connect to https://dev-boomq.pflb.ru:443/test-srv/test?sort=createDate,desc&page=0&size=7 ...
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:50060
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:38601
+[Proxy Recording.Error (1a6c:3fa8)] Cannot establish a secure connection to the application being recorded.
+Message=Ошибка вызова SSPI, см. внутреннее исключение.
+Import the LoadRunner SSL certificate to the client machine. For details, see "Use Case 3" of "https://admhelp.microfocus.com/vugen/en/2021/help/WebHelp/Content/VuGen/t_HowToRecordViaAProxy.htm".
+[Proxy Recording  (1a6c:572c)] Received response of 438 header and 14859 body bytes from https://dev-boomq.pflb.ru:443/test-srv/test?sort=createDate,desc&page=0&size=7
+[Web Request      (1a6c:572c)] "GET https://dev-boomq.pflb.ru/test-srv/test?sort=createDate,desc&page=0&size=7"   
+[Network Analyzer (1a6c:572c)]   (Sid: 25) Client -> Server @ : 2558 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a6c:572c)]   (Sid: 25) Server -> Client : 425 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1a6c:572c)]   (Sid: 25) Server -> Client : 14859 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1a6c:572c)] Sent 14859 bytes to client @ 26.107.126.198:15570
+[Proxy Recording  (1a6c:4d8c)] Trying to connect to https://sec.api.browser.yandex.ru:443/barnavig/post ...
+[Proxy Recording  (1a6c:4d8c)] Trying to connect to https://sec.api.browser.yandex.ru:443/barnavig/post ...
+[Proxy Recording.Error (1a6c:4114)] Ошибка вызова SSPI, см. внутреннее исключение.
+[Proxy Recording  (1a6c:4d8c)] Received response of 900 header and 173 body bytes from https://sec.api.browser.yandex.ru:443/barnavig/post
+[Network Analyzer (1a6c:4d8c)]   (Sid: 26) Client -> Server @ : 2967 bytes (SSL)(Service=HTTP)
+[Web Request      (1a6c:4d8c)] "POST https://sec.api.browser.yandex.ru/barnavig/post"   
+[Network Analyzer (1a6c:4d8c)]   (Sid: 26) Client -> Server @ : 2571 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a6c:4d8c)]   (Sid: 26) Server -> Client : 917 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1a6c:4d8c)]   (Sid: 26) Server -> Client : 173 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1a6c:4d8c)] Sent 173 bytes to client @ 26.107.126.198:38601
+[Proxy Recording.Error (1a6c:52d0)] Ошибка вызова SSPI, см. внутреннее исключение.
+[Proxy Recording.Error (1a6c:409c)] Ошибка вызова SSPI, см. внутреннее исключение.
+[Proxy Recording.Error (1a6c:55dc)] Ошибка вызова SSPI, см. внутреннее исключение.
+[Proxy Recording.Error (1a6c:3e48)] Ошибка вызова SSPI, см. внутреннее исключение.
+[Proxy Recording.Error (1a6c:3fa8)] Ошибка вызова SSPI, см. внутреннее исключение.
+[Proxy Recording.Error (1a6c:4114)] Получено непредвиденное сообщение или оно имеет неправильный формат
+[Proxy Recording.Error (1a6c:52d0)] Получено непредвиденное сообщение или оно имеет неправильный формат
+[Proxy Recording.Error (1a6c:409c)] Получено непредвиденное сообщение или оно имеет неправильный формат
+[Proxy Recording.Error (1a6c:55dc)] Получено непредвиденное сообщение или оно имеет неправильный формат
+[Proxy Recording.Error (1a6c:3e48)] Получено непредвиденное сообщение или оно имеет неправильный формат
+[Proxy Recording.Error (1a6c:3fa8)] Получено непредвиденное сообщение или оно имеет неправильный формат
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:1860
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:18982
+[Proxy Recording.Error (1a6c:572c)] Cannot establish a secure connection to the application being recorded.
+Message=Ошибка вызова SSPI, см. внутреннее исключение.
+Import the LoadRunner SSL certificate to the client machine. For details, see "Use Case 3" of "https://admhelp.microfocus.com/vugen/en/2021/help/WebHelp/Content/VuGen/t_HowToRecordViaAProxy.htm".
+[Proxy Recording  (1a6c:4d8c)] Trying to connect to https://sync.browser.yandex.net:443/sync/command/?client=Chromium&client_id=fb2DXE1O8zPeg0qusxkuow%3D%3D&ya_soft=yabrowser&ui=97A895BF-00E7-466C-9E62-3A3613B98EBE ...
+[Proxy Recording  (1a6c:4d8c)] Trying to connect to https://sync.browser.yandex.net:443/sync/command/?client=Chromium&client_id=fb2DXE1O8zPeg0qusxkuow%3D%3D&ya_soft=yabrowser&ui=97A895BF-00E7-466C-9E62-3A3613B98EBE ...
+[Proxy Recording.Error (1a6c:572c)] Ошибка вызова SSPI, см. внутреннее исключение.
+[User action                 ] EndTransactionEvent UC05_TR02_ПросмотрЗапусков [Proxy Recording  (1a6c:4d8c)] Received response of 809 header and 357 body bytes from https://sync.browser.yandex.net:443/sync/command/?client=Chromium&client_id=fb2DXE1O8zPeg0qusxkuow%3D%3D&ya_soft=yabrowser&ui=97A895BF-00E7-466C-9E62-3A3613B98EBE
+[Network Analyzer (1a6c:4d8c)]   (Sid: 27) Client -> Server @ : 1087 bytes (SSL)(Service=HTTP)
+[Web Request      (1a6c:4d8c)] "POST https://sync.browser.yandex.net/sync/command/?client=Chromium&client_id=fb2DXE1O8zPeg0qusxkuow%3D%3D&ya_soft=yabrowser&ui=97A895BF-00E7-466C-9E62-3A3613B98EBE"   
+[Network Analyzer (1a6c:4d8c)]   (Sid: 27) Client -> Server @ : 1367 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a6c:4d8c)]   (Sid: 27) Server -> Client : 826 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1a6c:4d8c)]   (Sid: 27) Server -> Client : 357 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1a6c:4d8c)] Sent 357 bytes to client @ 26.107.126.198:18982
+[Proxy Recording.Error (1a6c:572c)] Получено непредвиденное сообщение или оно имеет неправильный формат
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:58784
+[Proxy Recording.Error (1a6c:3e48)] Exception is caught while trying to connect to https://yandex.ru:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording.Error (1a6c:3e48)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:55663
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:55664
+[Proxy Recording  (1a6c:3270)] Trying to connect to http://ipv6.msftconnecttest.com/connecttest.txt ...
+[Proxy Recording  (1a6c:218c)] Trying to connect to http://ipv6.msftconnecttest.com/connecttest.txt ...
+[Proxy Recording  (1a6c:3270)] Trying to connect to http://ipv6.msftconnecttest.com/connecttest.txt ...
+[Proxy Recording  (1a6c:218c)] Trying to connect to http://ipv6.msftconnecttest.com/connecttest.txt ...
+[Proxy Recording.Error (1a6c:218c)] Failed to connect to server http://ipv6.msftconnecttest.com/connecttest.txt.
+Message=NameResolutionFailure, status=Невозможно разрешить удаленное имя: 'ipv6.msftconnecttest.com'
+See "https://msdn.microsoft.com/en-us/library/ms346609(v=vs.110).aspx" for details.
+[Proxy Recording.Error (1a6c:3270)] Failed to connect to server http://ipv6.msftconnecttest.com/connecttest.txt.
+Message=NameResolutionFailure, status=Невозможно разрешить удаленное имя: 'ipv6.msftconnecttest.com'
+See "https://msdn.microsoft.com/en-us/library/ms346609(v=vs.110).aspx" for details.
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:55666
+[Proxy Recording  (1a6c:2cc0)] Trying to connect to http://www.msftconnecttest.com/connecttest.txt ...
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:55667
+[Proxy Recording  (1a6c:2cc0)] Trying to connect to http://www.msftconnecttest.com/connecttest.txt ...
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:55668
+[Proxy Recording  (1a6c:218c)] Trying to connect to http://www.msftconnecttest.com/connecttest.txt ...
+[Proxy Recording  (1a6c: a34)] Trying to connect to http://ipv6.msftconnecttest.com/connecttest.txt ...
+[Proxy Recording  (1a6c:218c)] Trying to connect to http://www.msftconnecttest.com/connecttest.txt ...
+[Proxy Recording  (1a6c: a34)] Trying to connect to http://ipv6.msftconnecttest.com/connecttest.txt ...
+[Proxy Recording.Error (1a6c: a34)] Failed to connect to server http://ipv6.msftconnecttest.com/connecttest.txt.
+Message=NameResolutionFailure, status=Невозможно разрешить удаленное имя: 'ipv6.msftconnecttest.com'
+See "https://msdn.microsoft.com/en-us/library/ms346609(v=vs.110).aspx" for details.
+[Proxy Recording  (1a6c:218c)] Received response of 153 header and 22 body bytes from http://www.msftconnecttest.com/connecttest.txt
+[Proxy Recording  (1a6c:2cc0)] Received response of 153 header and 22 body bytes from http://www.msftconnecttest.com/connecttest.txt
+[Proxy Recording  (1a6c:218c)] Sent 22 bytes to client @ 26.107.126.198:55667
+[Proxy Recording  (1a6c:2cc0)] Sent 22 bytes to client @ 26.107.126.198:55666
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:27945
+[Proxy Recording.Error (1a6c:218c)] Cannot establish a secure connection to the application being recorded.
+Message=Ошибка вызова SSPI, см. внутреннее исключение.
+Import the LoadRunner SSL certificate to the client machine. For details, see "Use Case 3" of "https://admhelp.microfocus.com/vugen/en/2021/help/WebHelp/Content/VuGen/t_HowToRecordViaAProxy.htm".
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:5928
+[Proxy Recording  (1a6c:2914)] Trying to connect to https://sec.api.browser.yandex.ru:443/barnavig/post ...
+[Proxy Recording  (1a6c:2914)] Trying to connect to https://sec.api.browser.yandex.ru:443/barnavig/post ...
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:49747
+[Proxy Recording.Error (1a6c:212c)] Cannot establish a secure connection to the application being recorded.
+Message=Ошибка вызова SSPI, см. внутреннее исключение.
+Import the LoadRunner SSL certificate to the client machine. For details, see "Use Case 3" of "https://admhelp.microfocus.com/vugen/en/2021/help/WebHelp/Content/VuGen/t_HowToRecordViaAProxy.htm".
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:40166
+[Proxy Recording  (1a6c:2914)] Received response of 901 header and 173 body bytes from https://sec.api.browser.yandex.ru:443/barnavig/post
+[Network Analyzer (1a6c:2914)]   (Sid: 28) Client -> Server @ : 2967 bytes (SSL)(Service=HTTP)
+[Web Request      (1a6c:2914)] "POST https://sec.api.browser.yandex.ru/barnavig/post"   
+[Network Analyzer (1a6c:2914)]   (Sid: 28) Client -> Server @ : 2632 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a6c:2914)]   (Sid: 28) Server -> Client : 918 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1a6c:2914)]   (Sid: 28) Server -> Client : 173 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1a6c:2914)] Sent 173 bytes to client @ 26.107.126.198:5928
+[Proxy Recording  (1a6c:399c)] Trying to connect to https://dev-boomq.pflb.ru:443/test-srv/test?sort=createDate,desc&displayState=INITIALIZATION,WAITING,RUNNING,TEST_STOPPING ...
+[Proxy Recording  (1a6c:399c)] Trying to connect to https://dev-boomq.pflb.ru:443/test-srv/test?sort=createDate,desc&displayState=INITIALIZATION,WAITING,RUNNING,TEST_STOPPING ...
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:3346
+[Proxy Recording  (1a6c:399c)] Received response of 438 header and 317 body bytes from https://dev-boomq.pflb.ru:443/test-srv/test?sort=createDate,desc&displayState=INITIALIZATION,WAITING,RUNNING,TEST_STOPPING
+[Web Request      (1a6c:399c)] "GET https://dev-boomq.pflb.ru/test-srv/test?sort=createDate,desc&displayState=INITIALIZATION,WAITING,RUNNING,TEST_STOPPING"   
+[Network Analyzer (1a6c:399c)]   (Sid: 29) Client -> Server @ : 2602 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a6c:399c)]   (Sid: 29) Server -> Client : 425 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:18772
+[Network Analyzer (1a6c:399c)]   (Sid: 29) Server -> Client : 317 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1a6c:399c)] Sent 317 bytes to client @ 26.107.126.198:40166
+[Proxy Recording.Error (1a6c:218c)] Ошибка вызова SSPI, см. внутреннее исключение.
+[Proxy Recording.Error (1a6c:212c)] Ошибка вызова SSPI, см. внутреннее исключение.
+[Proxy Recording.Error (1a6c:2914)] Exception is caught while trying to connect to https://api.browser.yandex.net:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:56396
+[Proxy Recording.Error (1a6c:2914)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording  (1a6c:119c)] Trying to connect to https://api.browser.yandex.ru:443/ab/testids?service=dbrowser ...
+[Proxy Recording  (1a6c:119c)] Trying to connect to https://api.browser.yandex.ru:443/ab/testids?service=dbrowser ...
+[Proxy Recording  (1a6c:399c)] Trying to connect to https://api.browser.yandex.net:443/content/get/experiments/browser.proto?osname=win&channel=stable&milestone=142 ...
+[Proxy Recording  (1a6c:399c)] Trying to connect to https://api.browser.yandex.net:443/content/get/experiments/browser.proto?osname=win&channel=stable&milestone=142 ...
+[Proxy Recording  (1a6c:119c)] Received response of 1248 header and 6723 body bytes from https://api.browser.yandex.ru:443/ab/testids?service=dbrowser
+[Web Request      (1a6c:119c)] "GET https://api.browser.yandex.ru/ab/testids?service=dbrowser"   
+[Network Analyzer (1a6c:119c)]   (Sid: 30) Client -> Server @ : 1087 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a6c:119c)]   (Sid: 30) Server -> Client : 1265 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1a6c:119c)]   (Sid: 30) Server -> Client : 6723 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1a6c:119c)] Sent 6723 bytes to client @ 26.107.126.198:18772
+[Proxy Recording  (1a6c:399c)] Received response of 1098 header and 0 body bytes from https://api.browser.yandex.net:443/content/get/experiments/browser.proto?osname=win&channel=stable&milestone=142
+[Web Request      (1a6c:399c)] "GET https://api.browser.yandex.net/content/get/experiments/browser.proto?osname=win&channel=stable&milestone=142"   
+[Network Analyzer (1a6c:399c)]   (Sid: 31) Client -> Server @ : 885 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a6c:399c)]   (Sid: 31) Server -> Client : 1125 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1a6c:399c)] Sent 0 bytes to client @ 26.107.126.198:56396
+[Proxy Recording.Error (1a6c:218c)] Получено непредвиденное сообщение или оно имеет неправильный формат
+[Proxy Recording.Error (1a6c:212c)] Получено непредвиденное сообщение или оно имеет неправильный формат
+[User action                 ] StartTransactionEvent UC05_TR03_ПросмотрТеста [Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:56399
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:56400
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:56401
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:56402
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:61114
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:35991
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:2526
+[Proxy Recording  (1a6c:399c)] Trying to connect to https://fd.api.iris.microsoft.com:443/v4/api/selection?&asid=F2061E2A7A684FCF9C4067AAEE793998&nct=1&placement=88000677&bcnt=30&country=RU&locale=ru&poptin=1&fmt=json&clr=cdmlite&MX_FlightIds=MD%3A283BAEF%2CME%3A33B9B30%2CME%3A3667C98%2CME%3A3667C9A%2CME%3A3667CA2%2CME%3A3667CA7%2CMD%3A3667CAD%2CME%3A3536BD9%2CMD%3A2FE0A31%2CMD%3A2FE0A40%2CMD%3A2FE0A4F%2CMD%3A37B239D%2CMD%3A36AF640%2CMD%3A9999&andoptin=1&arch=AMD64&concp=0&d3dfl=D3D_FEATURE_LEVEL_12_1&devfam=Windows.Desktop&devfm=0&devosver=10.0.26200.7623&dinst=1744914909&dmret=0&drgng=203&flightbranch=&flightring=Retail&icluc=0&iepe=1&iste=1&localid=w%3AF56D6C5A-6E1B-65A5-0309-D9A9B66E1030&oem=System%20Product%20Name&oemmsf=To%20be%20filled%20by%20O.E.M.&oemn=ASUS&oemname=ASUS&osbranch=ge_release&oslocale=ru-RU&osret=1&ossku=Professional&osskuid=48&prccn=12&prccs=3593&prcmf=AuthenticAMD&procm=AMD%20Ryzen%205%203600%206-Core%20Processor%20%20%20%20%20%20%20%20%20%20%20%20%20%20&ram=16384&smbiosdm=System%20Product%20Name&tinst=Client&tl=1&wasca=0&wascp=0&usri=3%3B4%3B7&pat=1&sac=0&disphorzres=1920&dispsize=23.8&dispvertres=1080&ldisphorzres=3840&ldispvertres=1080&moncnt=2&cpdsk=237576&frdsk=67950&lo=419792&tsu=419792 ...
+[Proxy Recording  (1a6c:399c)] Trying to connect to https://fd.api.iris.microsoft.com:443/v4/api/selection?&asid=F2061E2A7A684FCF9C4067AAEE793998&nct=1&placement=88000677&bcnt=30&country=RU&locale=ru&poptin=1&fmt=json&clr=cdmlite&MX_FlightIds=MD%3A283BAEF%2CME%3A33B9B30%2CME%3A3667C98%2CME%3A3667C9A%2CME%3A3667CA2%2CME%3A3667CA7%2CMD%3A3667CAD%2CME%3A3536BD9%2CMD%3A2FE0A31%2CMD%3A2FE0A40%2CMD%3A2FE0A4F%2CMD%3A37B239D%2CMD%3A36AF640%2CMD%3A9999&andoptin=1&arch=AMD64&concp=0&d3dfl=D3D_FEATURE_LEVEL_12_1&devfam=Windows.Desktop&devfm=0&devosver=10.0.26200.7623&dinst=1744914909&dmret=0&drgng=203&flightbranch=&flightring=Retail&icluc=0&iepe=1&iste=1&localid=w%3AF56D6C5A-6E1B-65A5-0309-D9A9B66E1030&oem=System%20Product%20Name&oemmsf=To%20be%20filled%20by%20O.E.M.&oemn=ASUS&oemname=ASUS&osbranch=ge_release&oslocale=ru-RU&osret=1&ossku=Professional&osskuid=48&prccn=12&prccs=3593&prcmf=AuthenticAMD&procm=AMD%20Ryzen%205%203600%206-Core%20Processor%20%20%20%20%20%20%20%20%20%20%20%20%20%20&ram=16384&smbiosdm=System%20Product%20Name&tinst=Client&tl=1&wasca=0&wascp=0&usri=3%3B4%3B7&pat=1&sac=0&disphorzres=1920&dispsize=23.8&dispvertres=1080&ldisphorzres=3840&ldispvertres=1080&moncnt=2&cpdsk=237576&frdsk=67950&lo=419792&tsu=419792 ...
+[Proxy Recording  (1a6c:399c)] Received response of 588 header and 2867 body bytes from https://fd.api.iris.microsoft.com:443/v4/api/selection?&asid=F2061E2A7A684FCF9C4067AAEE793998&nct=1&placement=88000677&bcnt=30&country=RU&locale=ru&poptin=1&fmt=json&clr=cdmlite&MX_FlightIds=MD%3A283BAEF%2CME%3A33B9B30%2CME%3A3667C98%2CME%3A3667C9A%2CME%3A3667CA2%2CME%3A3667CA7%2CMD%3A3667CAD%2CME%3A3536BD9%2CMD%3A2FE0A31%2CMD%3A2FE0A40%2CMD%3A2FE0A4F%2CMD%3A37B239D%2CMD%3A36AF640%2CMD%3A9999&andoptin=1&arch=AMD64&concp=0&d3dfl=D3D_FEATURE_LEVEL_12_1&devfam=Windows.Desktop&devfm=0&devosver=10.0.26200.7623&dinst=1744914909&dmret=0&drgng=203&flightbranch=&flightring=Retail&icluc=0&iepe=1&iste=1&localid=w%3AF56D6C5A-6E1B-65A5-0309-D9A9B66E1030&oem=System%20Product%20Name&oemmsf=To%20be%20filled%20by%20O.E.M.&oemn=ASUS&oemname=ASUS&osbranch=ge_release&oslocale=ru-RU&osret=1&ossku=Professional&osskuid=48&prccn=12&prccs=3593&prcmf=AuthenticAMD&procm=AMD%20Ryzen%205%203600%206-Core%20Processor%20%20%20%20%20%20%20%20%20%20%20%20%20%20&ram=16384&smbiosdm=System%20Product%20Name&tinst=Client&tl=1&wasca=0&wascp=0&usri=3%3B4%3B7&pat=1&sac=0&disphorzres=1920&dispsize=23.8&dispvertres=1080&ldisphorzres=3840&ldispvertres=1080&moncnt=2&cpdsk=237576&frdsk=67950&lo=419792&tsu=419792
+[Proxy Recording  (1a6c:399c)] Sent 2867 bytes to client @ 26.107.126.198:56399
+[Proxy Recording.Error (1a6c:218c)] Cannot establish a secure connection to the application being recorded.
+Message=Ошибка вызова SSPI, см. внутреннее исключение.
+Import the LoadRunner SSL certificate to the client machine. For details, see "Use Case 3" of "https://admhelp.microfocus.com/vugen/en/2021/help/WebHelp/Content/VuGen/t_HowToRecordViaAProxy.htm".
+[Proxy Recording.Error (1a6c:3af0)] Cannot establish a secure connection to the application being recorded.
+Message=Ошибка вызова SSPI, см. внутреннее исключение.
+Import the LoadRunner SSL certificate to the client machine. For details, see "Use Case 3" of "https://admhelp.microfocus.com/vugen/en/2021/help/WebHelp/Content/VuGen/t_HowToRecordViaAProxy.htm".
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:12303
+[Proxy Recording.Error (1a6c:2914)] Exception is caught while trying to connect to https://yandex.ru:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording.Error (1a6c:2914)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:61504
+[Proxy Recording  (1a6c:399c)] Trying to connect to https://dev-boomq.pflb.ru:443/project-srv/project/2698 ...
+[Proxy Recording  (1a6c:399c)] Trying to connect to https://dev-boomq.pflb.ru:443/project-srv/project/2698 ...
+[Proxy Recording  (1a6c:1178)] Trying to connect to https://dev-boomq.pflb.ru:443/test-srv/test/8399 ...
+[Proxy Recording  (1a6c:1178)] Trying to connect to https://dev-boomq.pflb.ru:443/test-srv/test/8399 ...
+[Proxy Recording  (1a6c:399c)] Received response of 438 header and 514 body bytes from https://dev-boomq.pflb.ru:443/project-srv/project/2698
+[Web Request      (1a6c:399c)] "GET https://dev-boomq.pflb.ru/project-srv/project/2698"   
+[Network Analyzer (1a6c:399c)]   (Sid: 32) Client -> Server @ : 2544 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a6c:399c)]   (Sid: 32) Server -> Client : 425 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1a6c:399c)]   (Sid: 32) Server -> Client : 514 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1a6c:399c)] Sent 514 bytes to client @ 26.107.126.198:12303
+[Proxy Recording  (1a6c:1178)] Received response of 438 header and 2760 body bytes from https://dev-boomq.pflb.ru:443/test-srv/test/8399
+[Web Request      (1a6c:1178)] "GET https://dev-boomq.pflb.ru/test-srv/test/8399"   
+[Network Analyzer (1a6c:1178)]   (Sid: 33) Client -> Server @ : 2538 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a6c:1178)]   (Sid: 33) Server -> Client : 425 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1a6c:1178)]   (Sid: 33) Server -> Client : 2760 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1a6c:1178)] Sent 2760 bytes to client @ 26.107.126.198:61504
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:46083
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:34175
+[Proxy Recording.Error (1a6c:2914)] Cannot establish a secure connection to the application being recorded.
+Message=Ошибка вызова SSPI, см. внутреннее исключение.
+Import the LoadRunner SSL certificate to the client machine. For details, see "Use Case 3" of "https://admhelp.microfocus.com/vugen/en/2021/help/WebHelp/Content/VuGen/t_HowToRecordViaAProxy.htm".
+[Proxy Recording  (1a6c:399c)] Trying to connect to https://dev-boomq.pflb.ru:443/timescale-srv/testMetric?testId=8399&testStartDate=2026-02-03T07:57:03.599Z&testEndDate=2026-02-03T07:58:01.889Z ...
+[Proxy Recording  (1a6c:399c)] Trying to connect to https://dev-boomq.pflb.ru:443/timescale-srv/testMetric?testId=8399&testStartDate=2026-02-03T07:57:03.599Z&testEndDate=2026-02-03T07:58:01.889Z ...
+[Proxy Recording  (1a6c:399c)] Received response of 363 header and 1084 body bytes from https://dev-boomq.pflb.ru:443/timescale-srv/testMetric?testId=8399&testStartDate=2026-02-03T07:57:03.599Z&testEndDate=2026-02-03T07:58:01.889Z
+[Proxy Recording  (1a6c:3d7c)] Trying to connect to https://fd.api.iris.microsoft.com:443/v4/api/selection?&asid=21D32AA3E6E145CDAB963C3C449A0C52&nct=1&placement=88000861&bcnt=7&country=RU&locale=ru&poptin=1&fmt=json&clr=cdmlite&MX_FlightIds=MD%3A283BAEF%2CME%3A33B9B30%2CME%3A3667C98%2CME%3A3667C9A%2CME%3A3667CA2%2CME%3A3667CA7%2CMD%3A3667CAD%2CME%3A3536BD9%2CMD%3A2FE0A31%2CMD%3A2FE0A40%2CMD%3A2FE0A4F%2CMD%3A37B239D%2CMD%3A36AF640%2CMD%3A9999&andoptin=1&arch=AMD64&concp=0&d3dfl=D3D_FEATURE_LEVEL_12_1&devfam=Windows.Desktop&devfm=0&devosver=10.0.26200.7623&dinst=1744914909&dmret=0&drgng=203&flightbranch=&flightring=Retail&icluc=0&iepe=1&iste=1&localid=w%3AF56D6C5A-6E1B-65A5-0309-D9A9B66E1030&oem=System%20Product%20Name&oemmsf=To%20be%20filled%20by%20O.E.M.&oemn=ASUS&oemname=ASUS&osbranch=ge_release&oslocale=ru-RU&osret=1&ossku=Professional&osskuid=48&prccn=12&prccs=3593&prcmf=AuthenticAMD&procm=AMD%20Ryzen%205%203600%206-Core%20Processor%20%20%20%20%20%20%20%20%20%20%20%20%20%20&ram=16384&smbiosdm=System%20Product%20Name&tinst=Client&tl=1&wasca=0&wascp=0&usri=3%3B4%3B7&pat=1&sac=0&disphorzres=1920&dispsize=23.8&dispvertres=1080&ldisphorzres=3840&ldispvertres=1080&moncnt=2&cpdsk=237576&frdsk=67950&lo=419792&tsu=419792&WindowsBackup_ABS=F&WindowsBackup_DN=155261&WindowsBackup_FBS=N&WindowsBackup_OA=-2147024875&WindowsBackup_OC=IN&WindowsBackup_SBS=F&WindowsBackup_VER=2504 ...
+[Proxy Recording  (1a6c:212c)] Trying to connect to https://login.live.com:443/RST2.srf ...
+[Proxy Recording  (1a6c:3d7c)] Trying to connect to https://fd.api.iris.microsoft.com:443/v4/api/selection?&asid=21D32AA3E6E145CDAB963C3C449A0C52&nct=1&placement=88000861&bcnt=7&country=RU&locale=ru&poptin=1&fmt=json&clr=cdmlite&MX_FlightIds=MD%3A283BAEF%2CME%3A33B9B30%2CME%3A3667C98%2CME%3A3667C9A%2CME%3A3667CA2%2CME%3A3667CA7%2CMD%3A3667CAD%2CME%3A3536BD9%2CMD%3A2FE0A31%2CMD%3A2FE0A40%2CMD%3A2FE0A4F%2CMD%3A37B239D%2CMD%3A36AF640%2CMD%3A9999&andoptin=1&arch=AMD64&concp=0&d3dfl=D3D_FEATURE_LEVEL_12_1&devfam=Windows.Desktop&devfm=0&devosver=10.0.26200.7623&dinst=1744914909&dmret=0&drgng=203&flightbranch=&flightring=Retail&icluc=0&iepe=1&iste=1&localid=w%3AF56D6C5A-6E1B-65A5-0309-D9A9B66E1030&oem=System%20Product%20Name&oemmsf=To%20be%20filled%20by%20O.E.M.&oemn=ASUS&oemname=ASUS&osbranch=ge_release&oslocale=ru-RU&osret=1&ossku=Professional&osskuid=48&prccn=12&prccs=3593&prcmf=AuthenticAMD&procm=AMD%20Ryzen%205%203600%206-Core%20Processor%20%20%20%20%20%20%20%20%20%20%20%20%20%20&ram=16384&smbiosdm=System%20Product%20Name&tinst=Client&tl=1&wasca=0&wascp=0&usri=3%3B4%3B7&pat=1&sac=0&disphorzres=1920&dispsize=23.8&dispvertres=1080&ldisphorzres=3840&ldispvertres=1080&moncnt=2&cpdsk=237576&frdsk=67950&lo=419792&tsu=419792&WindowsBackup_ABS=F&WindowsBackup_DN=155261&WindowsBackup_FBS=N&WindowsBackup_OA=-2147024875&WindowsBackup_OC=IN&WindowsBackup_SBS=F&WindowsBackup_VER=2504 ...
+[Web Request      (1a6c:399c)] "GET https://dev-boomq.pflb.ru/timescale-srv/testMetric?testId=8399&testStartDate=2026-02-03T07:57:03.599Z&testEndDate=2026-02-03T07:58:01.889Z"   
+[Network Analyzer (1a6c:399c)]   (Sid: 34) Client -> Server @ : 2632 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a6c:399c)]   (Sid: 34) Server -> Client : 350 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1a6c:399c)]   (Sid: 34) Server -> Client : 1084 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1a6c:399c)] Sent 1084 bytes to client @ 26.107.126.198:34175
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:48775
+[Proxy Recording.Error (1a6c:1178)] Cannot establish a secure connection to the application being recorded.
+Message=Ошибка вызова SSPI, см. внутреннее исключение.
+Import the LoadRunner SSL certificate to the client machine. For details, see "Use Case 3" of "https://admhelp.microfocus.com/vugen/en/2021/help/WebHelp/Content/VuGen/t_HowToRecordViaAProxy.htm".
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:22237
+[Proxy Recording  (1a6c:5664)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana-srv/auth?testId=8399&testStartTime=2026-02-03T07:57:03.599Z&testEndTime=2026-02-03T07:58:01.889Z ...
+[Proxy Recording  (1a6c:5664)] Trying to connect to https://dev-boomq.pflb.ru:443/grafana-srv/auth?testId=8399&testStartTime=2026-02-03T07:57:03.599Z&testEndTime=2026-02-03T07:58:01.889Z ...
+[Proxy Recording  (1a6c:3d7c)] Received response of 529 header and 131 body bytes from https://fd.api.iris.microsoft.com:443/v4/api/selection?&asid=21D32AA3E6E145CDAB963C3C449A0C52&nct=1&placement=88000861&bcnt=7&country=RU&locale=ru&poptin=1&fmt=json&clr=cdmlite&MX_FlightIds=MD%3A283BAEF%2CME%3A33B9B30%2CME%3A3667C98%2CME%3A3667C9A%2CME%3A3667CA2%2CME%3A3667CA7%2CMD%3A3667CAD%2CME%3A3536BD9%2CMD%3A2FE0A31%2CMD%3A2FE0A40%2CMD%3A2FE0A4F%2CMD%3A37B239D%2CMD%3A36AF640%2CMD%3A9999&andoptin=1&arch=AMD64&concp=0&d3dfl=D3D_FEATURE_LEVEL_12_1&devfam=Windows.Desktop&devfm=0&devosver=10.0.26200.7623&dinst=1744914909&dmret=0&drgng=203&flightbranch=&flightring=Retail&icluc=0&iepe=1&iste=1&localid=w%3AF56D6C5A-6E1B-65A5-0309-D9A9B66E1030&oem=System%20Product%20Name&oemmsf=To%20be%20filled%20by%20O.E.M.&oemn=ASUS&oemname=ASUS&osbranch=ge_release&oslocale=ru-RU&osret=1&ossku=Professional&osskuid=48&prccn=12&prccs=3593&prcmf=AuthenticAMD&procm=AMD%20Ryzen%205%203600%206-Core%20Processor%20%20%20%20%20%20%20%20%20%20%20%20%20%20&ram=16384&smbiosdm=System%20Product%20Name&tinst=Client&tl=1&wasca=0&wascp=0&usri=3%3B4%3B7&pat=1&sac=0&disphorzres=1920&dispsize=23.8&dispvertres=1080&ldisphorzres=3840&ldispvertres=1080&moncnt=2&cpdsk=237576&frdsk=67950&lo=419792&tsu=419792&WindowsBackup_ABS=F&WindowsBackup_DN=155261&WindowsBackup_FBS=N&WindowsBackup_OA=-2147024875&WindowsBackup_OC=IN&WindowsBackup_SBS=F&WindowsBackup_VER=2504
+[Proxy Recording  (1a6c:3d7c)] Sent 131 bytes to client @ 26.107.126.198:56402
+[Proxy Recording  (1a6c:5664)] Received response of 615 header and 152 body bytes from https://dev-boomq.pflb.ru:443/grafana-srv/auth?testId=8399&testStartTime=2026-02-03T07:57:03.599Z&testEndTime=2026-02-03T07:58:01.889Z
+[Web Request      (1a6c:5664)] "GET https://dev-boomq.pflb.ru/grafana-srv/auth?testId=8399&testStartTime=2026-02-03T07:57:03.599Z&testEndTime=2026-02-03T07:58:01.889Z"   
+[Network Analyzer (1a6c:5664)]   (Sid: 35) Client -> Server @ : 2624 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a6c:5664)]   (Sid: 35) Server -> Client : 602 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1a6c:5664)]   (Sid: 35) Server -> Client : 152 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1a6c:5664)] Sent 152 bytes to client @ 26.107.126.198:22237
+[Proxy Recording  (1a6c:212c)] Trying to connect to https://login.live.com:443/RST2.srf ...
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:6700
+[Proxy Recording.Error (1a6c:399c)] Cannot establish a secure connection to the application being recorded.
+Message=Ошибка вызова SSPI, см. внутреннее исключение.
+Import the LoadRunner SSL certificate to the client machine. For details, see "Use Case 3" of "https://admhelp.microfocus.com/vugen/en/2021/help/WebHelp/Content/VuGen/t_HowToRecordViaAProxy.htm".
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:42392
+[Proxy Recording  (1a6c:3d7c)] Trying to connect to https://dev-boomq.pflb.ru:443/test-srv/testResultFile?testId=8399 ...
+[Proxy Recording  (1a6c:3d7c)] Trying to connect to https://dev-boomq.pflb.ru:443/test-srv/testResultFile?testId=8399 ...
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:42394
+[Proxy Recording  (1a6c:3d7c)] Received response of 438 header and 2 body bytes from https://dev-boomq.pflb.ru:443/test-srv/testResultFile?testId=8399
+[Web Request      (1a6c:3d7c)] "GET https://dev-boomq.pflb.ru/test-srv/testResultFile?testId=8399"   
+[Network Analyzer (1a6c:3d7c)]   (Sid: 36) Client -> Server @ : 2555 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a6c:3d7c)]   (Sid: 36) Server -> Client : 425 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1a6c:3d7c)]   (Sid: 36) Server -> Client : 2 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1a6c:3d7c)] Sent 2 bytes to client @ 26.107.126.198:42392
+[Proxy Recording  (1a6c:5664)] Trying to connect to https://login.live.com:443/RST2.srf ...
+[Proxy Recording  (1a6c:212c)] Received response of 557 header and 17661 body bytes from https://login.live.com:443/RST2.srf
+[Proxy Recording  (1a6c:212c)] Sent 17661 bytes to client @ 26.107.126.198:56401
+[Proxy Recording  (1a6c:5664)] Trying to connect to https://login.live.com:443/RST2.srf ...
+[Proxy Recording.Error (1a6c:3af0)] Ошибка вызова SSPI, см. внутреннее исключение.
+[Proxy Recording.Error (1a6c:218c)] Ошибка вызова SSPI, см. внутреннее исключение.
+[Proxy Recording  (1a6c:5664)] Received response of 557 header and 17277 body bytes from https://login.live.com:443/RST2.srf
+[Proxy Recording  (1a6c:5664)] Sent 17277 bytes to client @ 26.107.126.198:42394
+[Proxy Recording.Error (1a6c:2914)] Ошибка вызова SSPI, см. внутреннее исключение.
+[Proxy Recording.Error (1a6c:1178)] Ошибка вызова SSPI, см. внутреннее исключение.
+[Proxy Recording.Error (1a6c:399c)] Ошибка вызова SSPI, см. внутреннее исключение.
+[Proxy Recording.Error (1a6c:218c)] Получено непредвиденное сообщение или оно имеет неправильный формат
+[Proxy Recording.Error (1a6c:3af0)] Получено непредвиденное сообщение или оно имеет неправильный формат
+[Proxy Recording.Error (1a6c:2914)] Получено непредвиденное сообщение или оно имеет неправильный формат
+[Proxy Recording.Error (1a6c:1178)] Получено непредвиденное сообщение или оно имеет неправильный формат
+[Proxy Recording.Error (1a6c:399c)] Получено непредвиденное сообщение или оно имеет неправильный формат
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:1239
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:27491
+[Proxy Recording.Error (1a6c:3d7c)] Cannot establish a secure connection to the application being recorded.
+Message=Ошибка вызова SSPI, см. внутреннее исключение.
+Import the LoadRunner SSL certificate to the client machine. For details, see "Use Case 3" of "https://admhelp.microfocus.com/vugen/en/2021/help/WebHelp/Content/VuGen/t_HowToRecordViaAProxy.htm".
+[Proxy Recording  (1a6c:3af0)] Trying to connect to https://sync.browser.yandex.net:443/sync/command/?client=Chromium&client_id=fb2DXE1O8zPeg0qusxkuow%3D%3D&ya_soft=yabrowser&ui=97A895BF-00E7-466C-9E62-3A3613B98EBE ...
+[Proxy Recording  (1a6c:3af0)] Trying to connect to https://sync.browser.yandex.net:443/sync/command/?client=Chromium&client_id=fb2DXE1O8zPeg0qusxkuow%3D%3D&ya_soft=yabrowser&ui=97A895BF-00E7-466C-9E62-3A3613B98EBE ...
+[Proxy Recording.Error (1a6c:3d7c)] Ошибка вызова SSPI, см. внутреннее исключение.
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:10819
+[Proxy Recording.Error (1a6c:2914)] Cannot establish a secure connection to the application being recorded.
+Message=Ошибка вызова SSPI, см. внутреннее исключение.
+Import the LoadRunner SSL certificate to the client machine. For details, see "Use Case 3" of "https://admhelp.microfocus.com/vugen/en/2021/help/WebHelp/Content/VuGen/t_HowToRecordViaAProxy.htm".
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:37762
+[Proxy Recording  (1a6c:1178)] Trying to connect to https://dev-boomq.pflb.ru:443/test-srv/testResultFile?testId=8399 ...
+[Proxy Recording  (1a6c:1178)] Trying to connect to https://dev-boomq.pflb.ru:443/test-srv/testResultFile?testId=8399 ...
+[Proxy Recording  (1a6c:1178)] Received response of 438 header and 2 body bytes from https://dev-boomq.pflb.ru:443/test-srv/testResultFile?testId=8399
+[Web Request      (1a6c:1178)] "GET https://dev-boomq.pflb.ru/test-srv/testResultFile?testId=8399"   
+[Network Analyzer (1a6c:1178)]   (Sid: 37) Client -> Server @ : 2555 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a6c:1178)]   (Sid: 37) Server -> Client : 425 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1a6c:1178)]   (Sid: 37) Server -> Client : 2 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1a6c:1178)] Sent 2 bytes to client @ 26.107.126.198:37762
+[Proxy Recording.Error (1a6c:3d7c)] Получено непредвиденное сообщение или оно имеет неправильный формат
+[User action                 ] EndTransactionEvent UC05_TR03_ПросмотрТеста [Proxy Recording.Error (1a6c:2914)] Ошибка вызова SSPI, см. внутреннее исключение.
+[Proxy Recording  (1a6c:3af0)] Received response of 811 header and 357 body bytes from https://sync.browser.yandex.net:443/sync/command/?client=Chromium&client_id=fb2DXE1O8zPeg0qusxkuow%3D%3D&ya_soft=yabrowser&ui=97A895BF-00E7-466C-9E62-3A3613B98EBE
+[Network Analyzer (1a6c:3af0)]   (Sid: 38) Client -> Server @ : 1087 bytes (SSL)(Service=HTTP)
+[Web Request      (1a6c:3af0)] "POST https://sync.browser.yandex.net/sync/command/?client=Chromium&client_id=fb2DXE1O8zPeg0qusxkuow%3D%3D&ya_soft=yabrowser&ui=97A895BF-00E7-466C-9E62-3A3613B98EBE"   
+[Network Analyzer (1a6c:3af0)]   (Sid: 38) Client -> Server @ : 1401 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a6c:3af0)]   (Sid: 38) Server -> Client : 828 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1a6c:3af0)]   (Sid: 38) Server -> Client : 357 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1a6c:3af0)] Sent 357 bytes to client @ 26.107.126.198:27491
+[Proxy Recording.Error (1a6c:2914)] Получено непредвиденное сообщение или оно имеет неправильный формат
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:35924
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:23679
+[Proxy Recording.Error (1a6c:399c)] Cannot establish a secure connection to the application being recorded.
+Message=Ошибка вызова SSPI, см. внутреннее исключение.
+Import the LoadRunner SSL certificate to the client machine. For details, see "Use Case 3" of "https://admhelp.microfocus.com/vugen/en/2021/help/WebHelp/Content/VuGen/t_HowToRecordViaAProxy.htm".
+[Proxy Recording  (1a6c:212c)] Trying to connect to https://dev-boomq.pflb.ru:443/test-srv/testResultFile?testId=8399 ...
+[Proxy Recording  (1a6c:212c)] Trying to connect to https://dev-boomq.pflb.ru:443/test-srv/testResultFile?testId=8399 ...
+[Proxy Recording  (1a6c:212c)] Received response of 438 header and 2 body bytes from https://dev-boomq.pflb.ru:443/test-srv/testResultFile?testId=8399
+[Web Request      (1a6c:212c)] "GET https://dev-boomq.pflb.ru/test-srv/testResultFile?testId=8399"   
+[Network Analyzer (1a6c:212c)]   (Sid: 39) Client -> Server @ : 2555 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a6c:212c)]   (Sid: 39) Server -> Client : 425 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1a6c:212c)]   (Sid: 39) Server -> Client : 2 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1a6c:212c)] Sent 2 bytes to client @ 26.107.126.198:23679
+[Proxy Recording.Error (1a6c:399c)] Ошибка вызова SSPI, см. внутреннее исключение.
+[Proxy Recording.Error (1a6c:399c)] Получено непредвиденное сообщение или оно имеет неправильный формат
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:34825
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:57841
+[Proxy Recording.Error (1a6c:186c)] Cannot establish a secure connection to the application being recorded.
+Message=Ошибка вызова SSPI, см. внутреннее исключение.
+Import the LoadRunner SSL certificate to the client machine. For details, see "Use Case 3" of "https://admhelp.microfocus.com/vugen/en/2021/help/WebHelp/Content/VuGen/t_HowToRecordViaAProxy.htm".
+[Proxy Recording  (1a6c:2914)] Trying to connect to https://dev-boomq.pflb.ru:443/test-srv/testResultFile?testId=8399 ...
+[Proxy Recording  (1a6c:2914)] Trying to connect to https://dev-boomq.pflb.ru:443/test-srv/testResultFile?testId=8399 ...
+[Proxy Recording  (1a6c:2914)] Received response of 438 header and 2 body bytes from https://dev-boomq.pflb.ru:443/test-srv/testResultFile?testId=8399
+[Web Request      (1a6c:2914)] "GET https://dev-boomq.pflb.ru/test-srv/testResultFile?testId=8399"   
+[Network Analyzer (1a6c:2914)]   (Sid: 40) Client -> Server @ : 2555 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a6c:2914)]   (Sid: 40) Server -> Client : 425 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1a6c:2914)]   (Sid: 40) Server -> Client : 2 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1a6c:2914)] Sent 2 bytes to client @ 26.107.126.198:57841
+[Proxy Recording.Error (1a6c:186c)] Ошибка вызова SSPI, см. внутреннее исключение.
+[Proxy Recording.Error (1a6c:186c)] Получено непредвиденное сообщение или оно имеет неправильный формат
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:39517
+[Proxy Recording.Error (1a6c:218c)] Cannot establish a secure connection to the application being recorded.
+Message=Ошибка вызова SSPI, см. внутреннее исключение.
+Import the LoadRunner SSL certificate to the client machine. For details, see "Use Case 3" of "https://admhelp.microfocus.com/vugen/en/2021/help/WebHelp/Content/VuGen/t_HowToRecordViaAProxy.htm".
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:7765
+[Proxy Recording  (1a6c:399c)] Trying to connect to https://dev-boomq.pflb.ru:443/test-srv/testResultFile?testId=8399 ...
+[Proxy Recording  (1a6c:399c)] Trying to connect to https://dev-boomq.pflb.ru:443/test-srv/testResultFile?testId=8399 ...
+[Proxy Recording  (1a6c:399c)] Received response of 438 header and 2 body bytes from https://dev-boomq.pflb.ru:443/test-srv/testResultFile?testId=8399
+[Web Request      (1a6c:399c)] "GET https://dev-boomq.pflb.ru/test-srv/testResultFile?testId=8399"   
+[Network Analyzer (1a6c:399c)]   (Sid: 41) Client -> Server @ : 2555 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a6c:399c)]   (Sid: 41) Server -> Client : 425 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1a6c:399c)]   (Sid: 41) Server -> Client : 2 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1a6c:399c)] Sent 2 bytes to client @ 26.107.126.198:7765
+[Proxy Recording.Error (1a6c:218c)] Ошибка вызова SSPI, см. внутреннее исключение.
+[Proxy Recording.Error (1a6c:218c)] Получено непредвиденное сообщение или оно имеет неправильный формат
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:21411
+[Proxy Recording.Error (1a6c:2914)] Cannot establish a secure connection to the application being recorded.
+Message=Ошибка вызова SSPI, см. внутреннее исключение.
+Import the LoadRunner SSL certificate to the client machine. For details, see "Use Case 3" of "https://admhelp.microfocus.com/vugen/en/2021/help/WebHelp/Content/VuGen/t_HowToRecordViaAProxy.htm".
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:62869
+[Proxy Recording  (1a6c:186c)] Trying to connect to https://dev-boomq.pflb.ru:443/test-srv/testResultFile?testId=8399 ...
+[Proxy Recording  (1a6c:186c)] Trying to connect to https://dev-boomq.pflb.ru:443/test-srv/testResultFile?testId=8399 ...
+[Proxy Recording  (1a6c:186c)] Received response of 438 header and 2 body bytes from https://dev-boomq.pflb.ru:443/test-srv/testResultFile?testId=8399
+[Web Request      (1a6c:186c)] "GET https://dev-boomq.pflb.ru/test-srv/testResultFile?testId=8399"   
+[Network Analyzer (1a6c:186c)]   (Sid: 42) Client -> Server @ : 2555 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a6c:186c)]   (Sid: 42) Server -> Client : 425 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1a6c:186c)]   (Sid: 42) Server -> Client : 2 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1a6c:186c)] Sent 2 bytes to client @ 26.107.126.198:62869
+[Proxy Recording.Error (1a6c:2914)] Ошибка вызова SSPI, см. внутреннее исключение.
+[Proxy Recording.Error (1a6c:2914)] Получено непредвиденное сообщение или оно имеет неправильный формат
+[User action                 ] StartTransactionEvent UC05_TR04_ДобавлениеSLA [Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:54770
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:1984
+[Proxy Recording.Error (1a6c:1178)] Cannot establish a secure connection to the application being recorded.
+Message=Ошибка вызова SSPI, см. внутреннее исключение.
+Import the LoadRunner SSL certificate to the client machine. For details, see "Use Case 3" of "https://admhelp.microfocus.com/vugen/en/2021/help/WebHelp/Content/VuGen/t_HowToRecordViaAProxy.htm".
+[Proxy Recording  (1a6c:218c)] Trying to connect to https://dev-boomq.pflb.ru:443/project-srv/project/2698/version/3930/downloadLink ...
+[Proxy Recording  (1a6c:218c)] Trying to connect to https://dev-boomq.pflb.ru:443/project-srv/project/2698/version/3930/downloadLink ...
+[Proxy Recording  (1a6c:218c)] Received response of 438 header and 333 body bytes from https://dev-boomq.pflb.ru:443/project-srv/project/2698/version/3930/downloadLink
+[Web Request      (1a6c:218c)] "GET https://dev-boomq.pflb.ru/project-srv/project/2698/version/3930/downloadLink"   
+[Network Analyzer (1a6c:218c)]   (Sid: 43) Client -> Server @ : 2570 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a6c:218c)]   (Sid: 43) Server -> Client : 425 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1a6c:218c)]   (Sid: 43) Server -> Client : 333 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1a6c:218c)] Sent 333 bytes to client @ 26.107.126.198:1984
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:25678
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:13918
+[Proxy Recording.Error (1a6c:186c)] Cannot establish a secure connection to the application being recorded.
+Message=Ошибка вызова SSPI, см. внутреннее исключение.
+Import the LoadRunner SSL certificate to the client machine. For details, see "Use Case 3" of "https://admhelp.microfocus.com/vugen/en/2021/help/WebHelp/Content/VuGen/t_HowToRecordViaAProxy.htm".
+[Proxy Recording  (1a6c:399c)] Trying to connect to https://dev-boomq.pflb.ru:443/minio/boomq/boomq/teams/22/projects/2698/v_3930.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIOSFODNN7EXAMPLE/20260203/us-east-1/s3/aws4_request&X-Amz-Date=20260203T082018Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=448bc9cfb394185d6aca19049e0fa5c3d63eb0f1fe92e5879c0e02b46a23eb14 ...
+[Proxy Recording  (1a6c:399c)] Trying to connect to https://dev-boomq.pflb.ru:443/minio/boomq/boomq/teams/22/projects/2698/v_3930.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIOSFODNN7EXAMPLE/20260203/us-east-1/s3/aws4_request&X-Amz-Date=20260203T082018Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=448bc9cfb394185d6aca19049e0fa5c3d63eb0f1fe92e5879c0e02b46a23eb14 ...
+[Proxy Recording  (1a6c:399c)] Received response of 426 header and 3731 body bytes from https://dev-boomq.pflb.ru:443/minio/boomq/boomq/teams/22/projects/2698/v_3930.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIOSFODNN7EXAMPLE/20260203/us-east-1/s3/aws4_request&X-Amz-Date=20260203T082018Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=448bc9cfb394185d6aca19049e0fa5c3d63eb0f1fe92e5879c0e02b46a23eb14
+[Web Request      (1a6c:399c)] "GET https://dev-boomq.pflb.ru/minio/boomq/boomq/teams/22/projects/2698/v_3930.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIOSFODNN7EXAMPLE/20260203/us-east-1/s3/aws4_request&X-Amz-Date=20260203T082018Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=448bc9cfb394185d6aca19049e0fa5c3d63eb0f1fe92e5879c0e02b46a23eb14"   
+[Network Analyzer (1a6c:399c)]   (Sid: 44) Client -> Server @ : 1639 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a6c:399c)]   (Sid: 44) Server -> Client : 443 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1a6c:399c)]   (Sid: 44) Server -> Client : 3731 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1a6c:399c)] Sent 3731 bytes to client @ 26.107.126.198:13918
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:13197
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:17459
+[Proxy Recording.Error (1a6c:1178)] Ошибка вызова SSPI, см. внутреннее исключение.
+[Proxy Recording.Error (1a6c:186c)] Ошибка вызова SSPI, см. внутреннее исключение.
+[Proxy Recording.Error (1a6c:1178)] Получено непредвиденное сообщение или оно имеет неправильный формат
+[Proxy Recording.Error (1a6c:186c)] Получено непредвиденное сообщение или оно имеет неправильный формат
+[Proxy Recording.Error (1a6c:3af0)] Cannot establish a secure connection to the application being recorded.
+Message=Ошибка вызова SSPI, см. внутреннее исключение.
+Import the LoadRunner SSL certificate to the client machine. For details, see "Use Case 3" of "https://admhelp.microfocus.com/vugen/en/2021/help/WebHelp/Content/VuGen/t_HowToRecordViaAProxy.htm".
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:58031
+[Proxy Recording.Error (1a6c:212c)] Exception is caught while trying to connect to https://www.youtube.com:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:17495
+[Proxy Recording.Error (1a6c:212c)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording  (1a6c:2914)] Trying to connect to https://dev-boomq.pflb.ru:443/test-srv/testResultFile?testId=8399 ...
+[Proxy Recording  (1a6c:2914)] Trying to connect to https://dev-boomq.pflb.ru:443/test-srv/testResultFile?testId=8399 ...
+[Proxy Recording  (1a6c:2914)] Received response of 438 header and 2 body bytes from https://dev-boomq.pflb.ru:443/test-srv/testResultFile?testId=8399
+[Web Request      (1a6c:2914)] "GET https://dev-boomq.pflb.ru/test-srv/testResultFile?testId=8399"   
+[Network Analyzer (1a6c:2914)]   (Sid: 45) Client -> Server @ : 2555 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a6c:2914)]   (Sid: 45) Server -> Client : 425 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1a6c:2914)]   (Sid: 45) Server -> Client : 2 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1a6c:2914)] Sent 2 bytes to client @ 26.107.126.198:58031
+[Proxy Recording.Error (1a6c:3af0)] Ошибка вызова SSPI, см. внутреннее исключение.
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:8545
+[Proxy Recording  (1a6c:5664)] Trying to connect to https://api.browser.yandex.ru:443/autofill/v1/pages:get2?brandID=yandex&alt=proto ...
+[Proxy Recording  (1a6c:5664)] Trying to connect to https://api.browser.yandex.ru:443/autofill/v1/pages:get2?brandID=yandex&alt=proto ...
+[Proxy Recording  (1a6c:5664)] Received response of 1488 header and 56 body bytes from https://api.browser.yandex.ru:443/autofill/v1/pages:get2?brandID=yandex&alt=proto
+[Network Analyzer (1a6c:5664)]   (Sid: 46) Client -> Server @ : 944 bytes (SSL)(Service=HTTP)
+[Web Request      (1a6c:5664)] "POST https://api.browser.yandex.ru/autofill/v1/pages:get2?brandID=yandex&alt=proto"   
+[Network Analyzer (1a6c:5664)]   (Sid: 46) Client -> Server @ : 102 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a6c:5664)]   (Sid: 46) Server -> Client : 1505 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1a6c:5664)]   (Sid: 46) Server -> Client : 56 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1a6c:5664)] Sent 56 bytes to client @ 26.107.126.198:8545
+[Proxy Recording.Error (1a6c:3af0)] Получено непредвиденное сообщение или оно имеет неправильный формат
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:8547
+[Proxy Recording  (1a6c:218c)] Trying to connect to https://windows.msn.com:443/staticsb/statics/latest/fixed/CloudConfigs/WindowsDashboard/ClientApp/wdgts_conf.json ...
+[Proxy Recording  (1a6c:218c)] Trying to connect to https://windows.msn.com:443/staticsb/statics/latest/fixed/CloudConfigs/WindowsDashboard/ClientApp/wdgts_conf.json ...
+[Proxy Recording  (1a6c:218c)] Received response of 839 header and 0 body bytes from https://windows.msn.com:443/staticsb/statics/latest/fixed/CloudConfigs/WindowsDashboard/ClientApp/wdgts_conf.json
+[Proxy Recording  (1a6c:218c)] Sent 0 bytes to client @ 26.107.126.198:8547
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:28775
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:4002
+[Proxy Recording.Error (1a6c:399c)] Cannot establish a secure connection to the application being recorded.
+Message=Ошибка вызова SSPI, см. внутреннее исключение.
+Import the LoadRunner SSL certificate to the client machine. For details, see "Use Case 3" of "https://admhelp.microfocus.com/vugen/en/2021/help/WebHelp/Content/VuGen/t_HowToRecordViaAProxy.htm".
+[Proxy Recording  (1a6c:2914)] Trying to connect to https://dev-boomq.pflb.ru:443/test-srv/testResultFile?testId=8399 ...
+[Proxy Recording  (1a6c:2914)] Trying to connect to https://dev-boomq.pflb.ru:443/test-srv/testResultFile?testId=8399 ...
+[Proxy Recording  (1a6c:2914)] Received response of 438 header and 2 body bytes from https://dev-boomq.pflb.ru:443/test-srv/testResultFile?testId=8399
+[Web Request      (1a6c:2914)] "GET https://dev-boomq.pflb.ru/test-srv/testResultFile?testId=8399"   
+[Network Analyzer (1a6c:2914)]   (Sid: 47) Client -> Server @ : 2555 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a6c:2914)]   (Sid: 47) Server -> Client : 425 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1a6c:2914)]   (Sid: 47) Server -> Client : 2 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1a6c:2914)] Sent 2 bytes to client @ 26.107.126.198:4002
+[Proxy Recording.Error (1a6c:399c)] Ошибка вызова SSPI, см. внутреннее исключение.
+[Proxy Recording.Error (1a6c:399c)] Получено непредвиденное сообщение или оно имеет неправильный формат
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:44677
+[Proxy Recording.Error (1a6c:186c)] Cannot establish a secure connection to the application being recorded.
+Message=Ошибка вызова SSPI, см. внутреннее исключение.
+Import the LoadRunner SSL certificate to the client machine. For details, see "Use Case 3" of "https://admhelp.microfocus.com/vugen/en/2021/help/WebHelp/Content/VuGen/t_HowToRecordViaAProxy.htm".
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:34630
+[Proxy Recording  (1a6c:5664)] Trying to connect to https://dev-boomq.pflb.ru:443/test-srv/testResultFile?testId=8399 ...
+[Proxy Recording  (1a6c:5664)] Trying to connect to https://dev-boomq.pflb.ru:443/test-srv/testResultFile?testId=8399 ...
+[Proxy Recording  (1a6c:5664)] Received response of 438 header and 2 body bytes from https://dev-boomq.pflb.ru:443/test-srv/testResultFile?testId=8399
+[Web Request      (1a6c:5664)] "GET https://dev-boomq.pflb.ru/test-srv/testResultFile?testId=8399"   
+[Network Analyzer (1a6c:5664)]   (Sid: 48) Client -> Server @ : 2555 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a6c:5664)]   (Sid: 48) Server -> Client : 425 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1a6c:5664)]   (Sid: 48) Server -> Client : 2 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1a6c:5664)] Sent 2 bytes to client @ 26.107.126.198:34630
+[Proxy Recording.Error (1a6c:186c)] Ошибка вызова SSPI, см. внутреннее исключение.
+[Proxy Recording.Error (1a6c:186c)] Получено непредвиденное сообщение или оно имеет неправильный формат
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:1597
+[Proxy Recording.Error (1a6c:3af0)] Cannot establish a secure connection to the application being recorded.
+Message=Ошибка вызова SSPI, см. внутреннее исключение.
+Import the LoadRunner SSL certificate to the client machine. For details, see "Use Case 3" of "https://admhelp.microfocus.com/vugen/en/2021/help/WebHelp/Content/VuGen/t_HowToRecordViaAProxy.htm".
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:52136
+[Proxy Recording  (1a6c:218c)] Trying to connect to https://dev-boomq.pflb.ru:443/test-srv/testResultFile?testId=8399 ...
+[Proxy Recording  (1a6c:218c)] Trying to connect to https://dev-boomq.pflb.ru:443/test-srv/testResultFile?testId=8399 ...
+[Proxy Recording  (1a6c:218c)] Received response of 438 header and 2 body bytes from https://dev-boomq.pflb.ru:443/test-srv/testResultFile?testId=8399
+[Web Request      (1a6c:218c)] "GET https://dev-boomq.pflb.ru/test-srv/testResultFile?testId=8399"   
+[Network Analyzer (1a6c:218c)]   (Sid: 49) Client -> Server @ : 2555 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a6c:218c)]   (Sid: 49) Server -> Client : 425 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1a6c:218c)]   (Sid: 49) Server -> Client : 2 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1a6c:218c)] Sent 2 bytes to client @ 26.107.126.198:52136
+[Proxy Recording.Error (1a6c:3af0)] Ошибка вызова SSPI, см. внутреннее исключение.
+[Proxy Recording.Error (1a6c:3af0)] Получено непредвиденное сообщение или оно имеет неправильный формат
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:6743
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:3720
+[Proxy Recording.Error (1a6c:2914)] Cannot establish a secure connection to the application being recorded.
+Message=Ошибка вызова SSPI, см. внутреннее исключение.
+Import the LoadRunner SSL certificate to the client machine. For details, see "Use Case 3" of "https://admhelp.microfocus.com/vugen/en/2021/help/WebHelp/Content/VuGen/t_HowToRecordViaAProxy.htm".
+[Proxy Recording  (1a6c:399c)] Trying to connect to https://sec.api.browser.yandex.ru:443/barnavig/post ...
+[Proxy Recording  (1a6c:399c)] Trying to connect to https://sec.api.browser.yandex.ru:443/barnavig/post ...
+[Proxy Recording  (1a6c:399c)] Received response of 902 header and 173 body bytes from https://sec.api.browser.yandex.ru:443/barnavig/post
+[Network Analyzer (1a6c:399c)]   (Sid: 50) Client -> Server @ : 2967 bytes (SSL)(Service=HTTP)
+[Web Request      (1a6c:399c)] "POST https://sec.api.browser.yandex.ru/barnavig/post"   
+[Network Analyzer (1a6c:399c)]   (Sid: 50) Client -> Server @ : 2473 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a6c:399c)]   (Sid: 50) Server -> Client : 919 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1a6c:399c)]   (Sid: 50) Server -> Client : 173 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1a6c:399c)] Sent 173 bytes to client @ 26.107.126.198:3720
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:40620
+[Proxy Recording.Error (1a6c:5664)] Cannot establish a secure connection to the application being recorded.
+Message=Ошибка вызова SSPI, см. внутреннее исключение.
+Import the LoadRunner SSL certificate to the client machine. For details, see "Use Case 3" of "https://admhelp.microfocus.com/vugen/en/2021/help/WebHelp/Content/VuGen/t_HowToRecordViaAProxy.htm".
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:61852
+[Proxy Recording  (1a6c:3af0)] Trying to connect to https://dev-boomq.pflb.ru:443/test-srv/test/8399 ...
+[Proxy Recording  (1a6c:3af0)] Trying to connect to https://dev-boomq.pflb.ru:443/test-srv/test/8399 ...
+[Proxy Recording  (1a6c:3af0)] Received response of 438 header and 2760 body bytes from https://dev-boomq.pflb.ru:443/test-srv/test/8399
+[Web Request      (1a6c:3af0)] "GET https://dev-boomq.pflb.ru/test-srv/test/8399"   
+[Network Analyzer (1a6c:3af0)]   (Sid: 51) Client -> Server @ : 2538 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a6c:3af0)]   (Sid: 51) Server -> Client : 425 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1a6c:3af0)]   (Sid: 51) Server -> Client : 2760 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1a6c:3af0)] Sent 2760 bytes to client @ 26.107.126.198:61852
+[Proxy Recording.Error (1a6c:2914)] Ошибка вызова SSPI, см. внутреннее исключение.
+[Proxy Recording.Error (1a6c:5664)] Ошибка вызова SSPI, см. внутреннее исключение.
+[Proxy Recording  (1a6c:3d7c)] Trying to connect to https://www.youtube.com:443/youtubei/v1/notification/get_unseen_count?prettyPrint=false ...
+[Proxy Recording.Error (1a6c:2914)] Получено непредвиденное сообщение или оно имеет неправильный формат
+[Proxy Recording.Error (1a6c:5664)] Получено непредвиденное сообщение или оно имеет неправильный формат
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:46967
+[Proxy Recording  (1a6c:218c)] Trying to connect to https://api.browser.yandex.ru:443/uma_proto ...
+[Proxy Recording  (1a6c:218c)] Trying to connect to https://api.browser.yandex.ru:443/uma_proto ...
+[Proxy Recording  (1a6c:218c)] Received response of 1397 header and 0 body bytes from https://api.browser.yandex.ru:443/uma_proto
+[Web Request      (1a6c:218c)] "POST https://api.browser.yandex.ru/uma_proto"
+[Network Analyzer (1a6c:218c)]   (Sid: 52) Client -> Server @ : 1003 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a6c:218c)]   (Sid: 52) Client -> Server @ : 181844 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a6c:218c)]   (Sid: 52) Server -> Client : 1414 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1a6c:218c)] Sent 0 bytes to client @ 26.107.126.198:46967
+[Proxy Recording.Error (1a6c:119c)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:50905
+[Proxy Recording.Error (1a6c:399c)] Exception is caught while trying to connect to https://yandex.ru:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording.Error (1a6c:399c)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:18378
+[Proxy Recording.Error (1a6c:212c)] Exception is caught while trying to connect to https://accounts.youtube.com:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:3571
+[Proxy Recording.Error (1a6c:212c)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:41233
+[Proxy Recording.Error (1a6c:3af0)] Cannot establish a secure connection to the application being recorded.
+Message=Ошибка вызова SSPI, см. внутреннее исключение.
+Import the LoadRunner SSL certificate to the client machine. For details, see "Use Case 3" of "https://admhelp.microfocus.com/vugen/en/2021/help/WebHelp/Content/VuGen/t_HowToRecordViaAProxy.htm".
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:62688
+[Proxy Recording  (1a6c:2914)] Trying to connect to https://dev-boomq.pflb.ru:443/test-srv/testResult/sla?testId=8399 ...
+[Proxy Recording  (1a6c:2914)] Trying to connect to https://dev-boomq.pflb.ru:443/test-srv/testResult/sla?testId=8399 ...
+[Proxy Recording  (1a6c:2914)] Received response of 438 header and 286 body bytes from https://dev-boomq.pflb.ru:443/test-srv/testResult/sla?testId=8399
+[Network Analyzer (1a6c:2914)]   (Sid: 53) Client -> Server @ : 2644 bytes (SSL)(Service=HTTP)
+[Web Request      (1a6c:2914)] "POST https://dev-boomq.pflb.ru/test-srv/testResult/sla?testId=8399"   
+[Network Analyzer (1a6c:2914)]   (Sid: 53) Client -> Server @ : 180 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a6c:2914)]   (Sid: 53) Server -> Client : 425 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1a6c:2914)]   (Sid: 53) Server -> Client : 286 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1a6c:2914)] Sent 286 bytes to client @ 26.107.126.198:62688
+[Proxy Recording.Error (1a6c:3af0)] Ошибка вызова SSPI, см. внутреннее исключение.
+[Proxy Recording.Error (1a6c:3af0)] Получено непредвиденное сообщение или оно имеет неправильный формат
+[User action                 ] EndTransactionEvent UC05_TR04_ДобавлениеSLA [Proxy Recording  (1a6c:218c)] Trying to connect to https://accounts.youtube.com:443/RotateCookies ...
+[Proxy Recording.Error (1a6c:3d7c)] Exception is caught while connecting to https://www.youtube.com:443/youtubei/v1/notification/get_unseen_count?prettyPrint=false, message=Базовое соединение закрыто: Непредвиденная ошибка при передаче.
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:62697
+[Proxy Recording  (1a6c:3d7c)] Trying to connect to http://www.msftconnecttest.com/connecttest.txt ...
+[Proxy Recording  (1a6c:3d7c)] Trying to connect to http://www.msftconnecttest.com/connecttest.txt ...
+[Proxy Recording  (1a6c:3d7c)] Received response of 153 header and 22 body bytes from http://www.msftconnecttest.com/connecttest.txt
+[Proxy Recording  (1a6c:3d7c)] Sent 22 bytes to client @ 26.107.126.198:62697
+[Proxy Recording.Error (1a6c:218c)] Exception is caught while connecting to https://accounts.youtube.com:443/RotateCookies, message=Базовое соединение закрыто: Непредвиденная ошибка при передаче.
+[User action                 ] StartTransactionEvent UC05_TR05_Добавление треда1_переход [Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:17913
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:29369
+[Proxy Recording.Error (1a6c:4448)] Cannot establish a secure connection to the application being recorded.
+Message=Ошибка вызова SSPI, см. внутреннее исключение.
+Import the LoadRunner SSL certificate to the client machine. For details, see "Use Case 3" of "https://admhelp.microfocus.com/vugen/en/2021/help/WebHelp/Content/VuGen/t_HowToRecordViaAProxy.htm".
+[Proxy Recording  (1a6c:126c)] Trying to connect to https://dev-boomq.pflb.ru:443/test-srv/slaReportProfile ...
+[Proxy Recording  (1a6c:126c)] Trying to connect to https://dev-boomq.pflb.ru:443/test-srv/slaReportProfile ...
+[Proxy Recording  (1a6c:126c)] Received response of 438 header and 1739 body bytes from https://dev-boomq.pflb.ru:443/test-srv/slaReportProfile
+[Web Request      (1a6c:126c)] "GET https://dev-boomq.pflb.ru/test-srv/slaReportProfile"   
+[Network Analyzer (1a6c:126c)]   (Sid: 54) Client -> Server @ : 2545 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a6c:126c)]   (Sid: 54) Server -> Client : 425 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1a6c:126c)]   (Sid: 54) Server -> Client : 1739 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1a6c:126c)] Sent 1739 bytes to client @ 26.107.126.198:29369
+[Proxy Recording.Error (1a6c:4448)] Ошибка вызова SSPI, см. внутреннее исключение.
+[Proxy Recording.Error (1a6c:4448)] Получено непредвиденное сообщение или оно имеет неправильный формат
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:34641
+[Proxy Recording.Error (1a6c:154c)] Cannot establish a secure connection to the application being recorded.
+Message=Ошибка вызова SSPI, см. внутреннее исключение.
+Import the LoadRunner SSL certificate to the client machine. For details, see "Use Case 3" of "https://admhelp.microfocus.com/vugen/en/2021/help/WebHelp/Content/VuGen/t_HowToRecordViaAProxy.htm".
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:21335
+[Proxy Recording  (1a6c:4448)] Trying to connect to https://dev-boomq.pflb.ru:443/project-srv/project?sort=lastModified,desc&size=999 ...
+[Proxy Recording  (1a6c:4448)] Trying to connect to https://dev-boomq.pflb.ru:443/project-srv/project?sort=lastModified,desc&size=999 ...
+[Proxy Recording  (1a6c:4448)] Received response of 438 header and 8941 body bytes from https://dev-boomq.pflb.ru:443/project-srv/project?sort=lastModified,desc&size=999
+[Web Request      (1a6c:4448)] "GET https://dev-boomq.pflb.ru/project-srv/project?sort=lastModified,desc&size=999"   
+[Network Analyzer (1a6c:4448)]   (Sid: 55) Client -> Server @ : 2575 bytes (SSL)(Service=HTTP)
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:26241
+[Network Analyzer (1a6c:4448)]   (Sid: 55) Server -> Client : 425 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1a6c:4448)]   (Sid: 55) Server -> Client : 8941 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1a6c:4448)] Sent 8941 bytes to client @ 26.107.126.198:21335
+[Proxy Recording  (1a6c:126c)] Trying to connect to https://api.browser.yandex.ru:443/autofill/v1/pages:get2?brandID=yandex&alt=proto ...
+[Proxy Recording  (1a6c:126c)] Trying to connect to https://api.browser.yandex.ru:443/autofill/v1/pages:get2?brandID=yandex&alt=proto ...
+[Proxy Recording  (1a6c:126c)] Received response of 1487 header and 20 body bytes from https://api.browser.yandex.ru:443/autofill/v1/pages:get2?brandID=yandex&alt=proto
+[Network Analyzer (1a6c:126c)]   (Sid: 56) Client -> Server @ : 943 bytes (SSL)(Service=HTTP)
+[Web Request      (1a6c:126c)] "POST https://api.browser.yandex.ru/autofill/v1/pages:get2?brandID=yandex&alt=proto"   
+[Network Analyzer (1a6c:126c)]   (Sid: 56) Client -> Server @ : 82 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a6c:126c)]   (Sid: 56) Server -> Client : 1504 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1a6c:126c)]   (Sid: 56) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1a6c:126c)] Sent 20 bytes to client @ 26.107.126.198:26241
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:6184
+[Proxy Recording.Error (1a6c:154c)] Ошибка вызова SSPI, см. внутреннее исключение.
+[Proxy Recording.Error (1a6c:2e10)] Exception is caught while trying to connect to https://beacons.gcp.gvt2.com:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:18413
+[Proxy Recording.Error (1a6c:2e10)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording  (1a6c:126c)] Trying to connect to https://beacons.gcp.gvt2.com:443/domainreliability/upload ...
+[Proxy Recording  (1a6c:126c)] Trying to connect to https://beacons.gcp.gvt2.com:443/domainreliability/upload ...
+[Proxy Recording  (1a6c:126c)] Received response of 770 header and 0 body bytes from https://beacons.gcp.gvt2.com:443/domainreliability/upload
+[Network Analyzer (1a6c:126c)]   (Sid: 57) Client -> Server @ : 404 bytes (SSL)(Service=HTTP)
+[Web Request      (1a6c:126c)] "POST https://beacons.gcp.gvt2.com/domainreliability/upload"   
+[Network Analyzer (1a6c:126c)]   (Sid: 57) Client -> Server @ : 595 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a6c:126c)]   (Sid: 57) Server -> Client : 787 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1a6c:126c)] Sent 0 bytes to client @ 26.107.126.198:18413
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:36258
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:38067
+[Proxy Recording.Error (1a6c:4448)] Cannot establish a secure connection to the application being recorded.
+Message=Ошибка вызова SSPI, см. внутреннее исключение.
+Import the LoadRunner SSL certificate to the client machine. For details, see "Use Case 3" of "https://admhelp.microfocus.com/vugen/en/2021/help/WebHelp/Content/VuGen/t_HowToRecordViaAProxy.htm".
+[Proxy Recording.Error (1a6c:154c)] Получено непредвиденное сообщение или оно имеет неправильный формат
+[Proxy Recording  (1a6c:2e10)] Trying to connect to https://sync.browser.yandex.net:443/sync/command/?client=Chromium&client_id=fb2DXE1O8zPeg0qusxkuow%3D%3D&ya_soft=yabrowser&ui=97A895BF-00E7-466C-9E62-3A3613B98EBE ...
+[Proxy Recording  (1a6c:2e10)] Trying to connect to https://sync.browser.yandex.net:443/sync/command/?client=Chromium&client_id=fb2DXE1O8zPeg0qusxkuow%3D%3D&ya_soft=yabrowser&ui=97A895BF-00E7-466C-9E62-3A3613B98EBE ...
+[Proxy Recording  (1a6c:2e10)] Received response of 809 header and 357 body bytes from https://sync.browser.yandex.net:443/sync/command/?client=Chromium&client_id=fb2DXE1O8zPeg0qusxkuow%3D%3D&ya_soft=yabrowser&ui=97A895BF-00E7-466C-9E62-3A3613B98EBE
+[Network Analyzer (1a6c:2e10)]   (Sid: 58) Client -> Server @ : 1111 bytes (SSL)(Service=HTTP)
+[Web Request      (1a6c:2e10)] "POST https://sync.browser.yandex.net/sync/command/?client=Chromium&client_id=fb2DXE1O8zPeg0qusxkuow%3D%3D&ya_soft=yabrowser&ui=97A895BF-00E7-466C-9E62-3A3613B98EBE"   
+[Network Analyzer (1a6c:2e10)]   (Sid: 58) Client -> Server @ : 1494 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a6c:2e10)]   (Sid: 58) Server -> Client : 826 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1a6c:2e10)]   (Sid: 58) Server -> Client : 357 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1a6c:2e10)] Sent 357 bytes to client @ 26.107.126.198:38067
+[Proxy Recording.Error (1a6c:4448)] Ошибка вызова SSPI, см. внутреннее исключение.
+[Proxy Recording.Error (1a6c:4448)] Получено непредвиденное сообщение или оно имеет неправильный формат
+[User action                 ] EndTransactionEvent UC05_TR05_Добавление треда1_переход [Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:16793
+[Proxy Recording.Error (1a6c:154c)] Cannot establish a secure connection to the application being recorded.
+Message=Ошибка вызова SSPI, см. внутреннее исключение.
+Import the LoadRunner SSL certificate to the client machine. For details, see "Use Case 3" of "https://admhelp.microfocus.com/vugen/en/2021/help/WebHelp/Content/VuGen/t_HowToRecordViaAProxy.htm".
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:59180
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:7143
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:26128
+[Proxy Recording.Error (1a6c:126c)] Cannot establish a secure connection to the application being recorded.
+Message=Ошибка вызова SSPI, см. внутреннее исключение.
+Import the LoadRunner SSL certificate to the client machine. For details, see "Use Case 3" of "https://admhelp.microfocus.com/vugen/en/2021/help/WebHelp/Content/VuGen/t_HowToRecordViaAProxy.htm".
+[Proxy Recording  (1a6c:2e10)] Trying to connect to https://sec.api.browser.yandex.ru:443/barnavig/post ...
+[Proxy Recording  (1a6c:4448)] Trying to connect to https://sec.api.browser.yandex.ru:443/barnavig/post ...
+[Proxy Recording  (1a6c:2e10)] Trying to connect to https://sec.api.browser.yandex.ru:443/barnavig/post ...
+[Proxy Recording  (1a6c:2e10)] Received response of 902 header and 173 body bytes from https://sec.api.browser.yandex.ru:443/barnavig/post
+[Network Analyzer (1a6c:2e10)]   (Sid: 59) Client -> Server @ : 2991 bytes (SSL)(Service=HTTP)
+[Web Request      (1a6c:2e10)] "POST https://sec.api.browser.yandex.ru/barnavig/post"   
+[Network Analyzer (1a6c:2e10)]   (Sid: 59) Client -> Server @ : 2585 bytes (SSL)(Service=HTTP)
+[Proxy Recording  (1a6c:4448)] Trying to connect to https://sec.api.browser.yandex.ru:443/barnavig/post ...
+[Network Analyzer (1a6c:2e10)]   (Sid: 59) Server -> Client : 919 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1a6c:2e10)]   (Sid: 59) Server -> Client : 173 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1a6c:2e10)] Sent 173 bytes to client @ 26.107.126.198:59180
+[Proxy Recording  (1a6c:4448)] Received response of 901 header and 173 body bytes from https://sec.api.browser.yandex.ru:443/barnavig/post
+[Network Analyzer (1a6c:4448)]   (Sid: 60) Client -> Server @ : 2991 bytes (SSL)(Service=HTTP)
+[Web Request      (1a6c:4448)] "POST https://sec.api.browser.yandex.ru/barnavig/post"   
+[Network Analyzer (1a6c:4448)]   (Sid: 60) Client -> Server @ : 2519 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a6c:4448)]   (Sid: 60) Server -> Client : 918 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1a6c:4448)]   (Sid: 60) Server -> Client : 173 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1a6c:4448)] Sent 173 bytes to client @ 26.107.126.198:26128
+[Proxy Recording.Error (1a6c:154c)] Ошибка вызова SSPI, см. внутреннее исключение.
+[Proxy Recording.Error (1a6c:126c)] Ошибка вызова SSPI, см. внутреннее исключение.
+[Proxy Recording.Error (1a6c:154c)] Получено непредвиденное сообщение или оно имеет неправильный формат
+[Proxy Recording.Error (1a6c:126c)] Получено непредвиденное сообщение или оно имеет неправильный формат
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:38337
+[Proxy Recording.Error (1a6c:2e10)] Exception is caught while trying to connect to https://yandex.ru:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording.Error (1a6c:2e10)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[User action                 ] StartTransactionEvent UC05_TR06_ДобавлениеТренда2_Заполнение1 [Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:5972
+[Proxy Recording.Error (1a6c:154c)] Exception is caught while trying to connect to https://sba.yandex.net:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:65015
+[Proxy Recording.Error (1a6c:154c)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording  (1a6c:1ab8)] Trying to connect to https://sba.yandex.net:443/v4/threatListUpdates:fetch?$req=ChoKB2Jyb21pdW0SDzE0Mi4wLjc0NDQuMTMzOBo3COgHEAYaKAiM3AMSIgogI8JoEmeQr-cfrWV_yLHJHuwhuH6IfX-DM2-4X-RBdJkiBCABIAIoARo2CAgQARooCMvbAxIiCiB5yN7rXHIe760JjrL1JTz36mPl7_QmwaAIv-9h86mPqiIEIAEgAigBGjcI6AcQBhooCOjbAxIiCiAvn2DGJlsTtyORv0U1YuEBC_D6jx5gMtp_rzbGX0wpQyIEIAEgAigEGjcI6QcQBhooCIfcAxIiCiB8MMyOXKTYXsTWDRlg1xP8vNTJPt8MK_F1H2UVLxQShiIEIAEgAigBIgIIAQ==&$ct=application/x-protobuf&key=01521754e0283a825c337d251a646d697472792d74b26c94b5f5b6b885 ...
+[Proxy Recording  (1a6c:1ab8)] Trying to connect to https://sba.yandex.net:443/v4/threatListUpdates:fetch?$req=ChoKB2Jyb21pdW0SDzE0Mi4wLjc0NDQuMTMzOBo3COgHEAYaKAiM3AMSIgogI8JoEmeQr-cfrWV_yLHJHuwhuH6IfX-DM2-4X-RBdJkiBCABIAIoARo2CAgQARooCMvbAxIiCiB5yN7rXHIe760JjrL1JTz36mPl7_QmwaAIv-9h86mPqiIEIAEgAigBGjcI6AcQBhooCOjbAxIiCiAvn2DGJlsTtyORv0U1YuEBC_D6jx5gMtp_rzbGX0wpQyIEIAEgAigEGjcI6QcQBhooCIfcAxIiCiB8MMyOXKTYXsTWDRlg1xP8vNTJPt8MK_F1H2UVLxQShiIEIAEgAigBIgIIAQ==&$ct=application/x-protobuf&key=01521754e0283a825c337d251a646d697472792d74b26c94b5f5b6b885 ...
+[Proxy Recording  (1a6c:1ab8)] Received response of 397 header and 360 body bytes from https://sba.yandex.net:443/v4/threatListUpdates:fetch?$req=ChoKB2Jyb21pdW0SDzE0Mi4wLjc0NDQuMTMzOBo3COgHEAYaKAiM3AMSIgogI8JoEmeQr-cfrWV_yLHJHuwhuH6IfX-DM2-4X-RBdJkiBCABIAIoARo2CAgQARooCMvbAxIiCiB5yN7rXHIe760JjrL1JTz36mPl7_QmwaAIv-9h86mPqiIEIAEgAigBGjcI6AcQBhooCOjbAxIiCiAvn2DGJlsTtyORv0U1YuEBC_D6jx5gMtp_rzbGX0wpQyIEIAEgAigEGjcI6QcQBhooCIfcAxIiCiB8MMyOXKTYXsTWDRlg1xP8vNTJPt8MK_F1H2UVLxQShiIEIAEgAigBIgIIAQ==&$ct=application/x-protobuf&key=01521754e0283a825c337d251a646d697472792d74b26c94b5f5b6b885
+[Web Request      (1a6c:1ab8)] "GET https://sba.yandex.net/v4/threatListUpdates:fetch?$req=ChoKB2Jyb21pdW0SDzE0Mi4wLjc0NDQuMTMzOBo3COgHEAYaKAiM3AMSIgogI8JoEmeQr-cfrWV_yLHJHuwhuH6IfX-DM2-4X-RBdJkiBCABIAIoARo2CAgQARooCMvbAxIiCiB5yN7rXHIe760JjrL1JTz36mPl7_QmwaAIv-9h86mPqiIEIAEgAigBGjcI6AcQBhooCOjbAxIiCiAvn2DGJlsTtyORv0U1YuEBC_D6jx5gMtp_rzbGX0wpQyIEIAEgAigEGjcI6QcQBhooCIfcAxIiCiB8MMyOXKTYXsTWDRlg1xP8vNTJPt8MK_F1H2UVLxQShiIEIAEgAigBIgIIAQ==&$ct=application/x-protobuf&key=01521754e0283a825c337d251a646d697472792d74b26c94b5f5b6b885"   
+[Network Analyzer (1a6c:1ab8)]   (Sid: 61) Client -> Server @ : 1230 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a6c:1ab8)]   (Sid: 61) Server -> Client : 414 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1a6c:1ab8)]   (Sid: 61) Server -> Client : 360 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1a6c:1ab8)] Sent 360 bytes to client @ 26.107.126.198:65015
+[User action                 ] Pausing...  [Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:9652
+[Proxy Recording.Error (1a6c:2e10)] Cannot establish a secure connection to the application being recorded.
+Message=Ошибка вызова SSPI, см. внутреннее исключение.
+Import the LoadRunner SSL certificate to the client machine. For details, see "Use Case 3" of "https://admhelp.microfocus.com/vugen/en/2021/help/WebHelp/Content/VuGen/t_HowToRecordViaAProxy.htm".
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:41303
+[Proxy Recording  (1a6c:126c)] Trying to connect to https://dev-boomq.pflb.ru:443/test-srv/test?sort=createDate,desc&size=999999&projectId=2698&state=FINISHED,FAILED,CANCELED ...
+[Proxy Recording  (1a6c:126c)] Trying to connect to https://dev-boomq.pflb.ru:443/test-srv/test?sort=createDate,desc&size=999999&projectId=2698&state=FINISHED,FAILED,CANCELED ...
+[Proxy Recording  (1a6c:126c)] Received response of 438 header and 3302 body bytes from https://dev-boomq.pflb.ru:443/test-srv/test?sort=createDate,desc&size=999999&projectId=2698&state=FINISHED,FAILED,CANCELED
+[Web Request      (1a6c:126c)] "GET https://dev-boomq.pflb.ru/test-srv/test?sort=createDate,desc&size=999999&projectId=2698&state=FINISHED,FAILED,CANCELED"   
+[Network Analyzer (1a6c:126c)]   (Sid:102) Client -> Server @ : 2616 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a6c:126c)]   (Sid:102) Server -> Client : 425 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1a6c:126c)]   (Sid:102) Server -> Client : 3302 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1a6c:126c)] Sent 3302 bytes to client @ 26.107.126.198:41303
+[Proxy Recording.Error (1a6c:2e10)] Ошибка вызова SSPI, см. внутреннее исключение.
+[Proxy Recording.Error (1a6c:2e10)] Получено непредвиденное сообщение или оно имеет неправильный формат
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:8470
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:1663
+[Proxy Recording.Error (1a6c:4d90)] Cannot establish a secure connection to the application being recorded.
+Message=Ошибка вызова SSPI, см. внутреннее исключение.
+Import the LoadRunner SSL certificate to the client machine. For details, see "Use Case 3" of "https://admhelp.microfocus.com/vugen/en/2021/help/WebHelp/Content/VuGen/t_HowToRecordViaAProxy.htm".
+[Proxy Recording  (1a6c:31d0)] Trying to connect to https://dev-boomq.pflb.ru:443/test-srv/slaReportProfile/slaTypeList ...
+[Proxy Recording  (1a6c:31d0)] Trying to connect to https://dev-boomq.pflb.ru:443/test-srv/slaReportProfile/slaTypeList ...
+[Proxy Recording  (1a6c:31d0)] Received response of 438 header and 105 body bytes from https://dev-boomq.pflb.ru:443/test-srv/slaReportProfile/slaTypeList
+[Network Analyzer (1a6c:31d0)]   (Sid:103) Client -> Server @ : 2650 bytes (SSL)(Service=HTTP)
+[Web Request      (1a6c:31d0)] "POST https://dev-boomq.pflb.ru/test-srv/slaReportProfile/slaTypeList"   
+[Network Analyzer (1a6c:31d0)]   (Sid:103) Client -> Server @ : 144 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a6c:31d0)]   (Sid:103) Server -> Client : 425 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1a6c:31d0)]   (Sid:103) Server -> Client : 105 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1a6c:31d0)] Sent 105 bytes to client @ 26.107.126.198:1663
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:59057
+[Proxy Recording.Error (1a6c:3e8c)] Cannot establish a secure connection to the application being recorded.
+Message=Ошибка вызова SSPI, см. внутреннее исключение.
+Import the LoadRunner SSL certificate to the client machine. For details, see "Use Case 3" of "https://admhelp.microfocus.com/vugen/en/2021/help/WebHelp/Content/VuGen/t_HowToRecordViaAProxy.htm".
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:39783
+[Proxy Recording  (1a6c:2e10)] Trying to connect to https://dev-boomq.pflb.ru:443/test-srv/slaReportProfile/previewReport ...
+[Proxy Recording  (1a6c:2e10)] Trying to connect to https://dev-boomq.pflb.ru:443/test-srv/slaReportProfile/previewReport ...
+[Proxy Recording  (1a6c:2e10)] Received response of 438 header and 492 body bytes from https://dev-boomq.pflb.ru:443/test-srv/slaReportProfile/previewReport
+[Network Analyzer (1a6c:2e10)]   (Sid:104) Client -> Server @ : 2652 bytes (SSL)(Service=HTTP)
+[Web Request      (1a6c:2e10)] "POST https://dev-boomq.pflb.ru/test-srv/slaReportProfile/previewReport"   
+[Network Analyzer (1a6c:2e10)]   (Sid:104) Client -> Server @ : 188 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a6c:2e10)]   (Sid:104) Server -> Client : 425 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1a6c:2e10)]   (Sid:104) Server -> Client : 492 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1a6c:2e10)] Sent 492 bytes to client @ 26.107.126.198:39783
+[Proxy Recording.Error (1a6c:4d90)] Ошибка вызова SSPI, см. внутреннее исключение.
+[Proxy Recording.Error (1a6c:3e8c)] Ошибка вызова SSPI, см. внутреннее исключение.
+[Proxy Recording.Error (1a6c:4d90)] Получено непредвиденное сообщение или оно имеет неправильный формат
+[Proxy Recording.Error (1a6c:3e8c)] Получено непредвиденное сообщение или оно имеет неправильный формат
+[User action                 ] EndTransactionEvent UC05_TR06_ДобавлениеТренда2_Заполнение1 [User action                 ] StartTransactionEvent UC05_TR06_ДобавлениеТренда3_Заполнение2 [Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:7480
+[Proxy Recording.Error (1a6c:306c)] Cannot establish a secure connection to the application being recorded.
+Message=Ошибка вызова SSPI, см. внутреннее исключение.
+Import the LoadRunner SSL certificate to the client machine. For details, see "Use Case 3" of "https://admhelp.microfocus.com/vugen/en/2021/help/WebHelp/Content/VuGen/t_HowToRecordViaAProxy.htm".
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:21289
+[Proxy Recording  (1a6c:2e10)] Trying to connect to https://dev-boomq.pflb.ru:443/test-srv/slaReportProfile/previewReport ...
+[Proxy Recording  (1a6c:2e10)] Trying to connect to https://dev-boomq.pflb.ru:443/test-srv/slaReportProfile/previewReport ...
+[Proxy Recording  (1a6c:2e10)] Received response of 438 header and 833 body bytes from https://dev-boomq.pflb.ru:443/test-srv/slaReportProfile/previewReport
+[Network Analyzer (1a6c:2e10)]   (Sid:105) Client -> Server @ : 2652 bytes (SSL)(Service=HTTP)
+[Web Request      (1a6c:2e10)] "POST https://dev-boomq.pflb.ru/test-srv/slaReportProfile/previewReport"   
+[Network Analyzer (1a6c:2e10)]   (Sid:105) Client -> Server @ : 287 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a6c:2e10)]   (Sid:105) Server -> Client : 425 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1a6c:2e10)]   (Sid:105) Server -> Client : 833 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1a6c:2e10)] Sent 833 bytes to client @ 26.107.126.198:21289
+[Proxy Recording.Error (1a6c:306c)] Ошибка вызова SSPI, см. внутреннее исключение.
+[Proxy Recording.Error (1a6c:306c)] Получено непредвиденное сообщение или оно имеет неправильный формат
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:1337
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:11199
+[Proxy Recording.Error (1a6c:3e8c)] Cannot establish a secure connection to the application being recorded.
+Message=Ошибка вызова SSPI, см. внутреннее исключение.
+Import the LoadRunner SSL certificate to the client machine. For details, see "Use Case 3" of "https://admhelp.microfocus.com/vugen/en/2021/help/WebHelp/Content/VuGen/t_HowToRecordViaAProxy.htm".
+[Proxy Recording  (1a6c:29f4)] Trying to connect to https://dev-boomq.pflb.ru:443/test-srv/slaReportProfile/previewReport ...
+[Proxy Recording  (1a6c:29f4)] Trying to connect to https://dev-boomq.pflb.ru:443/test-srv/slaReportProfile/previewReport ...
+[Proxy Recording  (1a6c:29f4)] Received response of 438 header and 998 body bytes from https://dev-boomq.pflb.ru:443/test-srv/slaReportProfile/previewReport
+[Network Analyzer (1a6c:29f4)]   (Sid:106) Client -> Server @ : 2652 bytes (SSL)(Service=HTTP)
+[Web Request      (1a6c:29f4)] "POST https://dev-boomq.pflb.ru/test-srv/slaReportProfile/previewReport"   
+[Network Analyzer (1a6c:29f4)]   (Sid:106) Client -> Server @ : 329 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a6c:29f4)]   (Sid:106) Server -> Client : 425 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1a6c:29f4)]   (Sid:106) Server -> Client : 998 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1a6c:29f4)] Sent 998 bytes to client @ 26.107.126.198:11199
+[Proxy Recording.Error (1a6c:3e8c)] Ошибка вызова SSPI, см. внутреннее исключение.
+[Proxy Recording.Error (1a6c:3e8c)] Получено непредвиденное сообщение или оно имеет неправильный формат
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:15174
+[Proxy Recording.Error (1a6c:4d90)] Cannot establish a secure connection to the application being recorded.
+Message=Ошибка вызова SSPI, см. внутреннее исключение.
+Import the LoadRunner SSL certificate to the client machine. For details, see "Use Case 3" of "https://admhelp.microfocus.com/vugen/en/2021/help/WebHelp/Content/VuGen/t_HowToRecordViaAProxy.htm".
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:40335
+[Proxy Recording  (1a6c:31d0)] Trying to connect to https://dev-boomq.pflb.ru:443/test-srv/slaReportProfile ...
+[Proxy Recording  (1a6c:31d0)] Trying to connect to https://dev-boomq.pflb.ru:443/test-srv/slaReportProfile ...
+[Proxy Recording  (1a6c:31d0)] Received response of 438 header and 762 body bytes from https://dev-boomq.pflb.ru:443/test-srv/slaReportProfile
+[Network Analyzer (1a6c:31d0)]   (Sid:107) Client -> Server @ : 2638 bytes (SSL)(Service=HTTP)
+[Web Request      (1a6c:31d0)] "POST https://dev-boomq.pflb.ru/test-srv/slaReportProfile"   
+[Network Analyzer (1a6c:31d0)]   (Sid:107) Client -> Server @ : 533 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a6c:31d0)]   (Sid:107) Server -> Client : 425 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1a6c:31d0)]   (Sid:107) Server -> Client : 762 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1a6c:31d0)] Sent 762 bytes to client @ 26.107.126.198:40335
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:41585
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:39175
+[Proxy Recording.Error (1a6c:29f4)] Cannot establish a secure connection to the application being recorded.
+Message=Ошибка вызова SSPI, см. внутреннее исключение.
+Import the LoadRunner SSL certificate to the client machine. For details, see "Use Case 3" of "https://admhelp.microfocus.com/vugen/en/2021/help/WebHelp/Content/VuGen/t_HowToRecordViaAProxy.htm".
+[Proxy Recording  (1a6c:3e8c)] Trying to connect to https://sync.browser.yandex.net:443/sync/command/?client=Chromium&client_id=fb2DXE1O8zPeg0qusxkuow%3D%3D&ya_soft=yabrowser&ui=97A895BF-00E7-466C-9E62-3A3613B98EBE ...
+[Proxy Recording  (1a6c:3e8c)] Trying to connect to https://sync.browser.yandex.net:443/sync/command/?client=Chromium&client_id=fb2DXE1O8zPeg0qusxkuow%3D%3D&ya_soft=yabrowser&ui=97A895BF-00E7-466C-9E62-3A3613B98EBE ...
+[Proxy Recording.Error (1a6c:4d90)] Ошибка вызова SSPI, см. внутреннее исключение.
+[Proxy Recording  (1a6c:3e8c)] Received response of 809 header and 489 body bytes from https://sync.browser.yandex.net:443/sync/command/?client=Chromium&client_id=fb2DXE1O8zPeg0qusxkuow%3D%3D&ya_soft=yabrowser&ui=97A895BF-00E7-466C-9E62-3A3613B98EBE
+[Network Analyzer (1a6c:3e8c)]   (Sid:108) Client -> Server @ : 1087 bytes (SSL)(Service=HTTP)
+[Web Request      (1a6c:3e8c)] "POST https://sync.browser.yandex.net/sync/command/?client=Chromium&client_id=fb2DXE1O8zPeg0qusxkuow%3D%3D&ya_soft=yabrowser&ui=97A895BF-00E7-466C-9E62-3A3613B98EBE"   
+[Network Analyzer (1a6c:3e8c)]   (Sid:108) Client -> Server @ : 1908 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a6c:3e8c)]   (Sid:108) Server -> Client : 826 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1a6c:3e8c)]   (Sid:108) Server -> Client : 489 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1a6c:3e8c)] Sent 489 bytes to client @ 26.107.126.198:39175
+[Proxy Recording.Error (1a6c:29f4)] Ошибка вызова SSPI, см. внутреннее исключение.
+[Proxy Recording.Error (1a6c:4d90)] Получено непредвиденное сообщение или оно имеет неправильный формат
+[Proxy Recording.Error (1a6c:29f4)] Получено непредвиденное сообщение или оно имеет неправильный формат
+[User action                 ] EndTransactionEvent UC05_TR06_ДобавлениеТренда3_Заполнение2 [Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:39180
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:39181
+[Proxy Recording  (1a6c:112c)] Trying to connect to http://149.154.167.151:80/api ...
+[Proxy Recording  (1a6c:112c)] Trying to connect to http://149.154.167.151:80/api ...
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:42140
+[Proxy Recording  (1a6c:112c)] Received response of 130 header and 176 body bytes from http://149.154.167.151:80/api
+[Proxy Recording  (1a6c:112c)] Sent 176 bytes to client @ 26.107.126.198:39181
+[Proxy Recording.Error (1a6c:2e10)] Exception is caught while trying to connect to https://149.154.167.151:443, message=Сбой установки соединения из-за неожиданного формата пакета.
+[Proxy Recording.Error (1a6c:2e10)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (1a6c:31d0)] Cannot establish a secure connection to the application being recorded.
+Message=Ошибка вызова SSPI, см. внутреннее исключение.
+Import the LoadRunner SSL certificate to the client machine. For details, see "Use Case 3" of "https://admhelp.microfocus.com/vugen/en/2021/help/WebHelp/Content/VuGen/t_HowToRecordViaAProxy.htm".
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:52701
+[Proxy Recording  (1a6c:2e10)] Trying to connect to https://sec.api.browser.yandex.ru:443/barnavig/post ...
+[Proxy Recording  (1a6c:2e10)] Trying to connect to https://sec.api.browser.yandex.ru:443/barnavig/post ...
+[Proxy Recording  (1a6c:2e10)] Received response of 902 header and 173 body bytes from https://sec.api.browser.yandex.ru:443/barnavig/post
+[Network Analyzer (1a6c:2e10)]   (Sid:109) Client -> Server @ : 2967 bytes (SSL)(Service=HTTP)
+[Web Request      (1a6c:2e10)] "POST https://sec.api.browser.yandex.ru/barnavig/post"   
+[Network Analyzer (1a6c:2e10)]   (Sid:109) Client -> Server @ : 2516 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a6c:2e10)]   (Sid:109) Server -> Client : 919 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1a6c:2e10)]   (Sid:109) Server -> Client : 173 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1a6c:2e10)] Sent 173 bytes to client @ 26.107.126.198:52701
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:52703
+[Proxy Recording  (1a6c:4d90)] Trying to connect to http://149.154.167.151:80/api ...
+[Proxy Recording  (1a6c:4d90)] Trying to connect to http://149.154.167.151:80/api ...
+[Proxy Recording  (1a6c:4d90)] Received response of 130 header and 104 body bytes from http://149.154.167.151:80/api
+[Proxy Recording  (1a6c:4d90)] Sent 104 bytes to client @ 26.107.126.198:52703
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:52704
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:52705
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:52706
+[Proxy Recording.Error (1a6c:31d0)] Ошибка вызова SSPI, см. внутреннее исключение.
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:52707
+[Proxy Recording  (1a6c:126c)] Trying to connect to http://149.154.167.151:80/api ...
+[Proxy Recording  (1a6c:112c)] Trying to connect to http://149.154.167.151:80/api ...
+[Proxy Recording  (1a6c:3e8c)] Trying to connect to http://149.154.167.151:80/api ...
+[Proxy Recording  (1a6c:29f4)] Trying to connect to http://149.154.167.151:80/api ...
+[Proxy Recording  (1a6c:126c)] Trying to connect to http://149.154.167.151:80/api ...
+[Proxy Recording  (1a6c:112c)] Trying to connect to http://149.154.167.151:80/api ...
+[Proxy Recording  (1a6c:126c)] Received response of 130 header and 536 body bytes from http://149.154.167.151:80/api
+[Proxy Recording  (1a6c:29f4)] Trying to connect to http://149.154.167.151:80/api ...
+[Proxy Recording  (1a6c:126c)] Sent 536 bytes to client @ 26.107.126.198:52704
+[Proxy Recording.Error (1a6c:31d0)] Получено непредвиденное сообщение или оно имеет неправильный формат
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:32363
+[Proxy Recording.Error (1a6c:306c)] Exception is caught while trying to connect to https://yandex.ru:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording.Error (1a6c:306c)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:19148
+[Proxy Recording.Error (1a6c:2e10)] Cannot establish a secure connection to the application being recorded.
+Message=Ошибка вызова SSPI, см. внутреннее исключение.
+Import the LoadRunner SSL certificate to the client machine. For details, see "Use Case 3" of "https://admhelp.microfocus.com/vugen/en/2021/help/WebHelp/Content/VuGen/t_HowToRecordViaAProxy.htm".
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:50271
+[Proxy Recording  (1a6c:31d0)] Trying to connect to https://api.browser.yandex.net:443/configs/registry?brandID=yandex&client_id=10762797505676341720&machine_id=6003ca46d1715ffbe60f3d832adfee61 ...
+[Proxy Recording  (1a6c:31d0)] Trying to connect to https://api.browser.yandex.net:443/configs/registry?brandID=yandex&client_id=10762797505676341720&machine_id=6003ca46d1715ffbe60f3d832adfee61 ...
+[Proxy Recording  (1a6c:31d0)] Received response of 1048 header and 0 body bytes from https://api.browser.yandex.net:443/configs/registry?brandID=yandex&client_id=10762797505676341720&machine_id=6003ca46d1715ffbe60f3d832adfee61
+[Web Request      (1a6c:31d0)] "GET https://api.browser.yandex.net/configs/registry?brandID=yandex&client_id=10762797505676341720&machine_id=6003ca46d1715ffbe60f3d832adfee61"   
+[Network Analyzer (1a6c:31d0)]   (Sid:110) Client -> Server @ : 935 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a6c:31d0)]   (Sid:110) Server -> Client : 1075 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1a6c:31d0)] Sent 0 bytes to client @ 26.107.126.198:50271
+[Proxy Recording.Error (1a6c:2e10)] Ошибка вызова SSPI, см. внутреннее исключение.
+[Proxy Recording.Error (1a6c:2e10)] Получено непредвиденное сообщение или оно имеет неправильный формат
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:50274
+[Proxy Recording  (1a6c:4d90)] Trying to connect to http://149.154.167.151:80/api ...
+[Proxy Recording  (1a6c:29f4)] Received response of 130 header and 536 body bytes from http://149.154.167.151:80/api
+[Proxy Recording  (1a6c:4d90)] Trying to connect to http://149.154.167.151:80/api ...
+[Proxy Recording.Error (1a6c:29f4)] Exception is caught while sending data to http://149.154.167.151:80/api, message=Не удается записать данные в транспортное соединение: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Proxy Recording  (1a6c:112c)] Received response of 130 header and 536 body bytes from http://149.154.167.151:80/api
+[Proxy Recording  (1a6c:3e8c)] Trying to connect to http://149.154.167.151:80/api ...
+[Proxy Recording.Error (1a6c:112c)] Exception is caught while sending data to http://149.154.167.151:80/api, message=Не удается записать данные в транспортное соединение: Программа на вашем хост-компьютере разорвала установленное подключение.
+[User action                 ] StartTransactionEvent UC05_TR08_ПроверкаСозданияТренда [Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:54835
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:12538
+[Proxy Recording.Error (1a6c:31d0)] Cannot establish a secure connection to the application being recorded.
+Message=Ошибка вызова SSPI, см. внутреннее исключение.
+Import the LoadRunner SSL certificate to the client machine. For details, see "Use Case 3" of "https://admhelp.microfocus.com/vugen/en/2021/help/WebHelp/Content/VuGen/t_HowToRecordViaAProxy.htm".
+[Proxy Recording  (1a6c:306c)] Trying to connect to https://dev-boomq.pflb.ru:443/test-srv/slaReportProfile ...
+[Proxy Recording  (1a6c:306c)] Trying to connect to https://dev-boomq.pflb.ru:443/test-srv/slaReportProfile ...
+[Proxy Recording  (1a6c:306c)] Received response of 438 header and 2502 body bytes from https://dev-boomq.pflb.ru:443/test-srv/slaReportProfile
+[Web Request      (1a6c:306c)] "GET https://dev-boomq.pflb.ru/test-srv/slaReportProfile"   
+[Network Analyzer (1a6c:306c)]   (Sid:111) Client -> Server @ : 2545 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a6c:306c)]   (Sid:111) Server -> Client : 425 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1a6c:306c)]   (Sid:111) Server -> Client : 2502 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1a6c:306c)] Sent 2502 bytes to client @ 26.107.126.198:12538
+[Proxy Recording.Error (1a6c:31d0)] Ошибка вызова SSPI, см. внутреннее исключение.
+[Proxy Recording.Error (1a6c:31d0)] Получено непредвиденное сообщение или оно имеет неправильный формат
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:50514
+[Proxy Recording.Error (1a6c:2e10)] Cannot establish a secure connection to the application being recorded.
+Message=Ошибка вызова SSPI, см. внутреннее исключение.
+Import the LoadRunner SSL certificate to the client machine. For details, see "Use Case 3" of "https://admhelp.microfocus.com/vugen/en/2021/help/WebHelp/Content/VuGen/t_HowToRecordViaAProxy.htm".
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:26150
+[Proxy Recording  (1a6c:306c)] Trying to connect to https://sync.browser.yandex.net:443/sync/command/?client=Chromium&client_id=fb2DXE1O8zPeg0qusxkuow%3D%3D&ya_soft=yabrowser&ui=97A895BF-00E7-466C-9E62-3A3613B98EBE ...
+[Proxy Recording  (1a6c:306c)] Trying to connect to https://sync.browser.yandex.net:443/sync/command/?client=Chromium&client_id=fb2DXE1O8zPeg0qusxkuow%3D%3D&ya_soft=yabrowser&ui=97A895BF-00E7-466C-9E62-3A3613B98EBE ...
+[Proxy Recording  (1a6c:306c)] Received response of 809 header and 357 body bytes from https://sync.browser.yandex.net:443/sync/command/?client=Chromium&client_id=fb2DXE1O8zPeg0qusxkuow%3D%3D&ya_soft=yabrowser&ui=97A895BF-00E7-466C-9E62-3A3613B98EBE
+[Network Analyzer (1a6c:306c)]   (Sid:112) Client -> Server @ : 1087 bytes (SSL)(Service=HTTP)
+[Web Request      (1a6c:306c)] "POST https://sync.browser.yandex.net/sync/command/?client=Chromium&client_id=fb2DXE1O8zPeg0qusxkuow%3D%3D&ya_soft=yabrowser&ui=97A895BF-00E7-466C-9E62-3A3613B98EBE"   
+[Network Analyzer (1a6c:306c)]   (Sid:112) Client -> Server @ : 1575 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a6c:306c)]   (Sid:112) Server -> Client : 826 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1a6c:306c)]   (Sid:112) Server -> Client : 357 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1a6c:306c)] Sent 357 bytes to client @ 26.107.126.198:26150
+[Proxy Recording.Error (1a6c:2e10)] Ошибка вызова SSPI, см. внутреннее исключение.
+[Proxy Recording.Error (1a6c:2e10)] Получено непредвиденное сообщение или оно имеет неправильный формат
+[User action                 ] EndTransactionEvent UC05_TR08_ПроверкаСозданияТренда [Proxy Recording  (1a6c:4d90)] Received response of 129 header and 88 body bytes from http://149.154.167.151:80/api
+[Proxy Recording.Error (1a6c:4d90)] Exception is caught while sending data to http://149.154.167.151:80/api, message=Не удается записать данные в транспортное соединение: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Proxy Recording  (1a6c:3e8c)] Received response of 129 header and 88 body bytes from http://149.154.167.151:80/api
+[Proxy Recording.Error (1a6c:3e8c)] Exception is caught while sending data to http://149.154.167.151:80/api, message=Не удается записать данные в транспортное соединение: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:2032
+[Proxy Recording  (1a6c:306c)] Trying to connect to http://ipv6.msftncsi.com/connecttest.txt ...
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:2033
+[Proxy Recording  (1a6c:306c)] Trying to connect to http://ipv6.msftncsi.com/connecttest.txt ...
+[Proxy Recording  (1a6c:31d0)] Trying to connect to http://ipv6.msftncsi.com/connecttest.txt ...
+[Proxy Recording  (1a6c:31d0)] Trying to connect to http://ipv6.msftncsi.com/connecttest.txt ...
+[Proxy Recording.Error (1a6c:31d0)] Failed to connect to server http://ipv6.msftncsi.com/connecttest.txt.
+Message=NameResolutionFailure, status=Невозможно разрешить удаленное имя: 'ipv6.msftncsi.com'
+See "https://msdn.microsoft.com/en-us/library/ms346609(v=vs.110).aspx" for details.
+[Proxy Recording.Error (1a6c:306c)] Failed to connect to server http://ipv6.msftncsi.com/connecttest.txt.
+Message=NameResolutionFailure, status=Невозможно разрешить удаленное имя: 'ipv6.msftncsi.com'
+See "https://msdn.microsoft.com/en-us/library/ms346609(v=vs.110).aspx" for details.
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:2034
+[Proxy Recording  (1a6c:4d90)] Trying to connect to http://ipv6.msftncsi.com/connecttest.txt ...
+[Proxy Recording  (1a6c:4d90)] Trying to connect to http://ipv6.msftncsi.com/connecttest.txt ...
+[Proxy Recording.Error (1a6c:4d90)] Failed to connect to server http://ipv6.msftncsi.com/connecttest.txt.
+Message=NameResolutionFailure, status=Невозможно разрешить удаленное имя: 'ipv6.msftncsi.com'
+See "https://msdn.microsoft.com/en-us/library/ms346609(v=vs.110).aspx" for details.
+[User action                 ] StartTransactionEvent UC05_TR09_Выход [Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:10907
+[Proxy Recording.Error (1a6c:112c)] Cannot establish a secure connection to the application being recorded.
+Message=Ошибка вызова SSPI, см. внутреннее исключение.
+Import the LoadRunner SSL certificate to the client machine. For details, see "Use Case 3" of "https://admhelp.microfocus.com/vugen/en/2021/help/WebHelp/Content/VuGen/t_HowToRecordViaAProxy.htm".
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:56373
+[Proxy Recording  (1a6c:2e10)] Trying to connect to https://sec.api.browser.yandex.ru:443/barnavig/post ...
+[Proxy Recording  (1a6c:2e10)] Trying to connect to https://sec.api.browser.yandex.ru:443/barnavig/post ...
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:5723
+[User action                 ] EndTransactionEvent UC05_TR09_Выход [Proxy Recording.Error (1a6c:112c)] Ошибка вызова SSPI, см. внутреннее исключение.
+[Proxy Recording.Error (1a6c:112c)] Получено непредвиденное сообщение или оно имеет неправильный формат
+[Proxy Recording.Error (1a6c:29f4)] Exception is caught while trying to connect to https://bar-navig.yandex.ru:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:8897
+[Proxy Recording.Error (1a6c:29f4)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording  (1a6c:4d90)] Trying to connect to https://bar-navig.yandex.ru:443/u ...
+[Proxy Recording  (1a6c:4d90)] Trying to connect to https://bar-navig.yandex.ru:443/u ...
+[Proxy Recording  (1a6c:4d90)] Received response of 145 header and 173 body bytes from https://bar-navig.yandex.ru:443/u
+[Network Analyzer (1a6c:4d90)]   (Sid:113) Client -> Server @ : 2943 bytes (SSL)(Service=HTTP)
+[Web Request      (1a6c:4d90)] "POST https://bar-navig.yandex.ru/u"   
+[Network Analyzer (1a6c:4d90)]   (Sid:113) Client -> Server @ : 7505 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a6c:4d90)]   (Sid:113) Server -> Client : 162 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1a6c:4d90)]   (Sid:113) Server -> Client : 173 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1a6c:4d90)] Sent 173 bytes to client @ 26.107.126.198:8897
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:4596
+[Proxy Recording.Error (1a6c:3e8c)] Cannot establish a secure connection to the application being recorded.
+Message=Ошибка вызова SSPI, см. внутреннее исключение.
+Import the LoadRunner SSL certificate to the client machine. For details, see "Use Case 3" of "https://admhelp.microfocus.com/vugen/en/2021/help/WebHelp/Content/VuGen/t_HowToRecordViaAProxy.htm".
+[Proxy Recording  (1a6c: aac)] Client request from @ 26.107.126.198:27306
+[Proxy Recording  (1a6c:31d0)] Trying to connect to https://sync.browser.yandex.net:443/sync/command/?client=Chromium&client_id=fb2DXE1O8zPeg0qusxkuow%3D%3D&ya_soft=yabrowser&ui=97A895BF-00E7-466C-9E62-3A3613B98EBE ...
+[Proxy Recording  (1a6c:31d0)] Trying to connect to https://sync.browser.yandex.net:443/sync/command/?client=Chromium&client_id=fb2DXE1O8zPeg0qusxkuow%3D%3D&ya_soft=yabrowser&ui=97A895BF-00E7-466C-9E62-3A3613B98EBE ...
+[Proxy Recording  (1a6c:31d0)] Received response of 811 header and 357 body bytes from https://sync.browser.yandex.net:443/sync/command/?client=Chromium&client_id=fb2DXE1O8zPeg0qusxkuow%3D%3D&ya_soft=yabrowser&ui=97A895BF-00E7-466C-9E62-3A3613B98EBE
+[Network Analyzer (1a6c:31d0)]   (Sid:114) Client -> Server @ : 1087 bytes (SSL)(Service=HTTP)
+[Web Request      (1a6c:31d0)] "POST https://sync.browser.yandex.net/sync/command/?client=Chromium&client_id=fb2DXE1O8zPeg0qusxkuow%3D%3D&ya_soft=yabrowser&ui=97A895BF-00E7-466C-9E62-3A3613B98EBE"   
+[Network Analyzer (1a6c:31d0)]   (Sid:114) Client -> Server @ : 1587 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1a6c:31d0)]   (Sid:114) Server -> Client : 828 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1a6c:31d0)]   (Sid:114) Server -> Client : 357 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1a6c:31d0)] Sent 357 bytes to client @ 26.107.126.198:27306
+[Proxy Recording.Error (1a6c:3e8c)] Ошибка вызова SSPI, см. внутреннее исключение.

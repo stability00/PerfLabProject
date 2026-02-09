@@ -1,0 +1,14 @@
+HTTP/1.1 200 
+Server: nginx
+Date: Tue, 03 Feb 2026 08:23:27 GMT
+Content-Type: application/json
+Connection: keep-alive
+Set-Cookie: grafana_session_expiry=1770107601; Path=/grafana; Max-Age=2592000; SameSite=Lax; Domain=.dev-boomq.pflb.ru,grafana_session=da67054445ded4bfdc4c5f415c820678; Path=/grafana; Max-Age=2592000; HttpOnly; SameSite=Lax; Domain=.dev-boomq.pflb.ru
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=86400;
+

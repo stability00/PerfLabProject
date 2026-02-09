@@ -1,0 +1,1 @@
+{"testId":8399,"testResultSlaState":"FINISHED","slaResults":{"slaGroupList":[{"type":"GENERAL_TEST_SLA","targetType":"TEST","slaList":[{"restrictionType":"ERROR_RATE","fromDate":7,"toDate":31,"operation":"LESS_EQUALS","value":2.0,"result":0.0,"status":"SUCCESS"}]}],"status":"SUCCESS"}}

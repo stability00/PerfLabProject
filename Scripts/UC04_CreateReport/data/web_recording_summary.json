@@ -1,0 +1,297 @@
+{
+  "FilterHeaders": [
+    {
+      "Header": "x-client-date",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "user-agent",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-fetch-site",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "sec-fetch-mode",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "sec-fetch-dest",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "sec-ch-ua-platform",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "sec-ch-ua-mobile",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "sec-ch-ua",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "pragma",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "origin",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "cache-control",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "authorization",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "accept-language",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-encoding",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept",
+      "IncludeInScript": false
+    }
+  ],
+  "FilterResources": [
+    {
+      "IsNonResource": true,
+      "type": "application/json"
+    }
+  ],
+  "GeneralInfo": {
+    "BrowserVersion": "",
+    "IsWinInetMode": false,
+    "MaxUsedConnections": 8,
+    "RecordedBrowser": "Chrome",
+    "RecordingDate": "С„РµРІ-02-2026",
+    "RecordingDuration": 7594,
+    "RecordingMode": "N/A",
+    "RecordingTimeStamp": 1770018081,
+    "RecordingType": "Proxy",
+    "TotalBytesReceived": 68415,
+    "TotalBytesSent": 15451,
+    "TotalRequests": 8,
+    "UserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 YaBrowser/25.12.0.0 Safari/537.36"
+  },
+  "HostInfo": [
+    {
+      "DomainName": "yandex.ru",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "213.180.193.234",
+          "IncludeInScript": false,
+          "Name": "sec.api.browser.yandex.ru",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/xml",
+              "DownloadTime": 0,
+              "EventId": 542,
+              "HttpStatus": 200,
+              "Size": 208,
+              "URL": "https://sec.api.browser.yandex.ru/barnavig/post"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "TLS1.2"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "213.180.193.234",
+          "IncludeInScript": false,
+          "Name": "api.browser.yandex.ru",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 0,
+              "EventId": 581,
+              "HttpStatus": 200,
+              "Size": 40,
+              "URL": "https://api.browser.yandex.ru/autofill/v1/pages:get2?brandID=yandex&alt=proto"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 0,
+              "EventId": 523,
+              "HttpStatus": 200,
+              "Size": 40,
+              "URL": "https://api.browser.yandex.ru/autofill/v1/pages:get2?brandID=yandex&alt=proto"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "yandex.net",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "87.250.251.183",
+          "IncludeInScript": false,
+          "Name": "sync.browser.yandex.net",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 0,
+              "EventId": 586,
+              "HttpStatus": 200,
+              "Size": 487,
+              "URL": "https://sync.browser.yandex.net/sync/command/?client=Chromium&client_id=fb2DXE1O8zPeg0qusxkuow%3D%3D&ya_soft=yabrowser&ui=97A895BF-00E7-466C-9E62-3A3613B98EBE"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 0,
+              "EventId": 537,
+              "HttpStatus": 200,
+              "Size": 596,
+              "URL": "https://sync.browser.yandex.net/sync/command/?client=Chromium&client_id=fb2DXE1O8zPeg0qusxkuow%3D%3D&ya_soft=yabrowser&ui=97A895BF-00E7-466C-9E62-3A3613B98EBE"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "pflb.ru",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "82.142.167.44",
+          "IncludeInScript": true,
+          "Name": "dev-boomq.pflb.ru",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 0,
+              "EventId": 576,
+              "HttpStatus": 200,
+              "Size": 531,
+              "URL": "https://dev-boomq.pflb.ru/test-runner-srv/testRunner?sort=id,desc"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 0,
+              "EventId": 571,
+              "HttpStatus": 200,
+              "Size": 306,
+              "URL": "https://dev-boomq.pflb.ru/auth-srv/teamMember/teamContext?teamId=22"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 0,
+              "EventId": 566,
+              "HttpStatus": 200,
+              "Size": 271,
+              "URL": "https://dev-boomq.pflb.ru/auth-srv/team/22"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 16,
+              "EventId": 561,
+              "HttpStatus": 200,
+              "Size": 2,
+              "URL": "https://dev-boomq.pflb.ru/auth-srv/identityProvider"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 0,
+              "EventId": 556,
+              "HttpStatus": 200,
+              "Size": 66848,
+              "URL": "https://dev-boomq.pflb.ru/project-srv/modelSchema"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 0,
+              "EventId": 551,
+              "HttpStatus": 200,
+              "Size": 156,
+              "URL": "https://dev-boomq.pflb.ru/auth-srv/user"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 547,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://dev-boomq.pflb.ru/auth-srv/login"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 0,
+              "EventId": 528,
+              "HttpStatus": 200,
+              "Size": 301,
+              "URL": "https://dev-boomq.pflb.ru/manifest.json"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "1clickvpn.net",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "172.67.152.110",
+          "IncludeInScript": false,
+          "Name": "astrid.1clickvpn.net",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 0,
+              "EventId": 533,
+              "HttpStatus": 201,
+              "Size": 0,
+              "URL": "https://astrid.1clickvpn.net/api/44/envelope/?sentry_key=f0a6e6e8876c45afa9fbc8c8fed53d4e&sentry_version=7&sentry_client=sentry.javascript.browser%2F7.120.3"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    }
+  ],
+  "WebSocket": {
+    "IncludeInScript": false,
+    "IsScriptIncludeWebSocket": false
+  },
+  "NumberOfCorrelations": 0
+}

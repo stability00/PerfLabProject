@@ -1,0 +1,18 @@
+POST https://dev-boomq.pflb.ru/auth-srv/login HTTP/1.1
+sec-ch-ua-platform: "Windows"
+X-Client-Date: 2026-02-03T08:17:55.192Z
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 YaBrowser/25.12.0.0 Safari/537.36
+Accept: */*
+sec-ch-ua: "Chromium";v="142", "YaBrowser";v="25.12", "Not_A Brand";v="99", "Yowser";v="2.5"
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryiffAyUC9o0EdWRz5
+sec-ch-ua-mobile: ?0
+Origin: https://dev-boomq.pflb.ru
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://dev-boomq.pflb.ru/authorize
+Accept-Encoding: gzip, deflate, zstd
+Accept-Language: ru,en;q=0.9
+Host: dev-boomq.pflb.ru
+Content-Length: 359
+

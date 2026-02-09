@@ -1,0 +1,7 @@
+"{\"name\":\"untitled_profile_11:23\",\"projectId\":2698,\"chartProfileList\":[{\"slaTypeList\""
+":[{\"fromDate\":7,\"restrictionType\":\"ERROR_RATE\",\"targetType\":\"TEST\",\"toDate\":31,\"t"
+"ype\":\"GENERAL_SLA_TYPE\"}],\"orderInReport\":0}],\"tableProfileList\":[{\"tableId\":null,\"s"
+"laTypeList\":[{\"fromDate\":7,\"restrictionType\":\"ERROR_RATE\",\"targetType\":\"TEST\",\"toD"
+"ate\":31,\"type\":\"GENERAL_SLA_TYPE\"}],\"valueType\":\"VALUE\",\"orderInReport\":1}],\"testF"
+"ilterExpressionList\":[{\"type\":\"TEST_DISPLAY_STATE_EXPRESSION\",\"testDisplayStateList\":[\""
+"FINISHED\",\"FAILED\",\"CANCELED\"]}]}"

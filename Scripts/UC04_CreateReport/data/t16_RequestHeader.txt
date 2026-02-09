@@ -1,0 +1,17 @@
+GET https://dev-boomq.pflb.ru/auth-srv/user HTTP/1.1
+sec-ch-ua-platform: "Windows"
+Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc19ub3RpZmljYXRlZCI6ZmFsc2UsInVzZXJfaWQiOjE5MjUsInVzZXJfbmFtZSI6ImFkbWluX2dyM0BtYWlsLmNvbSIsInNjb3BlIjpbInRydXN0IiwicmVhZCIsIndyaXRlIl0sInVzZXJfbGFuZ3VhZ2UiOiJSVSIsImV4cCI6MTc3MDA2MTczMCwiYXV0aG9yaXRpZXMiOlsiUk9MRV9VU0VSIl0sImp0aSI6ImQ4ZTgxYzEzLTUyZTAtNDVlNS04YjMzLWUyYTk3MTdlODFiOCIsImNsaWVudF9pZCI6ImNsaWVudCJ9.fGH52RPBYWk7B2AiqqdtOBwR9VQvgLd8F5YGlrMX67ggCxtGAHklzddACwJZhvAACIg0-9AOnfIbw6rbyPhmlGzmd_oBTM7G7hI1xdyu0n30u-RYRM5FX1nWZ26exbbPt5nB5hGcaRE1Eajgam-XdTWh0YNdVgsiF6sVD-sXqM4azlefbJh1LYTiPNdxVfBZPEC7RaANUiLd14cCiEFbUv9BMFh0lILhylTxsVRZnUo9_gR-GMZQqDToyDa3jtkN3ZK1W6-2PQnmQ4B7jo-Cev2pQzTK6j6kPgNGESFQ641K4lh3gyZMmVpqBGx4Xl7XFpSfaYAgcMzxECgLfd1Gfw
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 YaBrowser/25.12.0.0 Safari/537.36
+Accept: */*
+sec-ch-ua: "Chromium";v="142", "YaBrowser";v="25.12", "Not_A Brand";v="99", "Yowser";v="2.5"
+sec-ch-ua-mobile: ?0
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://dev-boomq.pflb.ru/authorize
+Accept-Encoding: gzip, deflate, zstd
+Accept-Language: ru,en;q=0.9
+Cookie: boomq_auth=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc19ub3RpZmljYXRlZCI6ZmFsc2UsInVzZXJfaWQiOjE5MjUsInVzZXJfbmFtZSI6ImFkbWluX2dyM0BtYWlsLmNvbSIsInNjb3BlIjpbInRydXN0IiwicmVhZCIsIndyaXRlIl0sInVzZXJfbGFuZ3VhZ2UiOiJSVSIsImV4cCI6MTc3MDA2MTczMCwiYXV0aG9yaXRpZXMiOlsiUk9MRV9VU0VSIl0sImp0aSI6ImQ4ZTgxYzEzLTUyZTAtNDVlNS04YjMzLWUyYTk3MTdlODFiOCIsImNsaWVudF9pZCI6ImNsaWVudCJ9.fGH52RPBYWk7B2AiqqdtOBwR9VQvgLd8F5YGlrMX67ggCxtGAHklzddACwJZhvAACIg0-9AOnfIbw6rbyPhmlGzmd_oBTM7G7hI1xdyu0n30u-RYRM5FX1nWZ26exbbPt5nB5hGcaRE1Eajgam-XdTWh0YNdVgsiF6sVD-sXqM4azlefbJh1LYTiPNdxVfBZPEC7RaANUiLd14cCiEFbUv9BMFh0lILhylTxsVRZnUo9_gR-GMZQqDToyDa3jtkN3ZK1W6-2PQnmQ4B7jo-Cev2pQzTK6j6kPgNGESFQ641K4lh3gyZMmVpqBGx4Xl7XFpSfaYAgcMzxECgLfd1Gfw
+Host: dev-boomq.pflb.ru
+Connection: Keep-Alive
+

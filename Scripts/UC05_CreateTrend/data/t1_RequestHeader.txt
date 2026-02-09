@@ -1,0 +1,12 @@
+GET https://dev-boomq.pflb.ru/manifest.json HTTP/1.1
+Pragma: no-cache
+Cache-Control: no-cache
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: empty
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 YaBrowser/25.12.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, zstd
+Accept-Language: ru,en;q=0.9
+Host: dev-boomq.pflb.ru
+Connection: Keep-Alive
+

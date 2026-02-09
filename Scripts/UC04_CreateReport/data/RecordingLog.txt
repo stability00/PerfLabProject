@@ -1,0 +1,302 @@
+[API Trapper      (56e8:42cc)] Recording in 32-bit mode: C:\Program Files (x86)\Micro Focus\LoadRunner\Bin\HP.LR.ProxyRecorderStarter.exe
+[Network Analyzer ( 854:4e04)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( 854:4e04)] Load Network Traffic Analyzers:
+[Network Analyzer ( 854:4e04)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer ( 854:4e04)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter.dll)
+[Network Analyzer ( 854:4e04)]     + Network Analyzer: api_http_filter.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer ( 854:4e04)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter.dll
+[Network Analyzer ( 854:4e04)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer.dll)
+[Network Analyzer ( 854:4e04)]     + Network Analyzer: WebSocketAnalyzer.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer ( 854:4e04)]     Analyzer Module: local_server (value=)
+[Network Analyzer ( 854:4e04)] ------------------------------------------------------------------------------------------
+[Proxy Recording  ( 854:4e04)] Started proxy on port 8888 listening IP 26.107.126.198, 127.0.0.1, in synchronous mode
+[Proxy Recording  ( 854:36f4)] Client request from @ 26.107.126.198:39995
+[Proxy Recording  ( 854:36f4)] Client request from @ 26.107.126.198:17884
+[Proxy Recording  ( 854:36f4)] Client request from @ 26.107.126.198:63952
+[Proxy Recording  ( 854:36f4)] Client request from @ 26.107.126.198:19491
+[Proxy Recording  ( 854:36f4)] Client request from @ 26.107.126.198:47728
+[Proxy Recording  ( 854:36f4)] Client request from @ 26.107.126.198:53911
+[Proxy Recording  ( 854:36f4)] Client request from @ 26.107.126.198:25249
+[Proxy Recording  ( 854:36f4)] Client request from @ 26.107.126.198:13521
+[Proxy Recording  ( 854:36f4)] Client request from @ 26.107.126.198:7604
+[Proxy Recording.Error ( 854:34a0)] Exception is caught while trying to connect to https://dev-boomq.pflb.ru:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording.Error ( 854:34a0)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error ( 854:3cec)] Exception is caught while trying to connect to https://dev-boomq.pflb.ru:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording  ( 854:36f4)] Client request from @ 26.107.126.198:9493
+[Proxy Recording.Error ( 854:3cec)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error ( 854:3308)] Exception is caught while trying to connect to https://astrid.1clickvpn.net:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording  ( 854:36f4)] Client request from @ 26.107.126.198:62621
+[Proxy Recording.Error ( 854:3308)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error ( 854:31f8)] Exception is caught while trying to connect to https://sync.browser.yandex.net:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording  ( 854:36f4)] Client request from @ 26.107.126.198:18472
+[Proxy Recording.Error ( 854:31f8)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording  ( 854:36f4)] Client request from @ 26.107.126.198:19546
+[Proxy Recording.Error ( 854:566c)] Exception is caught while trying to connect to https://browser.translate.yandex.net:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording.Error ( 854:566c)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording  ( 854:36f4)] Client request from @ 26.107.126.198:34717
+[Proxy Recording  ( 854:36f4)] Client request from @ 26.107.126.198:55687
+[Proxy Recording  ( 854:3e9c)] Trying to connect to https://api.browser.yandex.ru:443/autofill/v1/pages:get2?brandID=yandex&alt=proto ...
+[Proxy Recording  ( 854:3e9c)] Trying to connect to https://api.browser.yandex.ru:443/autofill/v1/pages:get2?brandID=yandex&alt=proto ...
+[Proxy Recording  ( 854:3e9c)] Received response of 1488 header and 40 body bytes from https://api.browser.yandex.ru:443/autofill/v1/pages:get2?brandID=yandex&alt=proto
+[Network Analyzer ( 854:3e9c)]   (Sid:  1) Client -> Server @ : 967 bytes (SSL)(Service=HTTP)
+[Web Request      ( 854:3e9c)] "POST https://api.browser.yandex.ru/autofill/v1/pages:get2?brandID=yandex&alt=proto"   
+[Network Analyzer ( 854:3e9c)]   (Sid:  1) Client -> Server @ : 90 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 854:3e9c)]   (Sid:  1) Server -> Client : 1505 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 854:3e9c)]   (Sid:  1) Server -> Client : 40 bytes (SSL) (Service=HTTP)
+[Proxy Recording  ( 854:3e9c)] Sent 40 bytes to client @ 26.107.126.198:53911
+[Proxy Recording  ( 854:36f4)] Client request from @ 26.107.126.198:63158
+[Proxy Recording.Error ( 854:2f90)] Exception is caught while trying to connect to https://sec.api.browser.yandex.ru:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording  ( 854:36f4)] Client request from @ 26.107.126.198:23320
+[Proxy Recording.Error ( 854:2f90)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error ( 854:40e8)] Exception is caught while trying to connect to https://tube.pflb.ru:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording  ( 854:36f4)] Client request from @ 26.107.126.198:64875
+[Proxy Recording.Error ( 854:110c)] Exception is caught while trying to connect to https://tube.pflb.ru:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording.Error ( 854:40e8)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error ( 854:110c)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording  ( 854:3308)] Trying to connect to https://sync.browser.yandex.net:443/sync/command/?client=Chromium&client_id=fb2DXE1O8zPeg0qusxkuow%3D%3D&ya_soft=yabrowser&ui=97A895BF-00E7-466C-9E62-3A3613B98EBE ...
+[Proxy Recording  ( 854:4848)] Trying to connect to https://dev-boomq.pflb.ru:443/manifest.json ...
+[Proxy Recording  ( 854:4848)] Trying to connect to https://dev-boomq.pflb.ru:443/manifest.json ...
+[Proxy Recording  ( 854:3cec)] Trying to connect to https://astrid.1clickvpn.net:443/api/44/envelope/?sentry_key=f0a6e6e8876c45afa9fbc8c8fed53d4e&sentry_version=7&sentry_client=sentry.javascript.browser%2F7.120.3 ...
+[Proxy Recording  ( 854:3308)] Trying to connect to https://sync.browser.yandex.net:443/sync/command/?client=Chromium&client_id=fb2DXE1O8zPeg0qusxkuow%3D%3D&ya_soft=yabrowser&ui=97A895BF-00E7-466C-9E62-3A3613B98EBE ...
+[Proxy Recording  ( 854:4848)] Received response of 264 header and 301 body bytes from https://dev-boomq.pflb.ru:443/manifest.json
+[Web Request      ( 854:4848)] "GET https://dev-boomq.pflb.ru/manifest.json"   
+[Network Analyzer ( 854:4848)]   (Sid:  2) Client -> Server @ : 431 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 854:4848)]   (Sid:  2) Server -> Client : 281 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 854:4848)]   (Sid:  2) Server -> Client : 301 bytes (SSL) (Service=HTTP)
+[Proxy Recording  ( 854:4848)] Sent 301 bytes to client @ 26.107.126.198:9493
+[Proxy Recording  ( 854:3cec)] Trying to connect to https://astrid.1clickvpn.net:443/api/44/envelope/?sentry_key=f0a6e6e8876c45afa9fbc8c8fed53d4e&sentry_version=7&sentry_client=sentry.javascript.browser%2F7.120.3 ...
+[Proxy Recording  ( 854:36f4)] Client request from @ 26.107.126.198:39895
+[Proxy Recording  ( 854:3cec)] Received response of 538 header and 0 body bytes from https://astrid.1clickvpn.net:443/api/44/envelope/?sentry_key=f0a6e6e8876c45afa9fbc8c8fed53d4e&sentry_version=7&sentry_client=sentry.javascript.browser%2F7.120.3
+[Network Analyzer ( 854:3cec)]   (Sid:  3) Client -> Server @ : 778 bytes (SSL)(Service=HTTP)
+[Web Request      ( 854:3cec)] "POST https://astrid.1clickvpn.net/api/44/envelope/?sentry_key=f0a6e6e8876c45afa9fbc8c8fed53d4e&sentry_version=7&sentry_client=sentry.javascript.browser%2F7.120.3"   
+[Network Analyzer ( 854:3cec)]   (Sid:  3) Client -> Server @ : 1465 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 854:3cec)]   (Sid:  3) Server -> Client : 532 bytes (SSL) (Service=HTTP)
+[Proxy Recording  ( 854:3cec)] Sent 0 bytes to client @ 26.107.126.198:62621
+[Proxy Recording  ( 854:3308)] Received response of 811 header and 596 body bytes from https://sync.browser.yandex.net:443/sync/command/?client=Chromium&client_id=fb2DXE1O8zPeg0qusxkuow%3D%3D&ya_soft=yabrowser&ui=97A895BF-00E7-466C-9E62-3A3613B98EBE
+[Network Analyzer ( 854:3308)]   (Sid:  4) Client -> Server @ : 1111 bytes (SSL)(Service=HTTP)
+[Web Request      ( 854:3308)] "POST https://sync.browser.yandex.net/sync/command/?client=Chromium&client_id=fb2DXE1O8zPeg0qusxkuow%3D%3D&ya_soft=yabrowser&ui=97A895BF-00E7-466C-9E62-3A3613B98EBE"   
+[Network Analyzer ( 854:3308)]   (Sid:  4) Client -> Server @ : 1900 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 854:3308)]   (Sid:  4) Server -> Client : 828 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 854:3308)]   (Sid:  4) Server -> Client : 596 bytes (SSL) (Service=HTTP)
+[Proxy Recording  ( 854:3308)] Sent 596 bytes to client @ 26.107.126.198:18472
+[Proxy Recording.Error ( 854:18f0)] Exception is caught while trying to connect to https://tube.pflb.ru:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording.Error ( 854:566c)] Exception is caught while trying to connect to https://tube.pflb.ru:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording.Error ( 854:34a0)] Exception is caught while trying to connect to https://tube.pflb.ru:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording.Error ( 854:18f0)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error ( 854:566c)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error ( 854:34a0)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording  ( 854:36f4)] Client request from @ 26.107.126.198:21808
+[Proxy Recording.Error ( 854:31f8)] Exception is caught while trying to connect to https://worldtimeapi.org:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording  ( 854:36f4)] Client request from @ 26.107.126.198:61883
+[Proxy Recording.Error ( 854:31f8)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording  ( 854:110c)] Trying to connect to https://tube.pflb.ru:443/static/streaming-playlists/hls/a0dcfe8c-56e0-4532-a77f-297a43f3d1d2/3bb40905-b7dd-40cd-afba-fcdb752f4eb7-720-fragmented.mp4 ...
+[Proxy Recording  ( 854:2f90)] Trying to connect to https://tube.pflb.ru:443/static/streaming-playlists/hls/a0dcfe8c-56e0-4532-a77f-297a43f3d1d2/024a71f3-a458-434a-8af3-287b74ce3867-0-fragmented.mp4 ...
+[Proxy Recording  ( 854:3e9c)] Trying to connect to https://sec.api.browser.yandex.ru:443/barnavig/post ...
+[Proxy Recording.Error ( 854:2f90)] Cannot add request header message:Заголовок "Range" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording.Error ( 854:110c)] Cannot add request header message:Заголовок "Range" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  ( 854:2f90)] Trying to connect to https://tube.pflb.ru:443/static/streaming-playlists/hls/a0dcfe8c-56e0-4532-a77f-297a43f3d1d2/024a71f3-a458-434a-8af3-287b74ce3867-0-fragmented.mp4 ...
+[Proxy Recording  ( 854:110c)] Trying to connect to https://tube.pflb.ru:443/static/streaming-playlists/hls/a0dcfe8c-56e0-4532-a77f-297a43f3d1d2/3bb40905-b7dd-40cd-afba-fcdb752f4eb7-720-fragmented.mp4 ...
+[Proxy Recording  ( 854:3308)] Trying to connect to https://worldtimeapi.org:443/api/ip ...
+[Proxy Recording  ( 854:3308)] Trying to connect to https://worldtimeapi.org:443/api/ip ...
+[Proxy Recording  ( 854:3e9c)] Trying to connect to https://sec.api.browser.yandex.ru:443/barnavig/post ...
+[Proxy Recording  ( 854:3e9c)] Received response of 417 header and 208 body bytes from https://sec.api.browser.yandex.ru:443/barnavig/post
+[Network Analyzer ( 854:3e9c)]   (Sid:  5) Client -> Server @ : 3078 bytes (SSL)(Service=HTTP)
+[Web Request      ( 854:3e9c)] "POST https://sec.api.browser.yandex.ru/barnavig/post"   
+[Network Analyzer ( 854:3e9c)]   (Sid:  5) Client -> Server @ : 5382 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 854:3e9c)]   (Sid:  5) Server -> Client : 434 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 854:3e9c)]   (Sid:  5) Server -> Client : 208 bytes (SSL) (Service=HTTP)
+[Proxy Recording  ( 854:3e9c)] Sent 208 bytes to client @ 26.107.126.198:23320
+[Proxy Recording  ( 854:36f4)] Client request from @ 26.107.126.198:33222
+[Proxy Recording  ( 854:36f4)] Client request from @ 26.107.126.198:37533
+[Proxy Recording.Error ( 854:566c)] Cannot establish a secure connection to the application being recorded.
+Message=Ошибка вызова SSPI, см. внутреннее исключение.
+Import the LoadRunner SSL certificate to the client machine. For details, see "Use Case 3" of "https://admhelp.microfocus.com/vugen/en/2021/help/WebHelp/Content/VuGen/t_HowToRecordViaAProxy.htm".
+[Proxy Recording  ( 854:4848)] Trying to connect to https://tube.pflb.ru:443/static/streaming-playlists/hls/a0dcfe8c-56e0-4532-a77f-297a43f3d1d2/024a71f3-a458-434a-8af3-287b74ce3867-0-fragmented.mp4 ...
+[Proxy Recording  ( 854:34a0)] Trying to connect to https://tube.pflb.ru:443/static/streaming-playlists/hls/a0dcfe8c-56e0-4532-a77f-297a43f3d1d2/024a71f3-a458-434a-8af3-287b74ce3867-0-fragmented.mp4 ...
+[Proxy Recording.Error ( 854:4848)] Cannot add request header message:Заголовок "Range" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording.Error ( 854:34a0)] Cannot add request header message:Заголовок "Range" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  ( 854:4848)] Trying to connect to https://tube.pflb.ru:443/static/streaming-playlists/hls/a0dcfe8c-56e0-4532-a77f-297a43f3d1d2/024a71f3-a458-434a-8af3-287b74ce3867-0-fragmented.mp4 ...
+[Proxy Recording  ( 854:34a0)] Trying to connect to https://tube.pflb.ru:443/static/streaming-playlists/hls/a0dcfe8c-56e0-4532-a77f-297a43f3d1d2/024a71f3-a458-434a-8af3-287b74ce3867-0-fragmented.mp4 ...
+[Proxy Recording.Error ( 854:3308)] Failed to connect to server https://worldtimeapi.org:443/api/ip.
+Message=SendFailure, status=Базовое соединение закрыто: Непредвиденная ошибка при передаче.
+See "https://msdn.microsoft.com/en-us/library/ms346609(v=vs.110).aspx" for details.
+[Proxy Recording  ( 854:36f4)] Client request from @ 26.107.126.198:65362
+[Proxy Recording.Error ( 854:18f0)] Exception is caught while trying to connect to https://dev-boomq.pflb.ru:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording  ( 854:36f4)] Client request from @ 26.107.126.198:14721
+[Proxy Recording.Error ( 854:18f0)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording  ( 854:5318)] Trying to connect to https://dev-boomq.pflb.ru:443/auth-srv/login ...
+[Proxy Recording  ( 854:5318)] Trying to connect to https://dev-boomq.pflb.ru:443/auth-srv/login ...
+[Proxy Recording  ( 854:5318)] Received response of 1876 header and 0 body bytes from https://dev-boomq.pflb.ru:443/auth-srv/login
+[Network Analyzer ( 854:5318)]   (Sid:  6) Client -> Server @ : 757 bytes (SSL)(Service=HTTP)
+[Web Request      ( 854:5318)] "POST https://dev-boomq.pflb.ru/auth-srv/login"   
+[Network Analyzer ( 854:5318)]   (Sid:  6) Client -> Server @ : 359 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 854:5318)]   (Sid:  6) Server -> Client : 1891 bytes (SSL) (Service=HTTP)
+[Proxy Recording  ( 854:5318)] Sent 0 bytes to client @ 26.107.126.198:14721
+[Proxy Recording  ( 854:36f4)] Client request from @ 26.107.126.198:8274
+[Proxy Recording  ( 854:36f4)] Client request from @ 26.107.126.198:31421
+[Proxy Recording.Error ( 854:31f8)] Cannot establish a secure connection to the application being recorded.
+Message=Ошибка вызова SSPI, см. внутреннее исключение.
+Import the LoadRunner SSL certificate to the client machine. For details, see "Use Case 3" of "https://admhelp.microfocus.com/vugen/en/2021/help/WebHelp/Content/VuGen/t_HowToRecordViaAProxy.htm".
+[Proxy Recording  ( 854:36f4)] Client request from @ 26.107.126.198:36901
+[Proxy Recording.Error ( 854:3e9c)] Exception is caught while trying to connect to https://dev-boomq.pflb.ru:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording.Error ( 854:3e9c)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording  ( 854:36f4)] Client request from @ 26.107.126.198:24490
+[Proxy Recording  ( 854:18f0)] Trying to connect to https://dev-boomq.pflb.ru:443/project-srv/modelSchema ...
+[Proxy Recording  ( 854:5318)] Trying to connect to https://dev-boomq.pflb.ru:443/auth-srv/user ...
+[Proxy Recording  ( 854:18f0)] Trying to connect to https://dev-boomq.pflb.ru:443/project-srv/modelSchema ...
+[Proxy Recording  ( 854:5318)] Trying to connect to https://dev-boomq.pflb.ru:443/auth-srv/user ...
+[Proxy Recording  ( 854:5318)] Received response of 475 header and 156 body bytes from https://dev-boomq.pflb.ru:443/auth-srv/user
+[Web Request      ( 854:5318)] "GET https://dev-boomq.pflb.ru/auth-srv/user"   
+[Network Analyzer ( 854:5318)]   (Sid:  7) Client -> Server @ : 2018 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 854:5318)]   (Sid:  7) Server -> Client : 462 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 854:5318)]   (Sid:  7) Server -> Client : 156 bytes (SSL) (Service=HTTP)
+[Proxy Recording  ( 854:5318)] Sent 156 bytes to client @ 26.107.126.198:24490
+[Proxy Recording  ( 854:36f4)] Client request from @ 26.107.126.198:21764
+[Proxy Recording  ( 854:36f4)] Client request from @ 26.107.126.198:40283
+[Proxy Recording.Error ( 854:40e8)] Cannot establish a secure connection to the application being recorded.
+Message=Ошибка вызова SSPI, см. внутреннее исключение.
+Import the LoadRunner SSL certificate to the client machine. For details, see "Use Case 3" of "https://admhelp.microfocus.com/vugen/en/2021/help/WebHelp/Content/VuGen/t_HowToRecordViaAProxy.htm".
+[Proxy Recording  ( 854:18f0)] Received response of 438 header and 66848 body bytes from https://dev-boomq.pflb.ru:443/project-srv/modelSchema
+[Web Request      ( 854:18f0)] "GET https://dev-boomq.pflb.ru/project-srv/modelSchema"   
+[Network Analyzer ( 854:18f0)]   (Sid:  8) Client -> Server @ : 2028 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 854:18f0)]   (Sid:  8) Server -> Client : 425 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 854:18f0)]   (Sid:  8) Server -> Client : 66848 bytes (SSL) (Service=HTTP)
+[Proxy Recording  ( 854:18f0)] Sent 66848 bytes to client @ 26.107.126.198:36901
+[Proxy Recording  ( 854:3308)] Trying to connect to https://dev-boomq.pflb.ru:443/auth-srv/identityProvider ...
+[Proxy Recording  ( 854:3308)] Trying to connect to https://dev-boomq.pflb.ru:443/auth-srv/identityProvider ...
+[Proxy Recording  ( 854:3308)] Received response of 475 header and 2 body bytes from https://dev-boomq.pflb.ru:443/auth-srv/identityProvider
+[Web Request      ( 854:3308)] "GET https://dev-boomq.pflb.ru/auth-srv/identityProvider"   
+[Network Analyzer ( 854:3308)]   (Sid:  9) Client -> Server @ : 2030 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 854:3308)]   (Sid:  9) Server -> Client : 462 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 854:3308)]   (Sid:  9) Server -> Client : 2 bytes (SSL) (Service=HTTP)
+[Proxy Recording  ( 854:3308)] Sent 2 bytes to client @ 26.107.126.198:40283
+[Proxy Recording  ( 854:36f4)] Client request from @ 26.107.126.198:41091
+[Proxy Recording  ( 854:36f4)] Client request from @ 26.107.126.198:10598
+[Proxy Recording.Error ( 854:5318)] Cannot establish a secure connection to the application being recorded.
+Message=Ошибка вызова SSPI, см. внутреннее исключение.
+Import the LoadRunner SSL certificate to the client machine. For details, see "Use Case 3" of "https://admhelp.microfocus.com/vugen/en/2021/help/WebHelp/Content/VuGen/t_HowToRecordViaAProxy.htm".
+[Proxy Recording  ( 854:18f0)] Trying to connect to https://dev-boomq.pflb.ru:443/auth-srv/team/22 ...
+[Proxy Recording  ( 854:18f0)] Trying to connect to https://dev-boomq.pflb.ru:443/auth-srv/team/22 ...
+[Proxy Recording  ( 854:18f0)] Received response of 475 header and 271 body bytes from https://dev-boomq.pflb.ru:443/auth-srv/team/22
+[Web Request      ( 854:18f0)] "GET https://dev-boomq.pflb.ru/auth-srv/team/22"   
+[Network Analyzer ( 854:18f0)]   (Sid: 10) Client -> Server @ : 2021 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 854:18f0)]   (Sid: 10) Server -> Client : 462 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 854:18f0)]   (Sid: 10) Server -> Client : 271 bytes (SSL) (Service=HTTP)
+[Proxy Recording  ( 854:18f0)] Sent 271 bytes to client @ 26.107.126.198:10598
+[Proxy Recording  ( 854:36f4)] Client request from @ 26.107.126.198:58766
+[Proxy Recording  ( 854:36f4)] Client request from @ 26.107.126.198:61051
+[Proxy Recording.Error ( 854:3cec)] Cannot establish a secure connection to the application being recorded.
+Message=Ошибка вызова SSPI, см. внутреннее исключение.
+Import the LoadRunner SSL certificate to the client machine. For details, see "Use Case 3" of "https://admhelp.microfocus.com/vugen/en/2021/help/WebHelp/Content/VuGen/t_HowToRecordViaAProxy.htm".
+[Proxy Recording.Error ( 854:566c)] Ошибка вызова SSPI, см. внутреннее исключение.
+[Proxy Recording  ( 854:36f4)] Client request from @ 26.107.126.198:18067
+[Proxy Recording.Error ( 854:3e9c)] Cannot establish a secure connection to the application being recorded.
+Message=Ошибка вызова SSPI, см. внутреннее исключение.
+Import the LoadRunner SSL certificate to the client machine. For details, see "Use Case 3" of "https://admhelp.microfocus.com/vugen/en/2021/help/WebHelp/Content/VuGen/t_HowToRecordViaAProxy.htm".
+[Proxy Recording  ( 854:36f4)] Client request from @ 26.107.126.198:21597
+[Proxy Recording.Error ( 854:3308)] Exception is caught while trying to connect to https://tube.pflb.ru:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording  ( 854:36f4)] Client request from @ 26.107.126.198:14680
+[Proxy Recording.Error ( 854:3308)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording  ( 854:18f0)] Trying to connect to https://dev-boomq.pflb.ru:443/auth-srv/teamMember/teamContext?teamId=22 ...
+[Proxy Recording  ( 854:18f0)] Trying to connect to https://dev-boomq.pflb.ru:443/auth-srv/teamMember/teamContext?teamId=22 ...
+[Proxy Recording  ( 854:18f0)] Received response of 2917 header and 306 body bytes from https://dev-boomq.pflb.ru:443/auth-srv/teamMember/teamContext?teamId=22
+[Web Request      ( 854:18f0)] "GET https://dev-boomq.pflb.ru/auth-srv/teamMember/teamContext?teamId=22"   
+[Network Analyzer ( 854:18f0)]   (Sid: 11) Client -> Server @ : 3259 bytes (SSL)(Service=HTTP)
+[Proxy Recording  ( 854:3308)] Trying to connect to https://tube.pflb.ru:443/static/streaming-playlists/hls/a0dcfe8c-56e0-4532-a77f-297a43f3d1d2/3bb40905-b7dd-40cd-afba-fcdb752f4eb7-720-fragmented.mp4 ...
+[Proxy Recording.Error ( 854:3308)] Cannot add request header message:Заголовок "Range" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  ( 854:3308)] Trying to connect to https://tube.pflb.ru:443/static/streaming-playlists/hls/a0dcfe8c-56e0-4532-a77f-297a43f3d1d2/3bb40905-b7dd-40cd-afba-fcdb752f4eb7-720-fragmented.mp4 ...
+[Network Analyzer ( 854:18f0)]   (Sid: 11) Server -> Client : 2904 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 854:18f0)]   (Sid: 11) Server -> Client : 306 bytes (SSL) (Service=HTTP)
+[Proxy Recording  ( 854:18f0)] Sent 306 bytes to client @ 26.107.126.198:61051
+[Proxy Recording  ( 854:36f4)] Client request from @ 26.107.126.198:48017
+[Proxy Recording.Error ( 854:18f0)] Cannot establish a secure connection to the application being recorded.
+Message=Ошибка вызова SSPI, см. внутреннее исключение.
+Import the LoadRunner SSL certificate to the client machine. For details, see "Use Case 3" of "https://admhelp.microfocus.com/vugen/en/2021/help/WebHelp/Content/VuGen/t_HowToRecordViaAProxy.htm".
+[Proxy Recording  ( 854:36f4)] Client request from @ 26.107.126.198:62627
+[Proxy Recording  ( 854:36f4)] Client request from @ 26.107.126.198:1522
+[Proxy Recording.Error ( 854:31f8)] Ошибка вызова SSPI, см. внутреннее исключение.
+[Proxy Recording.Error ( 854:40e8)] Ошибка вызова SSPI, см. внутреннее исключение.
+[Proxy Recording.Error ( 854:5318)] Ошибка вызова SSPI, см. внутреннее исключение.
+[Proxy Recording.Error ( 854:3cec)] Ошибка вызова SSPI, см. внутреннее исключение.
+[Proxy Recording  ( 854:1320)] Trying to connect to https://dev-boomq.pflb.ru:443/test-runner-srv/testRunner?sort=id,desc ...
+[Proxy Recording  ( 854:1320)] Trying to connect to https://dev-boomq.pflb.ru:443/test-runner-srv/testRunner?sort=id,desc ...
+[Proxy Recording.Error ( 854:566c)] Получено непредвиденное сообщение или оно имеет неправильный формат
+[Proxy Recording.Error ( 854:3e9c)] Ошибка вызова SSPI, см. внутреннее исключение.
+[Proxy Recording  ( 854:1320)] Received response of 363 header and 531 body bytes from https://dev-boomq.pflb.ru:443/test-runner-srv/testRunner?sort=id,desc
+[Web Request      ( 854:1320)] "GET https://dev-boomq.pflb.ru/test-runner-srv/testRunner?sort=id,desc"   
+[Network Analyzer ( 854:1320)]   (Sid: 12) Client -> Server @ : 2548 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 854:1320)]   (Sid: 12) Server -> Client : 350 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 854:1320)]   (Sid: 12) Server -> Client : 531 bytes (SSL) (Service=HTTP)
+[Proxy Recording  ( 854:1320)] Sent 531 bytes to client @ 26.107.126.198:62627
+[Proxy Recording.Error ( 854:18f0)] Ошибка вызова SSPI, см. внутреннее исключение.
+[Proxy Recording  ( 854:1320)] Trying to connect to https://api.browser.yandex.ru:443/autofill/v1/pages:get2?brandID=yandex&alt=proto ...
+[Proxy Recording  ( 854:1320)] Trying to connect to https://api.browser.yandex.ru:443/autofill/v1/pages:get2?brandID=yandex&alt=proto ...
+[Proxy Recording.Error ( 854:31f8)] Получено непредвиденное сообщение или оно имеет неправильный формат
+[Proxy Recording  ( 854:1320)] Received response of 1486 header and 40 body bytes from https://api.browser.yandex.ru:443/autofill/v1/pages:get2?brandID=yandex&alt=proto
+[Proxy Recording.Error ( 854:40e8)] Получено непредвиденное сообщение или оно имеет неправильный формат
+[Network Analyzer ( 854:1320)]   (Sid: 13) Client -> Server @ : 943 bytes (SSL)(Service=HTTP)
+[Web Request      ( 854:1320)] "POST https://api.browser.yandex.ru/autofill/v1/pages:get2?brandID=yandex&alt=proto"   
+[Network Analyzer ( 854:1320)]   (Sid: 13) Client -> Server @ : 90 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 854:1320)]   (Sid: 13) Server -> Client : 1503 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 854:1320)]   (Sid: 13) Server -> Client : 40 bytes (SSL) (Service=HTTP)
+[Proxy Recording  ( 854:1320)] Sent 40 bytes to client @ 26.107.126.198:1522
+[Proxy Recording.Error ( 854:5318)] Получено непредвиденное сообщение или оно имеет неправильный формат
+[Proxy Recording.Error ( 854:3cec)] Получено непредвиденное сообщение или оно имеет неправильный формат
+[Proxy Recording.Error ( 854:3e9c)] Получено непредвиденное сообщение или оно имеет неправильный формат
+[Proxy Recording.Error ( 854:18f0)] Получено непредвиденное сообщение или оно имеет неправильный формат
+[Proxy Recording  ( 854:36f4)] Client request from @ 26.107.126.198:46662
+[Proxy Recording.Error ( 854:40e8)] Cannot establish a secure connection to the application being recorded.
+Message=Ошибка вызова SSPI, см. внутреннее исключение.
+Import the LoadRunner SSL certificate to the client machine. For details, see "Use Case 3" of "https://admhelp.microfocus.com/vugen/en/2021/help/WebHelp/Content/VuGen/t_HowToRecordViaAProxy.htm".
+[Proxy Recording  ( 854:36f4)] Client request from @ 26.107.126.198:14527
+[Proxy Recording  ( 854:36f4)] Client request from @ 26.107.126.198:18591
+[Proxy Recording.Error ( 854:3cec)] Cannot establish a secure connection to the application being recorded.
+Message=Ошибка вызова SSPI, см. внутреннее исключение.
+Import the LoadRunner SSL certificate to the client machine. For details, see "Use Case 3" of "https://admhelp.microfocus.com/vugen/en/2021/help/WebHelp/Content/VuGen/t_HowToRecordViaAProxy.htm".
+[Proxy Recording  ( 854:36f4)] Client request from @ 26.107.126.198:45033
+[Proxy Recording  ( 854:36f4)] Client request from @ 26.107.126.198:55500
+[Proxy Recording  ( 854:36f4)] Client request from @ 26.107.126.198:31518
+[Proxy Recording.Error ( 854:3e9c)] Cannot establish a secure connection to the application being recorded.
+Message=Ошибка вызова SSPI, см. внутреннее исключение.
+Import the LoadRunner SSL certificate to the client machine. For details, see "Use Case 3" of "https://admhelp.microfocus.com/vugen/en/2021/help/WebHelp/Content/VuGen/t_HowToRecordViaAProxy.htm".
+[Proxy Recording  ( 854:566c)] Trying to connect to https://tube.pflb.ru:443/static/streaming-playlists/hls/a0dcfe8c-56e0-4532-a77f-297a43f3d1d2/024a71f3-a458-434a-8af3-287b74ce3867-0-fragmented.mp4 ...
+[Proxy Recording.Error ( 854:566c)] Cannot add request header message:Заголовок "Range" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  ( 854:566c)] Trying to connect to https://tube.pflb.ru:443/static/streaming-playlists/hls/a0dcfe8c-56e0-4532-a77f-297a43f3d1d2/024a71f3-a458-434a-8af3-287b74ce3867-0-fragmented.mp4 ...
+[Proxy Recording  ( 854:1320)] Trying to connect to https://tube.pflb.ru:443/static/streaming-playlists/hls/a0dcfe8c-56e0-4532-a77f-297a43f3d1d2/024a71f3-a458-434a-8af3-287b74ce3867-0-fragmented.mp4 ...
+[Proxy Recording.Error ( 854:1320)] Cannot add request header message:Заголовок "Range" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  ( 854:1320)] Trying to connect to https://tube.pflb.ru:443/static/streaming-playlists/hls/a0dcfe8c-56e0-4532-a77f-297a43f3d1d2/024a71f3-a458-434a-8af3-287b74ce3867-0-fragmented.mp4 ...
+[Proxy Recording  ( 854:18f0)] Trying to connect to https://sync.browser.yandex.net:443/sync/command/?client=Chromium&client_id=fb2DXE1O8zPeg0qusxkuow%3D%3D&ya_soft=yabrowser&ui=97A895BF-00E7-466C-9E62-3A3613B98EBE ...
+[Proxy Recording  ( 854:18f0)] Trying to connect to https://sync.browser.yandex.net:443/sync/command/?client=Chromium&client_id=fb2DXE1O8zPeg0qusxkuow%3D%3D&ya_soft=yabrowser&ui=97A895BF-00E7-466C-9E62-3A3613B98EBE ...
+[Proxy Recording  ( 854:18f0)] Received response of 809 header and 487 body bytes from https://sync.browser.yandex.net:443/sync/command/?client=Chromium&client_id=fb2DXE1O8zPeg0qusxkuow%3D%3D&ya_soft=yabrowser&ui=97A895BF-00E7-466C-9E62-3A3613B98EBE
+[Network Analyzer ( 854:18f0)]   (Sid: 14) Client -> Server @ : 1087 bytes (SSL)(Service=HTTP)
+[Web Request      ( 854:18f0)] "POST https://sync.browser.yandex.net/sync/command/?client=Chromium&client_id=fb2DXE1O8zPeg0qusxkuow%3D%3D&ya_soft=yabrowser&ui=97A895BF-00E7-466C-9E62-3A3613B98EBE"   
+[Network Analyzer ( 854:18f0)]   (Sid: 14) Client -> Server @ : 1425 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 854:18f0)]   (Sid: 14) Server -> Client : 826 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 854:18f0)]   (Sid: 14) Server -> Client : 487 bytes (SSL) (Service=HTTP)
+[Proxy Recording  ( 854:18f0)] Sent 487 bytes to client @ 26.107.126.198:31518
+[Proxy Recording.Error ( 854:40e8)] Ошибка вызова SSPI, см. внутреннее исключение.
+[Proxy Recording.Error ( 854:3cec)] Ошибка вызова SSPI, см. внутреннее исключение.
+[Proxy Recording  ( 854:36f4)] Client request from @ 26.107.126.198:4519
+[Proxy Recording.Error ( 854:5318)] Cannot establish a secure connection to the application being recorded.
+Message=Ошибка вызова SSPI, см. внутреннее исключение.
+Import the LoadRunner SSL certificate to the client machine. For details, see "Use Case 3" of "https://admhelp.microfocus.com/vugen/en/2021/help/WebHelp/Content/VuGen/t_HowToRecordViaAProxy.htm".
+[Proxy Recording  ( 854:36f4)] Client request from @ 26.107.126.198:3630
+[Proxy Recording  ( 854:36f4)] Client request from @ 26.107.126.198:5486
+[Proxy Recording.Error ( 854:31f8)] Exception is caught while trying to connect to https://tube.pflb.ru:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording.Error ( 854:31f8)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error ( 854:3e9c)] Ошибка вызова SSPI, см. внутреннее исключение.
+[Proxy Recording  ( 854:18f0)] Trying to connect to https://tube.pflb.ru:443/static/streaming-playlists/hls/a0dcfe8c-56e0-4532-a77f-297a43f3d1d2/3bb40905-b7dd-40cd-afba-fcdb752f4eb7-720-fragmented.mp4 ...
+[Proxy Recording.Error ( 854:18f0)] Cannot add request header message:Заголовок "Range" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  ( 854:18f0)] Trying to connect to https://tube.pflb.ru:443/static/streaming-playlists/hls/a0dcfe8c-56e0-4532-a77f-297a43f3d1d2/3bb40905-b7dd-40cd-afba-fcdb752f4eb7-720-fragmented.mp4 ...
+[Proxy Recording.Error ( 854:40e8)] Получено непредвиденное сообщение или оно имеет неправильный формат
+[Proxy Recording.Error ( 854:3cec)] Получено непредвиденное сообщение или оно имеет неправильный формат
+[Proxy Recording.Error ( 854:5318)] Ошибка вызова SSPI, см. внутреннее исключение.
+[Proxy Recording.Error ( 854:3e9c)] Получено непредвиденное сообщение или оно имеет неправильный формат

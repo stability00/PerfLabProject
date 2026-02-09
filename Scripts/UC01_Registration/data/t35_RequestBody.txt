@@ -1,0 +1,2 @@
+"[{\"email\":\"test123@qwe.com\",\"permissionList\":[\"VIEW\",\"EDIT\",\"RUN\"],\"userDisplayNa"
+"me\":\"test123\"}]"

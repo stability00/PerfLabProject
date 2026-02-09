@@ -1,0 +1,16 @@
+GET https://dev-boomq.pflb.ru/auth-srv/identityProvider HTTP/1.1
+sec-ch-ua-platform: "Windows"
+Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc19ub3RpZmljYXRlZCI6ZmFsc2UsInVzZXJfaWQiOjE5MjUsInVzZXJfbmFtZSI6ImFkbWluX2dyM0BtYWlsLmNvbSIsInNjb3BlIjpbInRydXN0IiwicmVhZCIsIndyaXRlIl0sInVzZXJfbGFuZ3VhZ2UiOiJSVSIsImV4cCI6MTc3MDA2MTMyOSwiYXV0aG9yaXRpZXMiOlsiUk9MRV9VU0VSIl0sImp0aSI6ImNiYWY0NDYxLWQ3NjEtNDVhOS1hNGI2LWU1MTc2MWJmNDA0OSIsImNsaWVudF9pZCI6ImNsaWVudCJ9.Wb8_CjuZNoM_xoysF0t4Lb6uQRKMKwpI0BUfjRVvTmK1usHvmoimWZOfJGGnUzZSn0kMExIyWpJyy9dq-m2TF9Hn9cNmkX064aheYILrPjxmc9oimBlW2WUAaXsm7uKRj_x_MULt9-onG0TlnJrND7qiLNcGzYq74NY1O_97zK9ZIjmJsIgxxv9hAldOvSgvpJIqwzVU4-znMeXDwNNB2h3AM9tzwuoSihYgUGNvLwbPo7yk5huI4709HJHJSr17meP8P2MzqcrwGR3NFK1tyjRIKmiMxp9t8tCZkA2XC_fk3hZBdBydff_w4aw7tJNdHuL_8v96h-eIvKD6LhEHlQ
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 YaBrowser/25.12.0.0 Safari/537.36
+Accept: */*
+sec-ch-ua: "Chromium";v="142", "YaBrowser";v="25.12", "Not_A Brand";v="99", "Yowser";v="2.5"
+sec-ch-ua-mobile: ?0
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://dev-boomq.pflb.ru/account/new-test
+Accept-Encoding: gzip, deflate, zstd
+Accept-Language: ru,en;q=0.9
+Cookie: boomq_auth=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc19ub3RpZmljYXRlZCI6ZmFsc2UsInVzZXJfaWQiOjE5MjUsInVzZXJfbmFtZSI6ImFkbWluX2dyM0BtYWlsLmNvbSIsInNjb3BlIjpbInRydXN0IiwicmVhZCIsIndyaXRlIl0sInVzZXJfbGFuZ3VhZ2UiOiJSVSIsImV4cCI6MTc3MDA2MTMyOSwiYXV0aG9yaXRpZXMiOlsiUk9MRV9VU0VSIl0sImp0aSI6ImNiYWY0NDYxLWQ3NjEtNDVhOS1hNGI2LWU1MTc2MWJmNDA0OSIsImNsaWVudF9pZCI6ImNsaWVudCJ9.Wb8_CjuZNoM_xoysF0t4Lb6uQRKMKwpI0BUfjRVvTmK1usHvmoimWZOfJGGnUzZSn0kMExIyWpJyy9dq-m2TF9Hn9cNmkX064aheYILrPjxmc9oimBlW2WUAaXsm7uKRj_x_MULt9-onG0TlnJrND7qiLNcGzYq74NY1O_97zK9ZIjmJsIgxxv9hAldOvSgvpJIqwzVU4-znMeXDwNNB2h3AM9tzwuoSihYgUGNvLwbPo7yk5huI4709HJHJSr17meP8P2MzqcrwGR3NFK1tyjRIKmiMxp9t8tCZkA2XC_fk3hZBdBydff_w4aw7tJNdHuL_8v96h-eIvKD6LhEHlQ
+Host: dev-boomq.pflb.ru
+

@@ -1,0 +1,11 @@
+[t41]
+FileName1=t41_auth.json
+URL1=https://dev-boomq.pflb.ru/grafana-srv/auth?testId=8399&testStartTime=2026-02-03T07:57:03.599Z&testEndTime=2026-02-03T07:58:01.889Z
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_41.xml
+RequestHeaderFile=t41_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t41_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb
