@@ -54,7 +54,7 @@ vuser_end=cci
 [TransactionsOrder]
 Order="UC05_TR01_Login__*delimiter*__UC05_TR02_ПросмотрЗапусков__*delimiter*__UC05_TR03_ПросмотрТеста__*delimiter*__UC05_TR04_ДобавлениеSLA__*delimiter*__UC05_TR05_Добавление треда1_переход__*delimiter*__UC05_TR06_ДобавлениеТренда2_Заполнение1__*delimiter*__UC05_TR07_ДобавлениеТренда3_Заполнение2__*delimiter*__UC05_TR08_ПроверкаСозданияТренда__*delimiter*__UC05_TR09_Выход"
 [StateManagement]
-LastReplayStatus=3
+LastReplayStatus=1
 [ActiveReplay]
 LastReplayedRunName=result1
 ActiveRunName=result1
