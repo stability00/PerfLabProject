@@ -1,0 +1,132 @@
+boomqTestPlan:
+  configurationElements:
+  - type: "HTTP_COOKIE_MANAGER"
+    id: "7ad4624a-d170-4add-93f8-19d4a2c5bbdf"
+    label: "Http cookie manager"
+    enabled: true
+    clearEachIteration: false
+    clearControlledByThreadGroup: false
+    cookiePolicy: "STANDARD"
+    userDefinedCookies: []
+  - type: "HTTP_HEADER_MANAGER"
+    id: "7f3433d8-5a43-4a4e-9130-874804128733"
+    label: "Http header manager"
+    enabled: true
+    headers:
+      User-Agent: "Mozilla/5.0"
+  - type: "HTTP_REQUEST_DEFAULTS"
+    id: "88503698-5e3d-49fb-8f0f-9d49cde4419a"
+    label: "Http request defaults"
+    enabled: true
+    protocol: null
+    serverName: null
+    port: null
+    path: null
+    responseTimeout: 120000
+    connectTimeout: 60000
+    clientImplementation: null
+    contentEncoding: null
+    queryParameters: null
+    bodyParameters: null
+    body: null
+    proxyProperties: null
+    retrieveAllEmbeddedResources: null
+    useParallelDownloads: null
+    parallelDownloadsPoolSize: null
+    urlMustMatch: null
+    urlMustNotMatch: null
+    sourceAddress: null
+    saveResponseAsMd5Hash: null
+  urlOverwrites: null
+  threadGroups:
+  - type: "BOOMQ_STABLE_SCALABILITY"
+    id: "7bb736e0-6bbd-403d-a7ad-0631cc83e3f9"
+    label: "New group 1"
+    typeDisplayName: ""
+    enabled: true
+    threadGroupElements:
+    - type: "CONTROLLER"
+      id: "bbf766de-de03-4195-b159-438dc0e9d15b"
+      label: "Transaction 1"
+      typeDisplayName: "Transaction Controller"
+      timerList: []
+      enabled: true
+      creationIndex: 1
+      individualProperties:
+        type: "TRANSACTION"
+        generateParentSampler: false
+        includeDurationOfAllElementsToGeneratedSampler: false
+      children: []
+    - type: "SAMPLER"
+      id: "dded7fbe-724b-429c-8027-96bf6d13a5f6"
+      label: "https://ya.ru"
+      typeDisplayName: "HTTP Request"
+      timerList: []
+      enabled: true
+      individualProperties:
+        type: "HTTP"
+        method: "GET"
+        protocol: "https"
+        serverName: "ya.ru"
+        port: ""
+        path: "/"
+        connectTimeout: null
+        responseTimeout: null
+        clientImplementation: null
+        contentEncoding: null
+        queryParameters: []
+        bodyParameters: []
+        headers: {}
+        body: ""
+        automaticallyRedirect: false
+        followRedirects: true
+        useKeepAlive: true
+        browserCompatibleHeaders: false
+        doMultipartPost: false
+        filesUpload: null
+        responsePreview: null
+        proxyProperties: null
+        retrieveAllEmbeddedResources: true
+        useParallelDownloads: null
+        parallelDownloadsPoolSize: null
+        urlMustMatch: null
+        urlMustNotMatch: null
+        sourceAddress: null
+        saveResponseAsMd5Hash: null
+      assertions: []
+      extractors: []
+    boomqConfiguration:
+      resourceConfiguration:
+        testRunnerIds: null
+        cloudTestRunLocationRequirements: null
+        entTestRunLocationRequirements: null
+        memoryMb: null
+        cpuShares: null
+      pacingConfiguration: null
+      loadProfilePercent: 100
+    loadProfile: null
+  timers:
+  - timerType: "CONSTANT"
+    id: "3d0c9b3f-112e-48b2-8f08-0b939d00cb0f"
+    typeDisplayName: null
+    label: "boomq_timer_3d0c9b3f-112e-48b2-8f08-0b939d00cb0f"
+    enabled: true
+    durationMs: 8000
+  loadProfileType: "PER_TEST"
+  loadProfile:
+    boomqProfileType: "STABLE"
+    stepCount: 1
+    usersPerStep: 1
+    stepLengthMs: 60000
+    rampUpMs: 0
+    rampDownMs: 0
+    durationAddedOnLastStepMs: 0
+  runThreadGroupConsecutively: false
+  runTearDownAfterShutdown: true
+  functionalMode: false
+  classpath: null
+slaGroupList: []
+resourceConfiguration: null
+supportingFiles: []
+supportingFilesV2: []
+importedJmxFileLocation: null
