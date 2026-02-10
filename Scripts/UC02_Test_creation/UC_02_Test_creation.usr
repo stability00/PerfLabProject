@@ -56,8 +56,8 @@ Order="UC_02_TR_01_login__*delimiter*__UC_02_TR_02_go_to_tests__*delimiter*__UC_
 [StateManagement]
 LastReplayStatus=3
 [ActiveReplay]
-LastReplayedRunName=result1
-ActiveRunName=result1
+LastReplayedRunName=
+ActiveRunName=
 [Transactions]
 UC_02_TR_01_login=
 UC_02_TR_02_go_to_tests=

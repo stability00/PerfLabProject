@@ -56,8 +56,8 @@ Order="login__*delimiter*__tests_open__*delimiter*__test_select__*delimiter*__te
 [StateManagement]
 LastReplayStatus=1
 [ActiveReplay]
-LastReplayedRunName=result1
-ActiveRunName=result1
+LastReplayedRunName=
+ActiveRunName=
 [Transactions]
 login=
 tests_open=
