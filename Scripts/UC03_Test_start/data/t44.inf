@@ -1,0 +1,9 @@
+[t44]
+FileName1=t44.html
+URL1=https://dev-boomq.pflb.ru/account/test-runs
+Total=1
+RequestHeaderFile=t44_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t44_ResponseHeader.txt
+ContentType=
+SnapshotXmlFile=snapshot_44.xml

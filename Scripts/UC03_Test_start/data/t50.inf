@@ -1,0 +1,11 @@
+[t50]
+FileName1=t50_modelSchema.json
+URL1=https://dev-boomq.pflb.ru/project-srv/modelSchema
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_49.xml
+RequestHeaderFile=t50_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t50_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb
