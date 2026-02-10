@@ -11,7 +11,11 @@ scrape_configs:
   # Мониторинг сервера через Node Exporter
   - job_name: 'node-exporter'
     static_configs:
-      - targets: ['172.17.0.1:9100']  # Docker bridge IP
+      - targets: 
+        - '172.17.0.1:9100' #сервер заглушек
+        - '82.142.167.46:19100' #сервер с нагрузочными станциями
+        labels:
+          monitor: 'infrastructure'
 
   # Мониторинг заглушки
   - job_name: 'stub-application'
