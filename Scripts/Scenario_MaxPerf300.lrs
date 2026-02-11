@@ -14,14 +14,14 @@ GlobalDir=
 }
 
 {ScenarioPrivateConfig
-Path=G:\dev\Перфоманс лаб\ПРОЕКТ\Scripts\Scenario_MaxPerfNice.lrs
+Path=G:\dev\Перфоманс лаб\PerfLabProject\Scripts\Scenario_MaxPerf300.lrs
 Author=danii
 Subject=Scenario_MaxPerfNice
 Description=
 Hosts=1
 Scripts=5
 Groups=5
-Vusers=50
+Vusers=75
 Tranzactions=0
 Rendezvous=0
 Result_file=C:\Users\danii\AppData\Local\Temp\res\res.lrr
@@ -198,7 +198,7 @@ ScriptType=14
 Path=G:\dev\Перфоманс лаб\PerfLabProject\Scripts\UC02_Test_creation\UC_02_Test_creation.usr
 EmulatedLocation=None
 NVAnalytics=0
-Config=[WEB]\r\nStartRecordingIsDst="0"\r\nScreenAvailWidth="1920"\r\nUseBrowserAgent="0"\r\nNavigatorBrowserLanguage="ru-RU"\r\nUTF8InputOutput="0"\r\nNavigatorUserLanguage="ru-RU"\r\nUseCustomAgent="1"\r\nRecorderWinCodePage="1251"\r\nLogFileWriteTraceToFile="0"\r\nProxyUseBrowser="0"\r\nLogFileWrite="0"\r\nProxyAutoConfigScriptURL=""\r\nProxyPassword=""\r\nSaveSnapshotResources=0\r\nSearchForImages="1"\r\nProxyUseProxyServer="0"\r\nHttpVer="1.1"\r\nProxyUseProxy="0"\r\nAnalogMode="0"\r\nStartRecordingGMT="2026/02/01 20:49:03"\r\nResetContext="1"\r\nProxyUseAutoConfigScript="0"\r\nUserHomePage=""\r\nProxyUseSame="1"\r\nScreenWidth="1920"\r\nScreenAvailHeight="1040"\r\nBrowserAcceptLanguage="ru"\r\nProxyHTTPSHost="127.0.0.1"\r\nBrowserType="Microsoft Internet Explorer 4.0"\r\nProxyNoLocal="0"\r\nProxyHTTPHost="127.0.0.1"\r\nNavigatorSystemLanguage="ru-RU"\r\nEnableChecks="0"\r\nProxyHTTPPort="8888"\r\nWebRecorderVersion="10"\r\nSupportCharset="None"\r\nBrowserAcceptEncoding="gzip"\r\nUseDataFormatExtensions="0"\r\nProxyBypass=""\r\nKeepAlive="1"\r\nProxyUserName=""\r\nProxyHTTPSPort="8888"\r\nMaxConnections="0"\r\nScreenHeight="1080"\r\nCustomUserAgent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"\r\n[Log]\r\nMsgClassParameters="0"\r\nMsgClassData="0"\r\nLogOptions="LogBrief"\r\nMsgClassFull="0"\r\nAutoLog=1\r\n[General]\r\nXlBridgeTimeout="120"\r\nDefaultRunLogic=usp92c.767\r\nEncoding="ANSI"\r\nAutomaticTransactions="1"\r\nautomatic_nested_transactions="1"\r\n[Iterations]\r\nRandomMax="90"\r\nRandomMin="60"\r\nIterationPace="IterationASAP"\r\nStartEvery="60"\r\nNumOfIterations="1"\r\n[ThinkTime]\r\nOptions=RECORDED\r\nFactor="1"\r\nLimit="1"\r\nLimitFlag="0"\r\n
+Config=[WEB]\r\nStartRecordingIsDst="0"\r\nScreenAvailWidth="1920"\r\nUseBrowserAgent="0"\r\nNavigatorBrowserLanguage="ru-RU"\r\nUTF8InputOutput="0"\r\nNavigatorUserLanguage="ru-RU"\r\nUseCustomAgent="1"\r\nRecorderWinCodePage="1251"\r\nLogFileWriteTraceToFile="0"\r\nProxyUseBrowser="0"\r\nLogFileWrite="0"\r\nProxyAutoConfigScriptURL=""\r\nProxyPassword=""\r\nSaveSnapshotResources=0\r\nSearchForImages="1"\r\nProxyUseProxyServer="0"\r\nHttpVer="1.1"\r\nProxyUseProxy="0"\r\nAnalogMode="0"\r\nStartRecordingGMT="2026/02/01 20:49:03"\r\nResetContext="1"\r\nProxyUseAutoConfigScript="0"\r\nUserHomePage=""\r\nProxyUseSame="1"\r\nScreenWidth="1920"\r\nScreenAvailHeight="1040"\r\nBrowserAcceptLanguage="ru"\r\nProxyHTTPSHost="127.0.0.1"\r\nBrowserType="Microsoft Internet Explorer 4.0"\r\nProxyNoLocal="0"\r\nProxyHTTPHost="127.0.0.1"\r\nNavigatorSystemLanguage="ru-RU"\r\nEnableChecks="0"\r\nProxyHTTPPort="8888"\r\nWebRecorderVersion="10"\r\nSupportCharset="None"\r\nBrowserAcceptEncoding="gzip"\r\nUseDataFormatExtensions="0"\r\nProxyBypass=""\r\nKeepAlive="1"\r\nProxyUserName=""\r\nProxyHTTPSPort="8888"\r\nMaxConnections="0"\r\nScreenHeight="1080"\r\nCustomUserAgent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"\r\n[Log]\r\nMsgClassParameters="0"\r\nMsgClassData="0"\r\nLogOptions="LogBrief"\r\nMsgClassFull="0"\r\nAutoLog=1\r\n[General]\r\nXlBridgeTimeout="120"\r\nDefaultRunLogic=uspMYi.437\r\nEncoding="ANSI"\r\nAutomaticTransactions="1"\r\nautomatic_nested_transactions="1"\r\n[Iterations]\r\nRandomMax="90"\r\nRandomMin="60"\r\nIterationPace="IterationASAP"\r\nStartEvery="60"\r\nNumOfIterations="1"\r\n[ThinkTime]\r\nOptions=RECORDED\r\nFactor="1"\r\nLimit="1"\r\nLimitFlag="0"\r\n
 ConfigUsp=[Profile Actions]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="Profile Actions"\r\nProfile Actions name=vuser_init,Action,vuser_end\r\n[RunLogicEndRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicEndRoot"\r\nMercIniTreeSons="vuser_end"\r\nName="End"\r\nRunLogicActionOrder="vuser_end"\r\nRunLogicActionType="VuserEnd"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicEndRoot:vuser_end]\r\nMercIniTreeFather="RunLogicEndRoot"\r\nMercIniTreeSectionName="vuser_end"\r\nName="vuser_end"\r\nRunLogicActionType="VuserEnd"\r\nRunLogicObjectKind="Action"\r\n[RunLogicErrorHandlerRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicErrorHandlerRoot"\r\nMercIniTreeSons="vuser_errorhandler"\r\nName="ErrorHandler"\r\nRunLogicActionOrder="vuser_errorhandler"\r\nRunLogicActionType="VuserErrorHandler"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicErrorHandlerRoot:vuser_errorhandler]\r\nMercIniTreeFather="RunLogicErrorHandlerRoot"\r\nMercIniTreeSectionName="vuser_errorhandler"\r\nName="vuser_errorhandler"\r\nRunLogicActionType="VuserErrorHandler"\r\nRunLogicObjectKind="Action"\r\n[RunLogicInitRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicInitRoot"\r\nMercIniTreeSons="vuser_init"\r\nName="Init"\r\nRunLogicActionOrder="vuser_init"\r\nRunLogicActionType="VuserInit"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicInitRoot:vuser_init]\r\nMercIniTreeFather="RunLogicInitRoot"\r\nMercIniTreeSectionName="vuser_init"\r\nName="vuser_init"\r\nRunLogicActionType="VuserInit"\r\nRunLogicObjectKind="Action"\r\n[RunLogicRunRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicRunRoot"\r\nMercIniTreeSons="Action"\r\nName="Run"\r\nRunLogicActionOrder="Action"\r\nRunLogicActionType="VuserRun"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicRunRoot:Action]\r\nMercIniTreeFather="RunLogicRunRoot"\r\nMercIniTreeSectionName="Action"\r\nName="Action"\r\nRunLogicActionType="VuserRun"\r\nRunLogicObjectKind="Action"\r\n
 Param=
 TDPath=
@@ -219,7 +219,7 @@ ScriptType=14
 Path=G:\dev\Перфоманс лаб\PerfLabProject\Scripts\UC01_Registration\UC01_Registration.usr
 EmulatedLocation=None
 NVAnalytics=0
-Config=[WEB]\r\nSearchForImages="1"\r\nAnalogMode="0"\r\nDisableNTLM2SS="0"\r\nProxyPassword=""\r\nMaxSelfMetaRefreshCount="2"\r\nBrowserAcceptLanguage_extra_arg_1="ru"\r\nEnableChecks="0"\r\nAutoTransFileLine="1"\r\nGraphHitsPerSecondHttpStatusCodes="1"\r\nPrintBufEscape0="0"\r\nNavigatorUserLanguage="ru-RU"\r\nNavigatorBrowserLanguage="ru-RU"\r\nBrowserAcceptLanguage="ru"\r\nZlibHeadersInCompressedRequestBody="1"\r\nLogFileWrite="0"\r\nEnableDynatrace="0"\r\nMaxRedirectionDepth="10"\r\nLoadChilEngine="0"\r\nProxyUseAutoConfigScript="0"\r\nHeavyKDCLoad="0"\r\nProxyUseSame="0"\r\nLogMaxResponseSize="100"\r\nProxyUserName=""\r\nJsForTransportRuntimeSize="51200"\r\nSPNAddNoneDefPort="0"\r\nTreeViewRequestBodyLimit="2047"\r\nScreenAvailHeight="1040"\r\nRecorderWinCodePage="1251"\r\nProxyNoLocal="0"\r\nProxyUseProxy="0"\r\nStartRecordingIsDst="0"\r\nBrowserType="Microsoft Internet Explorer 4.0"\r\nEnableJsForTransport="0"\r\nSaveSnapshotResources=0\r\nProxyHTTPSPort="0"\r\nKeepAlive="1"\r\nFailNonCriticalItem="0"\r\nSPNCNameLookup="1"\r\nOverrideNTLMCreds="0"\r\nJsForTransportStackSize="32"\r\nKeepAliveTimeout="60"\r\nUseCustomAgent="1"\r\nGraphBytesPerSecond="1"\r\nProxyHTTPPort="0"\r\nMaxConnections="0"\r\nRetry401ThinkTime="0"\r\nNavigatorSystemLanguage="ru-RU"\r\nUseDataFormatExtensions="0"\r\nProxyHTTPSHost=""\r\nEnableIPCache="0"\r\nLogFileWriteTraceToFile="0"\r\nUserHomePage=""\r\nWebSyncRetryIntervalMs="1000"\r\nScreenHeight="1080"\r\nIPVersionPolicy="2"\r\nProxyUseProxyServer="0"\r\nCustomUserAgent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"\r\nSupportCharset="None"\r\nStartRecordingGMT="2026/02/08 15:26:55"\r\nResetContext="1"\r\nEnableSnapshotsInReplay="1"\r\nUTF8InputOutput="0"\r\nWebSocketCallBackTimerIntervalMS="500"\r\nParseHtmlContentType="TEXT"\r\nPrefetchPrerenderCallBackTimerIntervalMS="500"\r\nNetBufSize="12288"\r\nHttpErrorsAsWarnings="0"\r\nUseNativeNTLM="0"\r\nReceiveTimeout="120"\r\nDeleteCacheUnreferencedIterations="1"\r\nPageDownloadTimeout="240"\r\nLogEnableResponseLimit="0"\r\nPrintBufLineLen="99"\r\nResourcePageTimeoutIsWarning="0"\r\nAedUtf8Values="0"\r\nMaxErrorMatchesAsERRORS="10"\r\nConnectTimeout="120"\r\nScreenWidth="1920"\r\nBrowserAcceptEncoding="gzip, deflate, zstd"\r\nEnableHTTP2="1"\r\nWinInetReplay="0"\r\nPrintNTLMLog="0"\r\nIntegratedAuthentication="0"\r\nWebSyncRetryTimeoutMs="3000"\r\nProxyAutoConfigScriptURL=""\r\nSSLVersionKey="2"\r\nGraphPagesPerSecond="0"\r\nScreenAvailWidth="1920"\r\nProxyUseBrowser="0"\r\nProxyHTTPHost=""\r\nHttpVer="1.1"\r\nPrintSSLLog="0"\r\nProxyBypass=""\r\nWebRecorderVersion="10"\r\nUseBrowserAgent="0"\r\n[Log]\r\nMsgClassParameters="0"\r\nMsgClassData="0"\r\nLogOptions="LogBrief"\r\nMsgClassFull="0"\r\nAutoLog=1\r\n[General]\r\nXlBridgeTimeout="120"\r\nDefaultRunLogic=uspbG2.769\r\nEncoding="ANSI"\r\nAutomaticTransactions="1"\r\nautomatic_nested_transactions="1"\r\n[Iterations]\r\nRandomMax="90"\r\nRandomMin="60"\r\nIterationPace="IterationASAP"\r\nStartEvery="60"\r\nNumOfIterations="1"\r\n[ThinkTime]\r\nOptions=RECORDED\r\nFactor="1"\r\nLimit="1"\r\nLimitFlag="0"\r\n
+Config=[WEB]\r\nSearchForImages="1"\r\nAnalogMode="0"\r\nDisableNTLM2SS="0"\r\nProxyPassword=""\r\nMaxSelfMetaRefreshCount="2"\r\nBrowserAcceptLanguage_extra_arg_1="ru"\r\nEnableChecks="0"\r\nAutoTransFileLine="1"\r\nGraphHitsPerSecondHttpStatusCodes="1"\r\nPrintBufEscape0="0"\r\nNavigatorUserLanguage="ru-RU"\r\nNavigatorBrowserLanguage="ru-RU"\r\nBrowserAcceptLanguage="ru"\r\nZlibHeadersInCompressedRequestBody="1"\r\nLogFileWrite="0"\r\nEnableDynatrace="0"\r\nMaxRedirectionDepth="10"\r\nLoadChilEngine="0"\r\nProxyUseAutoConfigScript="0"\r\nHeavyKDCLoad="0"\r\nProxyUseSame="0"\r\nLogMaxResponseSize="100"\r\nProxyUserName=""\r\nJsForTransportRuntimeSize="51200"\r\nSPNAddNoneDefPort="0"\r\nTreeViewRequestBodyLimit="2047"\r\nScreenAvailHeight="1040"\r\nRecorderWinCodePage="1251"\r\nProxyNoLocal="0"\r\nProxyUseProxy="0"\r\nStartRecordingIsDst="0"\r\nBrowserType="Microsoft Internet Explorer 4.0"\r\nEnableJsForTransport="0"\r\nSaveSnapshotResources=0\r\nProxyHTTPSPort="0"\r\nKeepAlive="1"\r\nFailNonCriticalItem="0"\r\nSPNCNameLookup="1"\r\nOverrideNTLMCreds="0"\r\nJsForTransportStackSize="32"\r\nKeepAliveTimeout="60"\r\nUseCustomAgent="1"\r\nGraphBytesPerSecond="1"\r\nProxyHTTPPort="0"\r\nMaxConnections="0"\r\nRetry401ThinkTime="0"\r\nNavigatorSystemLanguage="ru-RU"\r\nUseDataFormatExtensions="0"\r\nProxyHTTPSHost=""\r\nEnableIPCache="0"\r\nLogFileWriteTraceToFile="0"\r\nUserHomePage=""\r\nWebSyncRetryIntervalMs="1000"\r\nScreenHeight="1080"\r\nIPVersionPolicy="2"\r\nProxyUseProxyServer="0"\r\nCustomUserAgent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"\r\nSupportCharset="None"\r\nStartRecordingGMT="2026/02/08 15:26:55"\r\nResetContext="1"\r\nEnableSnapshotsInReplay="1"\r\nUTF8InputOutput="0"\r\nWebSocketCallBackTimerIntervalMS="500"\r\nParseHtmlContentType="TEXT"\r\nPrefetchPrerenderCallBackTimerIntervalMS="500"\r\nNetBufSize="12288"\r\nHttpErrorsAsWarnings="0"\r\nUseNativeNTLM="0"\r\nReceiveTimeout="120"\r\nDeleteCacheUnreferencedIterations="1"\r\nPageDownloadTimeout="240"\r\nLogEnableResponseLimit="0"\r\nPrintBufLineLen="99"\r\nResourcePageTimeoutIsWarning="0"\r\nAedUtf8Values="0"\r\nMaxErrorMatchesAsERRORS="10"\r\nConnectTimeout="120"\r\nScreenWidth="1920"\r\nBrowserAcceptEncoding="gzip, deflate, zstd"\r\nEnableHTTP2="1"\r\nWinInetReplay="0"\r\nPrintNTLMLog="0"\r\nIntegratedAuthentication="0"\r\nWebSyncRetryTimeoutMs="3000"\r\nProxyAutoConfigScriptURL=""\r\nSSLVersionKey="2"\r\nGraphPagesPerSecond="0"\r\nScreenAvailWidth="1920"\r\nProxyUseBrowser="0"\r\nProxyHTTPHost=""\r\nHttpVer="1.1"\r\nPrintSSLLog="0"\r\nProxyBypass=""\r\nWebRecorderVersion="10"\r\nUseBrowserAgent="0"\r\n[Log]\r\nMsgClassParameters="0"\r\nMsgClassData="0"\r\nLogOptions="LogBrief"\r\nMsgClassFull="0"\r\nAutoLog=1\r\n[General]\r\nXlBridgeTimeout="120"\r\nDefaultRunLogic=uspNX3.439\r\nEncoding="ANSI"\r\nAutomaticTransactions="1"\r\nautomatic_nested_transactions="1"\r\n[Iterations]\r\nRandomMax="90"\r\nRandomMin="60"\r\nIterationPace="IterationASAP"\r\nStartEvery="60"\r\nNumOfIterations="1"\r\n[ThinkTime]\r\nOptions=RECORDED\r\nFactor="1"\r\nLimit="1"\r\nLimitFlag="0"\r\n
 ConfigUsp=[Profile Actions]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="Profile Actions"\r\nProfile Actions name=vuser_init,Action,SaveToFile,vuser_end\r\n[RunLogicEndRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicEndRoot"\r\nMercIniTreeSons="vuser_end"\r\nName="End"\r\nRunLogicActionOrder="vuser_end"\r\nRunLogicActionType="VuserEnd"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicEndRoot:vuser_end]\r\nMercIniTreeFather="RunLogicEndRoot"\r\nMercIniTreeSectionName="vuser_end"\r\nName="vuser_end"\r\nRunLogicActionType="VuserEnd"\r\nRunLogicObjectKind="Action"\r\n[RunLogicErrorHandlerRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicErrorHandlerRoot"\r\nMercIniTreeSons="vuser_errorhandler"\r\nName="ErrorHandler"\r\nRunLogicActionOrder="vuser_errorhandler"\r\nRunLogicActionType="VuserErrorHandler"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicErrorHandlerRoot:vuser_errorhandler]\r\nMercIniTreeFather="RunLogicErrorHandlerRoot"\r\nMercIniTreeSectionName="vuser_errorhandler"\r\nName="vuser_errorhandler"\r\nRunLogicActionType="VuserErrorHandler"\r\nRunLogicObjectKind="Action"\r\n[RunLogicInitRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicInitRoot"\r\nMercIniTreeSons="vuser_init"\r\nName="Init"\r\nRunLogicActionOrder="vuser_init"\r\nRunLogicActionType="VuserInit"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicInitRoot:vuser_init]\r\nMercIniTreeFather="RunLogicInitRoot"\r\nMercIniTreeSectionName="vuser_init"\r\nName="vuser_init"\r\nRunLogicActionType="VuserInit"\r\nRunLogicObjectKind="Action"\r\n[RunLogicRunRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicRunRoot"\r\nMercIniTreeSons="Action,SaveToFile"\r\nName="Run"\r\nRunLogicActionOrder="Action,SaveToFile"\r\nRunLogicActionType="VuserRun"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicRunRoot:Action]\r\nMercIniTreeFather="RunLogicRunRoot"\r\nMercIniTreeSectionName="Action"\r\nName="Action"\r\nRunLogicActionType="VuserRun"\r\nRunLogicObjectKind="Action"\r\n[RunLogicRunRoot:SaveToFile]\r\nMercIniTreeFather="RunLogicRunRoot"\r\nMercIniTreeSectionName="SaveToFile"\r\nName="SaveToFile"\r\nRunLogicActionType="VuserRun"\r\nRunLogicObjectKind="Action"\r\n
 Param=
 TDPath=
@@ -241,7 +241,7 @@ ScriptType=14
 Path=G:\dev\Перфоманс лаб\PerfLabProject\Scripts\UC05_CreateTrend\UC05_CreateTrend.usr
 EmulatedLocation=None
 NVAnalytics=0
-Config=[WEB]\r\nStartRecordingIsDst="0"\r\nScreenAvailWidth="1920"\r\nUseBrowserAgent="0"\r\nNavigatorBrowserLanguage="ru-RU"\r\nUTF8InputOutput="0"\r\nNavigatorUserLanguage="ru-RU"\r\nUseCustomAgent="1"\r\nRecorderWinCodePage="1251"\r\nLogFileWriteTraceToFile="0"\r\nProxyUseBrowser="0"\r\nLogFileWrite="0"\r\nProxyAutoConfigScriptURL=""\r\nProxyPassword=""\r\nSaveSnapshotResources=0\r\nSearchForImages="1"\r\nProxyUseProxyServer="0"\r\nHttpVer="1.1"\r\nProxyUseProxy="0"\r\nAnalogMode="0"\r\nStartRecordingGMT="2026/02/03 08:17:16"\r\nResetContext="1"\r\nProxyUseAutoConfigScript="0"\r\nUserHomePage=""\r\nProxyUseSame="1"\r\nScreenWidth="1920"\r\nScreenAvailHeight="1032"\r\nBrowserAcceptLanguage="ru,en;q=0.9"\r\nProxyHTTPSHost="localhost"\r\nBrowserType="Microsoft Internet Explorer 4.0"\r\nProxyNoLocal="0"\r\nProxyHTTPHost="localhost"\r\nNavigatorSystemLanguage="ru-RU"\r\nEnableChecks="0"\r\nProxyHTTPPort="8888"\r\nWebRecorderVersion="10"\r\nSupportCharset="None"\r\nBrowserAcceptEncoding="gzip, deflate, zstd"\r\nUseDataFormatExtensions="0"\r\nProxyBypass=""\r\nKeepAlive="1"\r\nProxyUserName=""\r\nSnapshotOnErrorActive="0"\r\nProxyHTTPSPort="8888"\r\nMaxConnections="0"\r\nScreenHeight="1080"\r\nCustomUserAgent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 YaBrowser/25.12.0.0 Safari/537.36"\r\n[Log]\r\nMsgClassParameters="0"\r\nMsgClassData="0"\r\nLogOptions="LogBrief"\r\nMsgClassFull="0"\r\nAutoLog=1\r\n[General]\r\nAutomaticTransactions="1"\r\nContinueOnError="0"\r\nXlBridgeTimeout="120"\r\nautomatic_nested_transactions="1"\r\nUseThreads="1"\r\nDefaultRunLogic=uspLvU.771\r\nAutomaticTransactionsPerFunc="0"\r\nEncoding="ANSI"\r\nFailTransOnErrorMsg="0"\r\nReplay64bit="0"\r\n[Iterations]\r\nRandomMax="90"\r\nRandomMin="60"\r\nIterationPace="IterationASAP"\r\nStartEvery="60"\r\nNumOfIterations="1"\r\n[ThinkTime]\r\nOptions=RECORDED\r\nFactor="1"\r\nLimit="1"\r\nLimitFlag="0"\r\n
+Config=[WEB]\r\nStartRecordingIsDst="0"\r\nScreenAvailWidth="1920"\r\nUseBrowserAgent="0"\r\nNavigatorBrowserLanguage="ru-RU"\r\nUTF8InputOutput="0"\r\nNavigatorUserLanguage="ru-RU"\r\nUseCustomAgent="1"\r\nRecorderWinCodePage="1251"\r\nLogFileWriteTraceToFile="0"\r\nProxyUseBrowser="0"\r\nLogFileWrite="0"\r\nProxyAutoConfigScriptURL=""\r\nProxyPassword=""\r\nSaveSnapshotResources=0\r\nSearchForImages="1"\r\nProxyUseProxyServer="0"\r\nHttpVer="1.1"\r\nProxyUseProxy="0"\r\nAnalogMode="0"\r\nStartRecordingGMT="2026/02/03 08:17:16"\r\nResetContext="1"\r\nProxyUseAutoConfigScript="0"\r\nUserHomePage=""\r\nProxyUseSame="1"\r\nScreenWidth="1920"\r\nScreenAvailHeight="1032"\r\nBrowserAcceptLanguage="ru,en;q=0.9"\r\nProxyHTTPSHost="localhost"\r\nBrowserType="Microsoft Internet Explorer 4.0"\r\nProxyNoLocal="0"\r\nProxyHTTPHost="localhost"\r\nNavigatorSystemLanguage="ru-RU"\r\nEnableChecks="0"\r\nProxyHTTPPort="8888"\r\nWebRecorderVersion="10"\r\nSupportCharset="None"\r\nBrowserAcceptEncoding="gzip, deflate, zstd"\r\nUseDataFormatExtensions="0"\r\nProxyBypass=""\r\nKeepAlive="1"\r\nProxyUserName=""\r\nSnapshotOnErrorActive="0"\r\nProxyHTTPSPort="8888"\r\nMaxConnections="0"\r\nScreenHeight="1080"\r\nCustomUserAgent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 YaBrowser/25.12.0.0 Safari/537.36"\r\n[Log]\r\nMsgClassParameters="0"\r\nMsgClassData="0"\r\nLogOptions="LogBrief"\r\nMsgClassFull="0"\r\nAutoLog=1\r\n[General]\r\nAutomaticTransactions="1"\r\nContinueOnError="0"\r\nXlBridgeTimeout="120"\r\nautomatic_nested_transactions="1"\r\nUseThreads="1"\r\nDefaultRunLogic=uspnk3.441\r\nAutomaticTransactionsPerFunc="0"\r\nEncoding="ANSI"\r\nFailTransOnErrorMsg="0"\r\nReplay64bit="0"\r\n[Iterations]\r\nRandomMax="90"\r\nRandomMin="60"\r\nIterationPace="IterationASAP"\r\nStartEvery="60"\r\nNumOfIterations="1"\r\n[ThinkTime]\r\nOptions=RECORDED\r\nFactor="1"\r\nLimit="1"\r\nLimitFlag="0"\r\n
 ConfigUsp=[Profile Actions]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="Profile Actions"\r\nProfile Actions name=vuser_init,Action,vuser_end\r\n[RunLogicEndRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicEndRoot"\r\nMercIniTreeSons="vuser_end"\r\nName="End"\r\nRunLogicActionOrder="vuser_end"\r\nRunLogicActionType="VuserEnd"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicEndRoot:vuser_end]\r\nMercIniTreeFather="RunLogicEndRoot"\r\nMercIniTreeSectionName="vuser_end"\r\nName="vuser_end"\r\nRunLogicActionType="VuserEnd"\r\nRunLogicObjectKind="Action"\r\n[RunLogicErrorHandlerRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicErrorHandlerRoot"\r\nMercIniTreeSons="vuser_errorhandler"\r\nName="ErrorHandler"\r\nRunLogicActionOrder="vuser_errorhandler"\r\nRunLogicActionType="VuserErrorHandler"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicErrorHandlerRoot:vuser_errorhandler]\r\nMercIniTreeFather="RunLogicErrorHandlerRoot"\r\nMercIniTreeSectionName="vuser_errorhandler"\r\nName="vuser_errorhandler"\r\nRunLogicActionType="VuserErrorHandler"\r\nRunLogicObjectKind="Action"\r\n[RunLogicInitRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicInitRoot"\r\nMercIniTreeSons="vuser_init"\r\nName="Init"\r\nRunLogicActionOrder="vuser_init"\r\nRunLogicActionType="VuserInit"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicInitRoot:vuser_init]\r\nMercIniTreeFather="RunLogicInitRoot"\r\nMercIniTreeSectionName="vuser_init"\r\nName="vuser_init"\r\nRunLogicActionType="VuserInit"\r\nRunLogicObjectKind="Action"\r\n[RunLogicRunRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicRunRoot"\r\nMercIniTreeSons="Action"\r\nName="Run"\r\nRunLogicActionOrder="Action"\r\nRunLogicActionType="VuserRun"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicRunRoot:Action]\r\nMercIniTreeFather="RunLogicRunRoot"\r\nMercIniTreeSectionName="Action"\r\nName="Action"\r\nRunLogicActionType="VuserRun"\r\nRunLogicObjectKind="Action"\r\n
 Param=
 TDPath=
@@ -268,7 +268,7 @@ ScriptType=14
 Path=G:\dev\Перфоманс лаб\PerfLabProject\Scripts\UC04_CreateReport\UC04_CreateReport.usr
 EmulatedLocation=None
 NVAnalytics=0
-Config=[WEB]\r\nStartRecordingIsDst="0"\r\nScreenAvailWidth="1920"\r\nUseBrowserAgent="0"\r\nNavigatorBrowserLanguage="ru-RU"\r\nUTF8InputOutput="0"\r\nNavigatorUserLanguage="ru-RU"\r\nUseCustomAgent="1"\r\nRecorderWinCodePage="1251"\r\nLogFileWriteTraceToFile="0"\r\nProxyUseBrowser="0"\r\nLogFileWrite="0"\r\nProxyAutoConfigScriptURL=""\r\nProxyPassword=""\r\nSaveSnapshotResources=0\r\nSearchForImages="1"\r\nProxyUseProxyServer="0"\r\nHttpVer="1.1"\r\nProxyUseProxy="0"\r\nAnalogMode="0"\r\nStartRecordingGMT="2026/02/02 07:41:21"\r\nResetContext="1"\r\nProxyUseAutoConfigScript="0"\r\nUserHomePage=""\r\nProxyUseSame="1"\r\nScreenWidth="1920"\r\nScreenAvailHeight="1032"\r\nBrowserAcceptLanguage="ru,en;q=0.9"\r\nProxyHTTPSHost="localhost"\r\nBrowserType="Microsoft Internet Explorer 4.0"\r\nProxyNoLocal="0"\r\nProxyHTTPHost="localhost"\r\nNavigatorSystemLanguage="ru-RU"\r\nEnableChecks="0"\r\nProxyHTTPPort="8888"\r\nWebRecorderVersion="10"\r\nSupportCharset="None"\r\nBrowserAcceptEncoding="gzip, deflate, zstd"\r\nUseDataFormatExtensions="0"\r\nProxyBypass=""\r\nKeepAlive="1"\r\nProxyUserName=""\r\nProxyHTTPSPort="8888"\r\nMaxConnections="0"\r\nScreenHeight="1080"\r\nCustomUserAgent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 YaBrowser/25.12.0.0 Safari/537.36"\r\n[Log]\r\nMsgClassParameters="0"\r\nLogOptions="LogBrief"\r\nAutoLogBufferSize="1"\r\nIncludeEnvInfo="1"\r\nPrintTimeStamp="0"\r\nMsgClassFull="0"\r\nAutoLog=1\r\nMsgClassData="0"\r\nLogDetail="0"\r\n[General]\r\nXlBridgeTimeout="120"\r\nDefaultRunLogic=uspWVQ.773\r\nEncoding="ANSI"\r\nAutomaticTransactions="1"\r\nautomatic_nested_transactions="1"\r\n[Iterations]\r\nRandomMax="90"\r\nRandomMin="60"\r\nIterationPace="IterationASAP"\r\nStartEvery="60"\r\nNumOfIterations="1"\r\n[ThinkTime]\r\nOptions=RECORDED\r\nFactor="1"\r\nLimit="1"\r\nLimitFlag="0"\r\n
+Config=[WEB]\r\nStartRecordingIsDst="0"\r\nScreenAvailWidth="1920"\r\nUseBrowserAgent="0"\r\nNavigatorBrowserLanguage="ru-RU"\r\nUTF8InputOutput="0"\r\nNavigatorUserLanguage="ru-RU"\r\nUseCustomAgent="1"\r\nRecorderWinCodePage="1251"\r\nLogFileWriteTraceToFile="0"\r\nProxyUseBrowser="0"\r\nLogFileWrite="0"\r\nProxyAutoConfigScriptURL=""\r\nProxyPassword=""\r\nSaveSnapshotResources=0\r\nSearchForImages="1"\r\nProxyUseProxyServer="0"\r\nHttpVer="1.1"\r\nProxyUseProxy="0"\r\nAnalogMode="0"\r\nStartRecordingGMT="2026/02/02 07:41:21"\r\nResetContext="1"\r\nProxyUseAutoConfigScript="0"\r\nUserHomePage=""\r\nProxyUseSame="1"\r\nScreenWidth="1920"\r\nScreenAvailHeight="1032"\r\nBrowserAcceptLanguage="ru,en;q=0.9"\r\nProxyHTTPSHost="localhost"\r\nBrowserType="Microsoft Internet Explorer 4.0"\r\nProxyNoLocal="0"\r\nProxyHTTPHost="localhost"\r\nNavigatorSystemLanguage="ru-RU"\r\nEnableChecks="0"\r\nProxyHTTPPort="8888"\r\nWebRecorderVersion="10"\r\nSupportCharset="None"\r\nBrowserAcceptEncoding="gzip, deflate, zstd"\r\nUseDataFormatExtensions="0"\r\nProxyBypass=""\r\nKeepAlive="1"\r\nProxyUserName=""\r\nProxyHTTPSPort="8888"\r\nMaxConnections="0"\r\nScreenHeight="1080"\r\nCustomUserAgent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 YaBrowser/25.12.0.0 Safari/537.36"\r\n[Log]\r\nMsgClassParameters="0"\r\nLogOptions="LogBrief"\r\nAutoLogBufferSize="1"\r\nIncludeEnvInfo="1"\r\nPrintTimeStamp="0"\r\nMsgClassFull="0"\r\nAutoLog=1\r\nMsgClassData="0"\r\nLogDetail="0"\r\n[General]\r\nXlBridgeTimeout="120"\r\nDefaultRunLogic=uspGWw.443\r\nEncoding="ANSI"\r\nAutomaticTransactions="1"\r\nautomatic_nested_transactions="1"\r\n[Iterations]\r\nRandomMax="90"\r\nRandomMin="60"\r\nIterationPace="IterationASAP"\r\nStartEvery="60"\r\nNumOfIterations="1"\r\n[ThinkTime]\r\nOptions=RECORDED\r\nFactor="1"\r\nLimit="1"\r\nLimitFlag="0"\r\n
 ConfigUsp=[Profile Actions]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="Profile Actions"\r\nProfile Actions name=vuser_init,Action,vuser_end\r\n[RunLogicEndRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicEndRoot"\r\nMercIniTreeSons="vuser_end"\r\nName="End"\r\nRunLogicActionOrder="vuser_end"\r\nRunLogicActionType="VuserEnd"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicEndRoot:vuser_end]\r\nMercIniTreeFather="RunLogicEndRoot"\r\nMercIniTreeSectionName="vuser_end"\r\nName="vuser_end"\r\nRunLogicActionType="VuserEnd"\r\nRunLogicObjectKind="Action"\r\n[RunLogicErrorHandlerRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicErrorHandlerRoot"\r\nMercIniTreeSons="vuser_errorhandler"\r\nName="ErrorHandler"\r\nRunLogicActionOrder="vuser_errorhandler"\r\nRunLogicActionType="VuserErrorHandler"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicErrorHandlerRoot:vuser_errorhandler]\r\nMercIniTreeFather="RunLogicErrorHandlerRoot"\r\nMercIniTreeSectionName="vuser_errorhandler"\r\nName="vuser_errorhandler"\r\nRunLogicActionType="VuserErrorHandler"\r\nRunLogicObjectKind="Action"\r\n[RunLogicInitRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicInitRoot"\r\nMercIniTreeSons="vuser_init"\r\nName="Init"\r\nRunLogicActionOrder="vuser_init"\r\nRunLogicActionType="VuserInit"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicInitRoot:vuser_init]\r\nMercIniTreeFather="RunLogicInitRoot"\r\nMercIniTreeSectionName="vuser_init"\r\nName="vuser_init"\r\nRunLogicActionType="VuserInit"\r\nRunLogicObjectKind="Action"\r\n[RunLogicRunRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicRunRoot"\r\nMercIniTreeSons="Action"\r\nName="Run"\r\nRunLogicActionOrder="Action"\r\nRunLogicActionType="VuserRun"\r\nRunLogicAfterPaceMax="90"\r\nRunLogicAfterPaceMin="60"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicPaceConstAfterTime="60"\r\nRunLogicPaceConstTime="60"\r\nRunLogicPaceType="Asap"\r\nRunLogicRandomPaceMax="90"\r\nRunLogicRandomPaceMin="60"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicRunRoot:Action]\r\nMercIniTreeFather="RunLogicRunRoot"\r\nMercIniTreeSectionName="Action"\r\nName="Action"\r\nRunLogicActionType="VuserRun"\r\nRunLogicObjectKind="Action"\r\n
 Param=
 TDPath=
@@ -292,7 +292,7 @@ ScriptType=14
 Path=G:\dev\Перфоманс лаб\PerfLabProject\Scripts\UC03_Test_start\UC_03_Test_start.usr
 EmulatedLocation=None
 NVAnalytics=0
-Config=[WEB]\r\nStartRecordingIsDst="0"\r\nScreenAvailWidth="1920"\r\nUseBrowserAgent="0"\r\nNavigatorBrowserLanguage="ru-RU"\r\nUTF8InputOutput="No"\r\nNavigatorUserLanguage="ru-RU"\r\nRecorderWinCodePage="1251"\r\nUseCustomAgent="1"\r\nLogFileWriteTraceToFile="0"\r\nProxyUseBrowser="0"\r\nProxyAutoConfigScriptURL=""\r\nProxyPassword=""\r\nLogFileWrite="0"\r\nSaveSnapshotResources=0\r\nSearchForImages="1"\r\nProxyUseProxyServer="0"\r\nHttpVer="1.1"\r\nProxyUseProxy="0"\r\nAnalogMode="0"\r\nResetContext="True"\r\nStartRecordingGMT="2026/02/03 21:55:15"\r\nProxyUseAutoConfigScript="0"\r\nProxyUseSame="0"\r\nUserHomePage=""\r\nScreenWidth="1920"\r\nScreenAvailHeight="1040"\r\nBrowserAcceptLanguage="ru"\r\nProxyHTTPSHost=""\r\nBrowserType="Microsoft Internet Explorer 4.0"\r\nProxyNoLocal="0"\r\nProxyHTTPHost=""\r\nNavigatorSystemLanguage="ru-RU"\r\nEnableChecks="0"\r\nProxyHTTPPort="0"\r\nWebRecorderVersion="10"\r\nSupportCharset="None"\r\nBrowserAcceptEncoding="gzip, deflate, zstd"\r\nUseDataFormatExtensions="FALSE"\r\nProxyBypass=""\r\nKeepAlive="Yes"\r\nProxyUserName=""\r\nProxyHTTPSPort="0"\r\nMaxConnections="0"\r\nScreenHeight="1080"\r\nCustomUserAgent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"\r\n[Log]\r\nMsgClassParameters="0"\r\nMsgClassData="0"\r\nLogOptions="LogBrief"\r\nMsgClassFull="0"\r\nAutoLog=1\r\n[General]\r\nXlBridgeTimeout="120"\r\nDefaultRunLogic=usp2At.775\r\nEncoding="ANSI"\r\nAutomaticTransactions="1"\r\nautomatic_nested_transactions="1"\r\n[Iterations]\r\nRandomMax="90"\r\nRandomMin="60"\r\nIterationPace="IterationASAP"\r\nStartEvery="60"\r\nNumOfIterations="1"\r\n[ThinkTime]\r\nOptions=RECORDED\r\nFactor="1"\r\nLimit="1"\r\nLimitFlag="0"\r\n
+Config=[WEB]\r\nStartRecordingIsDst="0"\r\nScreenAvailWidth="1920"\r\nUseBrowserAgent="0"\r\nNavigatorBrowserLanguage="ru-RU"\r\nUTF8InputOutput="No"\r\nNavigatorUserLanguage="ru-RU"\r\nRecorderWinCodePage="1251"\r\nUseCustomAgent="1"\r\nLogFileWriteTraceToFile="0"\r\nProxyUseBrowser="0"\r\nProxyAutoConfigScriptURL=""\r\nProxyPassword=""\r\nLogFileWrite="0"\r\nSaveSnapshotResources=0\r\nSearchForImages="1"\r\nProxyUseProxyServer="0"\r\nHttpVer="1.1"\r\nProxyUseProxy="0"\r\nAnalogMode="0"\r\nResetContext="True"\r\nStartRecordingGMT="2026/02/03 21:55:15"\r\nProxyUseAutoConfigScript="0"\r\nProxyUseSame="0"\r\nUserHomePage=""\r\nScreenWidth="1920"\r\nScreenAvailHeight="1040"\r\nBrowserAcceptLanguage="ru"\r\nProxyHTTPSHost=""\r\nBrowserType="Microsoft Internet Explorer 4.0"\r\nProxyNoLocal="0"\r\nProxyHTTPHost=""\r\nNavigatorSystemLanguage="ru-RU"\r\nEnableChecks="0"\r\nProxyHTTPPort="0"\r\nWebRecorderVersion="10"\r\nSupportCharset="None"\r\nBrowserAcceptEncoding="gzip, deflate, zstd"\r\nUseDataFormatExtensions="FALSE"\r\nProxyBypass=""\r\nKeepAlive="Yes"\r\nProxyUserName=""\r\nProxyHTTPSPort="0"\r\nMaxConnections="0"\r\nScreenHeight="1080"\r\nCustomUserAgent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"\r\n[Log]\r\nMsgClassParameters="0"\r\nMsgClassData="0"\r\nLogOptions="LogBrief"\r\nMsgClassFull="0"\r\nAutoLog=1\r\n[General]\r\nXlBridgeTimeout="120"\r\nDefaultRunLogic=usphIx.445\r\nEncoding="ANSI"\r\nAutomaticTransactions="1"\r\nautomatic_nested_transactions="1"\r\n[Iterations]\r\nRandomMax="90"\r\nRandomMin="60"\r\nIterationPace="IterationASAP"\r\nStartEvery="60"\r\nNumOfIterations="1"\r\n[ThinkTime]\r\nOptions=RECORDED\r\nFactor="1"\r\nLimit="1"\r\nLimitFlag="0"\r\n
 ConfigUsp=[Profile Actions]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="Profile Actions"\r\nProfile Actions name=vuser_init,Action,vuser_end\r\n[RunLogicEndRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicEndRoot"\r\nMercIniTreeSons="vuser_end"\r\nName="End"\r\nRunLogicActionOrder="vuser_end"\r\nRunLogicActionType="VuserEnd"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicEndRoot:vuser_end]\r\nMercIniTreeFather="RunLogicEndRoot"\r\nMercIniTreeSectionName="vuser_end"\r\nName="vuser_end"\r\nRunLogicActionType="VuserEnd"\r\nRunLogicObjectKind="Action"\r\n[RunLogicErrorHandlerRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicErrorHandlerRoot"\r\nMercIniTreeSons="vuser_errorhandler"\r\nName="ErrorHandler"\r\nRunLogicActionOrder="vuser_errorhandler"\r\nRunLogicActionType="VuserErrorHandler"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicErrorHandlerRoot:vuser_errorhandler]\r\nMercIniTreeFather="RunLogicErrorHandlerRoot"\r\nMercIniTreeSectionName="vuser_errorhandler"\r\nName="vuser_errorhandler"\r\nRunLogicActionType="VuserErrorHandler"\r\nRunLogicObjectKind="Action"\r\n[RunLogicInitRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicInitRoot"\r\nMercIniTreeSons="vuser_init"\r\nName="Init"\r\nRunLogicActionOrder="vuser_init"\r\nRunLogicActionType="VuserInit"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicInitRoot:vuser_init]\r\nMercIniTreeFather="RunLogicInitRoot"\r\nMercIniTreeSectionName="vuser_init"\r\nName="vuser_init"\r\nRunLogicActionType="VuserInit"\r\nRunLogicObjectKind="Action"\r\n[RunLogicRunRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicRunRoot"\r\nMercIniTreeSons="Action"\r\nName="Run"\r\nRunLogicActionOrder="Action"\r\nRunLogicActionType="VuserRun"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicRunRoot:Action]\r\nMercIniTreeFather="RunLogicRunRoot"\r\nMercIniTreeSectionName="Action"\r\nName="Action"\r\nRunLogicActionType="VuserRun"\r\nRunLogicObjectKind="Action"\r\n
 Param=
 TDPath=
@@ -311,19 +311,31 @@ Trans=tests_open
 
 {UC02_Test_creation
 
-{19
+{27
 5=uc02_test_creation
 9=localhost
 SEED_NUM=0
 }
 
-{12
+{26
 5=uc02_test_creation
 9=localhost
 SEED_NUM=0
 }
 
-{13
+{25
+5=uc02_test_creation
+9=localhost
+SEED_NUM=0
+}
+
+{24
+5=uc02_test_creation
+9=localhost
+SEED_NUM=0
+}
+
+{23
 5=uc02_test_creation
 9=localhost
 SEED_NUM=0
@@ -335,13 +347,31 @@ SEED_NUM=0
 SEED_NUM=0
 }
 
+{22
+5=uc02_test_creation
+9=localhost
+SEED_NUM=0
+}
+
 {11
 5=uc02_test_creation
 9=localhost
 SEED_NUM=0
 }
 
+{21
+5=uc02_test_creation
+9=localhost
+SEED_NUM=0
+}
+
 {16
+5=uc02_test_creation
+9=localhost
+SEED_NUM=0
+}
+
+{20
 5=uc02_test_creation
 9=localhost
 SEED_NUM=0
@@ -401,6 +431,12 @@ SEED_NUM=0
 SEED_NUM=0
 }
 
+{13
+5=uc01_registration
+9=localhost
+SEED_NUM=0
+}
+
 {10
 5=uc01_registration
 9=localhost
@@ -408,6 +444,30 @@ SEED_NUM=0
 }
 
 {11
+5=uc01_registration
+9=localhost
+SEED_NUM=0
+}
+
+{16
+5=uc01_registration
+9=localhost
+SEED_NUM=0
+}
+
+{17
+5=uc01_registration
+9=localhost
+SEED_NUM=0
+}
+
+{14
+5=uc01_registration
+9=localhost
+SEED_NUM=0
+}
+
+{15
 5=uc01_registration
 9=localhost
 SEED_NUM=0
@@ -479,7 +539,37 @@ SEED_NUM=0
 SEED_NUM=0
 }
 
+{12
+5=uc05_createtrend
+9=localhost
+SEED_NUM=0
+}
+
+{13
+5=uc05_createtrend
+9=localhost
+SEED_NUM=0
+}
+
 {10
+5=uc05_createtrend
+9=localhost
+SEED_NUM=0
+}
+
+{11
+5=uc05_createtrend
+9=localhost
+SEED_NUM=0
+}
+
+{14
+5=uc05_createtrend
+9=localhost
+SEED_NUM=0
+}
+
+{15
 5=uc05_createtrend
 9=localhost
 SEED_NUM=0
@@ -551,7 +641,37 @@ SEED_NUM=0
 SEED_NUM=0
 }
 
+{12
+5=uc04_createreport
+9=localhost
+SEED_NUM=0
+}
+
+{13
+5=uc04_createreport
+9=localhost
+SEED_NUM=0
+}
+
 {10
+5=uc04_createreport
+9=localhost
+SEED_NUM=0
+}
+
+{11
+5=uc04_createreport
+9=localhost
+SEED_NUM=0
+}
+
+{14
+5=uc04_createreport
+9=localhost
+SEED_NUM=0
+}
+
+{15
 5=uc04_createreport
 9=localhost
 SEED_NUM=0
@@ -623,7 +743,37 @@ SEED_NUM=0
 SEED_NUM=0
 }
 
+{12
+5=uc03_test_start
+9=localhost
+SEED_NUM=0
+}
+
+{13
+5=uc03_test_start
+9=localhost
+SEED_NUM=0
+}
+
 {10
+5=uc03_test_start
+9=localhost
+SEED_NUM=0
+}
+
+{11
+5=uc03_test_start
+9=localhost
+SEED_NUM=0
+}
+
+{14
+5=uc03_test_start
+9=localhost
+SEED_NUM=0
+}
+
+{15
 5=uc03_test_start
 9=localhost
 SEED_NUM=0
@@ -4939,7 +5089,7 @@ MachinesCount=IntV1|0
 }
 
 {ScenarioDiagnostics
-XMLData=<Mediators distribution = "1" enabled= "1" ><Mediator type= "SARM" enabled= "0" ><Machine name = "" type = "Win2000" ><Connection><Firewall enabled="0" listener=""/></Connection></Machine><TOPOLOGY></TOPOLOGY></Mediator><Mediator type= "OracleDB" enabled= "0" ><Machine name = "" type = "Win2000" ><Connection><Firewall enabled="0" listener=""/></Connection></Machine><TOPOLOGY></TOPOLOGY></Mediator><Mediator type= "WebPage" enabled= "1" ></Mediator><Mediator type= "J2EE" enabled= "0" ></Mediator><Mediator type= "SiebelDB" enabled= "0" ><Machine name = "" type = "Win2000" ><Connection><Firewall enabled="0" listener=""/></Connection></Machine><TOPOLOGY></TOPOLOGY></Mediator><Mediator type="SAP" enabled="0"><Machine name="" type="Win2000"><Connection><Firewall enabled="0" listener=""/></Connection></Machine><TOPOLOGY><SERVER host="" instance="" RouterString=""><LOGIN username="" password="698c49a7e" client_num=""/></SERVER></TOPOLOGY></Mediator></Mediators>
+XMLData=<Mediators distribution = "1" enabled= "1" ><Mediator type= "SARM" enabled= "0" ><Machine name = "" type = "Win2000" ><Connection><Firewall enabled="0" listener=""/></Connection></Machine><TOPOLOGY></TOPOLOGY></Mediator><Mediator type= "OracleDB" enabled= "0" ><Machine name = "" type = "Win2000" ><Connection><Firewall enabled="0" listener=""/></Connection></Machine><TOPOLOGY></TOPOLOGY></Mediator><Mediator type= "WebPage" enabled= "1" ></Mediator><Mediator type= "J2EE" enabled= "0" ></Mediator><Mediator type= "SiebelDB" enabled= "0" ><Machine name = "" type = "Win2000" ><Connection><Firewall enabled="0" listener=""/></Connection></Machine><TOPOLOGY></TOPOLOGY></Mediator><Mediator type="SAP" enabled="0"><Machine name="" type="Win2000"><Connection><Firewall enabled="0" listener=""/></Connection></Machine><TOPOLOGY><SERVER host="" instance="" RouterString=""><LOGIN username="" password="698cbbd1e" client_num=""/></SERVER></TOPOLOGY></Mediator></Mediators>
 }
 
 {ScenarioSchedulerConfig
@@ -5009,73 +5159,109 @@ XMLData=<Mediators distribution = "1" enabled= "1" ><Mediator type= "SARM" enabl
                     <Count>1</Count>
                     <Interval>75</Interval>
                   </Batch>
-                  <TotalVusersNumber>5</TotalVusersNumber>
+                  <TotalVusersNumber>3</TotalVusersNumber>
                 </RampUp>
                 <Duration>
                   <StartCondition>
                     <PrevAction />
                   </StartCondition>
-                  <RunFor>1100</RunFor>
+                  <RunFor>912</RunFor>
                 </Duration>
-                <Run>
+                <RampUp>
                   <StartCondition>
                     <PrevAction />
                   </StartCondition>
-                  <TotalVusersNumber>1</TotalVusersNumber>
-                </Run>
+                  <Batch>
+                    <Count>1</Count>
+                    <Interval>75</Interval>
+                  </Batch>
+                  <TotalVusersNumber>2</TotalVusersNumber>
+                </RampUp>
                 <Duration>
                   <StartCondition>
                     <PrevAction />
                   </StartCondition>
-                  <RunFor>1100</RunFor>
+                  <RunFor>912</RunFor>
                 </Duration>
-                <Run>
+                <RampUp>
                   <StartCondition>
                     <PrevAction />
                   </StartCondition>
-                  <TotalVusersNumber>1</TotalVusersNumber>
-                </Run>
+                  <Batch>
+                    <Count>1</Count>
+                    <Interval>15</Interval>
+                  </Batch>
+                  <TotalVusersNumber>2</TotalVusersNumber>
+                </RampUp>
                 <Duration>
                   <StartCondition>
                     <PrevAction />
                   </StartCondition>
-                  <RunFor>1100</RunFor>
+                  <RunFor>912</RunFor>
                 </Duration>
-                <Run>
+                <RampUp>
                   <StartCondition>
                     <PrevAction />
                   </StartCondition>
-                  <TotalVusersNumber>1</TotalVusersNumber>
-                </Run>
+                  <Batch>
+                    <Count>1</Count>
+                    <Interval>15</Interval>
+                  </Batch>
+                  <TotalVusersNumber>2</TotalVusersNumber>
+                </RampUp>
                 <Duration>
                   <StartCondition>
                     <PrevAction />
                   </StartCondition>
-                  <RunFor>1100</RunFor>
+                  <RunFor>912</RunFor>
                 </Duration>
-                <Run>
+                <RampUp>
                   <StartCondition>
                     <PrevAction />
                   </StartCondition>
-                  <TotalVusersNumber>1</TotalVusersNumber>
-                </Run>
+                  <Batch>
+                    <Count>1</Count>
+                    <Interval>15</Interval>
+                  </Batch>
+                  <TotalVusersNumber>2</TotalVusersNumber>
+                </RampUp>
                 <Duration>
                   <StartCondition>
                     <PrevAction />
                   </StartCondition>
-                  <RunFor>1100</RunFor>
+                  <RunFor>912</RunFor>
                 </Duration>
-                <Run>
+                <RampUp>
                   <StartCondition>
                     <PrevAction />
                   </StartCondition>
-                  <TotalVusersNumber>1</TotalVusersNumber>
-                </Run>
+                  <Batch>
+                    <Count>1</Count>
+                    <Interval>15</Interval>
+                  </Batch>
+                  <TotalVusersNumber>2</TotalVusersNumber>
+                </RampUp>
                 <Duration>
                   <StartCondition>
                     <PrevAction />
                   </StartCondition>
-                  <RunFor>1100</RunFor>
+                  <RunFor>912</RunFor>
+                </Duration>
+                <RampUp>
+                  <StartCondition>
+                    <PrevAction />
+                  </StartCondition>
+                  <Batch>
+                    <Count>1</Count>
+                    <Interval>15</Interval>
+                  </Batch>
+                  <TotalVusersNumber>2</TotalVusersNumber>
+                </RampUp>
+                <Duration>
+                  <StartCondition>
+                    <PrevAction />
+                  </StartCondition>
+                  <RunFor>912</RunFor>
                 </Duration>
                 <RampDownAll>
                   <StartCondition>
@@ -5105,73 +5291,109 @@ XMLData=<Mediators distribution = "1" enabled= "1" ><Mediator type= "SARM" enabl
                     <Count>1</Count>
                     <Interval>75</Interval>
                   </Batch>
-                  <TotalVusersNumber>5</TotalVusersNumber>
+                  <TotalVusersNumber>3</TotalVusersNumber>
                 </RampUp>
                 <Duration>
                   <StartCondition>
                     <PrevAction />
                   </StartCondition>
-                  <RunFor>1100</RunFor>
+                  <RunFor>912</RunFor>
                 </Duration>
-                <Run>
+                <RampUp>
                   <StartCondition>
                     <PrevAction />
                   </StartCondition>
-                  <TotalVusersNumber>1</TotalVusersNumber>
-                </Run>
+                  <Batch>
+                    <Count>1</Count>
+                    <Interval>75</Interval>
+                  </Batch>
+                  <TotalVusersNumber>2</TotalVusersNumber>
+                </RampUp>
                 <Duration>
                   <StartCondition>
                     <PrevAction />
                   </StartCondition>
-                  <RunFor>1100</RunFor>
+                  <RunFor>912</RunFor>
                 </Duration>
-                <Run>
+                <RampUp>
                   <StartCondition>
                     <PrevAction />
                   </StartCondition>
-                  <TotalVusersNumber>1</TotalVusersNumber>
-                </Run>
+                  <Batch>
+                    <Count>1</Count>
+                    <Interval>15</Interval>
+                  </Batch>
+                  <TotalVusersNumber>2</TotalVusersNumber>
+                </RampUp>
                 <Duration>
                   <StartCondition>
                     <PrevAction />
                   </StartCondition>
-                  <RunFor>1100</RunFor>
+                  <RunFor>912</RunFor>
                 </Duration>
-                <Run>
+                <RampUp>
                   <StartCondition>
                     <PrevAction />
                   </StartCondition>
-                  <TotalVusersNumber>1</TotalVusersNumber>
-                </Run>
+                  <Batch>
+                    <Count>1</Count>
+                    <Interval>15</Interval>
+                  </Batch>
+                  <TotalVusersNumber>2</TotalVusersNumber>
+                </RampUp>
                 <Duration>
                   <StartCondition>
                     <PrevAction />
                   </StartCondition>
-                  <RunFor>1100</RunFor>
+                  <RunFor>912</RunFor>
                 </Duration>
-                <Run>
+                <RampUp>
                   <StartCondition>
                     <PrevAction />
                   </StartCondition>
-                  <TotalVusersNumber>1</TotalVusersNumber>
-                </Run>
+                  <Batch>
+                    <Count>1</Count>
+                    <Interval>15</Interval>
+                  </Batch>
+                  <TotalVusersNumber>2</TotalVusersNumber>
+                </RampUp>
                 <Duration>
                   <StartCondition>
                     <PrevAction />
                   </StartCondition>
-                  <RunFor>1100</RunFor>
+                  <RunFor>912</RunFor>
                 </Duration>
-                <Run>
+                <RampUp>
                   <StartCondition>
                     <PrevAction />
                   </StartCondition>
-                  <TotalVusersNumber>1</TotalVusersNumber>
-                </Run>
+                  <Batch>
+                    <Count>1</Count>
+                    <Interval>15</Interval>
+                  </Batch>
+                  <TotalVusersNumber>2</TotalVusersNumber>
+                </RampUp>
                 <Duration>
                   <StartCondition>
                     <PrevAction />
                   </StartCondition>
-                  <RunFor>1100</RunFor>
+                  <RunFor>912</RunFor>
+                </Duration>
+                <RampUp>
+                  <StartCondition>
+                    <PrevAction />
+                  </StartCondition>
+                  <Batch>
+                    <Count>1</Count>
+                    <Interval>15</Interval>
+                  </Batch>
+                  <TotalVusersNumber>2</TotalVusersNumber>
+                </RampUp>
+                <Duration>
+                  <StartCondition>
+                    <PrevAction />
+                  </StartCondition>
+                  <RunFor>912</RunFor>
                 </Duration>
                 <RampDownAll>
                   <StartCondition>
@@ -5201,73 +5423,109 @@ XMLData=<Mediators distribution = "1" enabled= "1" ><Mediator type= "SARM" enabl
                     <Count>1</Count>
                     <Interval>75</Interval>
                   </Batch>
-                  <TotalVusersNumber>5</TotalVusersNumber>
+                  <TotalVusersNumber>3</TotalVusersNumber>
                 </RampUp>
                 <Duration>
                   <StartCondition>
                     <PrevAction />
                   </StartCondition>
-                  <RunFor>1100</RunFor>
+                  <RunFor>912</RunFor>
                 </Duration>
-                <Run>
+                <RampUp>
                   <StartCondition>
                     <PrevAction />
                   </StartCondition>
-                  <TotalVusersNumber>1</TotalVusersNumber>
-                </Run>
+                  <Batch>
+                    <Count>1</Count>
+                    <Interval>75</Interval>
+                  </Batch>
+                  <TotalVusersNumber>2</TotalVusersNumber>
+                </RampUp>
                 <Duration>
                   <StartCondition>
                     <PrevAction />
                   </StartCondition>
-                  <RunFor>1100</RunFor>
+                  <RunFor>912</RunFor>
                 </Duration>
-                <Run>
+                <RampUp>
                   <StartCondition>
                     <PrevAction />
                   </StartCondition>
-                  <TotalVusersNumber>1</TotalVusersNumber>
-                </Run>
+                  <Batch>
+                    <Count>1</Count>
+                    <Interval>15</Interval>
+                  </Batch>
+                  <TotalVusersNumber>2</TotalVusersNumber>
+                </RampUp>
                 <Duration>
                   <StartCondition>
                     <PrevAction />
                   </StartCondition>
-                  <RunFor>1100</RunFor>
+                  <RunFor>912</RunFor>
                 </Duration>
-                <Run>
+                <RampUp>
                   <StartCondition>
                     <PrevAction />
                   </StartCondition>
-                  <TotalVusersNumber>1</TotalVusersNumber>
-                </Run>
+                  <Batch>
+                    <Count>1</Count>
+                    <Interval>15</Interval>
+                  </Batch>
+                  <TotalVusersNumber>2</TotalVusersNumber>
+                </RampUp>
                 <Duration>
                   <StartCondition>
                     <PrevAction />
                   </StartCondition>
-                  <RunFor>1100</RunFor>
+                  <RunFor>912</RunFor>
                 </Duration>
-                <Run>
+                <RampUp>
                   <StartCondition>
                     <PrevAction />
                   </StartCondition>
-                  <TotalVusersNumber>1</TotalVusersNumber>
-                </Run>
+                  <Batch>
+                    <Count>1</Count>
+                    <Interval>15</Interval>
+                  </Batch>
+                  <TotalVusersNumber>2</TotalVusersNumber>
+                </RampUp>
                 <Duration>
                   <StartCondition>
                     <PrevAction />
                   </StartCondition>
-                  <RunFor>1100</RunFor>
+                  <RunFor>912</RunFor>
                 </Duration>
-                <Run>
+                <RampUp>
                   <StartCondition>
                     <PrevAction />
                   </StartCondition>
-                  <TotalVusersNumber>1</TotalVusersNumber>
-                </Run>
+                  <Batch>
+                    <Count>1</Count>
+                    <Interval>15</Interval>
+                  </Batch>
+                  <TotalVusersNumber>2</TotalVusersNumber>
+                </RampUp>
                 <Duration>
                   <StartCondition>
                     <PrevAction />
                   </StartCondition>
-                  <RunFor>1100</RunFor>
+                  <RunFor>912</RunFor>
+                </Duration>
+                <RampUp>
+                  <StartCondition>
+                    <PrevAction />
+                  </StartCondition>
+                  <Batch>
+                    <Count>1</Count>
+                    <Interval>15</Interval>
+                  </Batch>
+                  <TotalVusersNumber>2</TotalVusersNumber>
+                </RampUp>
+                <Duration>
+                  <StartCondition>
+                    <PrevAction />
+                  </StartCondition>
+                  <RunFor>912</RunFor>
                 </Duration>
                 <RampDownAll>
                   <StartCondition>
@@ -5297,73 +5555,109 @@ XMLData=<Mediators distribution = "1" enabled= "1" ><Mediator type= "SARM" enabl
                     <Count>1</Count>
                     <Interval>75</Interval>
                   </Batch>
-                  <TotalVusersNumber>5</TotalVusersNumber>
+                  <TotalVusersNumber>3</TotalVusersNumber>
                 </RampUp>
                 <Duration>
                   <StartCondition>
                     <PrevAction />
                   </StartCondition>
-                  <RunFor>1100</RunFor>
+                  <RunFor>912</RunFor>
                 </Duration>
-                <Run>
+                <RampUp>
                   <StartCondition>
                     <PrevAction />
                   </StartCondition>
-                  <TotalVusersNumber>1</TotalVusersNumber>
-                </Run>
+                  <Batch>
+                    <Count>1</Count>
+                    <Interval>75</Interval>
+                  </Batch>
+                  <TotalVusersNumber>2</TotalVusersNumber>
+                </RampUp>
                 <Duration>
                   <StartCondition>
                     <PrevAction />
                   </StartCondition>
-                  <RunFor>1100</RunFor>
+                  <RunFor>912</RunFor>
                 </Duration>
-                <Run>
+                <RampUp>
                   <StartCondition>
                     <PrevAction />
                   </StartCondition>
-                  <TotalVusersNumber>1</TotalVusersNumber>
-                </Run>
+                  <Batch>
+                    <Count>1</Count>
+                    <Interval>15</Interval>
+                  </Batch>
+                  <TotalVusersNumber>2</TotalVusersNumber>
+                </RampUp>
                 <Duration>
                   <StartCondition>
                     <PrevAction />
                   </StartCondition>
-                  <RunFor>1100</RunFor>
+                  <RunFor>912</RunFor>
                 </Duration>
-                <Run>
+                <RampUp>
                   <StartCondition>
                     <PrevAction />
                   </StartCondition>
-                  <TotalVusersNumber>1</TotalVusersNumber>
-                </Run>
+                  <Batch>
+                    <Count>1</Count>
+                    <Interval>15</Interval>
+                  </Batch>
+                  <TotalVusersNumber>2</TotalVusersNumber>
+                </RampUp>
                 <Duration>
                   <StartCondition>
                     <PrevAction />
                   </StartCondition>
-                  <RunFor>1100</RunFor>
+                  <RunFor>912</RunFor>
                 </Duration>
-                <Run>
+                <RampUp>
                   <StartCondition>
                     <PrevAction />
                   </StartCondition>
-                  <TotalVusersNumber>1</TotalVusersNumber>
-                </Run>
+                  <Batch>
+                    <Count>1</Count>
+                    <Interval>15</Interval>
+                  </Batch>
+                  <TotalVusersNumber>2</TotalVusersNumber>
+                </RampUp>
                 <Duration>
                   <StartCondition>
                     <PrevAction />
                   </StartCondition>
-                  <RunFor>1100</RunFor>
+                  <RunFor>912</RunFor>
                 </Duration>
-                <Run>
+                <RampUp>
                   <StartCondition>
                     <PrevAction />
                   </StartCondition>
-                  <TotalVusersNumber>1</TotalVusersNumber>
-                </Run>
+                  <Batch>
+                    <Count>1</Count>
+                    <Interval>15</Interval>
+                  </Batch>
+                  <TotalVusersNumber>2</TotalVusersNumber>
+                </RampUp>
                 <Duration>
                   <StartCondition>
                     <PrevAction />
                   </StartCondition>
-                  <RunFor>1100</RunFor>
+                  <RunFor>912</RunFor>
+                </Duration>
+                <RampUp>
+                  <StartCondition>
+                    <PrevAction />
+                  </StartCondition>
+                  <Batch>
+                    <Count>1</Count>
+                    <Interval>15</Interval>
+                  </Batch>
+                  <TotalVusersNumber>2</TotalVusersNumber>
+                </RampUp>
+                <Duration>
+                  <StartCondition>
+                    <PrevAction />
+                  </StartCondition>
+                  <RunFor>912</RunFor>
                 </Duration>
                 <RampDownAll>
                   <StartCondition>
@@ -5393,73 +5687,109 @@ XMLData=<Mediators distribution = "1" enabled= "1" ><Mediator type= "SARM" enabl
                     <Count>1</Count>
                     <Interval>75</Interval>
                   </Batch>
-                  <TotalVusersNumber>5</TotalVusersNumber>
+                  <TotalVusersNumber>3</TotalVusersNumber>
                 </RampUp>
                 <Duration>
                   <StartCondition>
                     <PrevAction />
                   </StartCondition>
-                  <RunFor>1100</RunFor>
+                  <RunFor>912</RunFor>
                 </Duration>
-                <Run>
+                <RampUp>
                   <StartCondition>
                     <PrevAction />
                   </StartCondition>
-                  <TotalVusersNumber>1</TotalVusersNumber>
-                </Run>
+                  <Batch>
+                    <Count>1</Count>
+                    <Interval>75</Interval>
+                  </Batch>
+                  <TotalVusersNumber>2</TotalVusersNumber>
+                </RampUp>
                 <Duration>
                   <StartCondition>
                     <PrevAction />
                   </StartCondition>
-                  <RunFor>1100</RunFor>
+                  <RunFor>912</RunFor>
                 </Duration>
-                <Run>
+                <RampUp>
                   <StartCondition>
                     <PrevAction />
                   </StartCondition>
-                  <TotalVusersNumber>1</TotalVusersNumber>
-                </Run>
+                  <Batch>
+                    <Count>1</Count>
+                    <Interval>15</Interval>
+                  </Batch>
+                  <TotalVusersNumber>2</TotalVusersNumber>
+                </RampUp>
                 <Duration>
                   <StartCondition>
                     <PrevAction />
                   </StartCondition>
-                  <RunFor>1100</RunFor>
+                  <RunFor>912</RunFor>
                 </Duration>
-                <Run>
+                <RampUp>
                   <StartCondition>
                     <PrevAction />
                   </StartCondition>
-                  <TotalVusersNumber>1</TotalVusersNumber>
-                </Run>
+                  <Batch>
+                    <Count>1</Count>
+                    <Interval>15</Interval>
+                  </Batch>
+                  <TotalVusersNumber>2</TotalVusersNumber>
+                </RampUp>
                 <Duration>
                   <StartCondition>
                     <PrevAction />
                   </StartCondition>
-                  <RunFor>1100</RunFor>
+                  <RunFor>912</RunFor>
                 </Duration>
-                <Run>
+                <RampUp>
                   <StartCondition>
                     <PrevAction />
                   </StartCondition>
-                  <TotalVusersNumber>1</TotalVusersNumber>
-                </Run>
+                  <Batch>
+                    <Count>1</Count>
+                    <Interval>15</Interval>
+                  </Batch>
+                  <TotalVusersNumber>2</TotalVusersNumber>
+                </RampUp>
                 <Duration>
                   <StartCondition>
                     <PrevAction />
                   </StartCondition>
-                  <RunFor>1100</RunFor>
+                  <RunFor>912</RunFor>
                 </Duration>
-                <Run>
+                <RampUp>
                   <StartCondition>
                     <PrevAction />
                   </StartCondition>
-                  <TotalVusersNumber>1</TotalVusersNumber>
-                </Run>
+                  <Batch>
+                    <Count>1</Count>
+                    <Interval>15</Interval>
+                  </Batch>
+                  <TotalVusersNumber>2</TotalVusersNumber>
+                </RampUp>
                 <Duration>
                   <StartCondition>
                     <PrevAction />
                   </StartCondition>
-                  <RunFor>1100</RunFor>
+                  <RunFor>912</RunFor>
+                </Duration>
+                <RampUp>
+                  <StartCondition>
+                    <PrevAction />
+                  </StartCondition>
+                  <Batch>
+                    <Count>1</Count>
+                    <Interval>15</Interval>
+                  </Batch>
+                  <TotalVusersNumber>2</TotalVusersNumber>
+                </RampUp>
+                <Duration>
+                  <StartCondition>
+                    <PrevAction />
+                  </StartCondition>
+                  <RunFor>912</RunFor>
                 </Duration>
                 <RampDownAll>
                   <StartCondition>
