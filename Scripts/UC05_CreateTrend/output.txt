@@ -1,9 +1,9 @@
-Virtual User Script started at: 09.02.2026 13:50:09
+Virtual User Script started at: 11.02.2026 13:51:20
 Starting action vuser_init.
 Web Turbo Replay of LoadRunner 2021.0.0 for Windows 10; build 430 (янв 05 2021 19:27:22)  	[MsgId: MMSG-26983]
 Run mode: HTML  	[MsgId: MMSG-26993]
 Replay user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 YaBrowser/25.12.0.0 Safari/537.36  	[MsgId: MMSG-26988]
-Runtime Settings file: "G:\dev\Перфоманс лаб\PerfLabProject\Scripts\UC05_CreateTrend\\default.cfg"  	[MsgId: MMSG-27141]
+Runtime Settings file: "G:\dev\Перфоманс лаб\ПРОЕКТ\Scripts\UC05_CreateTrend\\default.cfg"  	[MsgId: MMSG-27141]
 Ending action vuser_init.
 Running Vuser...
 Starting iteration 1.
@@ -39,35 +39,35 @@ Action.c(58): web_set_max_html_param_len was successful  	[MsgId: MMSG-26392]
 Action.c(59): web_reg_save_param started  	[MsgId: MMSG-26355]
 Action.c(59): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
 Action.c(64): web_submit_data("login") started  	[MsgId: MMSG-26355]
-Action.c(64): web_submit_data("login") was successful, 0 body bytes, 1949 header bytes  	[MsgId: MMSG-26386]
-Action.c(80): Токен получен: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc19ub3RpZmljYXRlZCI6ZmFsc2UsInVzZXJfaWQiOjQxNDAsInVzZXJfbmFtZSI6Im1tYTE3NzA1ODk5NDE5MDkxNDdAdGVzdC5jb20iLCJzY29wZSI6WyJ0cnVzdCIsInJlYWQiLCJ3cml0ZSJdLCJ1c2VyX2xhbmd1YWdlIjoiRU4iLCJleHAiOjE3NzA2Nzc0MDcsImF1dGhvcml0aWVzIjpbIlJPTEVfVVNFUiJdLCJqdGkiOiI0ZmUxN2RhOC0xZjJmLTQxYTEtOTk4NC02YzVmOGJkYzI2M2YiLCJjbGllbnRfaWQiOiJjbGllbnQifQ.hTqo91VPUQhlU3R9DA7EIQOFvTC9go7iW1oRaOg1N0hYi6rGjD9ijI8dCvdaEuSyyqsfao-BI6Wk6AllJoMD2dhI9xeBr3OVLE0RyWAjeN1RKXdxMY2oLiaq8Dk2hH1OIV2KVhfVrCnjYawkfK1H-WWMKk0W3ePh_kJfa8eGBxbqcjI_p-Px-hParY0kNxBTivmvK7oJQoI3EWe1Z6756EZ0BQO_gddnhrfqt5b7LmeuCAtiGN87Os_dIzOQT8t-d86puH0eIhNeIgYlT8gnrz5UEzlXTFuB8qulAtGUNYox7IEJYoyNr9RqPAoww-fy6Xoprwg5UYYNbHUv0lCVOg
+Action.c(64): web_submit_data("login") was successful, 0 body bytes, 1921 header bytes  	[MsgId: MMSG-26386]
+Action.c(80): Токен получен: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc19ub3RpZmljYXRlZCI6ZmFsc2UsInVzZXJfaWQiOjE5MjIsInVzZXJfbmFtZSI6ImFkbWluX2dyM0BtYWlsLmNvbSIsInNjb3BlIjpbInRydXN0IiwicmVhZCIsIndyaXRlIl0sInVzZXJfbGFuZ3VhZ2UiOiJSVSIsImV4cCI6MTc3MDg1MDI4MSwiYXV0aG9yaXRpZXMiOlsiUk9MRV9VU0VSIl0sImp0aSI6ImNjYWYwNGNmLTc0OTEtNDkyOC1hMzc3LTQzNzU5MDM2NmMxMyIsImNsaWVudF9pZCI6ImNsaWVudCJ9.A3JEFCq386PsTi1oL0Rwys5tbYb5minSzv9pt7sVIDLeJgHUYzFZuuJoFamYU3pYrLZpGidzy8nCZ1Mdu3PHj98Zldc7C3zlLK48CHIV6ji9szfYRuHBKgVVhhzsCMGdE2j37XqQKVBEoVnLYMiTKF1J_smBN7rqaJ_i1IccQkC9ijwnSC9uPgygJrcEx75Bg1DA4ZDpj5HN4lH638Q1uKvfQNCt2UZmV-NQwpdRAUzImyM9_EwrB7ZQf8mhF1VIMJEpgWI6K5PJokcY3aQWRwCstO6QVyf6PaIC512MhX6jVB-b6Mqf4zjBBHauQwex9H3sjCCSxkBDmHGQ4t79qg
 Action.c(82): web_add_auto_header("Authorization") started  	[MsgId: MMSG-26355]
 Action.c(82): Warning -26593: The header being added may cause unpredictable results when applied to all ensuing URLs. It is added anyway  	[MsgId: MWAR-26593]
 Action.c(82): web_add_auto_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
 Action.c(88): web_url("user") started  	[MsgId: MMSG-26355]
-Action.c(88): web_url("user") was successful, 176 body bytes, 492 header bytes  	[MsgId: MMSG-26386]
+Action.c(88): web_url("user") was successful, 156 body bytes, 492 header bytes  	[MsgId: MMSG-26386]
 Action.c(98): web_url("modelSchema") started  	[MsgId: MMSG-26355]
 Action.c(98): web_url("modelSchema") was successful, 66848 body bytes, 427 header bytes  	[MsgId: MMSG-26386]
 Action.c(108): web_url("identityProvider") started  	[MsgId: MMSG-26355]
 Action.c(108): web_url("identityProvider") was successful, 2 body bytes, 492 header bytes  	[MsgId: MMSG-26386]
 Action.c(118): web_url("22") started  	[MsgId: MMSG-26355]
-Action.c(118): web_url("22") was successful, 244 body bytes, 492 header bytes  	[MsgId: MMSG-26386]
+Action.c(118): web_url("22") was successful, 271 body bytes, 492 header bytes  	[MsgId: MMSG-26386]
 Action.c(128): web_set_max_html_param_len started  	[MsgId: MMSG-26355]
 Action.c(128): web_set_max_html_param_len was successful  	[MsgId: MMSG-26392]
 Action.c(129): web_reg_save_param started  	[MsgId: MMSG-26355]
 Action.c(129): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
 Action.c(134): web_url("teamContext") started  	[MsgId: MMSG-26355]
-Action.c(134): web_url("teamContext") was successful, 296 body bytes, 2924 header bytes  	[MsgId: MMSG-26386]
-Action.c(145): Токен получен: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc19ub3RpZmljYXRlZCI6ZmFsc2UsInVzZXJfaWQiOjQxNDAsInVzZXJfbmFtZSI6Im1tYTE3NzA1ODk5NDE5MDkxNDdAdGVzdC5jb20iLCJzY29wZSI6WyJ0cnVzdCIsInJlYWQiLCJ3cml0ZSJdLCJ0ZWFtX21lbWJlciI6IntcImlkXCI6NDQzMCxcInRlYW1JZFwiOjIyLFwidXNlcklkXCI6NDE0MCxcImVtYWlsXCI6XCJtbWExNzcwNTg5OTQxOTA5MTQ3QHRlc3QuY29tXCIsXCJ1c2VyRGlzcGxheU5hbWVcIjpcIm1tYTE3NzA1ODk5NDE5MDkxNDdcIixcInBlcm1pc3Npb25MaXN0XCI6W1wiVklFV1wiLFwiUlVOXCIsXCJFRElUXCJdLFwiaW52aXRhdGlvblN0YXR1c1wiOlwiQUNDRVBURURcIixcImludml0ZVVybFwiOm51bGwsXCJleHBpcmVkQXRcIjpudWxsLFwiY3JlYXRlQXRcIjpcIjIwMjYtMDItMDhUMjI6MzI6NDEuOTE1WlwiLFwidXBkYXRlZEF0XCI6XCIyMDI2LTAyLTA4VDIyOjMyOjQyLjU1OVpcIn0iLCJ1c2VyX2xhbmd1YWdlIjoiRU4iLCJ0ZWFtX2lkIjoyMiwiZXhwIjoxNzcwNjc3NDA3LCJhdXRob3JpdGllcyI6WyJST0xFX1VTRVIiXSwianRpIjoiZmJkN2M0NzctZTY0Yy00M2RlLTk5MmQtNjJkOTBhMGMxNzc4IiwiY2xpZW50X2lkIjoiY2xpZW50In0.UrVjmQPPh50E-1x2mA2vpIrowR-7iRzIShi9kb1i-RpXF5MIPZ433gd-g158vQHLoL3Mdx_67MhRTNsGUiebdPDvt5pFBj4wtzOCyF3mJIueg0QFtGE4rFUGkKsDmZyKZX7ypuFhrQPF8Lb4rDlHyLwASU63ivmXnEs4028kYDjW-gaqxaLb5pNgIRe9sznQtP9QvJvNWLbQF2DClpqZrupKnQlGW_QmuNBBMuGkw2JfExsLI3-7J_lEso5K3--6y1wNq97XsKfqSQkTgSW4yRqRLuzKdLkuD-InV25BDUQHATJ5d7IhpmWRJt53UTxCBnk7c_1AMTTHMmKD-WMTeQ
+Action.c(134): web_url("teamContext") was successful, 306 body bytes, 2934 header bytes  	[MsgId: MMSG-26386]
+Action.c(145): Токен получен: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc19ub3RpZmljYXRlZCI6ZmFsc2UsInVzZXJfaWQiOjE5MjIsInVzZXJfbmFtZSI6ImFkbWluX2dyM0BtYWlsLmNvbSIsInNjb3BlIjpbInRydXN0IiwicmVhZCIsIndyaXRlIl0sInRlYW1fbWVtYmVyIjoie1wiaWRcIjoyMDA2LFwidGVhbUlkXCI6MjIsXCJ1c2VySWRcIjoxOTIyLFwiZW1haWxcIjpcImFkbWluX2dyM0BtYWlsLmNvbVwiLFwidXNlckRpc3BsYXlOYW1lXCI6XCJhZG1pbl9ncjNcIixcInBlcm1pc3Npb25MaXN0XCI6W1wiUlVOXCIsXCJBRE1JTlwiLFwiRURJVFwiLFwiVklFV1wiLFwiTUFOQUdFX1VTRVJTX0lOX09SR1wiXSxcImludml0YXRpb25TdGF0dXNcIjpcIkFDQ0VQVEVEXCIsXCJpbnZpdGVVcmxcIjpudWxsLFwiZXhwaXJlZEF0XCI6bnVsbCxcImNyZWF0ZUF0XCI6XCIyMDI2LTAyLTEwVDA4OjEzOjI0LjU2NlpcIixcInVwZGF0ZWRBdFwiOlwiMjAyNi0wMi0xMFQwODoxMzoyOS4zNDBaXCJ9IiwidXNlcl9sYW5ndWFnZSI6IlJVIiwidGVhbV9pZCI6MjIsImV4cCI6MTc3MDg1MDI4MiwiYXV0aG9yaXRpZXMiOlsiUk9MRV9VU0VSIl0sImp0aSI6ImM2MTczNWMxLTk1N2ItNGVhOS1hM2NhLTVmNWU0YzM1OGRhOSIsImNsaWVudF9pZCI6ImNsaWVudCJ9.PWuGoFZ-xxzzazKERpoiVxWFVXRoFJSalBILZ7lzHf_eGSDB3UfP8ZJI99oruQjDLUKHGCSd50aOq7YoVlOposjW10rpvUPyeoDk8eAL22yP3S-TjdYbiY-BbzrLffxxQi0DcqpTu8JBZNxVpH6AUAQ1RIRGhY9VEajY6vDJD75Tp9KYfvgKT5iNxyQ7wRWlz0PUVNcihT1wA6xlvF4ebHaFgaNHOSBeD4Y-DGjkYkitHRiQd2jmduzFNP45wbf7XqwwiqJ9BX4_QCtoJy15XLeELHvM-2ItEDjbMSEAXlJKSQKBP444tI78fs7vB3zZG4-jCFHQsLvtsJh2ct7oZw
 Action.c(147): web_add_auto_header("Authorization") started  	[MsgId: MMSG-26355]
 Action.c(147): Warning -26593: The header being added may cause unpredictable results when applied to all ensuing URLs. It is added anyway  	[MsgId: MWAR-26593]
 Action.c(147): web_add_auto_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
 Action.c(153): web_url("testRunner") started  	[MsgId: MMSG-26355]
 Action.c(153): web_url("testRunner") was successful, 531 body bytes, 338 header bytes  	[MsgId: MMSG-26386]
-Action.c(163): Notify: Transaction "UC05_TR01_Login" ended with a "Pass" status (Duration: 0,9562 Wasted Time: 0,0285).
+Action.c(163): Notify: Transaction "UC05_TR01_Login" ended with a "Pass" status (Duration: 0,8754 Wasted Time: 0,0300).
 Action.c(167): Notify: Transaction "UC05_TR02_ПросмотрЗапусков" started.
 Action.c(169): web_url("project") started  	[MsgId: MMSG-26355]
-Action.c(169): web_url("project") was successful, 57496 body bytes, 427 header bytes  	[MsgId: MMSG-26386]
+Action.c(169): web_url("project") was successful, 3808 body bytes, 427 header bytes  	[MsgId: MMSG-26386]
 Action.c(180): web_url("label") started  	[MsgId: MMSG-26355]
 Action.c(180): web_url("label") was successful, 2 body bytes, 427 header bytes  	[MsgId: MMSG-26386]
 Action.c(190): web_url("user_2") started  	[MsgId: MMSG-26355]
@@ -80,145 +80,138 @@ Action.c(217): web_reg_save_param_json started  	[MsgId: MMSG-26355]
 Action.c(217): Registering web_reg_save_param_json was successful  	[MsgId: MMSG-26390]
 Action.c(224): web_reg_save_param_json started  	[MsgId: MMSG-26355]
 Action.c(224): Registering web_reg_save_param_json was successful  	[MsgId: MMSG-26390]
-Action.c(232): web_url("test_2") started  	[MsgId: MMSG-26355]
-Action.c(232): web_url("test_2") was successful, 19950 body bytes, 427 header bytes  	[MsgId: MMSG-26386]
-Action.c(249): Всего проектов: 7
-Action.c(254): Тест 1: ID = 8691
-Action.c(254): Тест 2: ID = 8686
-Action.c(254): Тест 3: ID = 8685
-Action.c(254): Тест 4: ID = 8684
-Action.c(254): Тест 5: ID = 8683
-Action.c(254): Тест 6: ID = 8682
-Action.c(254): Тест 7: ID = 8680
-Action.c(261): Случайный индекс: 5
-Action.c(273): Выбран случайный тест ID: 8683
-Action.c(274): Проект этого теста ID: 3488
-Action.c(275): Версия этого теста ID: 4789
-Action.c(282): Notify: Transaction "UC05_TR02_ПросмотрЗапусков" ended with a "Pass" status (Duration: 1,4351 Wasted Time: 0,0191).
-Action.c(284): web_url("test_3") started  	[MsgId: MMSG-26355]
-Action.c(284): web_url("test_3") was successful, 317 body bytes, 427 header bytes  	[MsgId: MMSG-26386]
-Action.c(296): Notify: Transaction "UC05_TR03_ПросмотрТеста" started.
-Action.c(298): web_url("2698") started  	[MsgId: MMSG-26355]
-Action.c(298): web_url("2698") was successful, 2209 body bytes, 427 header bytes  	[MsgId: MMSG-26386]
-Action.c(308): web_url("8399") started  	[MsgId: MMSG-26355]
-Action.c(308): web_url("8399") was successful, 2832 body bytes, 427 header bytes  	[MsgId: MMSG-26386]
-Action.c(318): web_url("testMetric") started  	[MsgId: MMSG-26355]
-Action.c(318): web_url("testMetric") was successful, 1028 body bytes, 338 header bytes  	[MsgId: MMSG-26386]
-Action.c(328): web_url("auth") started  	[MsgId: MMSG-26355]
-Action.c(328): web_url("auth") was successful, 152 body bytes, 603 header bytes  	[MsgId: MMSG-26386]
-Action.c(338): web_url("testResultFile") started  	[MsgId: MMSG-26355]
-Action.c(338): web_url("testResultFile") was successful, 2 body bytes, 427 header bytes  	[MsgId: MMSG-26386]
-Action.c(350): web_url("testResultFile_2") started  	[MsgId: MMSG-26355]
-Action.c(350): web_url("testResultFile_2") was successful, 2 body bytes, 427 header bytes  	[MsgId: MMSG-26386]
-Action.c(360): Notify: Transaction "UC05_TR03_ПросмотрТеста" ended with a "Pass" status (Duration: 4,4067 Wasted Time: 0,0186).
-Action.c(362): web_url("testResultFile_3") started  	[MsgId: MMSG-26355]
-Action.c(362): web_url("testResultFile_3") was successful, 2 body bytes, 427 header bytes  	[MsgId: MMSG-26386]
-Action.c(374): web_url("testResultFile_4") started  	[MsgId: MMSG-26355]
-Action.c(374): web_url("testResultFile_4") was successful, 2 body bytes, 427 header bytes  	[MsgId: MMSG-26386]
-Action.c(386): web_url("testResultFile_5") started  	[MsgId: MMSG-26355]
-Action.c(386): web_url("testResultFile_5") was successful, 2 body bytes, 427 header bytes  	[MsgId: MMSG-26386]
-Action.c(398): web_url("testResultFile_6") started  	[MsgId: MMSG-26355]
-Action.c(398): web_url("testResultFile_6") was successful, 2 body bytes, 427 header bytes  	[MsgId: MMSG-26386]
-Action.c(410): Notify: Transaction "UC05_TR04_ДобавлениеSLA" started.
-Action.c(412): web_url("downloadLink") started  	[MsgId: MMSG-26355]
-Action.c(412): Downloading resource "https://dev-boomq.pflb.ru/minio/boomq/boomq/teams/22/projects/2698/v_3930.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIOSFODNN7EXAMPLE/20260203/us-east-1/s3/aws4_request&X-Amz-Date=20260203T082018Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=448bc9cfb394185d6aca19049e0fa5c3d63eb0f1fe92e5879c0e02b46a23eb14" (specified by argument number 10)  	[MsgId: MMSG-26577]
-Action.c(412): Warning -26631: HTTP Status-Code=400 (Bad Request) for "https://dev-boomq.pflb.ru/minio/boomq/boomq/teams/22/projects/2698/v_3930.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIOSFODNN7EXAMPLE/20260203/us-east-1/s3/aws4_request&X-Amz-Date=20260203T082018Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=448bc9cfb394185d6aca19049e0fa5c3d63eb0f1fe92e5879c0e02b46a23eb14"  	[MsgId: MWAR-26631]
-Action.c(412): web_url("downloadLink") highest severity level was "warning", 592 body bytes, 596 header bytes  	[MsgId: MMSG-26388]
-Action.c(424): web_url("testResultFile_7") started  	[MsgId: MMSG-26355]
-Action.c(424): web_url("testResultFile_7") was successful, 2 body bytes, 427 header bytes  	[MsgId: MMSG-26386]
-Action.c(434): web_url("testResultFile_8") started  	[MsgId: MMSG-26355]
-Action.c(434): web_url("testResultFile_8") was successful, 2 body bytes, 427 header bytes  	[MsgId: MMSG-26386]
-Action.c(446): web_url("testResultFile_9") started  	[MsgId: MMSG-26355]
-Action.c(446): web_url("testResultFile_9") was successful, 2 body bytes, 427 header bytes  	[MsgId: MMSG-26386]
-Action.c(458): web_url("testResultFile_10") started  	[MsgId: MMSG-26355]
-Action.c(458): web_url("testResultFile_10") was successful, 2 body bytes, 427 header bytes  	[MsgId: MMSG-26386]
-Action.c(468): web_url("8399_2") started  	[MsgId: MMSG-26355]
-Action.c(468): web_url("8399_2") was successful, 2832 body bytes, 427 header bytes  	[MsgId: MMSG-26386]
-Action.c(478): web_add_header("Origin") started  	[MsgId: MMSG-26355]
-Action.c(478): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
-Action.c(483): web_add_header("Content-Type") started  	[MsgId: MMSG-26355]
-Action.c(483): Warning -26594: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26594]
-Action.c(483): web_add_header("Content-Type") highest severity level was "warning"  	[MsgId: MMSG-26391]
-Action.c(484): web_custom_request("sla") started  	[MsgId: MMSG-26355]
-Action.c(484): web_custom_request("sla") was successful, 293 body bytes, 427 header bytes  	[MsgId: MMSG-26386]
-Action.c(496): Notify: Transaction "UC05_TR04_ДобавлениеSLA" ended with a "Pass" status (Duration: 1,5102 Wasted Time: 0,0234).
-Action.c(500): Notify: Transaction "UC05_TR05_Добавление треда1_переход" started.
-Action.c(502): web_url("slaReportProfile") started  	[MsgId: MMSG-26355]
-Action.c(502): web_url("slaReportProfile") was successful, 3808 body bytes, 427 header bytes  	[MsgId: MMSG-26386]
-Action.c(512): web_url("project_2") started  	[MsgId: MMSG-26355]
-Action.c(512): web_url("project_2") was successful, 57496 body bytes, 427 header bytes  	[MsgId: MMSG-26386]
-Action.c(522): Notify: Transaction "UC05_TR05_Добавление треда1_переход" ended with a "Pass" status (Duration: 0,2497 Wasted Time: 0,0069).
-Action.c(526): Notify: Transaction "UC05_TR06_ДобавлениеТренда2_Заполнение1" started.
-Action.c(528): web_add_auto_header("Sec-Fetch-Dest") started  	[MsgId: MMSG-26355]
-Action.c(528): web_add_auto_header("Sec-Fetch-Dest") was successful  	[MsgId: MMSG-26392]
-Action.c(531): web_add_auto_header("Sec-Fetch-Mode") started  	[MsgId: MMSG-26355]
-Action.c(531): web_add_auto_header("Sec-Fetch-Mode") was successful  	[MsgId: MMSG-26392]
-Action.c(534): web_add_auto_header("Sec-Fetch-Site") started  	[MsgId: MMSG-26355]
-Action.c(534): web_add_auto_header("Sec-Fetch-Site") was successful  	[MsgId: MMSG-26392]
-Action.c(537): web_add_auto_header("sec-ch-ua") started  	[MsgId: MMSG-26355]
-Action.c(537): web_add_auto_header("sec-ch-ua") was successful  	[MsgId: MMSG-26392]
-Action.c(540): web_add_auto_header("sec-ch-ua-mobile") started  	[MsgId: MMSG-26355]
-Action.c(540): web_add_auto_header("sec-ch-ua-mobile") was successful  	[MsgId: MMSG-26392]
-Action.c(543): web_add_auto_header("sec-ch-ua-platform") started  	[MsgId: MMSG-26355]
-Action.c(543): web_add_auto_header("sec-ch-ua-platform") was successful  	[MsgId: MMSG-26392]
-Action.c(548): web_url("test_9") started  	[MsgId: MMSG-26355]
-Action.c(548): web_url("test_9") was successful, 20360 body bytes, 427 header bytes  	[MsgId: MMSG-26386]
-Action.c(558): web_add_auto_header("Origin") started  	[MsgId: MMSG-26355]
-Action.c(558): web_add_auto_header("Origin") was successful  	[MsgId: MMSG-26392]
-Action.c(563): web_add_header("Content-Type") started  	[MsgId: MMSG-26355]
-Action.c(563): Warning -26594: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26594]
-Action.c(563): web_add_header("Content-Type") highest severity level was "warning"  	[MsgId: MMSG-26391]
-Action.c(564): web_custom_request("slaTypeList") started  	[MsgId: MMSG-26355]
-Action.c(564): web_custom_request("slaTypeList") was successful, 106 body bytes, 427 header bytes  	[MsgId: MMSG-26386]
-Action.c(576): web_add_header("Content-Type") started  	[MsgId: MMSG-26355]
-Action.c(576): Warning -26594: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26594]
-Action.c(576): web_add_header("Content-Type") highest severity level was "warning"  	[MsgId: MMSG-26391]
-Action.c(577): web_custom_request("previewReport") started  	[MsgId: MMSG-26355]
-Action.c(577): web_custom_request("previewReport") was successful, 2832 body bytes, 427 header bytes  	[MsgId: MMSG-26386]
-Action.c(589): Notify: Transaction "UC05_TR06_ДобавлениеТренда2_Заполнение1" ended with a "Pass" status (Duration: 0,5754 Wasted Time: 0,0109).
-Action.c(593): Notify: Transaction "UC05_TR07_ДобавлениеТренда3_Заполнение2" started.
-Action.c(595): web_add_header("Content-Type") started  	[MsgId: MMSG-26355]
-Action.c(595): Warning -26594: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26594]
-Action.c(595): web_add_header("Content-Type") highest severity level was "warning"  	[MsgId: MMSG-26391]
-Action.c(596): web_custom_request("previewReport_2") started  	[MsgId: MMSG-26355]
-Action.c(596): web_custom_request("previewReport_2") was successful, 4098 body bytes, 427 header bytes  	[MsgId: MMSG-26386]
-Action.c(611): web_add_header("Content-Type") started  	[MsgId: MMSG-26355]
-Action.c(611): Warning -26594: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26594]
-Action.c(611): web_add_header("Content-Type") highest severity level was "warning"  	[MsgId: MMSG-26391]
-Action.c(612): web_custom_request("previewReport_3") started  	[MsgId: MMSG-26355]
-Action.c(612): web_custom_request("previewReport_3") was successful, 4731 body bytes, 427 header bytes  	[MsgId: MMSG-26386]
-Action.c(629): web_reg_save_param_json started  	[MsgId: MMSG-26355]
-Action.c(629): Registering web_reg_save_param_json was successful  	[MsgId: MMSG-26390]
-Action.c(635): web_add_header("Content-Type") started  	[MsgId: MMSG-26355]
-Action.c(635): Warning -26594: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26594]
-Action.c(635): web_add_header("Content-Type") highest severity level was "warning"  	[MsgId: MMSG-26391]
-Action.c(636): web_custom_request("slaReportProfile_3") started  	[MsgId: MMSG-26355]
-Action.c(636): web_custom_request("slaReportProfile_3") was successful, 760 body bytes, 427 header bytes  	[MsgId: MMSG-26386]
-Action.c(649): Notify: Transaction "UC05_TR07_ДобавлениеТренда3_Заполнение2" ended with a "Pass" status (Duration: 0,4366 Wasted Time: 0,0120).
-Action.c(651): Notify: Transaction "UC05_TR08_ПроверкаСозданияТренда" started.
-Action.c(653): web_remove_auto_header("Origin") started  	[MsgId: MMSG-26355]
-Action.c(653): Previous automatically added web header for "Origin" removed  	[MsgId: MMSG-26587]
-Action.c(653): web_remove/revert_auto_header("Origin") was successful  	[MsgId: MMSG-26392]
-Action.c(657): web_reg_save_param_json started  	[MsgId: MMSG-26355]
-Action.c(657): Registering web_reg_save_param_json was successful  	[MsgId: MMSG-26390]
-Action.c(664): web_url("slaReportProfile_4") started  	[MsgId: MMSG-26355]
-Action.c(664): web_url("slaReportProfile_4") was successful, 4569 body bytes, 427 header bytes  	[MsgId: MMSG-26386]
-Action.c(677): Элемент 1: OrderNumber = 3264 сравниваем с:5016
-Action.c(677): Элемент 2: OrderNumber = 3265 сравниваем с:5016
-Action.c(677): Элемент 3: OrderNumber = 3266 сравниваем с:5016
-Action.c(677): Элемент 4: OrderNumber = 3267 сравниваем с:5016
-Action.c(677): Элемент 5: OrderNumber = 3268 сравниваем с:5016
-Action.c(677): Элемент 6: OrderNumber = 5016 сравниваем с:5016
-Action.c(686): Тренд успешно сохранен
-Action.c(687): Notify: Transaction "UC05_TR08_ПроверкаСозданияТренда" ended with a "Pass" status (Duration: 0,6667 Wasted Time: 0,0044).
-Action.c(695): Notify: Transaction "UC05_TR09_Выход" started.
-Action.c(698): web_cleanup_cookies started  	[MsgId: MMSG-26355]
-Action.c(698): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
-Action.c(701): web_cache_cleanup started  	[MsgId: MMSG-26355]
-Action.c(701): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
-Action.c(704): web_cleanup_auto_headers started  	[MsgId: MMSG-26355]
-Action.c(704): web_cleanup_auto_headers was successful  	[MsgId: MMSG-26392]
-Action.c(706): Notify: Transaction "UC05_TR09_Выход" ended with a "Pass" status (Duration: 0,0618).
+Action.c(231): web_reg_save_param_json started  	[MsgId: MMSG-26355]
+Action.c(231): Registering web_reg_save_param_json was successful  	[MsgId: MMSG-26390]
+Action.c(238): web_url("test_2") started  	[MsgId: MMSG-26355]
+Action.c(238): web_url("test_2") was successful, 9860 body bytes, 427 header bytes  	[MsgId: MMSG-26386]
+Action.c(255): Всего проектов: 5
+Action.c(263): Нашелся выполненный тест
+Action.c(266): Тест 3: ID = 8394
+Action.c(275): Выбран случайный тест ID: 8394
+Action.c(276): Проект этого теста ID: 2533
+Action.c(277): Версия этого теста ID: 3823
+Action.c(290): Подходящий тест был выбран
+Action.c(291): Notify: Transaction "UC05_TR02_ПросмотрЗапусков" ended with a "Pass" status (Duration: 1,0770 Wasted Time: 0,0203).
+Action.c(296): web_url("test_3") started  	[MsgId: MMSG-26355]
+Action.c(296): web_url("test_3") was successful, 317 body bytes, 427 header bytes  	[MsgId: MMSG-26386]
+Action.c(308): Notify: Transaction "UC05_TR03_ПросмотрТеста" started.
+Action.c(310): web_url("2698") started  	[MsgId: MMSG-26355]
+Action.c(310): web_url("2698") was successful, 801 body bytes, 427 header bytes  	[MsgId: MMSG-26386]
+Action.c(320): web_url("8399") started  	[MsgId: MMSG-26355]
+Action.c(320): web_url("8399") was successful, 2981 body bytes, 427 header bytes  	[MsgId: MMSG-26386]
+Action.c(330): web_url("testMetric") started  	[MsgId: MMSG-26355]
+Action.c(330): web_url("testMetric") was successful, 1028 body bytes, 338 header bytes  	[MsgId: MMSG-26386]
+Action.c(340): web_url("auth") started  	[MsgId: MMSG-26355]
+Action.c(340): web_url("auth") was successful, 152 body bytes, 603 header bytes  	[MsgId: MMSG-26386]
+Action.c(350): web_url("testResultFile") started  	[MsgId: MMSG-26355]
+Action.c(350): web_url("testResultFile") was successful, 2 body bytes, 427 header bytes  	[MsgId: MMSG-26386]
+Action.c(362): web_url("testResultFile_2") started  	[MsgId: MMSG-26355]
+Action.c(362): web_url("testResultFile_2") was successful, 2 body bytes, 427 header bytes  	[MsgId: MMSG-26386]
+Action.c(372): Notify: Transaction "UC05_TR03_ПросмотрТеста" ended with a "Pass" status (Duration: 0,4680 Wasted Time: 0,0196).
+Action.c(374): web_url("testResultFile_3") started  	[MsgId: MMSG-26355]
+Action.c(374): web_url("testResultFile_3") was successful, 2 body bytes, 427 header bytes  	[MsgId: MMSG-26386]
+Action.c(386): web_url("testResultFile_4") started  	[MsgId: MMSG-26355]
+Action.c(386): web_url("testResultFile_4") was successful, 2 body bytes, 427 header bytes  	[MsgId: MMSG-26386]
+Action.c(398): web_url("testResultFile_5") started  	[MsgId: MMSG-26355]
+Action.c(398): web_url("testResultFile_5") was successful, 2 body bytes, 427 header bytes  	[MsgId: MMSG-26386]
+Action.c(410): web_url("testResultFile_6") started  	[MsgId: MMSG-26355]
+Action.c(410): web_url("testResultFile_6") was successful, 2 body bytes, 427 header bytes  	[MsgId: MMSG-26386]
+Action.c(422): Notify: Transaction "UC05_TR04_ДобавлениеSLA" started.
+Action.c(424): web_url("downloadLink") started  	[MsgId: MMSG-26355]
+Action.c(424): Downloading resource "https://dev-boomq.pflb.ru/minio/boomq/boomq/teams/22/projects/2698/v_3930.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIOSFODNN7EXAMPLE/20260203/us-east-1/s3/aws4_request&X-Amz-Date=20260203T082018Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=448bc9cfb394185d6aca19049e0fa5c3d63eb0f1fe92e5879c0e02b46a23eb14" (specified by argument number 10)  	[MsgId: MMSG-26577]
+Action.c(424): Warning -26631: HTTP Status-Code=400 (Bad Request) for "https://dev-boomq.pflb.ru/minio/boomq/boomq/teams/22/projects/2698/v_3930.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIOSFODNN7EXAMPLE/20260203/us-east-1/s3/aws4_request&X-Amz-Date=20260203T082018Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=448bc9cfb394185d6aca19049e0fa5c3d63eb0f1fe92e5879c0e02b46a23eb14"  	[MsgId: MWAR-26631]
+Action.c(424): web_url("downloadLink") highest severity level was "warning", 592 body bytes, 596 header bytes  	[MsgId: MMSG-26388]
+Action.c(436): web_url("testResultFile_7") started  	[MsgId: MMSG-26355]
+Action.c(436): web_url("testResultFile_7") was successful, 2 body bytes, 427 header bytes  	[MsgId: MMSG-26386]
+Action.c(446): web_url("testResultFile_8") started  	[MsgId: MMSG-26355]
+Action.c(446): web_url("testResultFile_8") was successful, 2 body bytes, 427 header bytes  	[MsgId: MMSG-26386]
+Action.c(458): web_url("testResultFile_9") started  	[MsgId: MMSG-26355]
+Action.c(458): web_url("testResultFile_9") was successful, 2 body bytes, 427 header bytes  	[MsgId: MMSG-26386]
+Action.c(470): web_url("testResultFile_10") started  	[MsgId: MMSG-26355]
+Action.c(470): web_url("testResultFile_10") was successful, 2 body bytes, 427 header bytes  	[MsgId: MMSG-26386]
+Action.c(480): web_url("8399_2") started  	[MsgId: MMSG-26355]
+Action.c(480): web_url("8399_2") was successful, 2981 body bytes, 427 header bytes  	[MsgId: MMSG-26386]
+Action.c(490): web_add_header("Origin") started  	[MsgId: MMSG-26355]
+Action.c(490): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
+Action.c(495): web_add_header("Content-Type") started  	[MsgId: MMSG-26355]
+Action.c(495): Warning -26594: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26594]
+Action.c(495): web_add_header("Content-Type") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(496): web_custom_request("sla") started  	[MsgId: MMSG-26355]
+Action.c(496): web_custom_request("sla") was successful, 292 body bytes, 427 header bytes  	[MsgId: MMSG-26386]
+Action.c(508): Notify: Transaction "UC05_TR04_ДобавлениеSLA" ended with a "Pass" status (Duration: 0,5156 Wasted Time: 0,0241).
+Action.c(512): Notify: Transaction "UC05_TR05_Добавление треда1_переход" started.
+Action.c(514): web_url("slaReportProfile") started  	[MsgId: MMSG-26355]
+Action.c(514): web_url("slaReportProfile") was successful, 762 body bytes, 427 header bytes  	[MsgId: MMSG-26386]
+Action.c(524): web_url("project_2") started  	[MsgId: MMSG-26355]
+Action.c(524): web_url("project_2") was successful, 3808 body bytes, 427 header bytes  	[MsgId: MMSG-26386]
+Action.c(534): Notify: Transaction "UC05_TR05_Добавление треда1_переход" ended with a "Pass" status (Duration: 0,1080 Wasted Time: 0,0072).
+Action.c(538): Notify: Transaction "UC05_TR06_ДобавлениеТренда2_Заполнение1" started.
+Action.c(540): web_add_auto_header("Sec-Fetch-Dest") started  	[MsgId: MMSG-26355]
+Action.c(540): web_add_auto_header("Sec-Fetch-Dest") was successful  	[MsgId: MMSG-26392]
+Action.c(543): web_add_auto_header("Sec-Fetch-Mode") started  	[MsgId: MMSG-26355]
+Action.c(543): web_add_auto_header("Sec-Fetch-Mode") was successful  	[MsgId: MMSG-26392]
+Action.c(546): web_add_auto_header("Sec-Fetch-Site") started  	[MsgId: MMSG-26355]
+Action.c(546): web_add_auto_header("Sec-Fetch-Site") was successful  	[MsgId: MMSG-26392]
+Action.c(549): web_add_auto_header("sec-ch-ua") started  	[MsgId: MMSG-26355]
+Action.c(549): web_add_auto_header("sec-ch-ua") was successful  	[MsgId: MMSG-26392]
+Action.c(552): web_add_auto_header("sec-ch-ua-mobile") started  	[MsgId: MMSG-26355]
+Action.c(552): web_add_auto_header("sec-ch-ua-mobile") was successful  	[MsgId: MMSG-26392]
+Action.c(555): web_add_auto_header("sec-ch-ua-platform") started  	[MsgId: MMSG-26355]
+Action.c(555): web_add_auto_header("sec-ch-ua-platform") was successful  	[MsgId: MMSG-26392]
+Action.c(560): web_url("test_9") started  	[MsgId: MMSG-26355]
+Action.c(560): web_url("test_9") was successful, 6269 body bytes, 427 header bytes  	[MsgId: MMSG-26386]
+Action.c(570): web_add_auto_header("Origin") started  	[MsgId: MMSG-26355]
+Action.c(570): web_add_auto_header("Origin") was successful  	[MsgId: MMSG-26392]
+Action.c(575): web_add_header("Content-Type") started  	[MsgId: MMSG-26355]
+Action.c(575): Warning -26594: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26594]
+Action.c(575): web_add_header("Content-Type") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(576): web_custom_request("slaTypeList") started  	[MsgId: MMSG-26355]
+Action.c(576): web_custom_request("slaTypeList") was successful, 207 body bytes, 427 header bytes  	[MsgId: MMSG-26386]
+Action.c(588): web_add_header("Content-Type") started  	[MsgId: MMSG-26355]
+Action.c(588): Warning -26594: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26594]
+Action.c(588): web_add_header("Content-Type") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(589): web_custom_request("previewReport") started  	[MsgId: MMSG-26355]
+Action.c(589): web_custom_request("previewReport") was successful, 882 body bytes, 427 header bytes  	[MsgId: MMSG-26386]
+Action.c(601): Notify: Transaction "UC05_TR06_ДобавлениеТренда2_Заполнение1" ended with a "Pass" status (Duration: 0,3731 Wasted Time: 0,0109).
+Action.c(605): Notify: Transaction "UC05_TR07_ДобавлениеТренда3_Заполнение2" started.
+Action.c(607): web_add_header("Content-Type") started  	[MsgId: MMSG-26355]
+Action.c(607): Warning -26594: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26594]
+Action.c(607): web_add_header("Content-Type") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(608): web_custom_request("previewReport_2") started  	[MsgId: MMSG-26355]
+Action.c(608): web_custom_request("previewReport_2") was successful, 1382 body bytes, 427 header bytes  	[MsgId: MMSG-26386]
+Action.c(623): web_add_header("Content-Type") started  	[MsgId: MMSG-26355]
+Action.c(623): Warning -26594: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26594]
+Action.c(623): web_add_header("Content-Type") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(624): web_custom_request("previewReport_3") started  	[MsgId: MMSG-26355]
+Action.c(624): web_custom_request("previewReport_3") was successful, 1625 body bytes, 427 header bytes  	[MsgId: MMSG-26386]
+Action.c(641): web_reg_save_param_json started  	[MsgId: MMSG-26355]
+Action.c(641): Registering web_reg_save_param_json was successful  	[MsgId: MMSG-26390]
+Action.c(647): web_add_header("Content-Type") started  	[MsgId: MMSG-26355]
+Action.c(647): Warning -26594: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26594]
+Action.c(647): web_add_header("Content-Type") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(648): web_custom_request("slaReportProfile_3") started  	[MsgId: MMSG-26355]
+Action.c(648): web_custom_request("slaReportProfile_3") was successful, 760 body bytes, 427 header bytes  	[MsgId: MMSG-26386]
+Action.c(661): Notify: Transaction "UC05_TR07_ДобавлениеТренда3_Заполнение2" ended with a "Pass" status (Duration: 0,3282 Wasted Time: 0,0124).
+Action.c(663): Notify: Transaction "UC05_TR08_ПроверкаСозданияТренда" started.
+Action.c(665): web_remove_auto_header("Origin") started  	[MsgId: MMSG-26355]
+Action.c(665): Previous automatically added web header for "Origin" removed  	[MsgId: MMSG-26587]
+Action.c(665): web_remove/revert_auto_header("Origin") was successful  	[MsgId: MMSG-26392]
+Action.c(669): web_reg_save_param_json started  	[MsgId: MMSG-26355]
+Action.c(669): Registering web_reg_save_param_json was successful  	[MsgId: MMSG-26390]
+Action.c(676): web_url("slaReportProfile_4") started  	[MsgId: MMSG-26355]
+Action.c(676): web_url("slaReportProfile_4") was successful, 1523 body bytes, 427 header bytes  	[MsgId: MMSG-26386]
+Action.c(689): Элемент 1: OrderNumber = 2950 сравниваем с:2951
+Action.c(689): Элемент 2: OrderNumber = 2951 сравниваем с:2951
+Action.c(698): Тренд успешно сохранен
+Action.c(699): Notify: Transaction "UC05_TR08_ПроверкаСозданияТренда" ended with a "Pass" status (Duration: 0,3419 Wasted Time: 0,0044).
+Action.c(707): Notify: Transaction "UC05_TR09_Выход" started.
+Action.c(710): web_cleanup_cookies started  	[MsgId: MMSG-26355]
+Action.c(710): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
+Action.c(713): web_cache_cleanup started  	[MsgId: MMSG-26355]
+Action.c(713): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
+Action.c(716): web_cleanup_auto_headers started  	[MsgId: MMSG-26355]
+Action.c(716): web_cleanup_auto_headers was successful  	[MsgId: MMSG-26392]
+Action.c(718): Notify: Transaction "UC05_TR09_Выход" ended with a "Pass" status (Duration: 0,0628).
 Ending action Action.
 Ending iteration 1.
 Ending Vuser...

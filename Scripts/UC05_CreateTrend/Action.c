@@ -1,10 +1,10 @@
 Action()
 {
 	
-    int i, count, random_index;
-    char param_name[100], selected_id[100], param_name1[100], selected_id1[100], param_name2[100], selected_id2[100];
-    char paramName[100];
+    int i, count;
+    char param_name[100], selected_id[100], param_name1[100], selected_id1[100], param_name2[100], state_test[100], state_test_text[100], selected_id2[100], paramName[100];
 	int reportFound = 0; // Флаг для отслеживания найден ли тренд
+	int there_is_completed_test = 0;
 
 	web_set_sockets_option("SSL_VERSION", "AUTO");
 
@@ -228,7 +228,13 @@ Action()
         SEARCH_FILTERS,
         LAST);
 	
-	    
+	web_reg_save_param_json(
+        "ParamName=completed_test_state",
+        "QueryString=$.content[*].state",
+        "SelectAll=Yes",
+        SEARCH_FILTERS,
+        LAST);
+		    
 	web_url("test_2", 
 		"URL=https://dev-boomq.pflb.ru/test-srv/test?sort=createDate,desc&page=0&size=7", 
 		"TargetFrame=", 
@@ -250,36 +256,42 @@ Action()
     
 	    // 4. Выводим все ID
 	    for(i = 1; i <= count; i++) {
-	        sprintf(param_name, "{completed_test_id_%d}", i);
-	        lr_output_message("Тест %d: ID = %s", i, lr_eval_string(param_name));
+	        sprintf(state_test, "{completed_test_state_%d}", i);
+		    strcpy(state_test_text, lr_eval_string(state_test));
+	        if (strcmp(lr_eval_string(state_test_text), "FINISHED") == 0) {
+		    	there_is_completed_test = 1;
+		    	lr_output_message("Нашелся выполненный тест");
+		    	
+		    	sprintf(param_name, "{completed_test_id_%d}", i);
+		    	lr_output_message("Тест %d: ID = %s", i, lr_eval_string(param_name));
+			    strcpy(selected_id, lr_eval_string(param_name));
+			    
+			    sprintf(param_name1, "{completed_test_projectId_%d}", i);
+			    strcpy(selected_id1, lr_eval_string(param_name1));
+			    
+			   	sprintf(param_name2, "{completed_test_versionId_%d}", i);
+			    strcpy(selected_id2, lr_eval_string(param_name2));
+			    
+			    lr_output_message("Выбран случайный тест ID: %s", selected_id);
+			    lr_output_message("Проект этого теста ID: %s", selected_id1);
+			    lr_output_message("Версия этого теста ID: %s", selected_id2);
+			    
+			   	//Сохраняем для дальнейшего использования
+			    lr_save_string(selected_id, "selected_completed_test_id");
+			    lr_save_string(selected_id1, "selected_completed_project_id");
+			    lr_save_string(selected_id2, "selected_completed_version_id");
+		    }
 	    }
 	    
-	    // 5. Генерируем случайный индекс (от 1 до count)
-	    srand(time(NULL)); // инициализация генератора случайных чисел
-	    random_index = (rand() % count) + 1; // от 1 до count включительно
-	    
-	    lr_output_message("Случайный индекс: %d", random_index);
-	    
-	    // 6. Получаем случайный ID
-	    sprintf(param_name, "{completed_test_id_%d}", random_index);
-	    strcpy(selected_id, lr_eval_string(param_name));
-	    
-	    sprintf(param_name1, "{completed_test_projectId_%d}", random_index);
-	    strcpy(selected_id1, lr_eval_string(param_name1));
-	    
-	   	sprintf(param_name2, "{completed_test_versionId_%d}", random_index);
-	    strcpy(selected_id2, lr_eval_string(param_name2));
-	    
-	    lr_output_message("Выбран случайный тест ID: %s", selected_id);
-	    lr_output_message("Проект этого теста ID: %s", selected_id1);
-	    lr_output_message("Версия этого теста ID: %s", selected_id2);
-	    
-	    // 7. Сохраняем для дальнейшего использования
-	    lr_save_string(selected_id, "selected_completed_test_id");
-	    lr_save_string(selected_id1, "selected_completed_project_id");
-	    lr_save_string(selected_id2, "selected_completed_version_id");
-	
-		lr_end_transaction("UC05_TR02_ПросмотрЗапусков", LR_PASS);
+	    if (there_is_completed_test == 0){
+		 	lr_error_message("Нет ни одного выполненного теста (нет возможности задать SLA)");
+			lr_end_transaction("UC05_TR02_ПросмотрЗапусков", LR_FAIL);
+	    } else {
+	    	lr_output_message("Подходящий тест был выбран");
+			lr_end_transaction("UC05_TR02_ПросмотрЗапусков", LR_PASS);
+	    }
+		 
+		//lr_end_transaction("UC05_TR02_ПросмотрЗапусков", LR_PASS);
 	}
 	web_url("test_3", 
 		"URL=https://dev-boomq.pflb.ru/test-srv/test?sort=createDate,desc&displayState=INITIALIZATION,WAITING,RUNNING,TEST_STOPPING", 
@@ -705,5 +717,5 @@ Action()
 
 	lr_end_transaction("UC05_TR09_Выход",LR_AUTO);
 
-	return 0;
+return 0;
 }
