@@ -1,9 +1,9 @@
-Virtual User Script started at: 10.02.2026 19:22:51
+Virtual User Script started at: 16.02.2026 20:23:01
 Starting action vuser_init.
 Web Turbo Replay of LoadRunner 2021.0.0 for Windows 10; build 430 (янв 05 2021 19:27:22)  	[MsgId: MMSG-26983]
 Run mode: HTML  	[MsgId: MMSG-26993]
 Replay user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0  	[MsgId: MMSG-26988]
-Runtime Settings file: "C:\Users\admin\Documents\VuGen\Scripts\UC_02_Test_creation\\default.cfg"  	[MsgId: MMSG-27141]
+Runtime Settings file: "G:\dev\Перфоманс лаб\PerfLabProject\Scripts\UC02_Test_creation\\default.cfg"  	[MsgId: MMSG-27141]
 Ending action vuser_init.
 Running Vuser...
 Starting iteration 1.
@@ -34,7 +34,7 @@ Action.c(91): web_reg_save_param started  	[MsgId: MMSG-26355]
 Action.c(91): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
 Action.c(97): web_submit_data("login") started  	[MsgId: MMSG-26355]
 Action.c(97): web_submit_data("login") was successful, 0 body bytes, 1949 header bytes  	[MsgId: MMSG-26386]
-Action.c(113): Токен 1 (длина=710): eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc19ub3RpZmljYXRlZCI6ZmFsc2UsInVzZXJfaWQiOjE5NTUsInVzZXJfbmFtZSI6Im1tYTE3NzA3Mjg5NTI3NjU1MDdAdGVzdC5jb20iLCJzY29wZSI6WyJ0cnVzdCIsInJlYWQiLCJ3cml0ZSJdLCJ1c2VyX2xhbmd1YWdlIjoiRU4iLCJleHAiOjE3NzA3ODAxNzIsImF1dGhvcml0aWVzIjpbIlJPTEVfVVNFUiJdLCJqdGkiOiI2ODZhYzcyNi01OGUyLTRlMTktYTI1Yi02ZTM2YzkyNzg4MTgiLCJjbGllbnRfaWQiOiJjbGllbnQifQ.mpu9YFMtOPnK1suFbTqb8S8ChZ_4f0GXf-X4m-szi5Lms-7IzR2qF48QBPM8wqZpucqZUUEbVHmFzJEnASGQwmqweAeOetm4pzNv867ZZYNEYCPD1jDHd6mlJszxMOwf4LQRjfc03CoZmULWJJFaAm_E1NsenrCW9MQ15ZGpRDGVQ1-7hiTG5FBeTkfT8QyuBWGijWRquL8p-giLJTv3XAfEjJJvswgbh2M7Lnx9qf0YcjJtxP3_Pb8w-hsDWVmTK6Gcef8_f8qEj-n_qYscW05fZMt21COoDLQeFRukYcYAVXt7BwTNfnEQBAB-gpgRz_n2xrSoQQ7aJieZTcckmA
+Action.c(113): Токен 1 (длина=710): eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc19ub3RpZmljYXRlZCI6ZmFsc2UsInVzZXJfaWQiOjI0NDgsInVzZXJfbmFtZSI6Im1tYTE3NzEyNjI0NDI0NjMyNzZAdGVzdC5jb20iLCJzY29wZSI6WyJ0cnVzdCIsInJlYWQiLCJ3cml0ZSJdLCJ1c2VyX2xhbmd1YWdlIjoiRU4iLCJleHAiOjE3NzEzMDU3ODIsImF1dGhvcml0aWVzIjpbIlJPTEVfVVNFUiJdLCJqdGkiOiJmYjc5OGI1Mi04MTdlLTRmZmUtOTI0My04MWViM2M0YjlmOTkiLCJjbGllbnRfaWQiOiJjbGllbnQifQ.EFvKu3OsWLRdYOSOCpdDr_VRWbmFOItLNyAKpRAYQuNjWAAEIJ6t2W9DT2hm0b9S51wmSUcrRRJC6pTLjniHQzaAwUmcEyncnHWqGrS9XSQeXJW09bmbUAxwA5Zo3Ba3i9O8UpfAmCemE3OloANLzbj6y2gVMdq_WnGDL55haH3fiTBYeQLOOyMRrfgfQPMf9sx2MCB0myFDq1lQs5ROWr6RxhJv7pXXmwUwpgXT9CY2mVqfw2x4XQhrIC8DbNsCdHRyYyY5Mg1WP2aL-H5JafIpZEyRH65R7pPF0rnoVcqNxc70tPIkibFHp3aK65ptbXfuwBRh2sMJs52qktpVSA
 Action.c(115): web_add_auto_header("Authorization") started  	[MsgId: MMSG-26355]
 Action.c(115): Warning -26593: The header being added may cause unpredictable results when applied to all ensuing URLs. It is added anyway  	[MsgId: MWAR-26593]
 Action.c(115): web_add_auto_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
@@ -68,13 +68,13 @@ Action.c(191): web_reg_save_param started  	[MsgId: MMSG-26355]
 Action.c(191): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
 Action.c(197): web_url("teamContext") started  	[MsgId: MMSG-26355]
 Action.c(197): web_url("teamContext") was successful, 296 body bytes, 2924 header bytes  	[MsgId: MMSG-26386]
-Action.c(207): Токен 2 (длина=1195): eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc19ub3RpZmljYXRlZCI6ZmFsc2UsInVzZXJfaWQiOjE5NTUsInVzZXJfbmFtZSI6Im1tYTE3NzA3Mjg5NTI3NjU1MDdAdGVzdC5jb20iLCJzY29wZSI6WyJ0cnVzdCIsInJlYWQiLCJ3cml0ZSJdLCJ0ZWFtX21lbWJlciI6IntcImlkXCI6MjA0MSxcInRlYW1JZFwiOjIyLFwidXNlcklkXCI6MTk1NSxcImVtYWlsXCI6XCJtbWExNzcwNzI4OTUyNzY1NTA3QHRlc3QuY29tXCIsXCJ1c2VyRGlzcGxheU5hbWVcIjpcIm1tYTE3NzA3Mjg5NTI3NjU1MDdcIixcInBlcm1pc3Npb25MaXN0XCI6W1wiUlVOXCIsXCJFRElUXCIsXCJWSUVXXCJdLFwiaW52aXRhdGlvblN0YXR1c1wiOlwiQUNDRVBURURcIixcImludml0ZVVybFwiOm51bGwsXCJleHBpcmVkQXRcIjpudWxsLFwiY3JlYXRlQXRcIjpcIjIwMjYtMDItMTBUMTM6MDk6MjIuNzcwWlwiLFwidXBkYXRlZEF0XCI6XCIyMDI2LTAyLTEwVDEzOjA5OjIzLjY1NlpcIn0iLCJ1c2VyX2xhbmd1YWdlIjoiRU4iLCJ0ZWFtX2lkIjoyMiwiZXhwIjoxNzcwNzgwMTczLCJhdXRob3JpdGllcyI6WyJST0xFX1VTRVIiXSwianRpIjoiYTQ3MjcwMmItMDUzZi00Y2RjLWJjZDEtMjI3ZTJjOTUxMDQ0IiwiY2xpZW50X2lkIjoiY2xpZW50In0.MzGmFHf5EIivAi5yEjVOZF7T6ErYd72NypSdSYnggxI5hZS28Jt0yyHwfy29gJum9r1oDmyVZbHeOK3K3O5dQV660jE7yxlxV11rQDnR-pWoorT79HclYtbes95vpWn4I22jBGYyC-mwu0BFwKA0CIYVWxap5yTcZuWskqeOYEFmfTvjF1BFhNxYpjL7baDT1kdyQNgKY1MtznHWxygBTzcU6Zkk8vqlVMWPakTMIybtWsYqEGSYzjiSANfgwtVBJJEu39S8Sh6c-efE0QLmYC3WHauEMTgZWeU9aYD51WIjjyU-ipy0VKaIZVhigQL1s2rgEa05EFzoW_6n3kDESw
+Action.c(207): Токен 2 (длина=1195): eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc19ub3RpZmljYXRlZCI6ZmFsc2UsInVzZXJfaWQiOjI0NDgsInVzZXJfbmFtZSI6Im1tYTE3NzEyNjI0NDI0NjMyNzZAdGVzdC5jb20iLCJzY29wZSI6WyJ0cnVzdCIsInJlYWQiLCJ3cml0ZSJdLCJ0ZWFtX21lbWJlciI6IntcImlkXCI6MjU4NSxcInRlYW1JZFwiOjIyLFwidXNlcklkXCI6MjQ0OCxcImVtYWlsXCI6XCJtbWExNzcxMjYyNDQyNDYzMjc2QHRlc3QuY29tXCIsXCJ1c2VyRGlzcGxheU5hbWVcIjpcIm1tYTE3NzEyNjI0NDI0NjMyNzZcIixcInBlcm1pc3Npb25MaXN0XCI6W1wiVklFV1wiLFwiUlVOXCIsXCJFRElUXCJdLFwiaW52aXRhdGlvblN0YXR1c1wiOlwiQUNDRVBURURcIixcImludml0ZVVybFwiOm51bGwsXCJleHBpcmVkQXRcIjpudWxsLFwiY3JlYXRlQXRcIjpcIjIwMjYtMDItMTZUMTc6MjA6NDcuNjEyWlwiLFwidXBkYXRlZEF0XCI6XCIyMDI2LTAyLTE2VDE3OjIwOjQ4LjI1MFpcIn0iLCJ1c2VyX2xhbmd1YWdlIjoiRU4iLCJ0ZWFtX2lkIjoyMiwiZXhwIjoxNzcxMzA1NzgyLCJhdXRob3JpdGllcyI6WyJST0xFX1VTRVIiXSwianRpIjoiMDBhYTFiZTItOTNlMy00ZmM5LWE5NGUtYjVjNDc4NmYzODM4IiwiY2xpZW50X2lkIjoiY2xpZW50In0.LYzQe7wkFnB1lLp0H-PCLtFX7Yw8CLYFptYso1n9SKSpO6zsgtlh4tEyZTy90VP23VdN2TNMcmJ_9IcfS8c3Q5P_WaSRXk4U75hXKkmXEVAcZtGorJeN62gQLhu_Q3LDp9alk34HzCdZYmPkGs57tnDAZsr2xDFbowPdBuo3-mc32m9dECT7fst-XXJwQCm7uVP31hXGxvl3P5o-UTENqzbPSS-m85na3_fy0CceEIq_xWmY5PgpxrEaUzSwoSyJtKzkX-awVz9GVcjI6oAHJA5agymX_towo4XbfoOTcqk4WnjpqFhT4GgWYTsw7RXBOmqgA9HrXetvbgA7qRGetg
 Action.c(209): web_add_auto_header("Authorization") started  	[MsgId: MMSG-26355]
 Action.c(209): Warning -26593: The header being added may cause unpredictable results when applied to all ensuing URLs. It is added anyway  	[MsgId: MWAR-26593]
 Action.c(209): web_add_auto_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
 Action.c(213): web_url("testRunner") started  	[MsgId: MMSG-26355]
 Action.c(213): web_url("testRunner") was successful, 531 body bytes, 338 header bytes  	[MsgId: MMSG-26386]
-Action.c(224): Notify: Transaction "UC_02_TR_01_login" ended with a "Pass" status (Duration: 1,2632 Wasted Time: 0,0760).
+Action.c(224): Notify: Transaction "UC_02_TR_01_login" ended with a "Pass" status (Duration: 1,0197 Wasted Time: 0,0889).
 Action.c(227): Notify: Transaction "UC_02_TR_02_go_to_tests" started.
 Action.c(230): web_add_auto_header("Sec-Fetch-Dest") started  	[MsgId: MMSG-26355]
 Action.c(230): web_add_auto_header("Sec-Fetch-Dest") was successful  	[MsgId: MMSG-26392]
@@ -97,8 +97,8 @@ Action.c(264): web_add_auto_header("Authorization") started  	[MsgId: MMSG-26355
 Action.c(264): Warning -26593: The header being added may cause unpredictable results when applied to all ensuing URLs. It is added anyway  	[MsgId: MWAR-26593]
 Action.c(264): web_add_auto_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
 Action.c(268): web_url("project") started  	[MsgId: MMSG-26355]
-Action.c(268): web_url("project") was successful, 1913 body bytes, 427 header bytes  	[MsgId: MMSG-26386]
-Action.c(279): Notify: Transaction "UC_02_TR_02_go_to_tests" ended with a "Pass" status (Duration: 0,2919 Wasted Time: 0,0043).
+Action.c(268): web_url("project") was successful, 3804 body bytes, 427 header bytes  	[MsgId: MMSG-26386]
+Action.c(279): Notify: Transaction "UC_02_TR_02_go_to_tests" ended with a "Pass" status (Duration: 0,6238 Wasted Time: 0,0074).
 Action.c(282): Notify: Transaction "UC_02_TR_03_test_create" started.
 Action.c(285): web_add_header("Origin") started  	[MsgId: MMSG-26355]
 Action.c(285): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
@@ -108,7 +108,7 @@ Action.c(288): web_add_auto_header("Authorization") highest severity level was "
 Action.c(292): web_custom_request("project_2") started  	[MsgId: MMSG-26355]
 Action.c(292): Downloading resource "https://dev-boomq.pflb.ru/static/media/check.9725c0396328bae9471b624111fc14ca.svg" (specified by argument number 13)  	[MsgId: MMSG-26577]
 Action.c(292): web_custom_request("project_2") was successful, 1400 body bytes, 691 header bytes  	[MsgId: MMSG-26386]
-Action.c(308): Notify: Transaction "UC_02_TR_03_test_create" ended with a "Pass" status (Duration: 0,1851 Wasted Time: 0,0035).
+Action.c(308): Notify: Transaction "UC_02_TR_03_test_create" ended with a "Pass" status (Duration: 2,6754 Wasted Time: 0,0043).
 Ending action Action.
 Ending iteration 1.
 Ending Vuser...

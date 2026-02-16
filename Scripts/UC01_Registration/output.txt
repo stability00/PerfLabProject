@@ -1,9 +1,9 @@
-Virtual User Script started at: 09.02.2026 12:51:54
+Virtual User Script started at: 16.02.2026 20:20:42
 Starting action vuser_init.
 Web Turbo Replay of LoadRunner 2021.0.0 for Windows 10; build 430 (янв 05 2021 19:27:22)  	[MsgId: MMSG-26983]
 Run mode: HTML  	[MsgId: MMSG-26993]
 Replay user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0  	[MsgId: MMSG-26988]
-Runtime Settings file: "G:\dev\Перфоманс лаб\ПРОЕКТ\Scripts\UC01_Registration\\default.cfg"  	[MsgId: MMSG-27141]
+Runtime Settings file: "G:\dev\Перфоманс лаб\PerfLabProject\Scripts\UC01_Registration\\default.cfg"  	[MsgId: MMSG-27141]
 Ending action vuser_init.
 Running Vuser...
 Starting iteration 1.
@@ -72,7 +72,7 @@ Action.c(145): web_add_auto_header("Authorization") highest severity level was "
 Action.c(147): web_reg_save_param_json started  	[MsgId: MMSG-26355]
 Action.c(147): Registering web_reg_save_param_json was successful  	[MsgId: MMSG-26390]
 Action.c(149): web_url("team") started  	[MsgId: MMSG-26355]
-Action.c(149): web_url("team") was successful, 588 body bytes, 492 header bytes  	[MsgId: MMSG-26386]
+Action.c(149): web_url("team") was successful, 585 body bytes, 492 header bytes  	[MsgId: MMSG-26386]
 Action.c(159): web_add_auto_header("Authorization") started  	[MsgId: MMSG-26355]
 Action.c(159): Warning -26593: The header being added may cause unpredictable results when applied to all ensuing URLs. It is added anyway  	[MsgId: MWAR-26593]
 Action.c(159): web_add_auto_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
@@ -88,26 +88,26 @@ Action.c(181): Warning -26593: The header being added may cause unpredictable re
 Action.c(181): web_add_auto_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
 Action.c(183): web_url("testRunner") started  	[MsgId: MMSG-26355]
 Action.c(183): web_url("testRunner") was successful, 531 body bytes, 338 header bytes  	[MsgId: MMSG-26386]
-Action.c(193): Notify: Transaction "login" ended with a "Pass" status (Duration: 13,2708 Wasted Time: 0,4890).
+Action.c(193): Notify: Transaction "login" ended with a "Pass" status (Duration: 4,4699 Wasted Time: 0,6348).
 Action.c(197): Notify: Transaction "edit_team" started.
 Action.c(199): web_add_auto_header("Authorization") started  	[MsgId: MMSG-26355]
 Action.c(199): Warning -26593: The header being added may cause unpredictable results when applied to all ensuing URLs. It is added anyway  	[MsgId: MWAR-26593]
 Action.c(199): web_add_auto_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
 Action.c(201): web_url("team_2") started  	[MsgId: MMSG-26355]
-Action.c(201): web_url("team_2") was successful, 588 body bytes, 492 header bytes  	[MsgId: MMSG-26386]
+Action.c(201): web_url("team_2") was successful, 585 body bytes, 492 header bytes  	[MsgId: MMSG-26386]
 Action.c(211): web_add_auto_header("Authorization") started  	[MsgId: MMSG-26355]
 Action.c(211): Warning -26593: The header being added may cause unpredictable results when applied to all ensuing URLs. It is added anyway  	[MsgId: MWAR-26593]
 Action.c(211): web_add_auto_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
 Action.c(213): web_url("22") started  	[MsgId: MMSG-26355]
-Action.c(213): web_url("22") was successful, 274 body bytes, 492 header bytes  	[MsgId: MMSG-26386]
+Action.c(213): web_url("22") was successful, 271 body bytes, 492 header bytes  	[MsgId: MMSG-26386]
 Action.c(227): web_add_auto_header("Authorization") started  	[MsgId: MMSG-26355]
 Action.c(227): Warning -26593: The header being added may cause unpredictable results when applied to all ensuing URLs. It is added anyway  	[MsgId: MWAR-26593]
 Action.c(227): web_add_auto_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
 Action.c(228): web_add_header("Cookie") started  	[MsgId: MMSG-26355]
 Action.c(228): web_add_header("Cookie") was successful  	[MsgId: MMSG-26392]
 Action.c(230): web_url("teamMember") started  	[MsgId: MMSG-26355]
-Action.c(230): web_url("teamMember") was successful, 2458 body bytes, 492 header bytes  	[MsgId: MMSG-26386]
-Action.c(240): Notify: Transaction "edit_team" ended with a "Pass" status (Duration: 0,3429 Wasted Time: 0,0094).
+Action.c(230): web_url("teamMember") was successful, 2355 body bytes, 492 header bytes  	[MsgId: MMSG-26386]
+Action.c(240): Notify: Transaction "edit_team" ended with a "Pass" status (Duration: 0,5251 Wasted Time: 0,0129).
 Action.c(242): Notify: Transaction "add_user" started.
 Action.c(244): web_add_header("Origin") started  	[MsgId: MMSG-26355]
 Action.c(244): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
@@ -128,8 +128,8 @@ Action.c(290): web_add_auto_header("Authorization") highest severity level was "
 Action.c(291): web_add_header("Cookie") started  	[MsgId: MMSG-26355]
 Action.c(291): web_add_header("Cookie") was successful  	[MsgId: MMSG-26392]
 Action.c(293): web_url("teamMember_3") started  	[MsgId: MMSG-26355]
-Action.c(293): web_url("teamMember_3") was successful, 2458 body bytes, 492 header bytes  	[MsgId: MMSG-26386]
-Action.c(303): Notify: Transaction "add_user" ended with a "Pass" status (Duration: 0,5289 Wasted Time: 0,0095).
+Action.c(293): web_url("teamMember_3") was successful, 2355 body bytes, 492 header bytes  	[MsgId: MMSG-26386]
+Action.c(303): Notify: Transaction "add_user" ended with a "Pass" status (Duration: 0,4524 Wasted Time: 0,0115).
 Action.c(305): Notify: Transaction "save_user" started.
 Action.c(307): web_add_header("Origin") started  	[MsgId: MMSG-26355]
 Action.c(307): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
@@ -173,7 +173,7 @@ Action.c(360): web_add_auto_header("Accept") was successful  	[MsgId: MMSG-26392
 Action.c(363): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
 Action.c(363): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
 Action.c(371): web_url("eyc9ZpKsMB1L9hvaNSaIQWDxwqYxYFu_u-u_abHVE1OZJ-WigbFZohTCepyeBWPTmuQwJ43jLGwtybRPbARdGrezXRjEAqPUNcJx454Xeo4=") started  	[MsgId: MMSG-26355]
-Action.c(371): Redirecting "https://dev-boomq.pflb.ru/auth-srv/invite/rlFpxYuCdpVHHatip65Fiw4roVtJmnQ6-rfALGJ4-bZuT9Rdgj9rsNCF3T8RAL0dgII_-Wy3zzbzH3XTTCBUhr8QPJa6wv95bmUQzsgH6L624mokRnkA7ICryAdJSTce" (redirection depth is 0)  	[MsgId: MMSG-26694]
+Action.c(371): Redirecting "https://dev-boomq.pflb.ru/auth-srv/invite/1bfiUGkl7esRIYKm4AEMxEbIYOgb35vl6m6tMI_EDXbnZ3_cOJhQxNlx1hrRhKtPgII_-Wy3zzbzH3XTTCBUhr8QPJa6wv95bmUQzsgH6L4oABaqyp-STbVn4zI-dsUI" (redirection depth is 0)  	[MsgId: MMSG-26694]
 Action.c(371): To location "https://dev-boomq.pflb.ru/change-password"  	[MsgId: MMSG-26693]
 Action.c(371): Resource "https://dev-boomq.pflb.ru/static/js/main.cddf1824.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 Action.c(371): Resource "https://dev-boomq.pflb.ru/static/css/main.64a4c65b.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
@@ -198,7 +198,7 @@ Action.c(410): web_add_auto_header("Authorization") started  	[MsgId: MMSG-26355
 Action.c(410): Warning -26593: The header being added may cause unpredictable results when applied to all ensuing URLs. It is added anyway  	[MsgId: MWAR-26593]
 Action.c(410): web_add_auto_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
 Action.c(412): web_url("team_3") started  	[MsgId: MMSG-26355]
-Action.c(412): web_url("team_3") was successful, 558 body bytes, 492 header bytes  	[MsgId: MMSG-26386]
+Action.c(412): web_url("team_3") was successful, 555 body bytes, 492 header bytes  	[MsgId: MMSG-26386]
 Action.c(422): web_add_auto_header("Authorization") started  	[MsgId: MMSG-26355]
 Action.c(422): Warning -26593: The header being added may cause unpredictable results when applied to all ensuing URLs. It is added anyway  	[MsgId: MWAR-26593]
 Action.c(422): web_add_auto_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
@@ -206,7 +206,7 @@ Action.c(424): web_url("teamContext_2") started  	[MsgId: MMSG-26355]
 Action.c(424): web_url("teamContext_2") was successful, 296 body bytes, 2924 header bytes  	[MsgId: MMSG-26386]
 Action.c(434): web_url("testRunner_2") started  	[MsgId: MMSG-26355]
 Action.c(434): web_url("testRunner_2") was successful, 531 body bytes, 338 header bytes  	[MsgId: MMSG-26386]
-Action.c(444): Notify: Transaction "save_user" ended with a "Pass" status (Duration: 1,2457 Wasted Time: 0,0218).
+Action.c(444): Notify: Transaction "save_user" ended with a "Pass" status (Duration: 0,9812 Wasted Time: 0,0263).
 Ending action Action.
 Starting action SaveToFile.
 Ending action SaveToFile.

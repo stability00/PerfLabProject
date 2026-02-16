@@ -1,9 +1,9 @@
-Virtual User Script started at: 16.02.2026 20:57:17
+Virtual User Script started at: 16.02.2026 20:26:14
 Starting action vuser_init.
 Web Turbo Replay of LoadRunner 2021.0.0 for Windows 10; build 430 (янв 05 2021 19:27:22)  	[MsgId: MMSG-26983]
 Run mode: HTML  	[MsgId: MMSG-26993]
 Replay user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0  	[MsgId: MMSG-26988]
-Runtime Settings file: "C:\Users\admin\Documents\VuGen\Scripts\UC03_Test_start\\default.cfg"  	[MsgId: MMSG-27141]
+Runtime Settings file: "G:\dev\Перфоманс лаб\PerfLabProject\Scripts\UC03_Test_start\\default.cfg"  	[MsgId: MMSG-27141]
 Ending action vuser_init.
 Running Vuser...
 Starting iteration 1.
@@ -42,44 +42,10 @@ Action.c(75): web_add_auto_header("Authorization") started  	[MsgId: MMSG-26355]
 Action.c(75): Warning -26593: The header being added may cause unpredictable results when applied to all ensuing URLs. It is added anyway  	[MsgId: MWAR-26593]
 Action.c(75): web_add_auto_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
 Action.c(79): web_url("modelSchema") started  	[MsgId: MMSG-26355]
-Action.c(79): Downloading resource "https://dev-boomq.pflb.ru/static/media/en.b1acfc6b06bfe6e29bfbfc06d09d8177.svg" (specified by argument number 10)  	[MsgId: MMSG-26577]
-Action.c(79): web_url("modelSchema") was successful, 70893 body bytes, 692 header bytes  	[MsgId: MMSG-26386]
-Action.c(91): web_add_auto_header("Authorization") started  	[MsgId: MMSG-26355]
-Action.c(91): Warning -26593: The header being added may cause unpredictable results when applied to all ensuing URLs. It is added anyway  	[MsgId: MWAR-26593]
-Action.c(91): web_add_auto_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
-Action.c(95): web_url("identityProvider") started  	[MsgId: MMSG-26355]
-Action.c(95): web_url("identityProvider") was successful, 2 body bytes, 492 header bytes  	[MsgId: MMSG-26386]
-Action.c(105): web_add_auto_header("Authorization") started  	[MsgId: MMSG-26355]
-Action.c(105): Warning -26593: The header being added may cause unpredictable results when applied to all ensuing URLs. It is added anyway  	[MsgId: MWAR-26593]
-Action.c(105): web_add_auto_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
-Action.c(109): web_url("team") started  	[MsgId: MMSG-26355]
-Action.c(109): web_url("team") was successful, 585 body bytes, 492 header bytes  	[MsgId: MMSG-26386]
-Action.c(119): web_add_auto_header("Authorization") started  	[MsgId: MMSG-26355]
-Action.c(119): Warning -26593: The header being added may cause unpredictable results when applied to all ensuing URLs. It is added anyway  	[MsgId: MWAR-26593]
-Action.c(119): web_add_auto_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
-Action.c(123): web_add_auto_header("Authorization") started  	[MsgId: MMSG-26355]
-Action.c(123): Warning -26593: The header being added may cause unpredictable results when applied to all ensuing URLs. It is added anyway  	[MsgId: MWAR-26593]
-Action.c(123): web_add_auto_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
-Action.c(127): web_reg_save_param started  	[MsgId: MMSG-26355]
-Action.c(127): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
-Action.c(133): web_url("teamContext") started  	[MsgId: MMSG-26355]
-Action.c(133): web_url("teamContext") was successful, 306 body bytes, 2934 header bytes  	[MsgId: MMSG-26386]
-Action.c(143): web_add_auto_header("Authorization") started  	[MsgId: MMSG-26355]
-Action.c(143): Warning -26593: The header being added may cause unpredictable results when applied to all ensuing URLs. It is added anyway  	[MsgId: MWAR-26593]
-Action.c(143): web_add_auto_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
-Action.c(147): web_url("testRunner") started  	[MsgId: MMSG-26355]
-Action.c(147): web_url("testRunner") was successful, 531 body bytes, 338 header bytes  	[MsgId: MMSG-26386]
-Action.c(157): web_add_header("Origin") started  	[MsgId: MMSG-26355]
-Action.c(157): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
-Action.c(160): web_add_auto_header("Authorization") started  	[MsgId: MMSG-26355]
-Action.c(160): Warning -26593: The header being added may cause unpredictable results when applied to all ensuing URLs. It is added anyway  	[MsgId: MWAR-26593]
-Action.c(160): web_add_auto_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
-Action.c(164): web_add_header("Content-Type") started  	[MsgId: MMSG-26355]
-Action.c(164): Warning -26594: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26594]
-Action.c(164): web_add_header("Content-Type") highest severity level was "warning"  	[MsgId: MMSG-26391]
-Action.c(173): Notify: Transaction "login" ended with a "Stop" status (Duration: 4,7496 Wasted Time: 0,0776).
+Action.c(79): Notify: Transaction "login" ended with a "Stop" status (Duration: 48,2215 Wasted Time: 0,0680).
 Abort was called from an action.
 Ending Vuser...
 Starting action vuser_end.
 Ending action vuser_end.
 Vuser Terminated.
+Action.c(79): Error -27760: Request "https://dev-boomq.pflb.ru/project-srv/modelSchema" failed  	[MsgId: MERR-27760]
