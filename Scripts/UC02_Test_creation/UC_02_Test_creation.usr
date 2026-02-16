@@ -54,10 +54,10 @@ vuser_end=cci
 [TransactionsOrder]
 Order="UC_02_TR_01_login__*delimiter*__UC_02_TR_02_go_to_tests__*delimiter*__UC_02_TR_03_test_create"
 [StateManagement]
-LastReplayStatus=3
+LastReplayStatus=1
 [ActiveReplay]
-LastReplayedRunName=
-ActiveRunName=
+LastReplayedRunName=result1
+ActiveRunName=result1
 [Transactions]
 UC_02_TR_01_login=
 UC_02_TR_02_go_to_tests=

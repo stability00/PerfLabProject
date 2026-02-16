@@ -1,2 +1,3 @@
-testType
-STABLE
+testType,VUperStep,StepLength_m,StepCount,durationAddedOnLastStep_m
+STABLE,1,2,1,0
+SCALABILITY,1,1,2,1
