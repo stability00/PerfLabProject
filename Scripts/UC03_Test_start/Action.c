@@ -39,8 +39,8 @@ Action()
 		"Snapshot=t2.inf", 
 		"Mode=HTML", 
 		ITEMDATA, 
-		"Name=username", "Value=admin_gr3@mail.com", ENDITEM, 
-		"Name=password", "Value=Wsx321!@#", ENDITEM, 
+		"Name=username", "Value={login}", ENDITEM, 
+		"Name=password", "Value={password}", ENDITEM, 
 		"Name=submit", "Value=Login", ENDITEM, 
 		LAST);
 
@@ -163,6 +163,13 @@ Action()
 		
 	web_add_header("Content-Type", "application/json");
 
+	sprintf(body_user_2_str,
+	"{\"email\":\"%s\",\"id\":1925,\"language\":\"EN\",\"notificationEnabled\":false}",        	
+    lr_eval_string("{login}")
+	);
+	
+	lr_save_string(body_user_2_str, "body_user_2");
+	
 	web_custom_request("user_2", 
 		"URL=https://dev-boomq.pflb.ru/auth-srv/user", 
 		"Method=PUT", 
@@ -172,7 +179,7 @@ Action()
 		"Referer=https://dev-boomq.pflb.ru/account/new-test", 
 		"Snapshot=t10.inf", 
 		"Mode=HTML", 
-		"Body={\"email\":\"admin_gr3@mail.com\",\"id\":1925,\"language\":\"EN\",\"notificationEnabled\":false}", 
+		"Body={body_user_2}", 
 		LAST);
 
 	web_add_auto_header(
@@ -304,7 +311,7 @@ Action()
 
 	lr_think_time(4);
 	
-	sprintf(body,
+	sprintf(body_test_str,
 	"{" 
 	"\"comment\":\"\",\"labelSet\":[],\"projectId\":\"%s\",\"projectVersionId\":%s,\"testMode\":\"TEST\",\"testProjectId\":\"%s\",\"testProjectVersionId\":%s}",        	
     lr_eval_string("{t_id}"),
@@ -313,7 +320,7 @@ Action()
     lr_eval_string("{v_id}")
 	);
 	
-	lr_save_string(body, "request_body");
+	lr_save_string(body_test_str, "body_test");
 
 	web_add_auto_header(
 		"Authorization",
@@ -330,7 +337,7 @@ Action()
 		"Snapshot=t17.inf", 
 		"Mode=HTML", 
 		"EncType=application/json", 
-		"Body={request_body}", 
+		"Body={body_test}", 
 		LAST);
 
 	web_add_auto_header(
